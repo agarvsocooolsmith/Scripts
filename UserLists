@@ -1,3 +1,6 @@
+-- WHITELISTED = 'Cool People' tag
+-- OWNER = its agarv
+
 _G.AgarWareUserList = {
     AgarWareBlacklisted = {
         1535622508,  -- Buildermann
