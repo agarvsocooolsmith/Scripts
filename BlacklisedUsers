@@ -1,0 +1,51 @@
+_G.AgarWareUserList = {
+    AgarWareBlacklisted = {
+        1535622508,  -- Buildermann
+        3590692150,  -- DeLight
+        1704747,     -- snips
+        3234700453,  -- Box_boy56433
+        10385488328, -- Ihateroblox_oq
+        5695584804,  -- strongestegg83973
+        10923596100, -- serverbot_tco
+        4393801944,  -- gelato
+    },
+    AgarWareWhitelisted = {
+        10754470202, -- raja 22
+        10642124279, -- raja 21
+        8008797519,  -- phan main
+        10840760745, -- phan einstein
+        2735168711,  -- slime 2
+        3492744393,  -- slime
+        909205143,   -- pop
+        7999975433,  -- koi
+        10946974452, -- korea
+    },
+    AgarWareOwners = {
+        574381128,   -- main
+        10587072700, -- ryansocoool
+        8308247571,  -- bobby2 agarv_bbc
+        10837544781, -- agarv609
+        10842814389, -- MONKEYARMPIT6
+    },
+}
+
+function _G.IsBlacklisted(userId)
+    for _, id in ipairs(_G.AgarWareUserList.AgarWareBlacklisted) do
+        if userId == id then return true end
+    end
+    return false
+end
+
+function _G.IsWhitelisted(userId)
+    for _, id in ipairs(_G.AgarWareUserList.AgarWareWhitelisted) do
+        if userId == id then return true end
+    end
+    return false
+end
+
+function _G.IsOwner(userId)
+    for _, id in ipairs(_G.AgarWareUserList.AgarWareOwners) do
+        if userId == id then return true end
+    end
+    return false
+end
