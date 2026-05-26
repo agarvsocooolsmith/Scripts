@@ -28,32 +28,32 @@ _G.AgarWareUserList = {
         10842814389, -- MONKEYARMPIT6
     },
     AgarWareHWIDBanned = {
-       "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+        "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
     },
 }
 
-function _G.IsBlacklisted(userId)
+function _G.IsAgarWareBlacklisted(userId)
     for _, id in ipairs(_G.AgarWareUserList.AgarWareBlacklisted) do
         if userId == id then return true end
     end
     return false
 end
 
-function _G.IsWhitelisted(userId)
+function _G.IsAgarWareWhitelisted(userId)
     for _, id in ipairs(_G.AgarWareUserList.AgarWareWhitelisted) do
         if userId == id then return true end
     end
     return false
 end
 
-function _G.IsOwner(userId)
+function _G.IsAgarWareOwner(userId)
     for _, id in ipairs(_G.AgarWareUserList.AgarWareOwners) do
         if userId == id then return true end
     end
     return false
 end
 
-function _G.IsHWIDBanned(hwid)
+function _G.IsAgarWareHWIDBanned(hwid)
     for _, id in ipairs(_G.AgarWareUserList.AgarWareHWIDBanned) do
         if hwid == id then return true end
     end
