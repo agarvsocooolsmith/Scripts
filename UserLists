@@ -8,7 +8,6 @@ _G.AgarWareUserList = {
         5695584804,  -- strongestegg83973
         10923596100, -- serverbot_tco
         4393801944,  -- gelato
-        10587072700, -- ryansocoool
     },
     AgarWareWhitelisted = {
         10754470202, -- raja 22
@@ -26,6 +25,7 @@ _G.AgarWareUserList = {
         8308247571,  -- bobby2 agarv_bbc
         10837544781, -- agarv609
         10842814389, -- MONKEYARMPIT6
+        10587072700, -- ryansocoool
     },
     AgarWareHWIDBanned = {
         "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
