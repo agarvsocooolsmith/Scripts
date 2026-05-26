@@ -10,13 +10,14 @@
 -- Instances: 5 | Scripts: 2 | Modules: 0 | Tags: 0
 local G2L = {};
 
--- StarterGui.ScreenGui
+-- StarterGui.LOADING
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["DisplayOrder"] = 1999999998;
+G2L["1"]["Name"] = [[LOADING]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
 
--- StarterGui.ScreenGui.TextLabel
+-- StarterGui.LOADING.TextLabel
 G2L["2"] = Instance.new("TextLabel", G2L["1"]);
 G2L["2"]["BorderSizePixel"] = 0;
 G2L["2"]["TextSize"] = 25;
@@ -30,22 +31,22 @@ G2L["2"]["Text"] = [[Loading...]];
 G2L["2"]["Position"] = UDim2.new(0.49305, 0, 0.37361, 0);
 
 
--- StarterGui.ScreenGui.TextLabel.UIStroke
+-- StarterGui.LOADING.TextLabel.UIStroke
 G2L["3"] = Instance.new("UIStroke", G2L["2"]);
 G2L["3"]["Thickness"] = 0.7;
 
 
--- StarterGui.ScreenGui.TextLabel.LocalScript
+-- StarterGui.LOADING.TextLabel.LocalScript
 G2L["4"] = Instance.new("LocalScript", G2L["2"]);
 
 
 
--- StarterGui.ScreenGui.LocalScript
+-- StarterGui.LOADING.LocalScript
 G2L["5"] = Instance.new("LocalScript", G2L["1"]);
 
 
 
--- StarterGui.ScreenGui.TextLabel.LocalScript
+-- StarterGui.LOADING.TextLabel.LocalScript
 local function C_4()
 local script = G2L["4"];
 	local frame = script.Parent
@@ -69,7 +70,7 @@ local script = G2L["4"];
 	end
 end;
 task.spawn(C_4);
--- StarterGui.ScreenGui.LocalScript
+-- StarterGui.LOADING.LocalScript
 local function C_5()
 local script = G2L["5"];
 	local RunService = game:GetService("RunService")
