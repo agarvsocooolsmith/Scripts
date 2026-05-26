@@ -1,99 +1,47 @@
---[=[
- d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
-88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
-88      88    88    88            odD'      88      88    88 88ooo88 
-88  ooo 88    88    88          .88'        88      88    88 88~~~88 
-88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
- Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
-]=]
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local CoreGui = game:GetService("CoreGui")
 
--- Instances: 5 | Scripts: 2 | Modules: 0 | Tags: 0
-local G2L = {};
+local screenGui = Instance.new("ScreenGui")
+screenGui.Name = "LOADING"
+screenGui.DisplayOrder = 1999999998
+screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
--- StarterGui.LOADING
-G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
-G2L["1"]["DisplayOrder"] = 1999999998;
-G2L["1"]["Name"] = [[LOADING]];
-G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+if not RunService:IsStudio() then
+    screenGui.Parent = CoreGui
+else
+    screenGui.Parent = Players.LocalPlayer:WaitForChild("PlayerGui")
+end
 
+local label = Instance.new("TextLabel", screenGui)
+label.AnchorPoint = Vector2.new(0.5, 0.5)
+label.Position = UDim2.new(0.5, 0, 0.5, 0)
+label.Size = UDim2.new(0, 200, 0, 50)
+label.BackgroundTransparency = 1
+label.Text = "Loading..."
+label.TextSize = 25
+label.TextColor3 = Color3.fromRGB(0, 124, 255)
+label.FontFace = Font.new("rbxasset://fonts/families/Inconsolata.json")
 
--- StarterGui.LOADING.TextLabel
-G2L["2"] = Instance.new("TextLabel", G2L["1"]);
-G2L["2"]["BorderSizePixel"] = 0;
-G2L["2"]["TextSize"] = 25;
-G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2"]["TextColor3"] = Color3.fromRGB(0, 124, 255);
-G2L["2"]["BackgroundTransparency"] = 1;
-G2L["2"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2"]["Text"] = [[Loading...]];
-G2L["2"]["Position"] = UDim2.new(0.49305, 0, 0.37361, 0);
+local stroke = Instance.new("UIStroke", label)
+stroke.Thickness = 0.7
 
+task.spawn(function()
+    local dots = {"...", "..", ".", ".."}
+    while label.Parent do
+        for _, d in ipairs(dots) do
+            label.Text = "Loading" .. d
+            task.wait(1)
+        end
+    end
+end)
 
--- StarterGui.LOADING.TextLabel.UIStroke
-G2L["3"] = Instance.new("UIStroke", G2L["2"]);
-G2L["3"]["Thickness"] = 0.7;
-
-
--- StarterGui.LOADING.TextLabel.LocalScript
-G2L["4"] = Instance.new("LocalScript", G2L["2"]);
-
-
-
--- StarterGui.LOADING.LocalScript
-G2L["5"] = Instance.new("LocalScript", G2L["1"]);
-
-
-
--- StarterGui.LOADING.TextLabel.LocalScript
-local function C_4()
-local script = G2L["4"];
-	local frame = script.Parent
-	local textLabel = frame
-	
-	frame.AnchorPoint = Vector2.new(0.5, 0.5)
-	frame.Position = UDim2.new(0.5, 0, 0.5, 0)
-	
-	local dots = {
-		"...",
-		"..",
-		".",
-		".."
-	}
-	
-	while true do
-		for _, dotsText in ipairs(dots) do
-			textLabel.Text = "Loading" .. dotsText
-			task.wait(1)
-		end
-	end
-end;
-task.spawn(C_4);
--- StarterGui.LOADING.LocalScript
-local function C_5()
-local script = G2L["5"];
-	local RunService = game:GetService("RunService")
-	local CoreGui = game:GetService("CoreGui")
-	
-	local gui = script.Parent
-	local targetName = "T5784YHRGE89ES98T"
-	
-	-- Move to CoreGui only in-game
-	if not RunService:IsStudio() then
-		gui.Parent = CoreGui
-	end
-	
-	-- Destroy GUI if target GUI appears
-	while true do
-		if CoreGui:FindFirstChild(targetName) then
-			gui:Destroy()
-			break
-		end
-	
-		task.wait()
-	end
-end;
-task.spawn(C_5);
-
-return G2L["1"], require;
+task.spawn(function()
+    while true do
+        if CoreGui:FindFirstChild("T5784YHRGE89ES98T") then
+            screenGui:Destroy()
+            break
+        end
+        task.wait()
+    end
+end)
