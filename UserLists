@@ -22,6 +22,7 @@ _G.AgarWareUserList = {
         909205143,   -- pop
         7999975433,  -- koi
         10946974452, -- korea
+        10261965125, -- korea 2
     },
     AgarWareOwners = {
         574381128,   -- main
