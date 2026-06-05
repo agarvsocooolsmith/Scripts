@@ -8,64 +8,76 @@ c$$$cc$$$c"$$c.    "$$c$$$cc$$$c $$$$$$c           Y$c$$$c$P c$$$cc$$$c $$$$$$c 
  888   888,`Y8bo,,,o88o888   888,888b "88bo,        "88"888   888   888,888b "88bo,888oo,__ 
  YMM   ""`   `'YMUP"YMMYMM   ""` MMMM   "W"          "M "M"   YMM   ""` MMMM   "W" """"YUMMM                                                      
 
-jk what source code?
 ]]
 
-
-
-
-
-
-
-
-local Players = game:GetService("Players")
+local _i={};
+_i["1"]=Instance.new("ScreenGui",game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+_i["1"]["IgnoreGuiInset"]=true;
+_i["1"]["DisplayOrder"]=1999999998;
+_i["1"]["Name"]=[[LOADING]];
+_i["1"]["ZIndexBehavior"]=Enum.ZIndexBehavior.Sibling;
+_i["1"]["ScreenInsets"]=Enum.ScreenInsets.DeviceSafeInsets;
+_i["2"]=Instance.new("LocalScript",_i["1"]);
+_i["2"].Name="LocalScript";
+_i["3"]=Instance.new("TextLabel",_i["1"]);
+_i["3"]["BorderSizePixel"]=0;
+_i["3"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_i["3"]["FontFace"]=Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_i["3"]["TextSize"]=25;
+_i["3"]["Size"]=UDim2.new(0, 200, 0, 50);
+_i["3"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_i["3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_i["3"]["Text"]=[[Loading...]];
+_i["3"]["BackgroundTransparency"]=1;
+_i["3"]["Position"]=UDim2.new(0.49305, 0, 0.37361, 0);
+_i["4"]=Instance.new("LocalScript",_i["3"]);
+_i["4"].Name="LocalScript";
+_i["5"]=Instance.new("UIStroke",_i["3"]);
+_i["5"]["Thickness"]=0.7;
+local function C_2()
+local script=_i["2"];
 local RunService = game:GetService("RunService")
 local CoreGui = game:GetService("CoreGui")
-
-local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "LOADING"
-screenGui.DisplayOrder = 1999999998
-screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+local gui = script.Parent
+local targetNames = {"T5784YHRGE89ES98T", "AgarWareV3Key"}
 
 if not RunService:IsStudio() then
-    screenGui.Parent = CoreGui
-else
-    screenGui.Parent = Players.LocalPlayer:WaitForChild("PlayerGui")
+	gui.Parent = CoreGui
 end
 
-local label = Instance.new("TextLabel", screenGui)
-label.AnchorPoint = Vector2.new(0.5, 0.5)
-label.Position = UDim2.new(0.5, 0, 0.5, 0)
-label.Size = UDim2.new(0, 200, 0, 50)
-label.BackgroundTransparency = 1
-label.Text = "Loading..."
-label.TextSize = 25
-label.TextColor3 = Color3.fromRGB(0, 124, 255)
-label.FontFace = Font.new("rbxasset://fonts/families/PressStart2P.json")
-label.BorderSizePixel = 0
+while true do
+	for _, name in ipairs(targetNames) do
+		if CoreGui:FindFirstChild(name) then
+			gui:Destroy()
+			return
+		end
+	end
+	task.wait()
+end
+end;
+task.spawn(C_2);
+local function C_4()
+local script=_i["4"];
+local frame = script.Parent
+local textLabel = frame
 
-local stroke = Instance.new("UIStroke", label)
-stroke.Thickness = 0.7
+frame.AnchorPoint = Vector2.new(0.5, 0.5)
+frame.Position = UDim2.new(0.5, 0, 0.5, 0)
 
-task.spawn(function()
-    local dots = {"...", "..", ".", ".."}
-    while label.Parent do
-        for _, d in ipairs(dots) do
-            label.Text = "Loading" .. d
-            task.wait(1)
-        end
-    end
-end)
+local dots = {
+	"...",
+	"..",
+	".",
+	".."
+}
 
-task.spawn(function()
-    local targetNames = {"T5784YHRGE89ES98T", "AgarWareV3Key"}
-    while true do
-        for _, name in ipairs(targetNames) do
-            if CoreGui:FindFirstChild(name) then
-                screenGui:Destroy()
-                return
-            end
-        end
-        task.wait()
-    end
-end)
+while true do
+	for _, dotsText in ipairs(dots) do
+		textLabel.Text = "Loading" .. dotsText
+		task.wait(1)
+	end
+end
+end;
+task.spawn(C_4);
+
+return _i["1"], require;
