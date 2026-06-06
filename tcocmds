@@ -1,0 +1,853 @@
+--[[
+
+SCRIPTS:  17
+INSTANCES:  10
+MODULES:  0
+
+]]
+
+local _i={};
+_i["1"]=Instance.new("ScreenGui",game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+_i["1"]["ResetOnSpawn"]=false;
+_i["1"]["IgnoreGuiInset"]=true;
+_i["1"]["DisplayOrder"]=999;
+_i["1"]["Name"]=[[privatescriptlol69]];
+_i["1"]["ZIndexBehavior"]=Enum.ZIndexBehavior.Sibling;
+_i["1"]["ScreenInsets"]=Enum.ScreenInsets.DeviceSafeInsets;
+_i["2"]=Instance.new("Frame",_i["1"]);
+_i["2"]["BorderMode"]=Enum.BorderMode.Inset;
+_i["2"]["Size"]=UDim2.new(0, 202, 0, 80);
+_i["2"]["BorderColor3"]=Color3.fromRGB(0, 146, 255);
+_i["2"]["BorderSizePixel"]=2;
+_i["2"]["Position"]=UDim2.new(0.40852, 0, 0.31707, 0);
+_i["2"]["BackgroundColor3"]=Color3.fromRGB(137, 137, 137);
+_i["3"]=Instance.new("TextBox",_i["2"]);
+_i["3"]["TextWrapped"]=true;
+_i["3"]["TextStrokeTransparency"]=0.5;
+_i["3"]["PlaceholderColor3"]=Color3.fromRGB(218, 218, 218);
+_i["3"]["BorderSizePixel"]=2;
+_i["3"]["BackgroundColor3"]=Color3.fromRGB(137, 137, 137);
+_i["3"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_i["3"]["TextSize"]=19;
+_i["3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_i["3"]["PlaceholderText"]=[[Type a cmd here or ;cmdname in chat...]];
+_i["3"]["Size"]=UDim2.new(1, 0, 1, -20);
+_i["3"]["BorderColor3"]=Color3.fromRGB(0, 146, 255);
+_i["3"]["Text"]=[[]];
+_i["3"]["Position"]=UDim2.new(0, 0, 0, 20);
+_i["4"]=Instance.new("LocalScript",_i["3"]);
+_i["4"].Name="textboxhelper";
+_i["5"]=Instance.new("TextLabel",_i["2"]);
+_i["5"]["TextWrapped"]=true;
+_i["5"]["TextStrokeTransparency"]=0.5;
+_i["5"]["BorderSizePixel"]=0;
+_i["5"]["TextScaled"]=true;
+_i["5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_i["5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_i["5"]["BorderMode"]=Enum.BorderMode.Inset;
+_i["5"]["TextSize"]=14;
+_i["5"]["Size"]=UDim2.new(1, 0, 0, 20);
+_i["5"]["TextColor3"]=Color3.fromRGB(0, 146, 255);
+_i["5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_i["5"]["Text"]=[[;cmds for full list of cmds]];
+_i["5"]["BackgroundTransparency"]=1;
+_i["6"]=Instance.new("LocalScript",_i["2"]);
+_i["6"].Name="prviatescriptmainhelper";
+_i["7"]=Instance.new("UIStroke",_i["2"]);
+_i["7"]["Thickness"]=1.5;
+_i["8"]=Instance.new("LocalScript",_i["1"]);
+_i["8"].Name="agarwarecmdnotify";
+_i["9"]=Instance.new("Folder",_i["1"]);
+_i["a"]=Instance.new("LocalScript",_i["9"]);
+_i["a"].Name="unload";
+_i["b"]=Instance.new("LocalScript",_i["9"]);
+_i["b"].Name="resetcharacter";
+_i["c"]=Instance.new("LocalScript",_i["9"]);
+_i["c"].Name="tp";
+_i["d"]=Instance.new("LocalScript",_i["9"]);
+_i["d"].Name="discordlink";
+_i["e"]=Instance.new("LocalScript",_i["9"]);
+_i["e"].Name="autoexec";
+_i["f"]=Instance.new("TextLabel",_i["1"]);
+_i["f"]["TextStrokeTransparency"]=0;
+_i["f"]["BorderSizePixel"]=0;
+_i["f"]["TextYAlignment"]=Enum.TextYAlignment.Bottom;
+_i["f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_i["f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_i["f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_i["f"]["TextSize"]=17;
+_i["f"]["Size"]=UDim2.new(0, 200, 0, 50);
+_i["f"]["TextColor3"]=Color3.fromRGB(0, 146, 255);
+_i["f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_i["f"]["Text"]=[[]];
+_i["f"]["BackgroundTransparency"]=1;
+_i["f"]["Name"]=[[enabled]];
+_i["f"]["Position"]=UDim2.new(0.0987, 0, 0.81929, 0);
+_i["10"]=Instance.new("UIPadding",_i["f"]);
+_i["10"]["PaddingBottom"]=UDim.new(0, 10);
+_i["10"]["PaddingLeft"]=UDim.new(0, 10);
+_i["11"]=Instance.new("LocalScript",_i["f"]);
+_i["11"].Name="LocalScript";
+_i["12"]=Instance.new("Folder",_i["1"]);
+_i["13"]=Instance.new("LocalScript",_i["12"]);
+_i["13"].Name="bkit";
+_i["14"]=Instance.new("LocalScript",_i["12"]);
+_i["14"].Name="antilag";
+_i["15"]=Instance.new("LocalScript",_i["12"]);
+_i["15"].Name="disablespray";
+_i["16"]=Instance.new("LocalScript",_i["12"]);
+_i["16"].Name="tospawn";
+_i["17"]=Instance.new("LocalScript",_i["12"]);
+_i["17"].Name="CLICKTP";
+_i["18"]=Instance.new("Folder",_i["1"]);
+_i["19"]=Instance.new("LocalScript",_i["18"]);
+_i["19"].Name="teleport places";
+_i["1a"]=Instance.new("LocalScript",_i["18"]);
+_i["1a"].Name="LOG BOOMBOX";
+_i["1b"]=Instance.new("LocalScript",_i["1"]);
+_i["1b"].Name="no cmd startup too";
+local function C_4()
+local script=_i["4"];
+local textbox = script.Parent
+local commands = {}
+local cmdDescriptions = {}
+local cmdTypes = {}
+local enabledCmds = {}
+local statusLabel = script.Parent.Parent.Parent:FindFirstChild("enabled")
+_G.ConfigData = _G.ConfigData or {}
+pcall(function()
+	local data = game:GetService("HttpService"):JSONDecode(readfile("awcmdsave.json"))
+	for k, v in pairs(data) do
+		_G.ConfigData[k] = v
+	end
+end)
+local function updateStatusLabel()
+	if not statusLabel then return end
+	local list = {}
+	for name, _ in pairs(enabledCmds) do
+		table.insert(list, name)
+	end
+	if #list == 0 then
+		statusLabel.Text = ""
+	else
+		statusLabel.Text = "enabled: " .. table.concat(list, ", ")
+	end
+end
+_G.agarwareaddcmd = function(name, callback, description, cmdType)
+	commands[name:lower()] = callback
+	if description then cmdDescriptions[name:lower()] = description end
+	cmdTypes[name:lower()] = cmdType or "onetime"
+	if cmdType == "toggle" and _G.ConfigData["agarwarecmd_" .. name:lower()] then
+		task.spawn(function()
+			task.wait(1)
+			pcall(callback, {})
+			enabledCmds[name:lower()] = true
+			updateStatusLabel()
+		end)
+	end
+end
+_G.agarwaretoggledcmd = function(name, state)
+	if state then
+		enabledCmds[name:lower()] = true
+		_G.ConfigData["agarwarecmd_" .. name:lower()] = true
+	else
+		enabledCmds[name:lower()] = nil
+		_G.ConfigData["agarwarecmd_" .. name:lower()] = nil
+	end
+	pcall(function()
+		writefile("awcmdsave.json", game:GetService("HttpService"):JSONEncode(_G.ConfigData))
+	end)
+	updateStatusLabel()
+end
+local function executeCmd(input)
+	if input == "" then return end
+	local args = {}
+	for word in input:gmatch("%S+") do
+		table.insert(args, word)
+	end
+	local cmdName = table.remove(args, 1):lower()
+	if commands[cmdName] then
+		pcall(commands[cmdName], args)
+	else
+		_G.agarwarecmdnotify("Unknown command: " .. cmdName)
+	end
+end
+textbox.FocusLost:Connect(function()
+	local input = textbox.Text
+	textbox.Text = ""
+	if input == "" then return end
+	executeCmd(input)
+end)
+game:GetService("TextChatService").TextChannels.RBXGeneral.MessageReceived:Connect(function(message)
+	if message.TextSource and message.TextSource.UserId == game:GetService("Players").LocalPlayer.UserId then
+		local text = message.Text
+		if text:sub(1, 1) == ";" then
+			executeCmd(text:sub(2))
+		end
+	end
+end)
+_G.agarwareaddcmd("cmds", function(args)
+	local cmdList = {}
+	local builtins = {cmds = true, info = true, unloadscript = true, discordlink = true}
+	for name, _ in pairs(commands) do
+		if not builtins[name] then
+			table.insert(cmdList, name)
+		end
+	end
+	table.sort(cmdList)
+	local total = #cmdList + 4
+	local msg = "THERE ARE " .. total .. " COMMANDS:   ;info [cmd] (info about a cmd), ;cmds (shows all cmds), unloadscript, discordlink, " .. table.concat(cmdList, ", ")
+	_G.agarwarecmdnotify(msg)
+end, "Shows all available commands.", "onetime")
+_G.agarwareaddcmd("info", function(args)
+	local cmdName = args[1] and args[1]:lower()
+	if not cmdName then
+		_G.agarwarecmdnotify("Usage: ;info [cmd]")
+		return
+	end
+	local desc = cmdDescriptions[cmdName]
+	if desc then
+		_G.agarwarecmdnotify(cmdName .. ": " .. desc)
+	else
+		_G.agarwarecmdnotify("No info found for: " .. cmdName)
+	end
+end, "Shows info about a command.", "onetime")
+_G.agarwareaddcmd("unloadscript", function(args)
+	script.Parent.Parent:Destroy()
+end, "Unloads the script.", "onetime")
+end;
+task.spawn(C_4);
+local function C_6()
+local script=_i["6"];
+local RunService = game:GetService("RunService")
+local frame = script.Parent
+local screenGui = frame.Parent
+
+frame.AnchorPoint = Vector2.new(0.5, 0.5)
+frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+frame.Active = true
+frame.Draggable = true
+
+if not RunService:IsStudio() then
+	screenGui.Parent = game:GetService("CoreGui")
+end
+end;
+task.spawn(C_6);
+local function C_8()
+local script=_i["8"];
+_G.agarwarecmdnotify = function(text, color)
+	local TextChatService = game:GetService("TextChatService")
+	local channel = TextChatService:FindFirstChild("TextChannels") and TextChatService.TextChannels:FindFirstChild("RBXGeneral")
+	if channel then
+		local hex = color and ("#%02x%02x%02x"):format(color.R*255, color.G*255, color.B*255) or "#0091ff"
+		for line in text:gmatch("[^\n]+") do
+			channel:DisplaySystemMessage('<font color="' .. hex .. '">' .. line .. '</font>')
+		end
+	end
+end
+end;
+task.spawn(C_8);
+local function C_a()
+local script=_i["a"];
+_G.agarwareaddcmd("unloadscript", function(args)
+	script.Parent.Parent:Destroy()
+end, "Unloads the script.")
+end;
+task.spawn(C_a);
+local function C_b()
+local script=_i["b"];
+_G.agarwareaddcmd("reset", function(args)
+    local char = game:GetService("Players").LocalPlayer.Character
+    if not char then return end
+    local hum = char:FindFirstChildWhichIsA("Humanoid")
+    if hum then hum.Health = 0 end
+    char:BreakJoints()
+end, "Resets your character.", "onetime")
+end;
+task.spawn(C_b);
+local function C_c()
+local script=_i["c"];
+_G.agarwareaddcmd("goto", function(args)
+	local query = args[1] and args[1]:lower()
+	if not query then
+		_G.agarwarecmdnotify("Usage: ;goto [player]")
+		return
+	end
+	local Players = game:GetService("Players")
+	local found = nil
+	for _, player in ipairs(Players:GetPlayers()) do
+		if player.Name:lower():sub(1, #query) == query or player.DisplayName:lower():sub(1, #query) == query then
+			found = player
+			break
+		end
+	end
+	if not found then
+		_G.agarwarecmdnotify("Player not found.")
+		return
+	end
+	local char = Players.LocalPlayer.Character
+	local targetChar = found.Character
+	if char and targetChar and char:FindFirstChild("HumanoidRootPart") and targetChar:FindFirstChild("HumanoidRootPart") then
+		char.HumanoidRootPart.CFrame = targetChar.HumanoidRootPart.CFrame + Vector3.new(0, 3, 0)
+	else
+		_G.agarwarecmdnotify("Could not teleport.")
+	end
+end, "Teleports you to a player.", "onetime")
+end;
+task.spawn(C_c);
+local function C_d()
+local script=_i["d"];
+_G.agarwareaddcmd("discordlink", function(args)
+	setclipboard("https://discord.gg/7fDasxV2Ht")
+	_G.agarwarecmdnotify("Discord link copied to clipboard.")
+end, "Copies my discord link to your clipboard.", "onetime") 
+end;
+task.spawn(C_d);
+local function C_e()
+local script=_i["e"];
+repeat task.wait() until _G.agarwareaddcmd
+
+local CONFIG_FILE = "agarwarecmdautoexec.json"
+local HttpService = game:GetService("HttpService")
+local SCRIPT_URL = "https://gist.githubusercontent.com/agarv69/3adcac363591bcf4379f663d5f30c311/raw/secretscript"
+local hasQueued = false
+
+local function saveAutoExec(enabled)
+	pcall(function()
+		writefile(CONFIG_FILE, HttpService:JSONEncode({enabled = enabled}))
+	end)
+end
+
+local function loadAutoExec()
+	local ok, data = pcall(function()
+		return HttpService:JSONDecode(readfile(CONFIG_FILE))
+	end)
+	return ok and data and data.enabled or false
+end
+
+local function setupQueueOnTeleport()
+	if hasQueued then return end
+	hasQueued = true
+	local queueFn = queue_on_teleport or (syn and syn.queue_on_teleport) or (fluxus and fluxus.queue_on_teleport)
+	if queueFn then
+		queueFn('loadstring(game:HttpGet("' .. SCRIPT_URL .. '"))()')
+	end
+end
+
+if loadAutoExec() then
+	setupQueueOnTeleport()
+	_G.agarwaretoggledcmd("autoexec", true)
+end
+
+_G.agarwareaddcmd("autoexec", function(args)
+	saveAutoExec(true)
+	setupQueueOnTeleport()
+	_G.agarwaretoggledcmd("autoexec", true)
+	_G.agarwarecmdnotify("Auto-exec enabled.")
+end, "Automatically executes the script on rejoin.", "toggle")
+
+_G.agarwareaddcmd("unautoexec", function(args)
+	saveAutoExec(false)
+	hasQueued = false
+	_G.agarwaretoggledcmd("autoexec", false)
+	_G.agarwarecmdnotify("Auto-exec disabled.")
+end, "Disables auto-exec.", "toggle")
+end;
+task.spawn(C_e);
+local function C_11()
+local script=_i["11"];
+local label = script.Parent
+local RunService = game:GetService("RunService")
+
+RunService.RenderStepped:Connect(function()
+	label.Position = UDim2.new(0, 0, 1, -label.AbsoluteSize.Y)
+end)
+end;
+task.spawn(C_11);
+local function C_13()
+local script=_i["13"];
+_G.agarwareaddcmd("disablebkit", function(args)
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local rs = game:GetService("ReplicatedStorage")
+	local character = LocalPlayer.Character
+	if not character then
+		_G.agarwarecmdnotify("No character found.")
+		return
+	end
+	if shared.RefreshTool then
+		shared.RefreshTool("Delete")
+		task.wait(0.1)
+	end
+	local deleteTool = LocalPlayer.Backpack:FindFirstChild("Delete") or character:FindFirstChild("Delete")
+	if not deleteTool then
+		_G.agarwarecmdnotify("Delete tool needed!")
+		return
+	end
+	local event = deleteTool:WaitForChild("Script"):WaitForChild("Event")
+	local brick = rs:FindFirstChild("Brick")
+	if not brick then
+		_G.agarwarecmdnotify("No Brick in ReplicatedStorage.")
+		return
+	end
+	local startTime = tick()
+	local maxTime = 5
+	while tick() - startTime < maxTime do
+		if not rs:FindFirstChild("Brick") then
+			_G.agarwarecmdnotify("B-Kit disabled successfully!")
+			return
+		end
+		event:FireServer(brick, character.HumanoidRootPart.Position)
+		task.wait(0.01)
+	end
+	_G.agarwarecmdnotify("Failed to disable B-Kit.")
+end, "Disables B-Kit serversided using delete tool.", "onetime")
+
+
+
+
+
+
+
+
+_G.agarwareaddcmd("bkitcheck", function(args)
+	local rsb = game:GetService("ReplicatedStorage"):FindFirstChild("Brick")
+	if rsb and not rsb:HasTag("FAKE") then
+		_G.agarwarecmdnotify("B-Kit is not disabled.", Color3.fromRGB(54, 170, 0))
+	else
+		_G.agarwarecmdnotify("B-Kit is disabled.", Color3.fromRGB(255, 0, 0))
+		task.wait(0.1)
+		if workspace.Bricks:FindFirstChildWhichIsA("BasePart", true) then
+			_G.agarwarecmdnotify("There are bricks found in the game, you can still build on them.")
+		end
+	end
+end, "Checks if B-Kit is disabled.", "onetime")
+end;
+task.spawn(C_13);
+local function C_14()
+local script=_i["14"];
+repeat task.wait() until _G.agarwareaddcmd
+
+local names = {
+	Disintegrate = function(obj) obj.Enabled = false end,
+	Fire = function(obj) obj.Enabled = false end,
+	CRFire = function(obj) obj.Enabled = false end,
+	Field = function(obj) obj.Transparency = 1 end,
+	Light = function(obj) obj.Enabled = false end,
+}
+
+local nameRestore = {
+	Disintegrate = function(obj) obj.Enabled = true end,
+	Fire = function(obj) obj.Enabled = true end,
+	CRFire = function(obj) obj.Enabled = true end,
+	Field = function(obj) obj.Transparency = 0 end,
+	Light = function(obj) obj.Enabled = true end,
+}
+
+local function getPos(obj)
+	return tostring(math.round(obj.CFrame.X)) .. "," .. tostring(math.round(obj.CFrame.Y)) .. "," .. tostring(math.round(obj.CFrame.Z))
+end
+
+local positionMap = {}
+local addedConn = nil
+local removedConn = nil
+
+local function disableLag(bricks)
+	for _, obj in ipairs(bricks:GetDescendants()) do
+		if names[obj.Name] then pcall(names[obj.Name], obj) end
+	end
+end
+
+local function restoreLag(bricks)
+	for _, obj in ipairs(bricks:GetDescendants()) do
+		if nameRestore[obj.Name] then pcall(nameRestore[obj.Name], obj) end
+	end
+end
+
+local function updateTransparency(bricks)
+	positionMap = {}
+	for _, obj in ipairs(bricks:GetDescendants()) do
+		if obj.Name == "Brick" and obj:IsA("BasePart") then
+			local pos = getPos(obj)
+			if not positionMap[pos] then
+				positionMap[pos] = obj
+				obj.Transparency = obj.Material == Enum.Material.Glass and 0.5 or 0
+			else
+				obj.Transparency = 1
+			end
+		end
+	end
+end
+
+local function restoreTransparency(bricks)
+	for _, obj in ipairs(bricks:GetDescendants()) do
+		if obj.Name == "Brick" and obj:IsA("BasePart") then
+			obj.Transparency = obj.Material == Enum.Material.Glass and 0.5 or 0
+		end
+	end
+end
+
+local function enableAntilag()
+	local bricks = workspace:FindFirstChild("Bricks")
+	if not bricks then _G.agarwarecmdnotify("No Bricks folder found.") return end
+	disableLag(bricks)
+	updateTransparency(bricks)
+	addedConn = bricks.DescendantAdded:Connect(function(obj)
+		if names[obj.Name] then pcall(names[obj.Name], obj) end
+		if obj.Name == "Brick" and obj:IsA("BasePart") then
+			task.wait()
+			updateTransparency(bricks)
+		end
+	end)
+	removedConn = bricks.DescendantRemoving:Connect(function(obj)
+		if obj.Name == "Brick" and obj:IsA("BasePart") then
+			if not updatePending then
+				updatePending = true
+				task.wait(1 + math.random() * 0.9)
+				updatePending = false
+				updateTransparency(bricks)
+			end
+		end
+	end)
+end
+
+local function disableAntilag()
+	local bricks = workspace:FindFirstChild("Bricks")
+	if addedConn then addedConn:Disconnect() addedConn = nil end
+	if removedConn then removedConn:Disconnect() removedConn = nil end
+	if bricks then
+		restoreLag(bricks)
+		restoreTransparency(bricks)
+	end
+end
+
+_G.agarwareaddcmd("antilag", function(args)
+	enableAntilag()
+	_G.agarwaretoggledcmd("antilag", true)
+	_G.agarwarecmdnotify("Anti-lag enabled.")
+end, "Disables all lag effects and particles from any possible lag machines. Type ;unantilag to disable it.", "toggle")
+
+_G.agarwareaddcmd("unantilag", function(args)
+	disableAntilag()
+	_G.agarwaretoggledcmd("antilag", false)
+	_G.agarwarecmdnotify("Anti-lag disabled.")
+end, "Disables anti-lag.", "toggle")
+end;
+task.spawn(C_14);
+local function C_15()
+local script=_i["15"];
+repeat task.wait() until _G.agarwareaddcmd
+local sprayConn = nil
+local function hideSpray()
+	local bricks = workspace:FindFirstChild("Bricks")
+	if not bricks then _G.agarwarecmdnotify("No Bricks folder found.") return end
+	for _, obj in ipairs(bricks:GetDescendants()) do
+		if obj.Name == "Spray" then
+			pcall(function() obj.Enabled = false end)
+		end
+	end
+	sprayConn = bricks.DescendantAdded:Connect(function(obj)
+		if obj.Name == "Spray" then
+			pcall(function() obj.Enabled = false end)
+		end
+	end)
+end
+local function showSpray()
+	local bricks = workspace:FindFirstChild("Bricks")
+	if sprayConn then sprayConn:Disconnect() sprayConn = nil end
+	if not bricks then return end
+	for _, obj in ipairs(bricks:GetDescendants()) do
+		if obj.Name == "Spray" then
+			pcall(function() obj.Enabled = true end)
+		end
+	end
+end
+_G.agarwareaddcmd("hidespray", function(args)
+	hideSpray()
+	_G.agarwaretoggledcmd("hidespray", true)
+	_G.agarwarecmdnotify("Sprays hidden.")
+end, "Hides all sprays.", "toggle")
+_G.agarwareaddcmd("showspray", function(args)
+	showSpray()
+	_G.agarwaretoggledcmd("hidespray", false)
+	_G.agarwarecmdnotify("Sprays shown.")
+end, "Shows all sprays.", "toggle")
+end;
+task.spawn(C_15);
+local function C_16()
+local script=_i["16"];
+_G.agarwareaddcmd("tospawn", function(args)
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local character = LocalPlayer.Character
+	if not character then return end
+	local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+	local humanoid = character:FindFirstChildWhichIsA("Humanoid")
+	if not humanoidRootPart or not humanoid then return end
+	local spawnLocation = workspace:FindFirstChildOfClass("SpawnLocation")
+	local targetCFrame = spawnLocation and CFrame.new(spawnLocation.Position + Vector3.new(0, 5, 0)) or CFrame.new(0, 5, 0)
+	humanoid.WalkSpeed = 0
+	humanoid.JumpPower = 0
+	humanoidRootPart.CFrame = targetCFrame
+	humanoidRootPart.AssemblyLinearVelocity = Vector3.zero
+	humanoidRootPart.AssemblyAngularVelocity = Vector3.zero
+	workspace.CurrentCamera.CameraType = Enum.CameraType.Custom
+	task.wait(0.2)
+	humanoid.WalkSpeed = 16
+	humanoid.JumpPower = 50
+	_G.agarwarecmdnotify("Teleported to spawn.")
+end, "Teleports you to spawn.", "onetime")
+end;
+task.spawn(C_16);
+local function C_17()
+local script=_i["17"];
+repeat task.wait() until _G.agarwareaddcmd
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local clickTool = nil
+
+local function enableClickTP()
+	local backpack = LocalPlayer:FindFirstChildWhichIsA("Backpack")
+	if not backpack then return end
+
+	clickTool = Instance.new("Tool")
+	clickTool.Name = "-click to teleport-"
+	clickTool.ToolTip = "self-explanatory"
+	clickTool.RequiresHandle = false
+	clickTool.Parent = backpack
+
+	local mouse = LocalPlayer:GetMouse()
+
+	local highlight = Instance.new("SelectionBox")
+	highlight.Color3 = Color3.fromRGB(255, 255, 255)
+	highlight.LineThickness = 0.05
+	highlight.SurfaceColor3 = Color3.fromRGB(255, 255, 255)
+	highlight.SurfaceTransparency = 0.7
+	highlight.Parent = workspace
+
+	local renderConn = nil
+
+	clickTool.Equipped:Connect(function()
+		renderConn = game:GetService("RunService").RenderStepped:Connect(function()
+			local target = mouse.Target
+			if target and target:IsA("BasePart") and target.Parent and target.Parent.Parent == workspace:FindFirstChild("Bricks") then
+				highlight.Adornee = target
+			else
+				highlight.Adornee = nil
+			end
+		end)
+	end)
+
+	clickTool.Unequipped:Connect(function()
+		highlight.Adornee = nil
+		if renderConn then renderConn:Disconnect() renderConn = nil end
+	end)
+
+	clickTool.Activated:Connect(function()
+		local char = LocalPlayer.Character
+		if not char then return end
+		local hrp = char:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+		if mouse.Hit then
+			local currentRotation = hrp.CFrame - hrp.CFrame.Position
+			hrp.CFrame = CFrame.new(mouse.Hit.Position + Vector3.new(0, 3, 0)) * currentRotation
+		end
+	end)
+
+	clickTool.AncestryChanged:Connect(function()
+		if not clickTool.Parent then
+			highlight:Destroy()
+			if renderConn then renderConn:Disconnect() renderConn = nil end
+		end
+	end)
+end
+
+local function disableClickTP()
+	if clickTool then
+		clickTool:Destroy()
+		clickTool = nil
+	end
+	local char = LocalPlayer.Character
+	if char then
+		local t = char:FindFirstChild("-Click to Teleport-")
+		if t then t:Destroy() end
+	end
+end
+
+_G.agarwareaddcmd("clicktp", function(args)
+	enableClickTP()
+	_G.agarwaretoggledcmd("clicktp", true)
+	_G.agarwarecmdnotify("Clicktp enabled.")
+end, "Teleports you wherever you click.", "toggle")
+
+_G.agarwareaddcmd("unclicktp", function(args)
+	disableClickTP()
+	_G.agarwaretoggledcmd("clicktp", false)
+	_G.agarwarecmdnotify("Clicktp removed.")
+end, "Removed the clicktp from your backpack.", "toggle")
+end;
+task.spawn(C_17);
+local function C_19()
+local script=_i["19"];
+_G.agarwareaddcmd("joinxl", function(args)
+	game:GetService("ReplicatedStorage").System:FireServer("xl")
+	_G.agarwarecmdnotify("Joining XL...")
+end, "Joins The Chosen One XL.", "onetime")
+
+
+_G.agarwareaddcmd("joinvc", function(args)
+	game:GetService("ReplicatedStorage").System:FireServer("vc")
+	_G.agarwarecmdnotify("Joining VC...")
+end, "Joins The Chosen One VC.", "onetime")
+
+
+_G.agarwareaddcmd("joinog", function(args)
+	game:GetService("ReplicatedStorage").System:FireServer("og")
+	_G.agarwarecmdnotify("Joining OG...")
+end, "Joins The Chosen One OG.", "onetime")
+
+_G.agarwareaddcmd("largestxl", function(args)
+	if game.PlaceId ~= 12943245078 then
+		_G.agarwarecmdnotify("You must be in XL to join the largest server.")
+		return
+	end
+	local HttpService = game:GetService("HttpService")
+	local data = HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Desc&limit=100"))
+	local largest = nil
+	local largestCount = 0
+	for _, server in ipairs(data.data) do
+		if server.playing > largestCount then
+			largestCount = server.playing
+			largest = server
+		end
+	end
+	if not largest then
+		_G.agarwarecmdnotify("No servers found.")
+		return
+	end
+	if largest.id == game.JobId then
+		_G.agarwarecmdnotify("Already in the largest server!")
+		return
+	end
+	game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, largest.id)
+	_G.agarwarecmdnotify("Joining largest server with " .. largestCount .. " players...")
+end, "Joins the largest XL server.", "onetime")
+end;
+task.spawn(C_19);
+local function C_1a()
+local script=_i["1a"];
+_G.agarwareaddcmd("logboombox", function(args)
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local char = LocalPlayer.Character
+	if not char then _G.agarwarecmdnotify("No character found.") return end
+	local hrp = char:FindFirstChild("HumanoidRootPart")
+	if not hrp then return end
+
+	local targetFolder = nil
+
+	if not args[1] then
+		_G.agarwarecmdnotify("Usage: logboombox [player/near/nearest]")
+		return
+	end
+
+	local query = args[1]:lower()
+
+	if query == "near" or query == "nearest" then
+		local closest = nil
+		local closestDist = math.huge
+		for _, obj in ipairs(workspace:GetDescendants()) do
+			if obj:IsA("Sound") and obj.Parent and obj.Parent.Name == "Handle" then
+				local part = obj.Parent
+				if part:IsA("BasePart") then
+					local dist = (part.Position - hrp.Position).Magnitude
+					if dist < closestDist then
+						closestDist = dist
+						closest = obj
+					end
+				end
+			end
+		end
+		if not closest then
+			_G.agarwarecmdnotify("No boombox found nearby.")
+			return
+		end
+		local soundId = closest.SoundId
+		local id = soundId:match("%d+$")
+		if not id then _G.agarwarecmdnotify("Could not get audio ID.") return end
+		setclipboard(id)
+		_G.agarwarecmdnotify("Logged boombox: " .. closest.Parent.Parent.Name .. " | ID: " .. id .. " (copied!)")
+		return
+	end
+
+	
+	local found = nil
+	for _, player in ipairs(Players:GetPlayers()) do
+		if player.Name:lower():sub(1, #query) == query or player.DisplayName:lower():sub(1, #query) == query then
+			found = player
+			break
+		end
+	end
+
+	if not found then
+		_G.agarwarecmdnotify("Player not found.")
+		return
+	end
+
+	local playerFolder = workspace:FindFirstChild(found.Name)
+	if not playerFolder then
+		_G.agarwarecmdnotify("Player not in workspace.")
+		return
+	end
+
+	local sound = nil
+	for _, obj in ipairs(playerFolder:GetDescendants()) do
+		if obj:IsA("Sound") and obj.Parent and obj.Parent.Name == "Handle" then
+			sound = obj
+			break
+		end
+	end
+
+	if not sound then
+		_G.agarwarecmdnotify("No boombox found for " .. found.Name .. ".")
+		return
+	end
+
+	local soundId = sound.SoundId
+	local id = soundId:match("%d+$")
+	if not id then _G.agarwarecmdnotify("Could not get audio ID.") return end
+	setclipboard(id)
+	_G.agarwarecmdnotify("Logged boombox: " .. found.Name .. " | ID: " .. id .. " (copied!)")
+end, "Logs a player's boombox audio ID.", "onetime")
+end;
+task.spawn(C_1a);
+local function C_1b()
+local script=_i["1b"];
+repeat task.wait() until _G.agarwarecmdnotify
+local player = game:GetService("Players").LocalPlayer
+task.wait(0.3)
+_G.agarwarecmdnotify("Welcome " .. player.DisplayName .. ", To view all commands, type ;cmds in chat, or cmds in the UI.")
+task.wait(0.5)
+_G.agarwarecmdnotify("Type ;info [cmdname] to view what each command does.")
+task.wait(0.5)
+local rs = game:GetService("ReplicatedStorage")
+local rsb = rs:FindFirstChild("Brick")
+if not rsb or rsb:HasTag("FAKE") then
+	_G.agarwarecmdnotify("B-Kit is disabled in this server!", Color3.fromRGB(255, 0, 0))
+else
+	task.spawn(function()
+		while true do
+			task.wait(0.5)
+			local brick = rs:FindFirstChild("Brick")
+			if not brick or brick:HasTag("FAKE") then
+				_G.agarwarecmdnotify("B-Kit has been disabled in this server!", Color3.fromRGB(255, 0, 0))
+				break
+			end
+		end
+	end)
+end
+end;
+task.spawn(C_1b);
+
+return _i["1"], require;
