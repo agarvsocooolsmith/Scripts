@@ -1,0 +1,85 @@
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local donating = false
+local unloaded = false
+
+local function notify(text, color)
+	local TextChatService = game:GetService("TextChatService")
+	local channel = TextChatService:FindFirstChild("TextChannels") and TextChatService.TextChannels:FindFirstChild("RBXGeneral")
+	if channel then
+		local hex = color and ("#%02x%02x%02x"):format(math.floor(color.R*255), math.floor(color.G*255), math.floor(color.B*255)) or "#ff0000"
+		channel:DisplaySystemMessage('<font color="' .. hex .. '">' .. text .. '</font>')
+	end
+end
+
+_G.AutoDonateNotify = notify
+
+local function getAgarv()
+	for _, player in ipairs(Players:GetPlayers()) do
+		if player.UserId == 10587072700 then
+			return player
+		end
+	end
+	return nil
+end
+
+task.wait(0.5)
+notify("Type in chat 'start' to start donating, 'stop' to stop donating.")
+task.wait(0.3)
+notify("';unload' to end the script completely.")
+
+local function startDonating()
+	if unloaded then return end
+	if donating then
+		notify("Auto donate is already running.")
+		return
+	end
+	if not getAgarv() then
+		notify("agarv not in game.")
+		return
+	end
+	donating = true
+	notify("Auto donate started.")
+	task.spawn(function()
+		while donating and not unloaded do
+			if not getAgarv() then
+				donating = false
+				notify("Auto donate ended, agarv left the server.")
+				break
+			end
+			local timeVal = LocalPlayer.leaderstats.Time.Value
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync('"donate" "Ryansocooolsmith" "' .. timeVal .. '"')
+			task.wait(math.random(101, 111))
+		end
+	end)
+end
+
+local function stopDonating()
+	if unloaded then return end
+	if not donating then
+		notify("Auto donate is already stopped.")
+		return
+	end
+	donating = false
+	notify("Auto donate stopped.")
+end
+
+local function unload()
+	unloaded = true
+	donating = false
+	notify("Script unloaded.")
+end
+
+game:GetService("TextChatService").TextChannels.RBXGeneral.MessageReceived:Connect(function(message)
+	if unloaded then return end
+	if message.TextSource and message.TextSource.UserId == LocalPlayer.UserId then
+		local text = message.Text:lower():gsub("'", ""):gsub(";", ""):gsub("%s", "")
+		if text == "start" then
+			startDonating()
+		elseif text == "stop" then
+			stopDonating()
+		elseif text == "unload" then
+			unload()
+		end
+	end
+end)
