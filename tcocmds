@@ -1,6 +1,6 @@
 --[[
 
-SCRIPTS:  17
+SCRIPTS:  18
 INSTANCES:  10
 MODULES:  0
 
@@ -101,11 +101,13 @@ _i["17"]=Instance.new("LocalScript",_i["13"]);
 _i["17"].Name="tospawn";
 _i["18"]=Instance.new("LocalScript",_i["13"]);
 _i["18"].Name="CLICKTP";
-_i["19"]=Instance.new("Folder",_i["1"]);
-_i["1a"]=Instance.new("LocalScript",_i["19"]);
-_i["1a"].Name="teleport places";
-_i["1b"]=Instance.new("LocalScript",_i["19"]);
-_i["1b"].Name="LOG BOOMBOX";
+_i["19"]=Instance.new("LocalScript",_i["13"]);
+_i["19"].Name="autoGRAB";
+_i["1a"]=Instance.new("Folder",_i["1"]);
+_i["1b"]=Instance.new("LocalScript",_i["1a"]);
+_i["1b"].Name="teleport places";
+_i["1c"]=Instance.new("LocalScript",_i["1a"]);
+_i["1c"].Name="LOG BOOMBOX";
 local function C_2()
 local script=_i["2"];
 _G.agarwarecmdnotify = function(text, color)
@@ -496,25 +498,24 @@ _G.agarwareaddcmd("autodisable", function(args)
 	local LocalPlayer = Players.LocalPlayer
 	local rs = game:GetService("ReplicatedStorage")
 
-	local brick = rs:FindFirstChild("Brick")
-	if not brick or brick:HasTag("FAKE") then
-		_G.agarwarecmdnotify("B-Kit is already disabled, auto disable will still watch for new servers.")
-	end
-
 	_G.agarwaretoggledcmd("autodisable", true)
-	_G.agarwarecmdnotify("Auto disable enabled, waiting for Delete tool...")
+	_G.agarwarecmdnotify("Auto disable enabled.")
 
-	local function tryDisable(deleteTool)
-		if shared.RefreshTool then shared.RefreshTool("Delete") end
-		local event = deleteTool:WaitForChild("Script"):WaitForChild("Event")
+	local function tryDisable()
+		local character = LocalPlayer.Character
+		if not character then return end
 		local b = rs:FindFirstChild("Brick")
-		if not b then return end
+		if not b or b:HasTag("FAKE") then return end
+		if shared.RefreshTool then shared.RefreshTool("Delete") end
+		local deleteTool = LocalPlayer.Backpack:FindFirstChild("Delete") or character:FindFirstChild("Delete")
+		if not deleteTool then return end
+		local event = deleteTool:WaitForChild("Script"):WaitForChild("Event")
 		for i = 1, 30 do
 			if not rs:FindFirstChild("Brick") then
 				_G.agarwarecmdnotify("B-Kit disabled successfully!")
 				return
 			end
-			event:FireServer(b, LocalPlayer.Character.HumanoidRootPart.Position)
+			event:FireServer(b, character.HumanoidRootPart.Position)
 			task.wait(0.01)
 		end
 		if rs:FindFirstChild("Brick") then
@@ -524,9 +525,15 @@ _G.agarwareaddcmd("autodisable", function(args)
 		end
 	end
 
+	
+	local char = LocalPlayer.Character
+	if char and (LocalPlayer.Backpack:FindFirstChild("Delete") or char:FindFirstChild("Delete")) then
+		task.spawn(tryDisable)
+	end
+
 	local function watchForDelete(obj)
 		if obj.Name == "Delete" then
-			task.spawn(function() tryDisable(obj) end)
+			task.spawn(tryDisable)
 		end
 	end
 
@@ -539,7 +546,7 @@ _G.agarwareaddcmd("autodisable", function(args)
 	end)
 end, "Automatically disables B-Kit when you receive the Delete tool.", "toggle")
 
-_G.agarwareaddcmd("unautodbkit", function(args)
+_G.agarwareaddcmd("unautodisable", function(args)
 	_G.agarwaretoggledcmd("autodisable", false)
 	_G.agarwarecmdnotify("Auto disable disabled.")
 end, "Disables auto B-Kit disabler.", "toggle")
@@ -809,8 +816,81 @@ _G.agarwareaddcmd("unclicktp", function(args)
 end, "Removed the clicktp from your backpack.", "toggle")
 end;
 task.spawn(C_18);
-local function C_1a()
-local script=_i["1a"];
+local function C_19()
+local script=_i["19"];
+repeat task.wait() until _G.agarwareaddcmd
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local pickupLoop = nil
+local unequipLoop = nil
+local autoPickedTools = {}
+local DEATH_TAG = "ADODeathDropped"
+
+local function enableAutograb()
+	autoPickedTools = {}
+	pickupLoop = task.spawn(function()
+		while true do
+			local char = LocalPlayer.Character
+			local hum = char and char:FindFirstChildWhichIsA("Humanoid")
+			if hum and hum.Health > 0 then
+				local currentTool = char:FindFirstChildOfClass("Tool")
+				for _, obj in ipairs(workspace:GetChildren()) do
+					if obj:IsA("Tool") and obj:FindFirstChild("Handle") and not obj:HasTag(DEATH_TAG) and not autoPickedTools[obj] then
+						autoPickedTools[obj] = tick() + 0.5
+						local toolName = obj.Name
+						pcall(function() hum:EquipTool(obj) end)
+						_G.agarwarecmdnotify("Auto grabbed: " .. toolName)
+					end
+				end
+				if currentTool and currentTool.Parent == LocalPlayer.Backpack and not autoPickedTools[currentTool] then
+					task.wait(0.05)
+					hum:EquipTool(currentTool)
+				end
+			end
+			task.wait()
+		end
+	end)
+	unequipLoop = task.spawn(function()
+		while true do
+			local char = LocalPlayer.Character
+			if char then
+				local currentTime = tick()
+				for tool, expiry in pairs(autoPickedTools) do
+					if currentTime > expiry then autoPickedTools[tool] = nil end
+				end
+				for _, tool in pairs(char:GetChildren()) do
+					if tool:IsA("Tool") and autoPickedTools[tool] and currentTime < autoPickedTools[tool] then
+						tool.Parent = LocalPlayer.Backpack
+					end
+				end
+			end
+			task.wait()
+		end
+	end)
+end
+
+local function disableAutograb()
+	if pickupLoop then task.cancel(pickupLoop) pickupLoop = nil end
+	if unequipLoop then task.cancel(unequipLoop) unequipLoop = nil end
+	autoPickedTools = {}
+end
+
+_G.agarwareaddcmd("autograb", function(args)
+	enableAutograb()
+	_G.agarwaretoggledcmd("autograb", true)
+	_G.agarwarecmdnotify("Auto grab enabled.")
+end, "Automatically grabs all dropped/disarmed items.", "toggle")
+
+_G.agarwareaddcmd("unautograb", function(args)
+	disableAutograb()
+	_G.agarwaretoggledcmd("autograb", false)
+	_G.agarwarecmdnotify("Auto grab disabled.")
+end, "Disables auto grab.", "toggle")
+end;
+task.spawn(C_19);
+local function C_1b()
+local script=_i["1b"];
 _G.agarwareaddcmd("joinxl", function(args)
 	game:GetService("ReplicatedStorage").System:FireServer("xl")
 	_G.agarwarecmdnotify("Joining XL...")
@@ -855,9 +935,9 @@ _G.agarwareaddcmd("largestxl", function(args)
 	_G.agarwarecmdnotify("Joining largest server with " .. largestCount .. " players...")
 end, "Joins the largest XL server.", "onetime")
 end;
-task.spawn(C_1a);
-local function C_1b()
-local script=_i["1b"];
+task.spawn(C_1b);
+local function C_1c()
+local script=_i["1c"];
 _G.agarwareaddcmd("logboombox", function(args)
 	local Players = game:GetService("Players")
 	local LocalPlayer = Players.LocalPlayer
@@ -942,6 +1022,6 @@ _G.agarwareaddcmd("logboombox", function(args)
 	_G.agarwarecmdnotify("Logged boombox: " .. found.Name .. " | ID: " .. id .. " (copied!)")
 end, "Logs a player's boombox audio ID.", "onetime")
 end;
-task.spawn(C_1b);
+task.spawn(C_1c);
 
 return _i["1"], require;
