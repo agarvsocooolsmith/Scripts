@@ -501,52 +501,61 @@ _G.agarwareaddcmd("autodisable", function(args)
 	_G.agarwaretoggledcmd("autodisable", true)
 	_G.agarwarecmdnotify("Auto disable enabled.")
 
-	local function tryDisable()
-		local character = LocalPlayer.Character
-		if not character then return end
-		local b = rs:FindFirstChild("Brick")
-		if not b or b:HasTag("FAKE") then return end
-		if shared.RefreshTool then shared.RefreshTool("Delete") end
-		local deleteTool = LocalPlayer.Backpack:FindFirstChild("Delete") or character:FindFirstChild("Delete")
+	task.spawn(function()
+		
+		while true do
+			local brick = rs:FindFirstChild("Brick")
+			if brick and not brick:HasTag("FAKE") then break end
+			task.wait(0.05)
+		end
+
+		
+		while true do
+			local brick = rs:FindFirstChild("Brick")
+			if not brick or brick:HasTag("FAKE") then
+				_G.agarwarecmdnotify("B-Kit broke before Delete tool was received.")
+				return
+			end
+			local char = LocalPlayer.Character
+			local deleteTool = LocalPlayer.Backpack:FindFirstChild("Delete") or (char and char:FindFirstChild("Delete"))
+			if deleteTool then break end
+			task.wait(0.05)
+		end
+
+		
+		local brick = rs:FindFirstChild("Brick")
+		if not brick or brick:HasTag("FAKE") then
+			_G.agarwarecmdnotify("B-Kit broke before we could disable it.")
+			return
+		end
+
+		shared.RefreshTool("Delete")
+		task.wait(0.1)
+
+		local char = LocalPlayer.Character
+		local deleteTool = LocalPlayer.Backpack:FindFirstChild("Delete") or (char and char:FindFirstChild("Delete"))
 		if not deleteTool then return end
 		local event = deleteTool:WaitForChild("Script"):WaitForChild("Event")
+
 		for i = 1, 30 do
-			if not rs:FindFirstChild("Brick") then
+			brick = rs:FindFirstChild("Brick")
+			if not brick then
 				_G.agarwarecmdnotify("B-Kit disabled successfully!")
 				return
 			end
-			event:FireServer(b, character.HumanoidRootPart.Position)
-			task.wait(0.01)
+			event:FireServer(brick, char.HumanoidRootPart.Position)
+			task.wait(0.1)
 		end
+
 		if rs:FindFirstChild("Brick") then
 			_G.agarwarecmdnotify("B-Kit was restored by another script.")
 		else
 			_G.agarwarecmdnotify("B-Kit disabled successfully!")
 		end
-	end
-
-	
-	local char = LocalPlayer.Character
-	if char and (LocalPlayer.Backpack:FindFirstChild("Delete") or char:FindFirstChild("Delete")) then
-		task.spawn(tryDisable)
-	end
-
-	local function watchForDelete(obj)
-		if obj.Name == "Delete" then
-			task.spawn(tryDisable)
-		end
-	end
-
-	LocalPlayer.Backpack.ChildAdded:Connect(watchForDelete)
-	if LocalPlayer.Character then
-		LocalPlayer.Character.ChildAdded:Connect(watchForDelete)
-	end
-	LocalPlayer.CharacterAdded:Connect(function(char)
-		char.ChildAdded:Connect(watchForDelete)
 	end)
 end, "Automatically disables B-Kit when you receive the Delete tool.", "toggle")
 
-_G.agarwareaddcmd("unautodisable", function(args)
+_G.agarwareaddcmd("unautodbkit", function(args)
 	_G.agarwaretoggledcmd("autodisable", false)
 	_G.agarwarecmdnotify("Auto disable disabled.")
 end, "Disables auto B-Kit disabler.", "toggle")
