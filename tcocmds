@@ -14,100 +14,157 @@ _i["1"]["DisplayOrder"]=999;
 _i["1"]["Name"]=[[privatescriptlol69]];
 _i["1"]["ZIndexBehavior"]=Enum.ZIndexBehavior.Sibling;
 _i["1"]["ScreenInsets"]=Enum.ScreenInsets.DeviceSafeInsets;
-_i["2"]=Instance.new("Frame",_i["1"]);
-_i["2"]["BorderMode"]=Enum.BorderMode.Inset;
-_i["2"]["Size"]=UDim2.new(0, 202, 0, 80);
-_i["2"]["BorderColor3"]=Color3.fromRGB(0, 146, 255);
-_i["2"]["BorderSizePixel"]=2;
-_i["2"]["Position"]=UDim2.new(0.40852, 0, 0.31707, 0);
-_i["2"]["BackgroundColor3"]=Color3.fromRGB(137, 137, 137);
-_i["3"]=Instance.new("TextBox",_i["2"]);
-_i["3"]["TextWrapped"]=true;
-_i["3"]["TextStrokeTransparency"]=0.5;
-_i["3"]["PlaceholderColor3"]=Color3.fromRGB(218, 218, 218);
-_i["3"]["BorderSizePixel"]=2;
-_i["3"]["BackgroundColor3"]=Color3.fromRGB(137, 137, 137);
-_i["3"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_i["3"]["TextSize"]=19;
-_i["3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_i["3"]["PlaceholderText"]=[[Type a cmd here or ;cmdname in chat...]];
-_i["3"]["Size"]=UDim2.new(1, 0, 1, -20);
-_i["3"]["BorderColor3"]=Color3.fromRGB(0, 146, 255);
-_i["3"]["Text"]=[[]];
-_i["3"]["Position"]=UDim2.new(0, 0, 0, 20);
-_i["4"]=Instance.new("LocalScript",_i["3"]);
-_i["4"].Name="textboxhelper";
-_i["5"]=Instance.new("TextLabel",_i["2"]);
-_i["5"]["TextWrapped"]=true;
-_i["5"]["TextStrokeTransparency"]=0.5;
-_i["5"]["BorderSizePixel"]=0;
-_i["5"]["TextScaled"]=true;
-_i["5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_i["5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_i["5"]["BorderMode"]=Enum.BorderMode.Inset;
-_i["5"]["TextSize"]=14;
-_i["5"]["Size"]=UDim2.new(1, 0, 0, 20);
-_i["5"]["TextColor3"]=Color3.fromRGB(0, 146, 255);
-_i["5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_i["5"]["Text"]=[[;cmds for full list of cmds]];
-_i["5"]["BackgroundTransparency"]=1;
-_i["6"]=Instance.new("LocalScript",_i["2"]);
-_i["6"].Name="prviatescriptmainhelper";
-_i["7"]=Instance.new("UIStroke",_i["2"]);
-_i["7"]["Thickness"]=1.5;
-_i["8"]=Instance.new("LocalScript",_i["1"]);
-_i["8"].Name="agarwarecmdnotify";
-_i["9"]=Instance.new("Folder",_i["1"]);
-_i["a"]=Instance.new("LocalScript",_i["9"]);
-_i["a"].Name="unload";
-_i["b"]=Instance.new("LocalScript",_i["9"]);
-_i["b"].Name="resetcharacter";
-_i["c"]=Instance.new("LocalScript",_i["9"]);
-_i["c"].Name="tp";
-_i["d"]=Instance.new("LocalScript",_i["9"]);
-_i["d"].Name="discordlink";
-_i["e"]=Instance.new("LocalScript",_i["9"]);
-_i["e"].Name="autoexec";
-_i["f"]=Instance.new("TextLabel",_i["1"]);
-_i["f"]["TextStrokeTransparency"]=0;
-_i["f"]["BorderSizePixel"]=0;
-_i["f"]["TextYAlignment"]=Enum.TextYAlignment.Bottom;
-_i["f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_i["f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_i["f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_i["f"]["TextSize"]=17;
-_i["f"]["Size"]=UDim2.new(0, 200, 0, 50);
-_i["f"]["TextColor3"]=Color3.fromRGB(0, 146, 255);
-_i["f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_i["f"]["Text"]=[[]];
-_i["f"]["BackgroundTransparency"]=1;
-_i["f"]["Name"]=[[enabled]];
-_i["f"]["Position"]=UDim2.new(0.0987, 0, 0.81929, 0);
-_i["10"]=Instance.new("UIPadding",_i["f"]);
-_i["10"]["PaddingBottom"]=UDim.new(0, 10);
-_i["10"]["PaddingLeft"]=UDim.new(0, 10);
-_i["11"]=Instance.new("LocalScript",_i["f"]);
+_i["2"]=Instance.new("LocalScript",_i["1"]);
+_i["2"].Name="agarwarecmdnotify";
+_i["3"]=Instance.new("LocalScript",_i["1"]);
+_i["3"].Name="no cmd startup too";
+_i["4"]=Instance.new("Frame",_i["1"]);
+_i["4"]["BorderMode"]=Enum.BorderMode.Inset;
+_i["4"]["Size"]=UDim2.new(0, 202, 0, 80);
+_i["4"]["BorderColor3"]=Color3.fromRGB(0, 146, 255);
+_i["4"]["BorderSizePixel"]=2;
+_i["4"]["Position"]=UDim2.new(0.40852, 0, 0.31707, 0);
+_i["4"]["BackgroundColor3"]=Color3.fromRGB(137, 137, 137);
+_i["5"]=Instance.new("LocalScript",_i["4"]);
+_i["5"].Name="prviatescriptmainhelper";
+_i["6"]=Instance.new("TextBox",_i["4"]);
+_i["6"]["TextWrapped"]=true;
+_i["6"]["TextStrokeTransparency"]=0.5;
+_i["6"]["PlaceholderColor3"]=Color3.fromRGB(218, 218, 218);
+_i["6"]["BorderSizePixel"]=2;
+_i["6"]["BackgroundColor3"]=Color3.fromRGB(137, 137, 137);
+_i["6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_i["6"]["TextSize"]=19;
+_i["6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_i["6"]["PlaceholderText"]=[[Type a cmd here or ;cmdname in chat...]];
+_i["6"]["Size"]=UDim2.new(1, 0, 1, -20);
+_i["6"]["BorderColor3"]=Color3.fromRGB(0, 146, 255);
+_i["6"]["Text"]=[[]];
+_i["6"]["Position"]=UDim2.new(0, 0, 0, 20);
+_i["7"]=Instance.new("LocalScript",_i["6"]);
+_i["7"].Name="textboxhelper";
+_i["8"]=Instance.new("TextLabel",_i["4"]);
+_i["8"]["TextWrapped"]=true;
+_i["8"]["TextStrokeTransparency"]=0.5;
+_i["8"]["BorderSizePixel"]=0;
+_i["8"]["TextScaled"]=true;
+_i["8"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_i["8"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_i["8"]["BorderMode"]=Enum.BorderMode.Inset;
+_i["8"]["TextSize"]=14;
+_i["8"]["Size"]=UDim2.new(1, 0, 0, 20);
+_i["8"]["TextColor3"]=Color3.fromRGB(0, 146, 255);
+_i["8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_i["8"]["Text"]=[[;cmds for full list of cmds]];
+_i["8"]["BackgroundTransparency"]=1;
+_i["9"]=Instance.new("UIStroke",_i["4"]);
+_i["9"]["Thickness"]=1.5;
+_i["a"]=Instance.new("Folder",_i["1"]);
+_i["b"]=Instance.new("LocalScript",_i["a"]);
+_i["b"].Name="unload";
+_i["c"]=Instance.new("LocalScript",_i["a"]);
+_i["c"].Name="resetcharacter";
+_i["d"]=Instance.new("LocalScript",_i["a"]);
+_i["d"].Name="tp";
+_i["e"]=Instance.new("LocalScript",_i["a"]);
+_i["e"].Name="discordlink";
+_i["f"]=Instance.new("LocalScript",_i["a"]);
+_i["f"].Name="autoexec";
+_i["10"]=Instance.new("TextLabel",_i["1"]);
+_i["10"]["TextStrokeTransparency"]=0;
+_i["10"]["BorderSizePixel"]=0;
+_i["10"]["TextYAlignment"]=Enum.TextYAlignment.Bottom;
+_i["10"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_i["10"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_i["10"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_i["10"]["TextSize"]=17;
+_i["10"]["Size"]=UDim2.new(0, 200, 0, 50);
+_i["10"]["TextColor3"]=Color3.fromRGB(0, 146, 255);
+_i["10"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_i["10"]["Text"]=[[]];
+_i["10"]["BackgroundTransparency"]=1;
+_i["10"]["Name"]=[[enabled]];
+_i["10"]["Position"]=UDim2.new(0.0987, 0, 0.81929, 0);
+_i["11"]=Instance.new("LocalScript",_i["10"]);
 _i["11"].Name="LocalScript";
-_i["12"]=Instance.new("Folder",_i["1"]);
-_i["13"]=Instance.new("LocalScript",_i["12"]);
-_i["13"].Name="bkit";
-_i["14"]=Instance.new("LocalScript",_i["12"]);
-_i["14"].Name="antilag";
-_i["15"]=Instance.new("LocalScript",_i["12"]);
-_i["15"].Name="disablespray";
-_i["16"]=Instance.new("LocalScript",_i["12"]);
-_i["16"].Name="tospawn";
-_i["17"]=Instance.new("LocalScript",_i["12"]);
-_i["17"].Name="CLICKTP";
-_i["18"]=Instance.new("Folder",_i["1"]);
-_i["19"]=Instance.new("LocalScript",_i["18"]);
-_i["19"].Name="teleport places";
-_i["1a"]=Instance.new("LocalScript",_i["18"]);
-_i["1a"].Name="LOG BOOMBOX";
-_i["1b"]=Instance.new("LocalScript",_i["1"]);
-_i["1b"].Name="no cmd startup too";
-local function C_4()
-local script=_i["4"];
+_i["12"]=Instance.new("UIPadding",_i["10"]);
+_i["12"]["PaddingBottom"]=UDim.new(0, 10);
+_i["12"]["PaddingLeft"]=UDim.new(0, 10);
+_i["13"]=Instance.new("Folder",_i["1"]);
+_i["14"]=Instance.new("LocalScript",_i["13"]);
+_i["14"].Name="bkit";
+_i["15"]=Instance.new("LocalScript",_i["13"]);
+_i["15"].Name="antilag";
+_i["16"]=Instance.new("LocalScript",_i["13"]);
+_i["16"].Name="disablespray";
+_i["17"]=Instance.new("LocalScript",_i["13"]);
+_i["17"].Name="tospawn";
+_i["18"]=Instance.new("LocalScript",_i["13"]);
+_i["18"].Name="CLICKTP";
+_i["19"]=Instance.new("Folder",_i["1"]);
+_i["1a"]=Instance.new("LocalScript",_i["19"]);
+_i["1a"].Name="teleport places";
+_i["1b"]=Instance.new("LocalScript",_i["19"]);
+_i["1b"].Name="LOG BOOMBOX";
+local function C_2()
+local script=_i["2"];
+_G.agarwarecmdnotify = function(text, color)
+	local TextChatService = game:GetService("TextChatService")
+	local channel = TextChatService:FindFirstChild("TextChannels") and TextChatService.TextChannels:FindFirstChild("RBXGeneral")
+	if channel then
+		local hex = color and ("#%02x%02x%02x"):format(color.R*255, color.G*255, color.B*255) or "#0091ff"
+		for line in text:gmatch("[^\n]+") do
+			channel:DisplaySystemMessage('<font color="' .. hex .. '">' .. line .. '</font>')
+		end
+	end
+end
+end;
+task.spawn(C_2);
+local function C_3()
+local script=_i["3"];
+repeat task.wait() until _G.agarwarecmdnotify
+local player = game:GetService("Players").LocalPlayer
+task.wait(0.3)
+_G.agarwarecmdnotify("Welcome " .. player.DisplayName .. ", To view all commands, type ;cmds in chat, or cmds in the UI.")
+task.wait(0.5)
+_G.agarwarecmdnotify("Type ;info [cmdname] to view what each command does.")
+task.wait(0.5)
+local rs = game:GetService("ReplicatedStorage")
+local rsb = rs:FindFirstChild("Brick")
+if not rsb or rsb:HasTag("FAKE") then
+	_G.agarwarecmdnotify("B-Kit is disabled in this server!", Color3.fromRGB(255, 0, 0))
+else
+	task.spawn(function()
+		while true do
+			task.wait(0.5)
+			local brick = rs:FindFirstChild("Brick")
+			if not brick or brick:HasTag("FAKE") then
+				_G.agarwarecmdnotify("B-Kit has been disabled in this server!", Color3.fromRGB(255, 0, 0))
+				break
+			end
+		end
+	end)
+end
+end;
+task.spawn(C_3);
+local function C_5()
+local script=_i["5"];
+local RunService = game:GetService("RunService")
+local frame = script.Parent
+local screenGui = frame.Parent
+
+frame.AnchorPoint = Vector2.new(0.5, 0.5)
+frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+frame.Active = true
+frame.Draggable = true
+
+if not RunService:IsStudio() then
+	screenGui.Parent = game:GetService("CoreGui")
+end
+end;
+task.spawn(C_5);
+local function C_7()
+local script=_i["7"];
 local textbox = script.Parent
 local commands = {}
 local cmdDescriptions = {}
@@ -216,46 +273,16 @@ _G.agarwareaddcmd("unloadscript", function(args)
 	script.Parent.Parent:Destroy()
 end, "Unloads the script.", "onetime")
 end;
-task.spawn(C_4);
-local function C_6()
-local script=_i["6"];
-local RunService = game:GetService("RunService")
-local frame = script.Parent
-local screenGui = frame.Parent
-
-frame.AnchorPoint = Vector2.new(0.5, 0.5)
-frame.Position = UDim2.new(0.5, 0, 0.5, 0)
-frame.Active = true
-frame.Draggable = true
-
-if not RunService:IsStudio() then
-	screenGui.Parent = game:GetService("CoreGui")
-end
-end;
-task.spawn(C_6);
-local function C_8()
-local script=_i["8"];
-_G.agarwarecmdnotify = function(text, color)
-	local TextChatService = game:GetService("TextChatService")
-	local channel = TextChatService:FindFirstChild("TextChannels") and TextChatService.TextChannels:FindFirstChild("RBXGeneral")
-	if channel then
-		local hex = color and ("#%02x%02x%02x"):format(color.R*255, color.G*255, color.B*255) or "#0091ff"
-		for line in text:gmatch("[^\n]+") do
-			channel:DisplaySystemMessage('<font color="' .. hex .. '">' .. line .. '</font>')
-		end
-	end
-end
-end;
-task.spawn(C_8);
-local function C_a()
-local script=_i["a"];
+task.spawn(C_7);
+local function C_b()
+local script=_i["b"];
 _G.agarwareaddcmd("unloadscript", function(args)
 	script.Parent.Parent:Destroy()
 end, "Unloads the script.")
 end;
-task.spawn(C_a);
-local function C_b()
-local script=_i["b"];
+task.spawn(C_b);
+local function C_c()
+local script=_i["c"];
 _G.agarwareaddcmd("reset", function(args)
     local char = game:GetService("Players").LocalPlayer.Character
     if not char then return end
@@ -264,9 +291,9 @@ _G.agarwareaddcmd("reset", function(args)
     char:BreakJoints()
 end, "Resets your character.", "onetime")
 end;
-task.spawn(C_b);
-local function C_c()
-local script=_i["c"];
+task.spawn(C_c);
+local function C_d()
+local script=_i["d"];
 _G.agarwareaddcmd("goto", function(args)
 	local query = args[1] and args[1]:lower()
 	if not query then
@@ -294,17 +321,22 @@ _G.agarwareaddcmd("goto", function(args)
 	end
 end, "Teleports you to a player.", "onetime")
 end;
-task.spawn(C_c);
-local function C_d()
-local script=_i["d"];
+task.spawn(C_d);
+local function C_e()
+local script=_i["e"];
 _G.agarwareaddcmd("discordlink", function(args)
 	setclipboard("https://discord.gg/7fDasxV2Ht")
 	_G.agarwarecmdnotify("Discord link copied to clipboard.")
 end, "Copies my discord link to your clipboard.", "onetime") 
+
+_G.agarwareaddcmd("getinvite", function(args)
+	setclipboard("https://www.roblox.com/games/start?placeId=" .. game.PlaceId .. "&gameInstanceId=" .. game.JobId)
+	_G.agarwarecmdnotify("Server invite link copied!")
+end, "Copies the server invite link to your clipboard.", "onetime")
 end;
-task.spawn(C_d);
-local function C_e()
-local script=_i["e"];
+task.spawn(C_e);
+local function C_f()
+local script=_i["f"];
 repeat task.wait() until _G.agarwareaddcmd
 
 local CONFIG_FILE = "agarwarecmdautoexec.json"
@@ -353,7 +385,7 @@ _G.agarwareaddcmd("unautoexec", function(args)
 	_G.agarwarecmdnotify("Auto-exec disabled.")
 end, "Disables auto-exec.", "toggle")
 end;
-task.spawn(C_e);
+task.spawn(C_f);
 local function C_11()
 local script=_i["11"];
 local label = script.Parent
@@ -364,8 +396,35 @@ RunService.RenderStepped:Connect(function()
 end)
 end;
 task.spawn(C_11);
-local function C_13()
-local script=_i["13"];
+local function C_14()
+local script=_i["14"];
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+shared.RefreshTool = function(toolName)
+	if not toolName then return false end
+
+	if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild(toolName) then
+		return false
+	end
+
+	local tool = LocalPlayer.Backpack:FindFirstChild(toolName)
+
+	if not tool then
+		return false
+	end
+
+	tool.Parent = LocalPlayer.Character
+
+	while tool.Parent == LocalPlayer.Character do
+		tool.Parent = LocalPlayer.Backpack
+		task.wait()
+	end
+
+	return true
+end
+
+
 _G.agarwareaddcmd("disablebkit", function(args)
 	local Players = game:GetService("Players")
 	local LocalPlayer = Players.LocalPlayer
@@ -422,10 +481,72 @@ _G.agarwareaddcmd("bkitcheck", function(args)
 		end
 	end
 end, "Checks if B-Kit is disabled.", "onetime")
+
+
+
+
+
+
+
+
+
+
+_G.agarwareaddcmd("autodisable", function(args)
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local rs = game:GetService("ReplicatedStorage")
+
+	local brick = rs:FindFirstChild("Brick")
+	if not brick or brick:HasTag("FAKE") then
+		_G.agarwarecmdnotify("B-Kit is already disabled, auto disable will still watch for new servers.")
+	end
+
+	_G.agarwaretoggledcmd("autodisable", true)
+	_G.agarwarecmdnotify("Auto disable enabled, waiting for Delete tool...")
+
+	local function tryDisable(deleteTool)
+		if shared.RefreshTool then shared.RefreshTool("Delete") end
+		local event = deleteTool:WaitForChild("Script"):WaitForChild("Event")
+		local b = rs:FindFirstChild("Brick")
+		if not b then return end
+		for i = 1, 30 do
+			if not rs:FindFirstChild("Brick") then
+				_G.agarwarecmdnotify("B-Kit disabled successfully!")
+				return
+			end
+			event:FireServer(b, LocalPlayer.Character.HumanoidRootPart.Position)
+			task.wait(0.01)
+		end
+		if rs:FindFirstChild("Brick") then
+			_G.agarwarecmdnotify("B-Kit was restored by another script.")
+		else
+			_G.agarwarecmdnotify("B-Kit disabled successfully!")
+		end
+	end
+
+	local function watchForDelete(obj)
+		if obj.Name == "Delete" then
+			task.spawn(function() tryDisable(obj) end)
+		end
+	end
+
+	LocalPlayer.Backpack.ChildAdded:Connect(watchForDelete)
+	if LocalPlayer.Character then
+		LocalPlayer.Character.ChildAdded:Connect(watchForDelete)
+	end
+	LocalPlayer.CharacterAdded:Connect(function(char)
+		char.ChildAdded:Connect(watchForDelete)
+	end)
+end, "Automatically disables B-Kit when you receive the Delete tool.", "toggle")
+
+_G.agarwareaddcmd("unautodbkit", function(args)
+	_G.agarwaretoggledcmd("autodisable", false)
+	_G.agarwarecmdnotify("Auto disable disabled.")
+end, "Disables auto B-Kit disabler.", "toggle")
 end;
-task.spawn(C_13);
-local function C_14()
-local script=_i["14"];
+task.spawn(C_14);
+local function C_15()
+local script=_i["15"];
 repeat task.wait() until _G.agarwareaddcmd
 
 local names = {
@@ -533,9 +654,9 @@ _G.agarwareaddcmd("unantilag", function(args)
 	_G.agarwarecmdnotify("Anti-lag disabled.")
 end, "Disables anti-lag.", "toggle")
 end;
-task.spawn(C_14);
-local function C_15()
-local script=_i["15"];
+task.spawn(C_15);
+local function C_16()
+local script=_i["16"];
 repeat task.wait() until _G.agarwareaddcmd
 local sprayConn = nil
 local function hideSpray()
@@ -573,9 +694,9 @@ _G.agarwareaddcmd("showspray", function(args)
 	_G.agarwarecmdnotify("Sprays shown.")
 end, "Shows all sprays.", "toggle")
 end;
-task.spawn(C_15);
-local function C_16()
-local script=_i["16"];
+task.spawn(C_16);
+local function C_17()
+local script=_i["17"];
 _G.agarwareaddcmd("tospawn", function(args)
 	local Players = game:GetService("Players")
 	local LocalPlayer = Players.LocalPlayer
@@ -598,9 +719,9 @@ _G.agarwareaddcmd("tospawn", function(args)
 	_G.agarwarecmdnotify("Teleported to spawn.")
 end, "Teleports you to spawn.", "onetime")
 end;
-task.spawn(C_16);
-local function C_17()
-local script=_i["17"];
+task.spawn(C_17);
+local function C_18()
+local script=_i["18"];
 repeat task.wait() until _G.agarwareaddcmd
 
 local Players = game:GetService("Players")
@@ -687,9 +808,9 @@ _G.agarwareaddcmd("unclicktp", function(args)
 	_G.agarwarecmdnotify("Clicktp removed.")
 end, "Removed the clicktp from your backpack.", "toggle")
 end;
-task.spawn(C_17);
-local function C_19()
-local script=_i["19"];
+task.spawn(C_18);
+local function C_1a()
+local script=_i["1a"];
 _G.agarwareaddcmd("joinxl", function(args)
 	game:GetService("ReplicatedStorage").System:FireServer("xl")
 	_G.agarwarecmdnotify("Joining XL...")
@@ -734,9 +855,9 @@ _G.agarwareaddcmd("largestxl", function(args)
 	_G.agarwarecmdnotify("Joining largest server with " .. largestCount .. " players...")
 end, "Joins the largest XL server.", "onetime")
 end;
-task.spawn(C_19);
-local function C_1a()
-local script=_i["1a"];
+task.spawn(C_1a);
+local function C_1b()
+local script=_i["1b"];
 _G.agarwareaddcmd("logboombox", function(args)
 	local Players = game:GetService("Players")
 	local LocalPlayer = Players.LocalPlayer
@@ -820,33 +941,6 @@ _G.agarwareaddcmd("logboombox", function(args)
 	setclipboard(id)
 	_G.agarwarecmdnotify("Logged boombox: " .. found.Name .. " | ID: " .. id .. " (copied!)")
 end, "Logs a player's boombox audio ID.", "onetime")
-end;
-task.spawn(C_1a);
-local function C_1b()
-local script=_i["1b"];
-repeat task.wait() until _G.agarwarecmdnotify
-local player = game:GetService("Players").LocalPlayer
-task.wait(0.3)
-_G.agarwarecmdnotify("Welcome " .. player.DisplayName .. ", To view all commands, type ;cmds in chat, or cmds in the UI.")
-task.wait(0.5)
-_G.agarwarecmdnotify("Type ;info [cmdname] to view what each command does.")
-task.wait(0.5)
-local rs = game:GetService("ReplicatedStorage")
-local rsb = rs:FindFirstChild("Brick")
-if not rsb or rsb:HasTag("FAKE") then
-	_G.agarwarecmdnotify("B-Kit is disabled in this server!", Color3.fromRGB(255, 0, 0))
-else
-	task.spawn(function()
-		while true do
-			task.wait(0.5)
-			local brick = rs:FindFirstChild("Brick")
-			if not brick or brick:HasTag("FAKE") then
-				_G.agarwarecmdnotify("B-Kit has been disabled in this server!", Color3.fromRGB(255, 0, 0))
-				break
-			end
-		end
-	end)
-end
 end;
 task.spawn(C_1b);
 
