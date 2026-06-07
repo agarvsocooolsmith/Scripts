@@ -1,85 +1,146 @@
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-local donating = false
-local unloaded = false
+--[[
 
-local function notify(text, color)
-	local TextChatService = game:GetService("TextChatService")
-	local channel = TextChatService:FindFirstChild("TextChannels") and TextChatService.TextChannels:FindFirstChild("RBXGeneral")
-	if channel then
-		local hex = color and ("#%02x%02x%02x"):format(math.floor(color.R*255), math.floor(color.G*255), math.floor(color.B*255)) or "#ff0000"
-		channel:DisplaySystemMessage('<font color="' .. hex .. '">' .. text .. '</font>')
-	end
-end
+SCRIPTS:  2
+INSTANCES:  2
+MODULES:  0
 
-_G.AutoDonateNotify = notify
+]]
 
-local function getAgarv()
-	for _, player in ipairs(Players:GetPlayers()) do
-		if player.UserId == 10587072700 then
-			return player
-		end
-	end
-	return nil
-end
+local _i={};
+_i["1"]=Instance.new("ScreenGui",game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+_i["1"]["DisplayOrder"]=999;
+_i["1"]["Name"]=[[AUTODONATEAGARV]];
+_i["1"]["ZIndexBehavior"]=Enum.ZIndexBehavior.Sibling;
+_i["2"]=Instance.new("TextButton",_i["1"]);
+_i["2"]["BorderSizePixel"]=3;
+_i["2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_i["2"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_i["2"]["TextSize"]=16;
+_i["2"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_i["2"]["Size"]=UDim2.new(0, 100, 0, 50);
+_i["2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_i["2"]["Text"]=[[Auto Donate]];
+_i["2"]["Position"]=UDim2.new(0.49349, 0, 0.45787, 0);
+_i["3"]=Instance.new("LocalScript",_i["2"]);
+_i["3"].Name="autodonate";
+_i["4"]=Instance.new("LocalScript",_i["2"]);
+_i["4"].Name="main";
+local function C_3()
+local script=_i["3"];
+local button = script.Parent
+local player = game.Players.LocalPlayer
+local toggled = false
 
-task.wait(0.5)
-notify("Type in chat 'start' to start donating, 'stop' to stop donating.")
-task.wait(0.3)
-notify("';unload' to end the script completely.")
+button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 
-local function startDonating()
-	if unloaded then return end
-	if donating then
-		notify("Auto donate is already running.")
-		return
-	end
-	if not getAgarv() then
-		notify("agarv not in game.")
-		return
-	end
-	donating = true
-	notify("Auto donate started.")
-	task.spawn(function()
-		while donating and not unloaded do
-			if not getAgarv() then
-				donating = false
-				notify("Auto donate ended, agarv left the server.")
-				break
-			end
-			local timeVal = LocalPlayer.leaderstats.Time.Value
-			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync('"donate" "Ryansocooolsmith" "' .. timeVal .. '"')
-			task.wait(math.random(101, 111))
-		end
+local function getTime()
+	local success, val = pcall(function()
+		return player.leaderstats.Time.Value
 	end)
+	return (success and val) or 100
 end
 
-local function stopDonating()
-	if unloaded then return end
-	if not donating then
-		notify("Auto donate is already stopped.")
-		return
-	end
-	donating = false
-	notify("Auto donate stopped.")
-end
-
-local function unload()
-	unloaded = true
-	donating = false
-	notify("Script unloaded.")
-end
-
-game:GetService("TextChatService").TextChannels.RBXGeneral.MessageReceived:Connect(function(message)
-	if unloaded then return end
-	if message.TextSource and message.TextSource.UserId == LocalPlayer.UserId then
-		local text = message.Text:lower():gsub("'", ""):gsub(";", ""):gsub("%s", "")
-		if text == "start" then
-			startDonating()
-		elseif text == "stop" then
-			stopDonating()
-		elseif text == "unload" then
-			unload()
+local function startAntiAfk()
+	if getconnections then
+		for _, connection in pairs(getconnections(player.Idled)) do
+			if connection["Disable"] then
+				connection["Disable"](connection)
+			elseif connection["Disconnect"] then
+				connection["Disconnect"](connection)
+			end
 		end
+	else
+		player.Idled:Connect(function()
+			game:GetService("VirtualUser"):CaptureController()
+			game:GetService("VirtualUser"):ClickButton2(Vector2.new())
+		end)
+	end
+end
+
+button.MouseButton1Click:Connect(function()
+	toggled = not toggled
+
+	if toggled then
+		button.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+		startAntiAfk()
+		task.spawn(function()
+			while toggled do
+				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(";donate BlocksnPropsBackyard " .. tostring(getTime()))
+				task.wait(100)
+			end
+		end)
+	else
+		button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	end
 end)
+
+
+
+
+local Lighting = game:GetService("Lighting")
+local Terrain = workspace:FindFirstChildWhichIsA("Terrain")
+
+Terrain.WaterWaveSize = 0
+Terrain.WaterWaveSpeed = 0
+Terrain.WaterReflectance = 0
+Terrain.WaterTransparency = 1
+Lighting.GlobalShadows = false
+Lighting.FogEnd = 9e9
+Lighting.FogStart = 9e9
+settings().Rendering.QualityLevel = 1
+
+for _, v in pairs(game:GetDescendants()) do
+	if v:IsA("BasePart") then
+		v.CastShadow = false
+		v.Material = "Plastic"
+		v.Reflectance = 0
+		v.BackSurface = "SmoothNoOutlines"
+		v.BottomSurface = "SmoothNoOutlines"
+		v.FrontSurface = "SmoothNoOutlines"
+		v.LeftSurface = "SmoothNoOutlines"
+		v.RightSurface = "SmoothNoOutlines"
+		v.TopSurface = "SmoothNoOutlines"
+	elseif v:IsA("Decal") then
+		v.Transparency = 1
+		v.Texture = ""
+	elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+		v.Lifetime = NumberRange.new(0)
+	end
+end
+
+for _, v in pairs(Lighting:GetDescendants()) do
+	if v:IsA("PostEffect") then
+		v.Enabled = false
+	end
+end
+
+workspace.DescendantAdded:Connect(function(child)
+	task.spawn(function()
+		if child:IsA("ForceField") or child:IsA("Sparkles") or child:IsA("Smoke") or child:IsA("Fire") or child:IsA("Beam") then
+			game:GetService("RunService").Heartbeat:Wait()
+			child:Destroy()
+		elseif child:IsA("BasePart") then
+			child.CastShadow = false
+		end
+	end)
+end)
+end;
+task.spawn(C_3);
+local function C_4()
+local script=_i["4"];
+local RunService = game:GetService("RunService")
+local frame = script.Parent
+local screenGui = frame.Parent
+
+frame.AnchorPoint = Vector2.new(0.5, 0.5)
+frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+frame.Active = true
+frame.Draggable = true
+
+if not RunService:IsStudio() then
+	screenGui.Parent = game:GetService("CoreGui")
+end
+end;
+task.spawn(C_4);
+
+return _i["1"], require;
