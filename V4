@@ -7,10 +7,10 @@ https://discord.gg/7fDasxV2Ht
 c$$$cc$$$c"$$c.    "$$c$$$cc$$$c $$$$$$c           Y$c$$$c$P c$$$cc$$$c $$$$$$c    $$""""   
  888   888,`Y8bo,,,o88o888   888,888b "88bo,        "88"888   888   888,888b "88bo,888oo,__ 
  YMM   ""`   `'YMUP"YMMYMM   ""` MMMM   "W"          "M "M"   YMM   ""` MMMM   "W" """"YUMMM                                                      
+ 
+version: pwabasqh06z4206yx8in
+--]]
 
-GUI to LUA
-]]
-	
 --  |  LOCAL SCRIPTS: 18  |  INSTANCES: 523  |  MODULES: 0  |  --
 
 local _AGARWARE={};
@@ -1284,7 +1284,7 @@ _AGARWARE["d0"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["d0"]["BackgroundTransparency"]=1;
 _AGARWARE["d0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["d0"]["Text"]=[[]];
-_AGARWARE["d0"]["Position"]=UDim2.new(1, -29, 0, 4);
+_AGARWARE["d0"]["Position"]=UDim2.new(1, -29, 0, 2);
 _AGARWARE["d1"]=Instance.new("Frame",_AGARWARE["d0"]);
 _AGARWARE["d1"].Name="Frame";
 _AGARWARE["d1"]["Size"]=UDim2.new(1, 0, 1, 0);
@@ -1631,7 +1631,7 @@ _AGARWARE["10b"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["10b"]["BackgroundTransparency"]=1;
 _AGARWARE["10b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["10b"]["Text"]=[[]];
-_AGARWARE["10b"]["Position"]=UDim2.new(1, -29, 0, 4);
+_AGARWARE["10b"]["Position"]=UDim2.new(1, -29, 0, 2);
 _AGARWARE["10c"]=Instance.new("Frame",_AGARWARE["10b"]);
 _AGARWARE["10c"].Name="Frame";
 _AGARWARE["10c"]["Size"]=UDim2.new(1, 0, 1, 0);
@@ -4773,7 +4773,7 @@ function _G.AgarWareDropdown:_open(button)
 	dropdownUI.UIStroke.Transparency = 1
 	dropdownUI.Visible = true
 
-	local fadeTween = TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+	local fadeTween = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
 	TweenService:Create(dropdownUI, fadeTween, {GroupTransparency = 0, Size = UDim2.new(0, 219, 0, targetHeight)}):Play()
 	TweenService:Create(dropdownUI.UIStroke, fadeTween, {Transparency = 0}):Play()
 	TweenService:Create(self._arrow, TWEEN_INFO, {Rotation = 180}):Play()
