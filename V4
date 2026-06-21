@@ -8,7 +8,7 @@ c$$$cc$$$c"$$c.    "$$c$$$cc$$$c $$$$$$c           Y$c$$$c$P c$$$cc$$$c $$$$$$c 
  888   888,`Y8bo,,,o88o888   888,888b "88bo,        "88"888   888   888,888b "88bo,888oo,__ 
  YMM   ""`   `'YMUP"YMMYMM   ""` MMMM   "W"          "M "M"   YMM   ""` MMMM   "W" """"YUMMM                                                      
  
-version: pg1ecw6v1obr4n6qz6ej
+version: 6verwj4ekiu10zby8bnu
 --]]
 
 --  |  LOCAL SCRIPTS: 19  |  INSTANCES: 523  |  MODULES: 0  |  --
@@ -4916,7 +4916,7 @@ do
 local function C_1fb()
 pcall(function()
 local script=_AGARWARE["1fb"];
-local TWEEN_INFO = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+local TWEEN_INFO = TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
 
 _G.AgarWareSlider = {}
 _G.AgarWareSlider.new = function(config)
