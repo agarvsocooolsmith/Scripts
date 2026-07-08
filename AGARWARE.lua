@@ -8,10 +8,10 @@ c$$$cc$$$c"$$c.    "$$c$$$cc$$$c $$$$$$c           Y$c$$$c$P c$$$cc$$$c $$$$$$c 
  888   888,`Y8bo,,,o88o888   888,888b "88bo,        "88"888   888   888,888b "88bo,888oo,__ 
  YMM   ""`   `'YMUP"YMMYMM   ""` MMMM   "W"          "M "M"   YMM   ""` MMMM   "W" """"YUMMM                                                      
  
-version: wzqba6e5d25uegwwpwf5
+version: h9oxymxiu785lrib46uv
 --]]
 
---  |  LOCAL SCRIPTS: 156  |  INSTANCES: 705  |  MODULES: 0  |  --
+--  |  LOCAL SCRIPTS: 157  |  INSTANCES: 705  |  MODULES: 0  |  --
 
 local _AGARWARE={};
 local _r={};
@@ -32,51 +32,42 @@ _AGARWARE["5"]=Instance.new("LocalScript",_AGARWARE["1"]);
 _AGARWARE["5"].Name="GriefDetectorConsole";
 _AGARWARE["6"]=Instance.new("LocalScript",_AGARWARE["1"]);
 _AGARWARE["6"].Name="DropdownMaster";
-_AGARWARE["7"]=Instance.new("Frame",_AGARWARE["1"]);
-_AGARWARE["7"].Name="MainFrame";
-_AGARWARE["7"]["Active"]=true;
-_AGARWARE["7"]["Selectable"]=true;
-_AGARWARE["7"]["ZIndex"]=10;
-_AGARWARE["7"]["Size"]=UDim2.new(0, 450, 0, 300);
-_AGARWARE["7"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["7"]["Position"]=UDim2.new(0.31666, -232, 0.20818, 128);
-_AGARWARE["7"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
-_AGARWARE["8"]=Instance.new("UIPadding",_AGARWARE["7"]);
-_AGARWARE["8"].Name="UIPadding";
-_AGARWARE["8"]["PaddingLeft"]=UDim.new(0, 8);
-_AGARWARE["9"]=Instance.new("ScrollingFrame",_AGARWARE["7"]);
-_AGARWARE["9"].Name="SideBar";
-_AGARWARE["9"]["ScrollingDirection"]=Enum.ScrollingDirection.Y;
-_AGARWARE["9"]["CanvasSize"]=UDim2.new(0, 0, 1, 0);
-_AGARWARE["9"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["9"]["AutomaticCanvasSize"]=Enum.AutomaticSize.Y;
-_AGARWARE["9"]["ScrollingEnabled"]=false;
-_AGARWARE["9"]["Size"]=UDim2.new(0, 60, 0, 266);
-_AGARWARE["9"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["9"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["9"]["ScrollBarThickness"]=0;
-_AGARWARE["9"]["Position"]=UDim2.new(0, 0, 0.08667, 0);
-_AGARWARE["a"]=Instance.new("LocalScript",_AGARWARE["9"]);
-_AGARWARE["a"].Name="PageHandler";
-_AGARWARE["b"]=Instance.new("UIListLayout",_AGARWARE["9"]);
-_AGARWARE["b"].Name="UIListLayout";
-_AGARWARE["b"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["c"]=Instance.new("UIPadding",_AGARWARE["9"]);
-_AGARWARE["c"].Name="UIPadding";
-_AGARWARE["d"]=Instance.new("TextButton",_AGARWARE["9"]);
-_AGARWARE["d"].Name="MainPG";
-_AGARWARE["d"]["LayoutOrder"]=1;
-_AGARWARE["d"]["TextWrapped"]=true;
-_AGARWARE["d"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["d"]["TextSize"]=12;
-_AGARWARE["d"]["Size"]=UDim2.new(0, 60, 0, 25);
-_AGARWARE["d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["d"]["Text"]=[[Main]];
-_AGARWARE["e"]=Instance.new("TextButton",_AGARWARE["9"]);
-_AGARWARE["e"].Name="SettingsPG";
-_AGARWARE["e"]["LayoutOrder"]=2;
+_AGARWARE["7"]=Instance.new("LocalScript",_AGARWARE["1"]);
+_AGARWARE["7"].Name="LocalScript";
+_AGARWARE["8"]=Instance.new("Frame",_AGARWARE["1"]);
+_AGARWARE["8"].Name="MainFrame";
+_AGARWARE["8"]["Active"]=true;
+_AGARWARE["8"]["Selectable"]=true;
+_AGARWARE["8"]["ZIndex"]=10;
+_AGARWARE["8"]["Size"]=UDim2.new(0, 450, 0, 300);
+_AGARWARE["8"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["8"]["Position"]=UDim2.new(0.31666, -232, 0.20818, 128);
+_AGARWARE["8"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
+_AGARWARE["9"]=Instance.new("UIPadding",_AGARWARE["8"]);
+_AGARWARE["9"].Name="UIPadding";
+_AGARWARE["9"]["PaddingLeft"]=UDim.new(0, 8);
+_AGARWARE["a"]=Instance.new("ScrollingFrame",_AGARWARE["8"]);
+_AGARWARE["a"].Name="SideBar";
+_AGARWARE["a"]["ScrollingDirection"]=Enum.ScrollingDirection.Y;
+_AGARWARE["a"]["CanvasSize"]=UDim2.new(0, 0, 1, 0);
+_AGARWARE["a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["a"]["AutomaticCanvasSize"]=Enum.AutomaticSize.Y;
+_AGARWARE["a"]["ScrollingEnabled"]=false;
+_AGARWARE["a"]["Size"]=UDim2.new(0, 60, 0, 266);
+_AGARWARE["a"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["a"]["ScrollBarThickness"]=0;
+_AGARWARE["a"]["Position"]=UDim2.new(0, 0, 0.08667, 0);
+_AGARWARE["b"]=Instance.new("LocalScript",_AGARWARE["a"]);
+_AGARWARE["b"].Name="PageHandler";
+_AGARWARE["c"]=Instance.new("UIListLayout",_AGARWARE["a"]);
+_AGARWARE["c"].Name="UIListLayout";
+_AGARWARE["c"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["d"]=Instance.new("UIPadding",_AGARWARE["a"]);
+_AGARWARE["d"].Name="UIPadding";
+_AGARWARE["e"]=Instance.new("TextButton",_AGARWARE["a"]);
+_AGARWARE["e"].Name="MainPG";
+_AGARWARE["e"]["LayoutOrder"]=1;
 _AGARWARE["e"]["TextWrapped"]=true;
 _AGARWARE["e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
@@ -84,2523 +75,2523 @@ _AGARWARE["e"]["TextSize"]=12;
 _AGARWARE["e"]["Size"]=UDim2.new(0, 60, 0, 25);
 _AGARWARE["e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["e"]["Text"]=[[Settings]];
-_AGARWARE["f"]=Instance.new("TextButton",_AGARWARE["9"]);
-_AGARWARE["f"].Name="VisualPG";
-_AGARWARE["f"]["LayoutOrder"]=4;
+_AGARWARE["e"]["Text"]=[[Main]];
+_AGARWARE["f"]=Instance.new("TextButton",_AGARWARE["a"]);
+_AGARWARE["f"].Name="SettingsPG";
+_AGARWARE["f"]["LayoutOrder"]=2;
+_AGARWARE["f"]["TextWrapped"]=true;
 _AGARWARE["f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["f"]["TextSize"]=12;
 _AGARWARE["f"]["Size"]=UDim2.new(0, 60, 0, 25);
 _AGARWARE["f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["f"]["Text"]=[[Visual]];
-_AGARWARE["10"]=Instance.new("TextButton",_AGARWARE["9"]);
-_AGARWARE["10"].Name="TCOPG";
-_AGARWARE["10"]["LayoutOrder"]=3;
-_AGARWARE["10"]["TextWrapped"]=true;
+_AGARWARE["f"]["Text"]=[[Settings]];
+_AGARWARE["10"]=Instance.new("TextButton",_AGARWARE["a"]);
+_AGARWARE["10"].Name="VisualPG";
+_AGARWARE["10"]["LayoutOrder"]=4;
 _AGARWARE["10"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["10"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["10"]["TextSize"]=12;
 _AGARWARE["10"]["Size"]=UDim2.new(0, 60, 0, 25);
 _AGARWARE["10"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["10"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["10"]["Text"]=[[TCO]];
-_AGARWARE["11"]=Instance.new("LocalScript",_AGARWARE["10"]);
-_AGARWARE["11"].Name="TCOIngame";
-_AGARWARE["12"]=Instance.new("TextButton",_AGARWARE["9"]);
-_AGARWARE["12"].Name="MiscPG";
-_AGARWARE["12"]["LayoutOrder"]=6;
-_AGARWARE["12"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["12"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["12"]["TextSize"]=12;
-_AGARWARE["12"]["Size"]=UDim2.new(0, 60, 0, 25);
-_AGARWARE["12"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["12"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["12"]["Text"]=[[Misc]];
-_AGARWARE["13"]=Instance.new("TextButton",_AGARWARE["9"]);
-_AGARWARE["13"].Name="MenuPG";
-_AGARWARE["13"]["TextWrapped"]=true;
+_AGARWARE["10"]["Text"]=[[Visual]];
+_AGARWARE["11"]=Instance.new("TextButton",_AGARWARE["a"]);
+_AGARWARE["11"].Name="TCOPG";
+_AGARWARE["11"]["LayoutOrder"]=3;
+_AGARWARE["11"]["TextWrapped"]=true;
+_AGARWARE["11"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["11"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["11"]["TextSize"]=12;
+_AGARWARE["11"]["Size"]=UDim2.new(0, 60, 0, 25);
+_AGARWARE["11"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["11"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["11"]["Text"]=[[TCO]];
+_AGARWARE["12"]=Instance.new("LocalScript",_AGARWARE["11"]);
+_AGARWARE["12"].Name="TCOIngame";
+_AGARWARE["13"]=Instance.new("TextButton",_AGARWARE["a"]);
+_AGARWARE["13"].Name="MiscPG";
+_AGARWARE["13"]["LayoutOrder"]=6;
 _AGARWARE["13"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["13"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["13"]["TextSize"]=12;
 _AGARWARE["13"]["Size"]=UDim2.new(0, 60, 0, 25);
 _AGARWARE["13"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["13"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["13"]["Text"]=[[MENU]];
-_AGARWARE["14"]=Instance.new("TextButton",_AGARWARE["9"]);
-_AGARWARE["14"].Name="TrollPG";
-_AGARWARE["14"]["LayoutOrder"]=5;
+_AGARWARE["13"]["Text"]=[[Misc]];
+_AGARWARE["14"]=Instance.new("TextButton",_AGARWARE["a"]);
+_AGARWARE["14"].Name="MenuPG";
+_AGARWARE["14"]["TextWrapped"]=true;
 _AGARWARE["14"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["14"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["14"]["TextSize"]=12;
 _AGARWARE["14"]["Size"]=UDim2.new(0, 60, 0, 25);
 _AGARWARE["14"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["14"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["14"]["Text"]=[[Troll]];
-_AGARWARE["15"]=Instance.new("Frame",_AGARWARE["7"]);
-_AGARWARE["15"].Name="ContentArea";
-_AGARWARE["15"]["Size"]=UDim2.new(0, 365, 0, 266);
-_AGARWARE["15"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["15"]["Position"]=UDim2.new(0.15385, 0, 0.08667, 0);
+_AGARWARE["14"]["Text"]=[[MENU]];
+_AGARWARE["15"]=Instance.new("TextButton",_AGARWARE["a"]);
+_AGARWARE["15"].Name="TrollPG";
+_AGARWARE["15"]["LayoutOrder"]=5;
 _AGARWARE["15"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["16"]=Instance.new("ScrollingFrame",_AGARWARE["15"]);
-_AGARWARE["16"].Name="MainPage";
-_AGARWARE["16"]["BorderSizePixel"]=0;
-_AGARWARE["16"]["CanvasSize"]=UDim2.new(0, 0, 1.5, 0);
-_AGARWARE["16"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["16"]["Active"]=true;
-_AGARWARE["16"]["Size"]=UDim2.new(0, 349, 0, 250);
-_AGARWARE["16"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["16"]["Visible"]=false;
-_AGARWARE["16"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["16"]["ScrollBarThickness"]=0;
-_AGARWARE["16"]["BackgroundTransparency"]=1;
-_AGARWARE["16"]["Position"]=UDim2.new(0.02329, 0, 0.03008, 0);
-_AGARWARE["17"]=Instance.new("Frame",_AGARWARE["16"]);
-_AGARWARE["17"].Name="MainLeftSide";
-_AGARWARE["17"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["15"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["15"]["TextSize"]=12;
+_AGARWARE["15"]["Size"]=UDim2.new(0, 60, 0, 25);
+_AGARWARE["15"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["15"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["15"]["Text"]=[[Troll]];
+_AGARWARE["16"]=Instance.new("Frame",_AGARWARE["8"]);
+_AGARWARE["16"].Name="ContentArea";
+_AGARWARE["16"]["Size"]=UDim2.new(0, 365, 0, 266);
+_AGARWARE["16"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["16"]["Position"]=UDim2.new(0.15385, 0, 0.08667, 0);
+_AGARWARE["16"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["17"]=Instance.new("ScrollingFrame",_AGARWARE["16"]);
+_AGARWARE["17"].Name="MainPage";
 _AGARWARE["17"]["BorderSizePixel"]=0;
+_AGARWARE["17"]["CanvasSize"]=UDim2.new(0, 0, 1.5, 0);
+_AGARWARE["17"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["17"]["Active"]=true;
+_AGARWARE["17"]["Size"]=UDim2.new(0, 349, 0, 250);
+_AGARWARE["17"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["17"]["Visible"]=false;
 _AGARWARE["17"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["17"]["ScrollBarThickness"]=0;
 _AGARWARE["17"]["BackgroundTransparency"]=1;
-_AGARWARE["17"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
-_AGARWARE["17"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["18"]=Instance.new("UIListLayout",_AGARWARE["17"]);
-_AGARWARE["18"].Name="UIListLayout";
-_AGARWARE["18"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["18"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["19"]=Instance.new("Frame",_AGARWARE["17"]);
-_AGARWARE["19"].Name="MovementGroup";
-_AGARWARE["19"]["Size"]=UDim2.new(0, 170, 0, 120);
-_AGARWARE["19"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["19"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["19"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["1a"]=Instance.new("LocalScript",_AGARWARE["19"]);
-_AGARWARE["1a"].Name="MovementScript";
-_AGARWARE["1b"]=Instance.new("UIListLayout",_AGARWARE["19"]);
-_AGARWARE["1b"].Name="UIListLayout";
-_AGARWARE["1b"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["1c"]=Instance.new("Frame",_AGARWARE["19"]);
-_AGARWARE["1c"].Name="MovementAccentColor";
-_AGARWARE["1c"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["1c"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["1c"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["1c"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["1c"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["1d"]=Instance.new("TextLabel",_AGARWARE["19"]);
-_AGARWARE["1d"].Name="MovementTitle";
-_AGARWARE["1d"]["TextWrapped"]=true;
-_AGARWARE["1d"]["BorderSizePixel"]=0;
-_AGARWARE["1d"]["TextScaled"]=true;
-_AGARWARE["1d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1d"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["1d"]["TextSize"]=14;
-_AGARWARE["1d"]["LayoutOrder"]=1;
-_AGARWARE["1d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1d"]["Text"]=[[Movement]];
-_AGARWARE["1d"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["1d"]["BackgroundTransparency"]=0.95;
-_AGARWARE["1d"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["1e"]=Instance.new("TextButton",_AGARWARE["1d"]);
-_AGARWARE["1e"].Name="MovementMinimize";
+_AGARWARE["17"]["Position"]=UDim2.new(0.02329, 0, 0.03008, 0);
+_AGARWARE["18"]=Instance.new("Frame",_AGARWARE["17"]);
+_AGARWARE["18"].Name="MainLeftSide";
+_AGARWARE["18"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["18"]["BorderSizePixel"]=0;
+_AGARWARE["18"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["18"]["BackgroundTransparency"]=1;
+_AGARWARE["18"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
+_AGARWARE["18"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["19"]=Instance.new("UIListLayout",_AGARWARE["18"]);
+_AGARWARE["19"].Name="UIListLayout";
+_AGARWARE["19"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["19"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["1a"]=Instance.new("Frame",_AGARWARE["18"]);
+_AGARWARE["1a"].Name="MovementGroup";
+_AGARWARE["1a"]["Size"]=UDim2.new(0, 170, 0, 120);
+_AGARWARE["1a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1a"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["1a"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["1b"]=Instance.new("LocalScript",_AGARWARE["1a"]);
+_AGARWARE["1b"].Name="MovementScript";
+_AGARWARE["1c"]=Instance.new("UIListLayout",_AGARWARE["1a"]);
+_AGARWARE["1c"].Name="UIListLayout";
+_AGARWARE["1c"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["1d"]=Instance.new("Frame",_AGARWARE["1a"]);
+_AGARWARE["1d"].Name="MovementAccentColor";
+_AGARWARE["1d"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["1d"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["1d"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["1d"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["1d"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["1e"]=Instance.new("TextLabel",_AGARWARE["1a"]);
+_AGARWARE["1e"].Name="MovementTitle";
+_AGARWARE["1e"]["TextWrapped"]=true;
 _AGARWARE["1e"]["BorderSizePixel"]=0;
+_AGARWARE["1e"]["TextScaled"]=true;
 _AGARWARE["1e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["1e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1e"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["1e"]["TextSize"]=14;
-_AGARWARE["1e"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["1e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1e"]["BackgroundTransparency"]=1;
+_AGARWARE["1e"]["LayoutOrder"]=1;
 _AGARWARE["1e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1e"]["Text"]=[[-]];
-_AGARWARE["1e"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["1f"]=Instance.new("Frame",_AGARWARE["19"]);
-_AGARWARE["1f"].Name="WalkspeedRow";
-_AGARWARE["1f"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1e"]["Text"]=[[Movement]];
+_AGARWARE["1e"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["1e"]["BackgroundTransparency"]=0.95;
+_AGARWARE["1e"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["1f"]=Instance.new("TextButton",_AGARWARE["1e"]);
+_AGARWARE["1f"].Name="MovementMinimize";
 _AGARWARE["1f"]["BorderSizePixel"]=0;
-_AGARWARE["1f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1f"]["LayoutOrder"]=3;
-_AGARWARE["1f"]["BackgroundTransparency"]=1;
-_AGARWARE["1f"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["1f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["20"]=Instance.new("TextButton",_AGARWARE["1f"]);
-_AGARWARE["20"].Name="WalkspeedTickBox";
-_AGARWARE["20"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["20"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["20"]["TextSize"]=14;
-_AGARWARE["20"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["20"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["20"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["20"]["Text"]=[[]];
-_AGARWARE["20"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["21"]=Instance.new("TextLabel",_AGARWARE["1f"]);
-_AGARWARE["21"].Name="WalkspeedText";
-_AGARWARE["21"]["BorderSizePixel"]=0;
-_AGARWARE["21"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["21"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["21"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["21"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1f"]["TextSize"]=14;
+_AGARWARE["1f"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["1f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1f"]["BackgroundTransparency"]=1;
+_AGARWARE["1f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1f"]["Text"]=[[-]];
+_AGARWARE["1f"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["20"]=Instance.new("Frame",_AGARWARE["1a"]);
+_AGARWARE["20"].Name="WalkspeedRow";
+_AGARWARE["20"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["20"]["BorderSizePixel"]=0;
+_AGARWARE["20"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["20"]["LayoutOrder"]=3;
+_AGARWARE["20"]["BackgroundTransparency"]=1;
+_AGARWARE["20"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["20"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["21"]=Instance.new("TextButton",_AGARWARE["20"]);
+_AGARWARE["21"].Name="WalkspeedTickBox";
+_AGARWARE["21"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["21"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["21"]["TextSize"]=14;
-_AGARWARE["21"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["21"]["Text"]=[[Walk Speed]];
-_AGARWARE["21"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["21"]["BackgroundTransparency"]=1;
-_AGARWARE["21"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["22"]=Instance.new("TextBox",_AGARWARE["1f"]);
-_AGARWARE["22"].Name="WalkspeedSpeedChanger";
-_AGARWARE["22"]["TextWrapped"]=true;
-_AGARWARE["22"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["22"]["TextScaled"]=true;
-_AGARWARE["22"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["21"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["21"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["21"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["21"]["Text"]=[[]];
+_AGARWARE["21"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["22"]=Instance.new("TextLabel",_AGARWARE["20"]);
+_AGARWARE["22"].Name="WalkspeedText";
+_AGARWARE["22"]["BorderSizePixel"]=0;
+_AGARWARE["22"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["22"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["22"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["22"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["22"]["TextSize"]=14;
-_AGARWARE["22"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["22"]["PlaceholderText"]=[[(16)]];
-_AGARWARE["22"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["22"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["22"]["Text"]=[[]];
-_AGARWARE["22"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["23"]=Instance.new("Frame",_AGARWARE["19"]);
-_AGARWARE["23"].Name="JumppowerRow";
-_AGARWARE["23"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["23"]["BorderSizePixel"]=0;
-_AGARWARE["23"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["23"]["LayoutOrder"]=3;
-_AGARWARE["23"]["BackgroundTransparency"]=1;
-_AGARWARE["23"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["23"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["24"]=Instance.new("TextButton",_AGARWARE["23"]);
-_AGARWARE["24"].Name="JumppowerTickBox";
-_AGARWARE["24"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["24"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["24"]["TextSize"]=14;
-_AGARWARE["24"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["24"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["24"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["24"]["Text"]=[[]];
-_AGARWARE["24"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["25"]=Instance.new("TextLabel",_AGARWARE["23"]);
-_AGARWARE["25"].Name="JumppowerText";
-_AGARWARE["25"]["BorderSizePixel"]=0;
-_AGARWARE["25"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["25"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["25"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["25"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["22"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["22"]["Text"]=[[Walk Speed]];
+_AGARWARE["22"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["22"]["BackgroundTransparency"]=1;
+_AGARWARE["22"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["23"]=Instance.new("TextBox",_AGARWARE["20"]);
+_AGARWARE["23"].Name="WalkspeedSpeedChanger";
+_AGARWARE["23"]["TextWrapped"]=true;
+_AGARWARE["23"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["23"]["TextScaled"]=true;
+_AGARWARE["23"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["23"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["23"]["TextSize"]=14;
+_AGARWARE["23"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["23"]["PlaceholderText"]=[[(16)]];
+_AGARWARE["23"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["23"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["23"]["Text"]=[[]];
+_AGARWARE["23"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["24"]=Instance.new("Frame",_AGARWARE["1a"]);
+_AGARWARE["24"].Name="JumppowerRow";
+_AGARWARE["24"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["24"]["BorderSizePixel"]=0;
+_AGARWARE["24"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["24"]["LayoutOrder"]=3;
+_AGARWARE["24"]["BackgroundTransparency"]=1;
+_AGARWARE["24"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["24"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["25"]=Instance.new("TextButton",_AGARWARE["24"]);
+_AGARWARE["25"].Name="JumppowerTickBox";
+_AGARWARE["25"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["25"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["25"]["TextSize"]=14;
-_AGARWARE["25"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["25"]["Text"]=[[Jump Power]];
-_AGARWARE["25"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["25"]["BackgroundTransparency"]=1;
-_AGARWARE["25"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["26"]=Instance.new("TextBox",_AGARWARE["23"]);
-_AGARWARE["26"].Name="JumppowerJumpChanger";
-_AGARWARE["26"]["TextWrapped"]=true;
-_AGARWARE["26"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["26"]["TextScaled"]=true;
-_AGARWARE["26"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["25"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["25"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["25"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["25"]["Text"]=[[]];
+_AGARWARE["25"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["26"]=Instance.new("TextLabel",_AGARWARE["24"]);
+_AGARWARE["26"].Name="JumppowerText";
+_AGARWARE["26"]["BorderSizePixel"]=0;
+_AGARWARE["26"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["26"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["26"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["26"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["26"]["TextSize"]=14;
-_AGARWARE["26"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["26"]["PlaceholderText"]=[[(50)]];
-_AGARWARE["26"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["26"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["26"]["Text"]=[[]];
-_AGARWARE["26"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["27"]=Instance.new("Frame",_AGARWARE["19"]);
-_AGARWARE["27"].Name="FlyRow";
-_AGARWARE["27"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["27"]["BorderSizePixel"]=0;
-_AGARWARE["27"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["27"]["LayoutOrder"]=3;
-_AGARWARE["27"]["BackgroundTransparency"]=1;
-_AGARWARE["27"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["27"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["28"]=Instance.new("TextButton",_AGARWARE["27"]);
-_AGARWARE["28"].Name="FlyTickBox";
-_AGARWARE["28"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["28"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["28"]["TextSize"]=14;
-_AGARWARE["28"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["28"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["28"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["28"]["Text"]=[[]];
-_AGARWARE["28"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["29"]=Instance.new("TextLabel",_AGARWARE["27"]);
-_AGARWARE["29"].Name="FlyText";
-_AGARWARE["29"]["BorderSizePixel"]=0;
-_AGARWARE["29"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["29"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["29"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["29"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["26"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["26"]["Text"]=[[Jump Power]];
+_AGARWARE["26"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["26"]["BackgroundTransparency"]=1;
+_AGARWARE["26"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["27"]=Instance.new("TextBox",_AGARWARE["24"]);
+_AGARWARE["27"].Name="JumppowerJumpChanger";
+_AGARWARE["27"]["TextWrapped"]=true;
+_AGARWARE["27"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["27"]["TextScaled"]=true;
+_AGARWARE["27"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["27"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["27"]["TextSize"]=14;
+_AGARWARE["27"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["27"]["PlaceholderText"]=[[(50)]];
+_AGARWARE["27"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["27"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["27"]["Text"]=[[]];
+_AGARWARE["27"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["28"]=Instance.new("Frame",_AGARWARE["1a"]);
+_AGARWARE["28"].Name="FlyRow";
+_AGARWARE["28"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["28"]["BorderSizePixel"]=0;
+_AGARWARE["28"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["28"]["LayoutOrder"]=3;
+_AGARWARE["28"]["BackgroundTransparency"]=1;
+_AGARWARE["28"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["28"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["29"]=Instance.new("TextButton",_AGARWARE["28"]);
+_AGARWARE["29"].Name="FlyTickBox";
+_AGARWARE["29"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["29"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["29"]["TextSize"]=14;
-_AGARWARE["29"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["29"]["Text"]=[[Fly]];
-_AGARWARE["29"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["29"]["BackgroundTransparency"]=1;
-_AGARWARE["29"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["2a"]=Instance.new("TextBox",_AGARWARE["27"]);
-_AGARWARE["2a"].Name="FlySpeedChanger";
-_AGARWARE["2a"]["TextWrapped"]=true;
-_AGARWARE["2a"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["2a"]["TextScaled"]=true;
-_AGARWARE["2a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["29"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["29"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["29"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["29"]["Text"]=[[]];
+_AGARWARE["29"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["2a"]=Instance.new("TextLabel",_AGARWARE["28"]);
+_AGARWARE["2a"].Name="FlyText";
+_AGARWARE["2a"]["BorderSizePixel"]=0;
+_AGARWARE["2a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["2a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2a"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2a"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["2a"]["TextSize"]=14;
-_AGARWARE["2a"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["2a"]["PlaceholderText"]=[[(50)]];
-_AGARWARE["2a"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["2a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2a"]["Text"]=[[]];
-_AGARWARE["2a"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["2b"]=Instance.new("Frame",_AGARWARE["19"]);
-_AGARWARE["2b"].Name="InfJumpRow";
-_AGARWARE["2b"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["2b"]["BorderSizePixel"]=0;
-_AGARWARE["2b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2b"]["LayoutOrder"]=3;
-_AGARWARE["2b"]["BackgroundTransparency"]=1;
-_AGARWARE["2b"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["2b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2c"]=Instance.new("TextButton",_AGARWARE["2b"]);
-_AGARWARE["2c"].Name="InfJumpTickBox";
-_AGARWARE["2c"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2c"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2c"]["TextSize"]=14;
-_AGARWARE["2c"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["2c"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2c"]["Text"]=[[]];
-_AGARWARE["2c"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["2d"]=Instance.new("TextLabel",_AGARWARE["2b"]);
-_AGARWARE["2d"].Name="InfJumpText";
-_AGARWARE["2d"]["BorderSizePixel"]=0;
-_AGARWARE["2d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2d"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2d"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2a"]["Text"]=[[Fly]];
+_AGARWARE["2a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2a"]["BackgroundTransparency"]=1;
+_AGARWARE["2a"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["2b"]=Instance.new("TextBox",_AGARWARE["28"]);
+_AGARWARE["2b"].Name="FlySpeedChanger";
+_AGARWARE["2b"]["TextWrapped"]=true;
+_AGARWARE["2b"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["2b"]["TextScaled"]=true;
+_AGARWARE["2b"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2b"]["TextSize"]=14;
+_AGARWARE["2b"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["2b"]["PlaceholderText"]=[[(50)]];
+_AGARWARE["2b"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["2b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2b"]["Text"]=[[]];
+_AGARWARE["2b"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["2c"]=Instance.new("Frame",_AGARWARE["1a"]);
+_AGARWARE["2c"].Name="InfJumpRow";
+_AGARWARE["2c"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2c"]["BorderSizePixel"]=0;
+_AGARWARE["2c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2c"]["LayoutOrder"]=3;
+_AGARWARE["2c"]["BackgroundTransparency"]=1;
+_AGARWARE["2c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2d"]=Instance.new("TextButton",_AGARWARE["2c"]);
+_AGARWARE["2d"].Name="InfJumpTickBox";
+_AGARWARE["2d"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2d"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["2d"]["TextSize"]=14;
-_AGARWARE["2d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2d"]["Text"]=[[Infinite Jump]];
-_AGARWARE["2d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2d"]["BackgroundTransparency"]=1;
-_AGARWARE["2d"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["2e"]=Instance.new("Frame",_AGARWARE["19"]);
-_AGARWARE["2e"].Name="ShiftLockRow";
-_AGARWARE["2e"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2d"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["2d"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2d"]["Text"]=[[]];
+_AGARWARE["2d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["2e"]=Instance.new("TextLabel",_AGARWARE["2c"]);
+_AGARWARE["2e"].Name="InfJumpText";
 _AGARWARE["2e"]["BorderSizePixel"]=0;
-_AGARWARE["2e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2e"]["LayoutOrder"]=3;
-_AGARWARE["2e"]["BackgroundTransparency"]=1;
-_AGARWARE["2e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["2e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2f"]=Instance.new("LocalScript",_AGARWARE["2e"]);
-_AGARWARE["2f"].Name="ShiftLockScript";
-_AGARWARE["30"]=Instance.new("TextButton",_AGARWARE["2e"]);
-_AGARWARE["30"].Name="ShiftLockTickBox";
-_AGARWARE["30"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["30"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["30"]["TextSize"]=14;
-_AGARWARE["30"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["30"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["30"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["30"]["Text"]=[[]];
-_AGARWARE["30"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["31"]=Instance.new("TextLabel",_AGARWARE["2e"]);
-_AGARWARE["31"].Name="ShiftLockText";
-_AGARWARE["31"]["BorderSizePixel"]=0;
-_AGARWARE["31"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["31"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["31"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["31"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2e"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2e"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2e"]["TextSize"]=14;
+_AGARWARE["2e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2e"]["Text"]=[[Infinite Jump]];
+_AGARWARE["2e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2e"]["BackgroundTransparency"]=1;
+_AGARWARE["2e"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["2f"]=Instance.new("Frame",_AGARWARE["1a"]);
+_AGARWARE["2f"].Name="ShiftLockRow";
+_AGARWARE["2f"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2f"]["BorderSizePixel"]=0;
+_AGARWARE["2f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2f"]["LayoutOrder"]=3;
+_AGARWARE["2f"]["BackgroundTransparency"]=1;
+_AGARWARE["2f"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["30"]=Instance.new("LocalScript",_AGARWARE["2f"]);
+_AGARWARE["30"].Name="ShiftLockScript";
+_AGARWARE["31"]=Instance.new("TextButton",_AGARWARE["2f"]);
+_AGARWARE["31"].Name="ShiftLockTickBox";
+_AGARWARE["31"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["31"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["31"]["TextSize"]=14;
-_AGARWARE["31"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["31"]["Text"]=[[Mobile Shiftlock]];
-_AGARWARE["31"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["31"]["BackgroundTransparency"]=1;
-_AGARWARE["31"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["32"]=Instance.new("Frame",_AGARWARE["17"]);
-_AGARWARE["32"].Name="MiscGroup";
-_AGARWARE["32"]["Size"]=UDim2.new(0, 170, 0, 101);
-_AGARWARE["32"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["32"]["LayoutOrder"]=2;
-_AGARWARE["32"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["32"]["Position"]=UDim2.new(0, 0, 0.49722, 0);
-_AGARWARE["32"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["33"]=Instance.new("LocalScript",_AGARWARE["32"]);
-_AGARWARE["33"].Name="MiscScript";
-_AGARWARE["34"]=Instance.new("UIListLayout",_AGARWARE["32"]);
-_AGARWARE["34"].Name="UIListLayout";
-_AGARWARE["34"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["35"]=Instance.new("Frame",_AGARWARE["32"]);
-_AGARWARE["35"].Name="MiscAccentColor";
-_AGARWARE["35"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["35"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["35"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["35"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["35"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["36"]=Instance.new("TextLabel",_AGARWARE["32"]);
-_AGARWARE["36"].Name="MiscTitle";
-_AGARWARE["36"]["TextWrapped"]=true;
-_AGARWARE["36"]["BorderSizePixel"]=0;
-_AGARWARE["36"]["TextScaled"]=true;
-_AGARWARE["36"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["36"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["36"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["36"]["TextSize"]=14;
-_AGARWARE["36"]["LayoutOrder"]=1;
-_AGARWARE["36"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["36"]["Text"]=[[Misc]];
-_AGARWARE["36"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["36"]["BackgroundTransparency"]=0.95;
-_AGARWARE["36"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["37"]=Instance.new("TextButton",_AGARWARE["36"]);
-_AGARWARE["37"].Name="MiscMinimize";
+_AGARWARE["31"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["31"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["31"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["31"]["Text"]=[[]];
+_AGARWARE["31"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["32"]=Instance.new("TextLabel",_AGARWARE["2f"]);
+_AGARWARE["32"].Name="ShiftLockText";
+_AGARWARE["32"]["BorderSizePixel"]=0;
+_AGARWARE["32"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["32"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["32"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["32"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["32"]["TextSize"]=14;
+_AGARWARE["32"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["32"]["Text"]=[[Mobile Shiftlock]];
+_AGARWARE["32"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["32"]["BackgroundTransparency"]=1;
+_AGARWARE["32"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["33"]=Instance.new("Frame",_AGARWARE["18"]);
+_AGARWARE["33"].Name="MiscGroup";
+_AGARWARE["33"]["Size"]=UDim2.new(0, 170, 0, 101);
+_AGARWARE["33"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["33"]["LayoutOrder"]=2;
+_AGARWARE["33"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["33"]["Position"]=UDim2.new(0, 0, 0.49722, 0);
+_AGARWARE["33"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["34"]=Instance.new("LocalScript",_AGARWARE["33"]);
+_AGARWARE["34"].Name="MiscScript";
+_AGARWARE["35"]=Instance.new("UIListLayout",_AGARWARE["33"]);
+_AGARWARE["35"].Name="UIListLayout";
+_AGARWARE["35"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["36"]=Instance.new("Frame",_AGARWARE["33"]);
+_AGARWARE["36"].Name="MiscAccentColor";
+_AGARWARE["36"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["36"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["36"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["36"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["36"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["37"]=Instance.new("TextLabel",_AGARWARE["33"]);
+_AGARWARE["37"].Name="MiscTitle";
+_AGARWARE["37"]["TextWrapped"]=true;
 _AGARWARE["37"]["BorderSizePixel"]=0;
+_AGARWARE["37"]["TextScaled"]=true;
 _AGARWARE["37"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["37"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["37"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["37"]["TextSize"]=14;
-_AGARWARE["37"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["37"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["37"]["BackgroundTransparency"]=1;
+_AGARWARE["37"]["LayoutOrder"]=1;
 _AGARWARE["37"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["37"]["Text"]=[[-]];
-_AGARWARE["37"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["38"]=Instance.new("Frame",_AGARWARE["32"]);
-_AGARWARE["38"].Name="RejoinRow";
-_AGARWARE["38"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["37"]["Text"]=[[Misc]];
+_AGARWARE["37"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["37"]["BackgroundTransparency"]=0.95;
+_AGARWARE["37"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["38"]=Instance.new("TextButton",_AGARWARE["37"]);
+_AGARWARE["38"].Name="MiscMinimize";
 _AGARWARE["38"]["BorderSizePixel"]=0;
-_AGARWARE["38"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["38"]["LayoutOrder"]=10;
-_AGARWARE["38"]["BackgroundTransparency"]=1;
-_AGARWARE["38"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["38"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["39"]=Instance.new("LocalScript",_AGARWARE["38"]);
-_AGARWARE["39"].Name="RejoinScript";
-_AGARWARE["3a"]=Instance.new("TextButton",_AGARWARE["38"]);
-_AGARWARE["3a"].Name="RejoinButton";
-_AGARWARE["3a"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["3a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["3a"]["TextSize"]=14;
-_AGARWARE["3a"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["3a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["3a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["3a"]["Text"]=[[Rejoin Server]];
-_AGARWARE["3a"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["3b"]=Instance.new("Frame",_AGARWARE["32"]);
-_AGARWARE["3b"].Name="GravityRow";
-_AGARWARE["3b"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["3b"]["BorderSizePixel"]=0;
-_AGARWARE["3b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["3b"]["LayoutOrder"]=2;
-_AGARWARE["3b"]["BackgroundTransparency"]=1;
-_AGARWARE["3b"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["3b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["3c"]=Instance.new("TextButton",_AGARWARE["3b"]);
-_AGARWARE["3c"].Name="GravityTickBox";
-_AGARWARE["3c"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["3c"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["3c"]["TextSize"]=14;
-_AGARWARE["3c"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["3c"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["3c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["3c"]["Text"]=[[]];
-_AGARWARE["3c"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["3d"]=Instance.new("TextLabel",_AGARWARE["3b"]);
-_AGARWARE["3d"].Name="GravityText";
-_AGARWARE["3d"]["BorderSizePixel"]=0;
-_AGARWARE["3d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["3d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["3d"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["3d"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["38"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["38"]["TextSize"]=14;
+_AGARWARE["38"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["38"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["38"]["BackgroundTransparency"]=1;
+_AGARWARE["38"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["38"]["Text"]=[[-]];
+_AGARWARE["38"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["39"]=Instance.new("Frame",_AGARWARE["33"]);
+_AGARWARE["39"].Name="RejoinRow";
+_AGARWARE["39"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["39"]["BorderSizePixel"]=0;
+_AGARWARE["39"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["39"]["LayoutOrder"]=10;
+_AGARWARE["39"]["BackgroundTransparency"]=1;
+_AGARWARE["39"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["39"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["3a"]=Instance.new("LocalScript",_AGARWARE["39"]);
+_AGARWARE["3a"].Name="RejoinScript";
+_AGARWARE["3b"]=Instance.new("TextButton",_AGARWARE["39"]);
+_AGARWARE["3b"].Name="RejoinButton";
+_AGARWARE["3b"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["3b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["3b"]["TextSize"]=14;
+_AGARWARE["3b"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["3b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["3b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["3b"]["Text"]=[[Rejoin Server]];
+_AGARWARE["3b"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["3c"]=Instance.new("Frame",_AGARWARE["33"]);
+_AGARWARE["3c"].Name="GravityRow";
+_AGARWARE["3c"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["3c"]["BorderSizePixel"]=0;
+_AGARWARE["3c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["3c"]["LayoutOrder"]=2;
+_AGARWARE["3c"]["BackgroundTransparency"]=1;
+_AGARWARE["3c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["3c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["3d"]=Instance.new("TextButton",_AGARWARE["3c"]);
+_AGARWARE["3d"].Name="GravityTickBox";
+_AGARWARE["3d"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["3d"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["3d"]["TextSize"]=14;
-_AGARWARE["3d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["3d"]["Text"]=[[Set Gravity]];
-_AGARWARE["3d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["3d"]["BackgroundTransparency"]=1;
-_AGARWARE["3d"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["3e"]=Instance.new("TextBox",_AGARWARE["3b"]);
-_AGARWARE["3e"].Name="GravityChanger";
-_AGARWARE["3e"]["TextWrapped"]=true;
-_AGARWARE["3e"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["3e"]["TextScaled"]=true;
-_AGARWARE["3e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["3d"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["3d"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["3d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["3d"]["Text"]=[[]];
+_AGARWARE["3d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["3e"]=Instance.new("TextLabel",_AGARWARE["3c"]);
+_AGARWARE["3e"].Name="GravityText";
+_AGARWARE["3e"]["BorderSizePixel"]=0;
+_AGARWARE["3e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["3e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["3e"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["3e"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["3e"]["TextSize"]=14;
-_AGARWARE["3e"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["3e"]["PlaceholderText"]=[[(196.2)]];
-_AGARWARE["3e"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["3e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["3e"]["Text"]=[[]];
-_AGARWARE["3e"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["3f"]=Instance.new("Frame",_AGARWARE["32"]);
-_AGARWARE["3f"].Name="BoostFPSRow";
-_AGARWARE["3f"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["3f"]["BorderSizePixel"]=0;
-_AGARWARE["3f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["3f"]["LayoutOrder"]=2;
-_AGARWARE["3f"]["BackgroundTransparency"]=1;
-_AGARWARE["3f"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["3f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["40"]=Instance.new("TextButton",_AGARWARE["3f"]);
-_AGARWARE["40"].Name="BoostFPSTickBox";
-_AGARWARE["40"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["40"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["40"]["TextSize"]=14;
-_AGARWARE["40"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["40"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["40"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["40"]["Text"]=[[]];
-_AGARWARE["40"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["41"]=Instance.new("TextLabel",_AGARWARE["3f"]);
-_AGARWARE["41"].Name="BoostFPSText";
-_AGARWARE["41"]["BorderSizePixel"]=0;
-_AGARWARE["41"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["41"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["41"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["41"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["3e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["3e"]["Text"]=[[Set Gravity]];
+_AGARWARE["3e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["3e"]["BackgroundTransparency"]=1;
+_AGARWARE["3e"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["3f"]=Instance.new("TextBox",_AGARWARE["3c"]);
+_AGARWARE["3f"].Name="GravityChanger";
+_AGARWARE["3f"]["TextWrapped"]=true;
+_AGARWARE["3f"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["3f"]["TextScaled"]=true;
+_AGARWARE["3f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["3f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["3f"]["TextSize"]=14;
+_AGARWARE["3f"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["3f"]["PlaceholderText"]=[[(196.2)]];
+_AGARWARE["3f"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["3f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["3f"]["Text"]=[[]];
+_AGARWARE["3f"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["40"]=Instance.new("Frame",_AGARWARE["33"]);
+_AGARWARE["40"].Name="BoostFPSRow";
+_AGARWARE["40"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["40"]["BorderSizePixel"]=0;
+_AGARWARE["40"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["40"]["LayoutOrder"]=2;
+_AGARWARE["40"]["BackgroundTransparency"]=1;
+_AGARWARE["40"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["40"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["41"]=Instance.new("TextButton",_AGARWARE["40"]);
+_AGARWARE["41"].Name="BoostFPSTickBox";
+_AGARWARE["41"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["41"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["41"]["TextSize"]=14;
-_AGARWARE["41"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["41"]["Text"]=[[Boost FPS]];
-_AGARWARE["41"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["41"]["BackgroundTransparency"]=1;
-_AGARWARE["41"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["42"]=Instance.new("Frame",_AGARWARE["32"]);
-_AGARWARE["42"].Name="RespawnDeathRow";
-_AGARWARE["42"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["41"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["41"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["41"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["41"]["Text"]=[[]];
+_AGARWARE["41"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["42"]=Instance.new("TextLabel",_AGARWARE["40"]);
+_AGARWARE["42"].Name="BoostFPSText";
 _AGARWARE["42"]["BorderSizePixel"]=0;
-_AGARWARE["42"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["42"]["LayoutOrder"]=2;
-_AGARWARE["42"]["BackgroundTransparency"]=1;
-_AGARWARE["42"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["42"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["43"]=Instance.new("TextButton",_AGARWARE["42"]);
-_AGARWARE["43"].Name="RespawnDeathTickBox";
-_AGARWARE["43"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["43"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["43"]["TextSize"]=14;
-_AGARWARE["43"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["43"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["43"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["43"]["Text"]=[[]];
-_AGARWARE["43"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["44"]=Instance.new("TextLabel",_AGARWARE["42"]);
-_AGARWARE["44"].Name="RespawnDeathText";
-_AGARWARE["44"]["BorderSizePixel"]=0;
-_AGARWARE["44"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["44"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["44"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["44"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["42"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["42"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["42"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["42"]["TextSize"]=14;
+_AGARWARE["42"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["42"]["Text"]=[[Boost FPS]];
+_AGARWARE["42"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["42"]["BackgroundTransparency"]=1;
+_AGARWARE["42"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["43"]=Instance.new("Frame",_AGARWARE["33"]);
+_AGARWARE["43"].Name="RespawnDeathRow";
+_AGARWARE["43"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["43"]["BorderSizePixel"]=0;
+_AGARWARE["43"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["43"]["LayoutOrder"]=2;
+_AGARWARE["43"]["BackgroundTransparency"]=1;
+_AGARWARE["43"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["43"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["44"]=Instance.new("TextButton",_AGARWARE["43"]);
+_AGARWARE["44"].Name="RespawnDeathTickBox";
+_AGARWARE["44"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["44"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["44"]["TextSize"]=14;
-_AGARWARE["44"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["44"]["Text"]=[[Respawn at Death]];
-_AGARWARE["44"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["44"]["BackgroundTransparency"]=1;
-_AGARWARE["44"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["45"]=Instance.new("Frame",_AGARWARE["16"]);
-_AGARWARE["45"].Name="MainRightSide";
-_AGARWARE["45"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["44"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["44"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["44"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["44"]["Text"]=[[]];
+_AGARWARE["44"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["45"]=Instance.new("TextLabel",_AGARWARE["43"]);
+_AGARWARE["45"].Name="RespawnDeathText";
 _AGARWARE["45"]["BorderSizePixel"]=0;
+_AGARWARE["45"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["45"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["45"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["45"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["45"]["TextSize"]=14;
 _AGARWARE["45"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["45"]["Text"]=[[Respawn at Death]];
+_AGARWARE["45"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["45"]["BackgroundTransparency"]=1;
-_AGARWARE["45"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
-_AGARWARE["45"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["46"]=Instance.new("UIListLayout",_AGARWARE["45"]);
-_AGARWARE["46"].Name="UIListLayout";
-_AGARWARE["46"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["46"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["47"]=Instance.new("Frame",_AGARWARE["45"]);
-_AGARWARE["47"].Name="AntiGroup";
-_AGARWARE["47"]["Size"]=UDim2.new(0, 170, 0, 147);
-_AGARWARE["47"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["47"]["LayoutOrder"]=1;
-_AGARWARE["47"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["47"]["Position"]=UDim2.new(0.01176, 0, 0.40278, 0);
-_AGARWARE["47"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["48"]=Instance.new("LocalScript",_AGARWARE["47"]);
-_AGARWARE["48"].Name="AntiScript";
-_AGARWARE["49"]=Instance.new("UIListLayout",_AGARWARE["47"]);
-_AGARWARE["49"].Name="UIListLayout";
-_AGARWARE["49"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["4a"]=Instance.new("Frame",_AGARWARE["47"]);
-_AGARWARE["4a"].Name="AntiAccentColor";
-_AGARWARE["4a"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["4a"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["4a"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["4a"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["4a"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["4b"]=Instance.new("TextLabel",_AGARWARE["47"]);
-_AGARWARE["4b"].Name="AntiTitle";
-_AGARWARE["4b"]["TextWrapped"]=true;
-_AGARWARE["4b"]["BorderSizePixel"]=0;
-_AGARWARE["4b"]["TextScaled"]=true;
-_AGARWARE["4b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["4b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["4b"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["4b"]["TextSize"]=14;
-_AGARWARE["4b"]["LayoutOrder"]=1;
-_AGARWARE["4b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["4b"]["Text"]=[[Anti]];
-_AGARWARE["4b"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["4b"]["BackgroundTransparency"]=0.95;
-_AGARWARE["4b"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["4c"]=Instance.new("TextButton",_AGARWARE["4b"]);
-_AGARWARE["4c"].Name="AntiMinimize";
+_AGARWARE["45"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["46"]=Instance.new("Frame",_AGARWARE["17"]);
+_AGARWARE["46"].Name="MainRightSide";
+_AGARWARE["46"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["46"]["BorderSizePixel"]=0;
+_AGARWARE["46"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["46"]["BackgroundTransparency"]=1;
+_AGARWARE["46"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
+_AGARWARE["46"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["47"]=Instance.new("UIListLayout",_AGARWARE["46"]);
+_AGARWARE["47"].Name="UIListLayout";
+_AGARWARE["47"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["47"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["48"]=Instance.new("Frame",_AGARWARE["46"]);
+_AGARWARE["48"].Name="AntiGroup";
+_AGARWARE["48"]["Size"]=UDim2.new(0, 170, 0, 147);
+_AGARWARE["48"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["48"]["LayoutOrder"]=1;
+_AGARWARE["48"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["48"]["Position"]=UDim2.new(0.01176, 0, 0.40278, 0);
+_AGARWARE["48"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["49"]=Instance.new("LocalScript",_AGARWARE["48"]);
+_AGARWARE["49"].Name="AntiScript";
+_AGARWARE["4a"]=Instance.new("UIListLayout",_AGARWARE["48"]);
+_AGARWARE["4a"].Name="UIListLayout";
+_AGARWARE["4a"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["4b"]=Instance.new("Frame",_AGARWARE["48"]);
+_AGARWARE["4b"].Name="AntiAccentColor";
+_AGARWARE["4b"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["4b"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["4b"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["4b"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["4b"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["4c"]=Instance.new("TextLabel",_AGARWARE["48"]);
+_AGARWARE["4c"].Name="AntiTitle";
+_AGARWARE["4c"]["TextWrapped"]=true;
 _AGARWARE["4c"]["BorderSizePixel"]=0;
+_AGARWARE["4c"]["TextScaled"]=true;
 _AGARWARE["4c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["4c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["4c"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["4c"]["TextSize"]=14;
-_AGARWARE["4c"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["4c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["4c"]["BackgroundTransparency"]=1;
+_AGARWARE["4c"]["LayoutOrder"]=1;
 _AGARWARE["4c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["4c"]["Text"]=[[-]];
-_AGARWARE["4c"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["4d"]=Instance.new("Frame",_AGARWARE["47"]);
-_AGARWARE["4d"].Name="AntiFlingRow";
-_AGARWARE["4d"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["4c"]["Text"]=[[Anti]];
+_AGARWARE["4c"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["4c"]["BackgroundTransparency"]=0.95;
+_AGARWARE["4c"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["4d"]=Instance.new("TextButton",_AGARWARE["4c"]);
+_AGARWARE["4d"].Name="AntiMinimize";
 _AGARWARE["4d"]["BorderSizePixel"]=0;
-_AGARWARE["4d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["4d"]["LayoutOrder"]=3;
-_AGARWARE["4d"]["BackgroundTransparency"]=1;
-_AGARWARE["4d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["4d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["4e"]=Instance.new("TextButton",_AGARWARE["4d"]);
-_AGARWARE["4e"].Name="AntiFlingTickBox";
-_AGARWARE["4e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["4e"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["4e"]["TextSize"]=14;
-_AGARWARE["4e"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["4e"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["4e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["4e"]["Text"]=[[]];
-_AGARWARE["4e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["4f"]=Instance.new("TextLabel",_AGARWARE["4d"]);
-_AGARWARE["4f"].Name="AntiFlingText";
-_AGARWARE["4f"]["BorderSizePixel"]=0;
-_AGARWARE["4f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["4f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["4f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["4f"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["4d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["4d"]["TextSize"]=14;
+_AGARWARE["4d"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["4d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["4d"]["BackgroundTransparency"]=1;
+_AGARWARE["4d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["4d"]["Text"]=[[-]];
+_AGARWARE["4d"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["4e"]=Instance.new("Frame",_AGARWARE["48"]);
+_AGARWARE["4e"].Name="AntiFlingRow";
+_AGARWARE["4e"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["4e"]["BorderSizePixel"]=0;
+_AGARWARE["4e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["4e"]["LayoutOrder"]=3;
+_AGARWARE["4e"]["BackgroundTransparency"]=1;
+_AGARWARE["4e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["4e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["4f"]=Instance.new("TextButton",_AGARWARE["4e"]);
+_AGARWARE["4f"].Name="AntiFlingTickBox";
+_AGARWARE["4f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["4f"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["4f"]["TextSize"]=14;
-_AGARWARE["4f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["4f"]["Text"]=[[Anti Fling]];
-_AGARWARE["4f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["4f"]["BackgroundTransparency"]=1;
-_AGARWARE["4f"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["50"]=Instance.new("Frame",_AGARWARE["47"]);
-_AGARWARE["50"].Name="AntiAfkRow";
-_AGARWARE["50"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["4f"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["4f"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["4f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["4f"]["Text"]=[[]];
+_AGARWARE["4f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["50"]=Instance.new("TextLabel",_AGARWARE["4e"]);
+_AGARWARE["50"].Name="AntiFlingText";
 _AGARWARE["50"]["BorderSizePixel"]=0;
-_AGARWARE["50"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["50"]["LayoutOrder"]=3;
-_AGARWARE["50"]["BackgroundTransparency"]=1;
-_AGARWARE["50"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["50"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["51"]=Instance.new("TextButton",_AGARWARE["50"]);
-_AGARWARE["51"].Name="AntiAfkTickBox";
-_AGARWARE["51"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["51"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["51"]["TextSize"]=14;
-_AGARWARE["51"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["51"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["51"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["51"]["Text"]=[[]];
-_AGARWARE["51"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["52"]=Instance.new("TextLabel",_AGARWARE["50"]);
-_AGARWARE["52"].Name="AntiAfkText";
-_AGARWARE["52"]["BorderSizePixel"]=0;
-_AGARWARE["52"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["52"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["52"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["52"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["50"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["50"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["50"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["50"]["TextSize"]=14;
+_AGARWARE["50"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["50"]["Text"]=[[Anti Fling]];
+_AGARWARE["50"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["50"]["BackgroundTransparency"]=1;
+_AGARWARE["50"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["51"]=Instance.new("Frame",_AGARWARE["48"]);
+_AGARWARE["51"].Name="AntiAfkRow";
+_AGARWARE["51"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["51"]["BorderSizePixel"]=0;
+_AGARWARE["51"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["51"]["LayoutOrder"]=3;
+_AGARWARE["51"]["BackgroundTransparency"]=1;
+_AGARWARE["51"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["51"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["52"]=Instance.new("TextButton",_AGARWARE["51"]);
+_AGARWARE["52"].Name="AntiAfkTickBox";
+_AGARWARE["52"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["52"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["52"]["TextSize"]=14;
-_AGARWARE["52"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["52"]["Text"]=[[Anti AFK]];
-_AGARWARE["52"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["52"]["BackgroundTransparency"]=1;
-_AGARWARE["52"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["53"]=Instance.new("Frame",_AGARWARE["47"]);
-_AGARWARE["53"].Name="AntiRagdollRow";
-_AGARWARE["53"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["52"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["52"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["52"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["52"]["Text"]=[[]];
+_AGARWARE["52"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["53"]=Instance.new("TextLabel",_AGARWARE["51"]);
+_AGARWARE["53"].Name="AntiAfkText";
 _AGARWARE["53"]["BorderSizePixel"]=0;
-_AGARWARE["53"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["53"]["LayoutOrder"]=3;
-_AGARWARE["53"]["BackgroundTransparency"]=1;
-_AGARWARE["53"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["53"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["54"]=Instance.new("TextButton",_AGARWARE["53"]);
-_AGARWARE["54"].Name="AntiRagdollTickBox";
-_AGARWARE["54"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["54"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["54"]["TextSize"]=14;
-_AGARWARE["54"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["54"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["54"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["54"]["Text"]=[[]];
-_AGARWARE["54"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["55"]=Instance.new("TextLabel",_AGARWARE["53"]);
-_AGARWARE["55"].Name="AntiRagdollText";
-_AGARWARE["55"]["BorderSizePixel"]=0;
-_AGARWARE["55"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["55"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["55"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["55"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["53"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["53"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["53"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["53"]["TextSize"]=14;
+_AGARWARE["53"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["53"]["Text"]=[[Anti AFK]];
+_AGARWARE["53"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["53"]["BackgroundTransparency"]=1;
+_AGARWARE["53"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["54"]=Instance.new("Frame",_AGARWARE["48"]);
+_AGARWARE["54"].Name="AntiRagdollRow";
+_AGARWARE["54"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["54"]["BorderSizePixel"]=0;
+_AGARWARE["54"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["54"]["LayoutOrder"]=3;
+_AGARWARE["54"]["BackgroundTransparency"]=1;
+_AGARWARE["54"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["54"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["55"]=Instance.new("TextButton",_AGARWARE["54"]);
+_AGARWARE["55"].Name="AntiRagdollTickBox";
+_AGARWARE["55"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["55"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["55"]["TextSize"]=14;
-_AGARWARE["55"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["55"]["Text"]=[[Anti Ragdoll]];
-_AGARWARE["55"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["55"]["BackgroundTransparency"]=1;
-_AGARWARE["55"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["56"]=Instance.new("Frame",_AGARWARE["47"]);
-_AGARWARE["56"].Name="AntiVoidRow";
-_AGARWARE["56"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["55"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["55"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["55"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["55"]["Text"]=[[]];
+_AGARWARE["55"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["56"]=Instance.new("TextLabel",_AGARWARE["54"]);
+_AGARWARE["56"].Name="AntiRagdollText";
 _AGARWARE["56"]["BorderSizePixel"]=0;
-_AGARWARE["56"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["56"]["LayoutOrder"]=3;
-_AGARWARE["56"]["BackgroundTransparency"]=1;
-_AGARWARE["56"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["56"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["57"]=Instance.new("TextButton",_AGARWARE["56"]);
-_AGARWARE["57"].Name="AntiVoidTickBox";
-_AGARWARE["57"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["57"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["57"]["TextSize"]=14;
-_AGARWARE["57"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["57"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["57"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["57"]["Text"]=[[]];
-_AGARWARE["57"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["58"]=Instance.new("TextLabel",_AGARWARE["56"]);
-_AGARWARE["58"].Name="AntiVoidText";
-_AGARWARE["58"]["BorderSizePixel"]=0;
-_AGARWARE["58"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["58"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["58"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["58"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["56"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["56"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["56"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["56"]["TextSize"]=14;
+_AGARWARE["56"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["56"]["Text"]=[[Anti Ragdoll]];
+_AGARWARE["56"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["56"]["BackgroundTransparency"]=1;
+_AGARWARE["56"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["57"]=Instance.new("Frame",_AGARWARE["48"]);
+_AGARWARE["57"].Name="AntiVoidRow";
+_AGARWARE["57"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["57"]["BorderSizePixel"]=0;
+_AGARWARE["57"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["57"]["LayoutOrder"]=3;
+_AGARWARE["57"]["BackgroundTransparency"]=1;
+_AGARWARE["57"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["57"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["58"]=Instance.new("TextButton",_AGARWARE["57"]);
+_AGARWARE["58"].Name="AntiVoidTickBox";
+_AGARWARE["58"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["58"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["58"]["TextSize"]=14;
-_AGARWARE["58"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["58"]["Text"]=[[Anti Void]];
-_AGARWARE["58"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["58"]["BackgroundTransparency"]=1;
-_AGARWARE["58"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["59"]=Instance.new("Frame",_AGARWARE["47"]);
-_AGARWARE["59"].Name="AntiKBRow";
-_AGARWARE["59"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["58"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["58"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["58"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["58"]["Text"]=[[]];
+_AGARWARE["58"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["59"]=Instance.new("TextLabel",_AGARWARE["57"]);
+_AGARWARE["59"].Name="AntiVoidText";
 _AGARWARE["59"]["BorderSizePixel"]=0;
-_AGARWARE["59"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["59"]["LayoutOrder"]=3;
-_AGARWARE["59"]["BackgroundTransparency"]=1;
-_AGARWARE["59"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["59"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["5a"]=Instance.new("TextButton",_AGARWARE["59"]);
-_AGARWARE["5a"].Name="AntiKBTickBox";
-_AGARWARE["5a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["5a"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["5a"]["TextSize"]=14;
-_AGARWARE["5a"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["5a"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["5a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["5a"]["Text"]=[[]];
-_AGARWARE["5a"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["5b"]=Instance.new("TextLabel",_AGARWARE["59"]);
-_AGARWARE["5b"].Name="AntiKBText";
-_AGARWARE["5b"]["BorderSizePixel"]=0;
-_AGARWARE["5b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["5b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["5b"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["5b"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["59"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["59"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["59"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["59"]["TextSize"]=14;
+_AGARWARE["59"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["59"]["Text"]=[[Anti Void]];
+_AGARWARE["59"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["59"]["BackgroundTransparency"]=1;
+_AGARWARE["59"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["5a"]=Instance.new("Frame",_AGARWARE["48"]);
+_AGARWARE["5a"].Name="AntiKBRow";
+_AGARWARE["5a"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["5a"]["BorderSizePixel"]=0;
+_AGARWARE["5a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["5a"]["LayoutOrder"]=3;
+_AGARWARE["5a"]["BackgroundTransparency"]=1;
+_AGARWARE["5a"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["5a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["5b"]=Instance.new("TextButton",_AGARWARE["5a"]);
+_AGARWARE["5b"].Name="AntiKBTickBox";
+_AGARWARE["5b"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["5b"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["5b"]["TextSize"]=14;
-_AGARWARE["5b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["5b"]["Text"]=[[Anti Knockback]];
-_AGARWARE["5b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["5b"]["BackgroundTransparency"]=1;
-_AGARWARE["5b"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["5c"]=Instance.new("Frame",_AGARWARE["47"]);
-_AGARWARE["5c"].Name="AntiKickRow";
-_AGARWARE["5c"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["5b"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["5b"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["5b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["5b"]["Text"]=[[]];
+_AGARWARE["5b"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["5c"]=Instance.new("TextLabel",_AGARWARE["5a"]);
+_AGARWARE["5c"].Name="AntiKBText";
 _AGARWARE["5c"]["BorderSizePixel"]=0;
-_AGARWARE["5c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["5c"]["LayoutOrder"]=2;
-_AGARWARE["5c"]["BackgroundTransparency"]=1;
-_AGARWARE["5c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["5c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["5d"]=Instance.new("TextButton",_AGARWARE["5c"]);
-_AGARWARE["5d"].Name="AntiKickTickBox";
-_AGARWARE["5d"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["5d"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["5d"]["TextSize"]=14;
-_AGARWARE["5d"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["5d"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["5d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["5d"]["Text"]=[[]];
-_AGARWARE["5d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["5e"]=Instance.new("TextLabel",_AGARWARE["5c"]);
-_AGARWARE["5e"].Name="AntiKickText";
-_AGARWARE["5e"]["BorderSizePixel"]=0;
-_AGARWARE["5e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["5e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["5e"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["5e"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["5c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["5c"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["5c"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["5c"]["TextSize"]=14;
+_AGARWARE["5c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["5c"]["Text"]=[[Anti Knockback]];
+_AGARWARE["5c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["5c"]["BackgroundTransparency"]=1;
+_AGARWARE["5c"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["5d"]=Instance.new("Frame",_AGARWARE["48"]);
+_AGARWARE["5d"].Name="AntiKickRow";
+_AGARWARE["5d"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["5d"]["BorderSizePixel"]=0;
+_AGARWARE["5d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["5d"]["LayoutOrder"]=2;
+_AGARWARE["5d"]["BackgroundTransparency"]=1;
+_AGARWARE["5d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["5d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["5e"]=Instance.new("TextButton",_AGARWARE["5d"]);
+_AGARWARE["5e"].Name="AntiKickTickBox";
+_AGARWARE["5e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["5e"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["5e"]["TextSize"]=14;
-_AGARWARE["5e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["5e"]["Text"]=[[Anti Kick (Client)]];
-_AGARWARE["5e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["5e"]["BackgroundTransparency"]=1;
-_AGARWARE["5e"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["5f"]=Instance.new("Frame",_AGARWARE["45"]);
-_AGARWARE["5f"].Name="CharacterGroup";
-_AGARWARE["5f"]["Size"]=UDim2.new(0, 170, 0, 164);
-_AGARWARE["5f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["5f"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["5f"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["60"]=Instance.new("LocalScript",_AGARWARE["5f"]);
-_AGARWARE["60"].Name="CharacterScript";
-_AGARWARE["61"]=Instance.new("UIListLayout",_AGARWARE["5f"]);
-_AGARWARE["61"].Name="UIListLayout";
-_AGARWARE["61"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["62"]=Instance.new("Frame",_AGARWARE["5f"]);
-_AGARWARE["62"].Name="CharacterAccentColor";
-_AGARWARE["62"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["62"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["62"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["62"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["62"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["63"]=Instance.new("TextLabel",_AGARWARE["5f"]);
-_AGARWARE["63"].Name="CharacterTitle";
-_AGARWARE["63"]["TextWrapped"]=true;
-_AGARWARE["63"]["BorderSizePixel"]=0;
-_AGARWARE["63"]["TextScaled"]=true;
-_AGARWARE["63"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["63"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["63"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["63"]["TextSize"]=14;
-_AGARWARE["63"]["LayoutOrder"]=1;
-_AGARWARE["63"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["63"]["Text"]=[[Character]];
-_AGARWARE["63"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["63"]["BackgroundTransparency"]=0.95;
-_AGARWARE["63"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["64"]=Instance.new("TextButton",_AGARWARE["63"]);
-_AGARWARE["64"].Name="CharacterMinimize";
+_AGARWARE["5e"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["5e"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["5e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["5e"]["Text"]=[[]];
+_AGARWARE["5e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["5f"]=Instance.new("TextLabel",_AGARWARE["5d"]);
+_AGARWARE["5f"].Name="AntiKickText";
+_AGARWARE["5f"]["BorderSizePixel"]=0;
+_AGARWARE["5f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["5f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["5f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["5f"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["5f"]["TextSize"]=14;
+_AGARWARE["5f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["5f"]["Text"]=[[Anti Kick (Client)]];
+_AGARWARE["5f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["5f"]["BackgroundTransparency"]=1;
+_AGARWARE["5f"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["60"]=Instance.new("Frame",_AGARWARE["46"]);
+_AGARWARE["60"].Name="CharacterGroup";
+_AGARWARE["60"]["Size"]=UDim2.new(0, 170, 0, 164);
+_AGARWARE["60"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["60"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["60"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["61"]=Instance.new("LocalScript",_AGARWARE["60"]);
+_AGARWARE["61"].Name="CharacterScript";
+_AGARWARE["62"]=Instance.new("UIListLayout",_AGARWARE["60"]);
+_AGARWARE["62"].Name="UIListLayout";
+_AGARWARE["62"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["63"]=Instance.new("Frame",_AGARWARE["60"]);
+_AGARWARE["63"].Name="CharacterAccentColor";
+_AGARWARE["63"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["63"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["63"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["63"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["63"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["64"]=Instance.new("TextLabel",_AGARWARE["60"]);
+_AGARWARE["64"].Name="CharacterTitle";
+_AGARWARE["64"]["TextWrapped"]=true;
 _AGARWARE["64"]["BorderSizePixel"]=0;
+_AGARWARE["64"]["TextScaled"]=true;
 _AGARWARE["64"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["64"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["64"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["64"]["TextSize"]=14;
-_AGARWARE["64"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["64"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["64"]["BackgroundTransparency"]=1;
+_AGARWARE["64"]["LayoutOrder"]=1;
 _AGARWARE["64"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["64"]["Text"]=[[-]];
-_AGARWARE["64"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["65"]=Instance.new("Frame",_AGARWARE["5f"]);
-_AGARWARE["65"].Name="NoclipRow";
-_AGARWARE["65"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["64"]["Text"]=[[Character]];
+_AGARWARE["64"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["64"]["BackgroundTransparency"]=0.95;
+_AGARWARE["64"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["65"]=Instance.new("TextButton",_AGARWARE["64"]);
+_AGARWARE["65"].Name="CharacterMinimize";
 _AGARWARE["65"]["BorderSizePixel"]=0;
-_AGARWARE["65"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["65"]["LayoutOrder"]=3;
-_AGARWARE["65"]["BackgroundTransparency"]=1;
-_AGARWARE["65"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["65"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["66"]=Instance.new("TextButton",_AGARWARE["65"]);
-_AGARWARE["66"].Name="NoclipTickBox";
-_AGARWARE["66"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["66"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["66"]["TextSize"]=14;
-_AGARWARE["66"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["66"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["66"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["66"]["Text"]=[[]];
-_AGARWARE["66"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["67"]=Instance.new("TextLabel",_AGARWARE["65"]);
-_AGARWARE["67"].Name="NoclipText";
-_AGARWARE["67"]["BorderSizePixel"]=0;
-_AGARWARE["67"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["67"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["67"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["67"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["65"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["65"]["TextSize"]=14;
+_AGARWARE["65"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["65"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["65"]["BackgroundTransparency"]=1;
+_AGARWARE["65"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["65"]["Text"]=[[-]];
+_AGARWARE["65"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["66"]=Instance.new("Frame",_AGARWARE["60"]);
+_AGARWARE["66"].Name="NoclipRow";
+_AGARWARE["66"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["66"]["BorderSizePixel"]=0;
+_AGARWARE["66"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["66"]["LayoutOrder"]=3;
+_AGARWARE["66"]["BackgroundTransparency"]=1;
+_AGARWARE["66"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["66"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["67"]=Instance.new("TextButton",_AGARWARE["66"]);
+_AGARWARE["67"].Name="NoclipTickBox";
+_AGARWARE["67"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["67"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["67"]["TextSize"]=14;
-_AGARWARE["67"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["67"]["Text"]=[[Noclip]];
-_AGARWARE["67"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["67"]["BackgroundTransparency"]=1;
-_AGARWARE["67"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["68"]=Instance.new("Frame",_AGARWARE["5f"]);
-_AGARWARE["68"].Name="FreezeAnimRow";
-_AGARWARE["68"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["67"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["67"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["67"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["67"]["Text"]=[[]];
+_AGARWARE["67"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["68"]=Instance.new("TextLabel",_AGARWARE["66"]);
+_AGARWARE["68"].Name="NoclipText";
 _AGARWARE["68"]["BorderSizePixel"]=0;
-_AGARWARE["68"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["68"]["LayoutOrder"]=3;
-_AGARWARE["68"]["BackgroundTransparency"]=1;
-_AGARWARE["68"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["68"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["69"]=Instance.new("TextButton",_AGARWARE["68"]);
-_AGARWARE["69"].Name="FreezeAnimTickBox";
-_AGARWARE["69"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["69"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["69"]["TextSize"]=14;
-_AGARWARE["69"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["69"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["69"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["69"]["Text"]=[[]];
-_AGARWARE["69"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["6a"]=Instance.new("TextLabel",_AGARWARE["68"]);
-_AGARWARE["6a"].Name="FreezeAnimText";
-_AGARWARE["6a"]["BorderSizePixel"]=0;
-_AGARWARE["6a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["6a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["6a"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["6a"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["68"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["68"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["68"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["68"]["TextSize"]=14;
+_AGARWARE["68"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["68"]["Text"]=[[Noclip]];
+_AGARWARE["68"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["68"]["BackgroundTransparency"]=1;
+_AGARWARE["68"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["69"]=Instance.new("Frame",_AGARWARE["60"]);
+_AGARWARE["69"].Name="FreezeAnimRow";
+_AGARWARE["69"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["69"]["BorderSizePixel"]=0;
+_AGARWARE["69"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["69"]["LayoutOrder"]=3;
+_AGARWARE["69"]["BackgroundTransparency"]=1;
+_AGARWARE["69"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["69"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["6a"]=Instance.new("TextButton",_AGARWARE["69"]);
+_AGARWARE["6a"].Name="FreezeAnimTickBox";
+_AGARWARE["6a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["6a"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["6a"]["TextSize"]=14;
-_AGARWARE["6a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["6a"]["Text"]=[[Freeze Animation]];
-_AGARWARE["6a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["6a"]["BackgroundTransparency"]=1;
-_AGARWARE["6a"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["6b"]=Instance.new("Frame",_AGARWARE["5f"]);
-_AGARWARE["6b"].Name="TpSpawnRow";
-_AGARWARE["6b"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["6a"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["6a"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["6a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["6a"]["Text"]=[[]];
+_AGARWARE["6a"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["6b"]=Instance.new("TextLabel",_AGARWARE["69"]);
+_AGARWARE["6b"].Name="FreezeAnimText";
 _AGARWARE["6b"]["BorderSizePixel"]=0;
-_AGARWARE["6b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["6b"]["LayoutOrder"]=5;
-_AGARWARE["6b"]["BackgroundTransparency"]=1;
-_AGARWARE["6b"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["6b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["6c"]=Instance.new("TextButton",_AGARWARE["6b"]);
-_AGARWARE["6c"].Name="TpSpawnButton";
-_AGARWARE["6c"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["6c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["6c"]["TextSize"]=14;
-_AGARWARE["6c"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["6c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["6c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["6c"]["Text"]=[[TP To Spawn]];
-_AGARWARE["6c"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["6d"]=Instance.new("Frame",_AGARWARE["5f"]);
-_AGARWARE["6d"].Name="GodModeRow";
-_AGARWARE["6d"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["6d"]["BorderSizePixel"]=0;
-_AGARWARE["6d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["6d"]["LayoutOrder"]=3;
-_AGARWARE["6d"]["BackgroundTransparency"]=1;
-_AGARWARE["6d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["6d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["6e"]=Instance.new("TextButton",_AGARWARE["6d"]);
-_AGARWARE["6e"].Name="GodModeTickBox";
-_AGARWARE["6e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["6e"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["6e"]["TextSize"]=14;
-_AGARWARE["6e"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["6e"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["6e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["6e"]["Text"]=[[]];
-_AGARWARE["6e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["6f"]=Instance.new("TextLabel",_AGARWARE["6d"]);
-_AGARWARE["6f"].Name="GodModeText";
-_AGARWARE["6f"]["BorderSizePixel"]=0;
-_AGARWARE["6f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["6f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["6f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["6f"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["6b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["6b"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["6b"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["6b"]["TextSize"]=14;
+_AGARWARE["6b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["6b"]["Text"]=[[Freeze Animation]];
+_AGARWARE["6b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["6b"]["BackgroundTransparency"]=1;
+_AGARWARE["6b"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["6c"]=Instance.new("Frame",_AGARWARE["60"]);
+_AGARWARE["6c"].Name="TpSpawnRow";
+_AGARWARE["6c"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["6c"]["BorderSizePixel"]=0;
+_AGARWARE["6c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["6c"]["LayoutOrder"]=5;
+_AGARWARE["6c"]["BackgroundTransparency"]=1;
+_AGARWARE["6c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["6c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["6d"]=Instance.new("TextButton",_AGARWARE["6c"]);
+_AGARWARE["6d"].Name="TpSpawnButton";
+_AGARWARE["6d"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["6d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["6d"]["TextSize"]=14;
+_AGARWARE["6d"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["6d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["6d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["6d"]["Text"]=[[TP To Spawn]];
+_AGARWARE["6d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["6e"]=Instance.new("Frame",_AGARWARE["60"]);
+_AGARWARE["6e"].Name="GodModeRow";
+_AGARWARE["6e"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["6e"]["BorderSizePixel"]=0;
+_AGARWARE["6e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["6e"]["LayoutOrder"]=3;
+_AGARWARE["6e"]["BackgroundTransparency"]=1;
+_AGARWARE["6e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["6e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["6f"]=Instance.new("TextButton",_AGARWARE["6e"]);
+_AGARWARE["6f"].Name="GodModeTickBox";
+_AGARWARE["6f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["6f"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["6f"]["TextSize"]=14;
-_AGARWARE["6f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["6f"]["Text"]=[[God Mode]];
-_AGARWARE["6f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["6f"]["BackgroundTransparency"]=1;
-_AGARWARE["6f"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["70"]=Instance.new("Frame",_AGARWARE["5f"]);
-_AGARWARE["70"].Name="TpPlayerRow2";
-_AGARWARE["70"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["6f"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["6f"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["6f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["6f"]["Text"]=[[]];
+_AGARWARE["6f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["70"]=Instance.new("TextLabel",_AGARWARE["6e"]);
+_AGARWARE["70"].Name="GodModeText";
 _AGARWARE["70"]["BorderSizePixel"]=0;
-_AGARWARE["70"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["70"]["LayoutOrder"]=4;
-_AGARWARE["70"]["BackgroundTransparency"]=1;
-_AGARWARE["70"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["70"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["71"]=Instance.new("TextButton",_AGARWARE["70"]);
-_AGARWARE["71"].Name="TpPlayerButton";
-_AGARWARE["71"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["71"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["71"]["TextSize"]=14;
-_AGARWARE["71"]["Size"]=UDim2.new(0, 40, 0, 16);
-_AGARWARE["71"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["71"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["71"]["Text"]=[[TP]];
-_AGARWARE["71"]["Position"]=UDim2.new(0.73964, 0, 0.16, 0);
-_AGARWARE["72"]=Instance.new("TextLabel",_AGARWARE["70"]);
-_AGARWARE["72"].Name="TpPlayerText";
-_AGARWARE["72"]["BorderSizePixel"]=0;
-_AGARWARE["72"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["70"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["70"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["70"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["70"]["TextSize"]=14;
+_AGARWARE["70"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["70"]["Text"]=[[God Mode]];
+_AGARWARE["70"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["70"]["BackgroundTransparency"]=1;
+_AGARWARE["70"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["71"]=Instance.new("Frame",_AGARWARE["60"]);
+_AGARWARE["71"].Name="TpPlayerRow2";
+_AGARWARE["71"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["71"]["BorderSizePixel"]=0;
+_AGARWARE["71"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["71"]["LayoutOrder"]=4;
+_AGARWARE["71"]["BackgroundTransparency"]=1;
+_AGARWARE["71"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["71"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["72"]=Instance.new("TextButton",_AGARWARE["71"]);
+_AGARWARE["72"].Name="TpPlayerButton";
+_AGARWARE["72"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
 _AGARWARE["72"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["72"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["72"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["72"]["TextSize"]=14;
-_AGARWARE["72"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["72"]["Text"]=[[TP To Player:]];
+_AGARWARE["72"]["Size"]=UDim2.new(0, 40, 0, 16);
 _AGARWARE["72"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["72"]["BackgroundTransparency"]=1;
-_AGARWARE["72"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["73"]=Instance.new("Frame",_AGARWARE["5f"]);
-_AGARWARE["73"].Name="TpPlayerRow1";
-_AGARWARE["73"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["72"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["72"]["Text"]=[[TP]];
+_AGARWARE["72"]["Position"]=UDim2.new(0.73964, 0, 0.16, 0);
+_AGARWARE["73"]=Instance.new("TextLabel",_AGARWARE["71"]);
+_AGARWARE["73"].Name="TpPlayerText";
 _AGARWARE["73"]["BorderSizePixel"]=0;
-_AGARWARE["73"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["73"]["LayoutOrder"]=4;
-_AGARWARE["73"]["BackgroundTransparency"]=1;
-_AGARWARE["73"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["73"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["74"]=Instance.new("LocalScript",_AGARWARE["73"]);
-_AGARWARE["74"].Name="TpPlayerScript";
-_AGARWARE["75"]=Instance.new("TextButton",_AGARWARE["73"]);
-_AGARWARE["75"].Name="TpPlayerDropdown";
-_AGARWARE["75"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["75"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["75"]["TextTransparency"]=1;
-_AGARWARE["75"]["TextSize"]=14;
-_AGARWARE["75"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["75"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["75"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["75"]["Text"]=[[Dropdown]];
-_AGARWARE["75"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["76"]=Instance.new("Frame",_AGARWARE["5f"]);
-_AGARWARE["76"].Name="ResetRow";
-_AGARWARE["76"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["76"]["BorderSizePixel"]=0;
-_AGARWARE["76"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["76"]["LayoutOrder"]=5;
-_AGARWARE["76"]["BackgroundTransparency"]=1;
-_AGARWARE["76"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["76"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["77"]=Instance.new("LocalScript",_AGARWARE["76"]);
-_AGARWARE["77"].Name="ResetScript";
-_AGARWARE["78"]=Instance.new("TextButton",_AGARWARE["76"]);
-_AGARWARE["78"].Name="ResetButton";
-_AGARWARE["78"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["78"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["78"]["TextSize"]=14;
-_AGARWARE["78"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["78"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["78"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["78"]["Text"]=[[Reset Character]];
-_AGARWARE["78"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["79"]=Instance.new("ScrollingFrame",_AGARWARE["15"]);
-_AGARWARE["79"].Name="VisualPage";
-_AGARWARE["79"]["BorderSizePixel"]=0;
-_AGARWARE["79"]["CanvasSize"]=UDim2.new(0, 0, 1.5, 0);
-_AGARWARE["79"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["79"]["Active"]=true;
-_AGARWARE["79"]["Size"]=UDim2.new(0, 349, 0, 250);
-_AGARWARE["79"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["79"]["Visible"]=false;
-_AGARWARE["79"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["79"]["ScrollBarThickness"]=0;
-_AGARWARE["79"]["BackgroundTransparency"]=1;
-_AGARWARE["79"]["Position"]=UDim2.new(0.02329, 0, 0.03008, 0);
-_AGARWARE["7a"]=Instance.new("Frame",_AGARWARE["79"]);
-_AGARWARE["7a"].Name="VisualLeftSide";
-_AGARWARE["7a"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["73"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["73"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["73"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["73"]["TextSize"]=14;
+_AGARWARE["73"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["73"]["Text"]=[[TP To Player:]];
+_AGARWARE["73"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["73"]["BackgroundTransparency"]=1;
+_AGARWARE["73"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["74"]=Instance.new("Frame",_AGARWARE["60"]);
+_AGARWARE["74"].Name="TpPlayerRow1";
+_AGARWARE["74"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["74"]["BorderSizePixel"]=0;
+_AGARWARE["74"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["74"]["LayoutOrder"]=4;
+_AGARWARE["74"]["BackgroundTransparency"]=1;
+_AGARWARE["74"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["74"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["75"]=Instance.new("LocalScript",_AGARWARE["74"]);
+_AGARWARE["75"].Name="TpPlayerScript";
+_AGARWARE["76"]=Instance.new("TextButton",_AGARWARE["74"]);
+_AGARWARE["76"].Name="TpPlayerDropdown";
+_AGARWARE["76"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["76"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["76"]["TextTransparency"]=1;
+_AGARWARE["76"]["TextSize"]=14;
+_AGARWARE["76"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["76"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["76"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["76"]["Text"]=[[Dropdown]];
+_AGARWARE["76"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["77"]=Instance.new("Frame",_AGARWARE["60"]);
+_AGARWARE["77"].Name="ResetRow";
+_AGARWARE["77"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["77"]["BorderSizePixel"]=0;
+_AGARWARE["77"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["77"]["LayoutOrder"]=5;
+_AGARWARE["77"]["BackgroundTransparency"]=1;
+_AGARWARE["77"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["77"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["78"]=Instance.new("LocalScript",_AGARWARE["77"]);
+_AGARWARE["78"].Name="ResetScript";
+_AGARWARE["79"]=Instance.new("TextButton",_AGARWARE["77"]);
+_AGARWARE["79"].Name="ResetButton";
+_AGARWARE["79"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["79"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["79"]["TextSize"]=14;
+_AGARWARE["79"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["79"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["79"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["79"]["Text"]=[[Reset Character]];
+_AGARWARE["79"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["7a"]=Instance.new("ScrollingFrame",_AGARWARE["16"]);
+_AGARWARE["7a"].Name="VisualPage";
 _AGARWARE["7a"]["BorderSizePixel"]=0;
+_AGARWARE["7a"]["CanvasSize"]=UDim2.new(0, 0, 1.5, 0);
+_AGARWARE["7a"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["7a"]["Active"]=true;
+_AGARWARE["7a"]["Size"]=UDim2.new(0, 349, 0, 250);
+_AGARWARE["7a"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["7a"]["Visible"]=false;
 _AGARWARE["7a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["7a"]["ScrollBarThickness"]=0;
 _AGARWARE["7a"]["BackgroundTransparency"]=1;
-_AGARWARE["7a"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
-_AGARWARE["7a"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["7b"]=Instance.new("UIListLayout",_AGARWARE["7a"]);
-_AGARWARE["7b"].Name="UIListLayout";
-_AGARWARE["7b"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["7b"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["7c"]=Instance.new("Frame",_AGARWARE["7a"]);
-_AGARWARE["7c"].Name="ESPGroup";
-_AGARWARE["7c"]["Size"]=UDim2.new(0, 170, 0, 103);
-_AGARWARE["7c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["7c"]["LayoutOrder"]=2;
-_AGARWARE["7c"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["7c"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["7d"]=Instance.new("LocalScript",_AGARWARE["7c"]);
-_AGARWARE["7d"].Name="ESPScript";
-_AGARWARE["7e"]=Instance.new("UIListLayout",_AGARWARE["7c"]);
-_AGARWARE["7e"].Name="UIListLayout";
-_AGARWARE["7e"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["7f"]=Instance.new("Frame",_AGARWARE["7c"]);
-_AGARWARE["7f"].Name="ESPAccentColor";
-_AGARWARE["7f"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["7f"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["7f"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["7f"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["7f"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["80"]=Instance.new("TextLabel",_AGARWARE["7c"]);
-_AGARWARE["80"].Name="ESPTitle";
-_AGARWARE["80"]["TextWrapped"]=true;
-_AGARWARE["80"]["BorderSizePixel"]=0;
-_AGARWARE["80"]["TextScaled"]=true;
-_AGARWARE["80"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["80"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["80"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["80"]["TextSize"]=14;
-_AGARWARE["80"]["LayoutOrder"]=1;
-_AGARWARE["80"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["80"]["Text"]=[[ESP]];
-_AGARWARE["80"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["80"]["BackgroundTransparency"]=0.95;
-_AGARWARE["80"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["81"]=Instance.new("TextButton",_AGARWARE["80"]);
-_AGARWARE["81"].Name="ESPMinimize";
+_AGARWARE["7a"]["Position"]=UDim2.new(0.02329, 0, 0.03008, 0);
+_AGARWARE["7b"]=Instance.new("Frame",_AGARWARE["7a"]);
+_AGARWARE["7b"].Name="VisualLeftSide";
+_AGARWARE["7b"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["7b"]["BorderSizePixel"]=0;
+_AGARWARE["7b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["7b"]["BackgroundTransparency"]=1;
+_AGARWARE["7b"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
+_AGARWARE["7b"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["7c"]=Instance.new("UIListLayout",_AGARWARE["7b"]);
+_AGARWARE["7c"].Name="UIListLayout";
+_AGARWARE["7c"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["7c"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["7d"]=Instance.new("Frame",_AGARWARE["7b"]);
+_AGARWARE["7d"].Name="ESPGroup";
+_AGARWARE["7d"]["Size"]=UDim2.new(0, 170, 0, 103);
+_AGARWARE["7d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["7d"]["LayoutOrder"]=2;
+_AGARWARE["7d"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["7d"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["7e"]=Instance.new("LocalScript",_AGARWARE["7d"]);
+_AGARWARE["7e"].Name="ESPScript";
+_AGARWARE["7f"]=Instance.new("UIListLayout",_AGARWARE["7d"]);
+_AGARWARE["7f"].Name="UIListLayout";
+_AGARWARE["7f"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["80"]=Instance.new("Frame",_AGARWARE["7d"]);
+_AGARWARE["80"].Name="ESPAccentColor";
+_AGARWARE["80"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["80"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["80"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["80"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["80"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["81"]=Instance.new("TextLabel",_AGARWARE["7d"]);
+_AGARWARE["81"].Name="ESPTitle";
+_AGARWARE["81"]["TextWrapped"]=true;
 _AGARWARE["81"]["BorderSizePixel"]=0;
+_AGARWARE["81"]["TextScaled"]=true;
 _AGARWARE["81"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["81"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["81"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["81"]["TextSize"]=14;
-_AGARWARE["81"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["81"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["81"]["BackgroundTransparency"]=1;
+_AGARWARE["81"]["LayoutOrder"]=1;
 _AGARWARE["81"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["81"]["Text"]=[[-]];
-_AGARWARE["81"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["82"]=Instance.new("Frame",_AGARWARE["7c"]);
-_AGARWARE["82"].Name="ESPNameRow";
-_AGARWARE["82"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["81"]["Text"]=[[ESP]];
+_AGARWARE["81"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["81"]["BackgroundTransparency"]=0.95;
+_AGARWARE["81"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["82"]=Instance.new("TextButton",_AGARWARE["81"]);
+_AGARWARE["82"].Name="ESPMinimize";
 _AGARWARE["82"]["BorderSizePixel"]=0;
-_AGARWARE["82"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["82"]["LayoutOrder"]=2;
-_AGARWARE["82"]["BackgroundTransparency"]=1;
-_AGARWARE["82"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["82"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["83"]=Instance.new("LocalScript",_AGARWARE["82"]);
-_AGARWARE["83"].Name="ESPNameScript";
-_AGARWARE["84"]=Instance.new("TextButton",_AGARWARE["82"]);
-_AGARWARE["84"].Name="ESPNameTickBox";
-_AGARWARE["84"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["84"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["84"]["TextSize"]=14;
-_AGARWARE["84"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["84"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["84"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["84"]["Text"]=[[]];
-_AGARWARE["84"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["85"]=Instance.new("TextLabel",_AGARWARE["82"]);
-_AGARWARE["85"].Name="ESPNameText";
-_AGARWARE["85"]["BorderSizePixel"]=0;
-_AGARWARE["85"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["85"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["85"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["85"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["82"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["82"]["TextSize"]=14;
+_AGARWARE["82"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["82"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["82"]["BackgroundTransparency"]=1;
+_AGARWARE["82"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["82"]["Text"]=[[-]];
+_AGARWARE["82"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["83"]=Instance.new("Frame",_AGARWARE["7d"]);
+_AGARWARE["83"].Name="ESPNameRow";
+_AGARWARE["83"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["83"]["BorderSizePixel"]=0;
+_AGARWARE["83"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["83"]["LayoutOrder"]=2;
+_AGARWARE["83"]["BackgroundTransparency"]=1;
+_AGARWARE["83"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["83"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["84"]=Instance.new("LocalScript",_AGARWARE["83"]);
+_AGARWARE["84"].Name="ESPNameScript";
+_AGARWARE["85"]=Instance.new("TextButton",_AGARWARE["83"]);
+_AGARWARE["85"].Name="ESPNameTickBox";
+_AGARWARE["85"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["85"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["85"]["TextSize"]=14;
-_AGARWARE["85"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["85"]["Text"]=[[Name ESP]];
-_AGARWARE["85"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["85"]["BackgroundTransparency"]=1;
-_AGARWARE["85"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["86"]=Instance.new("Frame",_AGARWARE["7c"]);
-_AGARWARE["86"].Name="ESPMaxDistRow";
-_AGARWARE["86"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["85"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["85"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["85"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["85"]["Text"]=[[]];
+_AGARWARE["85"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["86"]=Instance.new("TextLabel",_AGARWARE["83"]);
+_AGARWARE["86"].Name="ESPNameText";
 _AGARWARE["86"]["BorderSizePixel"]=0;
-_AGARWARE["86"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["86"]["LayoutOrder"]=2;
-_AGARWARE["86"]["BackgroundTransparency"]=1;
-_AGARWARE["86"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["86"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["87"]=Instance.new("LocalScript",_AGARWARE["86"]);
-_AGARWARE["87"].Name="ESPMaxDistScript";
-_AGARWARE["88"]=Instance.new("TextButton",_AGARWARE["86"]);
-_AGARWARE["88"].Name="ESPMaxDistTickBox";
-_AGARWARE["88"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["88"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-_AGARWARE["88"]["TextSize"]=14;
-_AGARWARE["88"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["88"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["88"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["88"]["Text"]=[[?]];
-_AGARWARE["88"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["89"]=Instance.new("TextLabel",_AGARWARE["86"]);
-_AGARWARE["89"].Name="ESPMaxDIstText";
-_AGARWARE["89"]["BorderSizePixel"]=0;
-_AGARWARE["89"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["89"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["89"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["89"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["86"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["86"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["86"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["86"]["TextSize"]=14;
+_AGARWARE["86"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["86"]["Text"]=[[Name ESP]];
+_AGARWARE["86"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["86"]["BackgroundTransparency"]=1;
+_AGARWARE["86"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["87"]=Instance.new("Frame",_AGARWARE["7d"]);
+_AGARWARE["87"].Name="ESPMaxDistRow";
+_AGARWARE["87"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["87"]["BorderSizePixel"]=0;
+_AGARWARE["87"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["87"]["LayoutOrder"]=2;
+_AGARWARE["87"]["BackgroundTransparency"]=1;
+_AGARWARE["87"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["87"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["88"]=Instance.new("LocalScript",_AGARWARE["87"]);
+_AGARWARE["88"].Name="ESPMaxDistScript";
+_AGARWARE["89"]=Instance.new("TextButton",_AGARWARE["87"]);
+_AGARWARE["89"].Name="ESPMaxDistTickBox";
+_AGARWARE["89"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["89"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 _AGARWARE["89"]["TextSize"]=14;
-_AGARWARE["89"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["89"]["Text"]=[[Max Dist]];
-_AGARWARE["89"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["89"]["BackgroundTransparency"]=1;
-_AGARWARE["89"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["8a"]=Instance.new("TextBox",_AGARWARE["86"]);
-_AGARWARE["8a"].Name="ESPMaxDistChanger";
-_AGARWARE["8a"]["TextWrapped"]=true;
-_AGARWARE["8a"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["8a"]["TextScaled"]=true;
-_AGARWARE["8a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["89"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["89"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["89"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["89"]["Text"]=[[?]];
+_AGARWARE["89"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["8a"]=Instance.new("TextLabel",_AGARWARE["87"]);
+_AGARWARE["8a"].Name="ESPMaxDIstText";
+_AGARWARE["8a"]["BorderSizePixel"]=0;
+_AGARWARE["8a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["8a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["8a"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["8a"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["8a"]["TextSize"]=14;
-_AGARWARE["8a"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["8a"]["PlaceholderText"]=[[(1000)]];
-_AGARWARE["8a"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["8a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["8a"]["Text"]=[[]];
-_AGARWARE["8a"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["8a"]["ClearTextOnFocus"]=false;
-_AGARWARE["8b"]=Instance.new("Frame",_AGARWARE["7c"]);
-_AGARWARE["8b"].Name="ESPDistanceRow";
-_AGARWARE["8b"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["8b"]["BorderSizePixel"]=0;
-_AGARWARE["8b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["8b"]["LayoutOrder"]=2;
-_AGARWARE["8b"]["BackgroundTransparency"]=1;
-_AGARWARE["8b"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["8b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["8c"]=Instance.new("LocalScript",_AGARWARE["8b"]);
-_AGARWARE["8c"].Name="ESPDistanceScript";
-_AGARWARE["8d"]=Instance.new("TextButton",_AGARWARE["8b"]);
-_AGARWARE["8d"].Name="ESPDistanceTickBox";
-_AGARWARE["8d"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["8d"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["8d"]["TextSize"]=14;
-_AGARWARE["8d"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["8d"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["8d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["8d"]["Text"]=[[]];
-_AGARWARE["8d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["8e"]=Instance.new("TextLabel",_AGARWARE["8b"]);
-_AGARWARE["8e"].Name="ESPDistanceText";
-_AGARWARE["8e"]["BorderSizePixel"]=0;
-_AGARWARE["8e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["8e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["8e"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["8e"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["8a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["8a"]["Text"]=[[Max Dist]];
+_AGARWARE["8a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["8a"]["BackgroundTransparency"]=1;
+_AGARWARE["8a"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["8b"]=Instance.new("TextBox",_AGARWARE["87"]);
+_AGARWARE["8b"].Name="ESPMaxDistChanger";
+_AGARWARE["8b"]["TextWrapped"]=true;
+_AGARWARE["8b"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["8b"]["TextScaled"]=true;
+_AGARWARE["8b"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["8b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["8b"]["TextSize"]=14;
+_AGARWARE["8b"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["8b"]["PlaceholderText"]=[[(1000)]];
+_AGARWARE["8b"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["8b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["8b"]["Text"]=[[]];
+_AGARWARE["8b"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["8b"]["ClearTextOnFocus"]=false;
+_AGARWARE["8c"]=Instance.new("Frame",_AGARWARE["7d"]);
+_AGARWARE["8c"].Name="ESPDistanceRow";
+_AGARWARE["8c"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["8c"]["BorderSizePixel"]=0;
+_AGARWARE["8c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["8c"]["LayoutOrder"]=2;
+_AGARWARE["8c"]["BackgroundTransparency"]=1;
+_AGARWARE["8c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["8c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["8d"]=Instance.new("LocalScript",_AGARWARE["8c"]);
+_AGARWARE["8d"].Name="ESPDistanceScript";
+_AGARWARE["8e"]=Instance.new("TextButton",_AGARWARE["8c"]);
+_AGARWARE["8e"].Name="ESPDistanceTickBox";
+_AGARWARE["8e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["8e"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["8e"]["TextSize"]=14;
-_AGARWARE["8e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["8e"]["Text"]=[[Distance Label]];
-_AGARWARE["8e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["8e"]["BackgroundTransparency"]=1;
-_AGARWARE["8e"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["8f"]=Instance.new("Frame",_AGARWARE["7c"]);
-_AGARWARE["8f"].Name="ESPOutlineRow";
-_AGARWARE["8f"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["8e"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["8e"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["8e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["8e"]["Text"]=[[]];
+_AGARWARE["8e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["8f"]=Instance.new("TextLabel",_AGARWARE["8c"]);
+_AGARWARE["8f"].Name="ESPDistanceText";
 _AGARWARE["8f"]["BorderSizePixel"]=0;
-_AGARWARE["8f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["8f"]["LayoutOrder"]=2;
-_AGARWARE["8f"]["BackgroundTransparency"]=1;
-_AGARWARE["8f"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["8f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["90"]=Instance.new("LocalScript",_AGARWARE["8f"]);
-_AGARWARE["90"].Name="ESPOutlineScript";
-_AGARWARE["91"]=Instance.new("TextButton",_AGARWARE["8f"]);
-_AGARWARE["91"].Name="ESPOutlineTickBox";
-_AGARWARE["91"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["91"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["91"]["TextSize"]=14;
-_AGARWARE["91"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["91"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["91"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["91"]["Text"]=[[]];
-_AGARWARE["91"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["92"]=Instance.new("TextLabel",_AGARWARE["8f"]);
-_AGARWARE["92"].Name="ESPOutlineText";
-_AGARWARE["92"]["BorderSizePixel"]=0;
-_AGARWARE["92"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["92"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["92"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["92"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["8f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["8f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["8f"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["8f"]["TextSize"]=14;
+_AGARWARE["8f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["8f"]["Text"]=[[Distance Label]];
+_AGARWARE["8f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["8f"]["BackgroundTransparency"]=1;
+_AGARWARE["8f"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["90"]=Instance.new("Frame",_AGARWARE["7d"]);
+_AGARWARE["90"].Name="ESPOutlineRow";
+_AGARWARE["90"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["90"]["BorderSizePixel"]=0;
+_AGARWARE["90"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["90"]["LayoutOrder"]=2;
+_AGARWARE["90"]["BackgroundTransparency"]=1;
+_AGARWARE["90"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["90"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["91"]=Instance.new("LocalScript",_AGARWARE["90"]);
+_AGARWARE["91"].Name="ESPOutlineScript";
+_AGARWARE["92"]=Instance.new("TextButton",_AGARWARE["90"]);
+_AGARWARE["92"].Name="ESPOutlineTickBox";
+_AGARWARE["92"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["92"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["92"]["TextSize"]=14;
-_AGARWARE["92"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["92"]["Text"]=[[Player Outline]];
-_AGARWARE["92"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["92"]["BackgroundTransparency"]=1;
-_AGARWARE["92"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["93"]=Instance.new("Frame",_AGARWARE["79"]);
-_AGARWARE["93"].Name="VisualRightSide";
-_AGARWARE["93"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["92"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["92"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["92"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["92"]["Text"]=[[]];
+_AGARWARE["92"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["93"]=Instance.new("TextLabel",_AGARWARE["90"]);
+_AGARWARE["93"].Name="ESPOutlineText";
 _AGARWARE["93"]["BorderSizePixel"]=0;
+_AGARWARE["93"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["93"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["93"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["93"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["93"]["TextSize"]=14;
 _AGARWARE["93"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["93"]["Text"]=[[Player Outline]];
+_AGARWARE["93"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["93"]["BackgroundTransparency"]=1;
-_AGARWARE["93"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
-_AGARWARE["93"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["94"]=Instance.new("UIListLayout",_AGARWARE["93"]);
-_AGARWARE["94"].Name="UIListLayout";
-_AGARWARE["94"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["94"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["95"]=Instance.new("Frame",_AGARWARE["93"]);
-_AGARWARE["95"].Name="ESPSGroup";
-_AGARWARE["95"]["Size"]=UDim2.new(0, 170, 0, 65);
-_AGARWARE["95"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["95"]["LayoutOrder"]=1;
-_AGARWARE["95"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["95"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["96"]=Instance.new("LocalScript",_AGARWARE["95"]);
-_AGARWARE["96"].Name="ESPSScript";
-_AGARWARE["97"]=Instance.new("UIListLayout",_AGARWARE["95"]);
-_AGARWARE["97"].Name="UIListLayout";
-_AGARWARE["97"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["98"]=Instance.new("Frame",_AGARWARE["95"]);
-_AGARWARE["98"].Name="ESPSAccentColor";
-_AGARWARE["98"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["98"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["98"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["98"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["98"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["99"]=Instance.new("TextLabel",_AGARWARE["95"]);
-_AGARWARE["99"].Name="ESPSTitle";
-_AGARWARE["99"]["TextWrapped"]=true;
-_AGARWARE["99"]["BorderSizePixel"]=0;
-_AGARWARE["99"]["TextScaled"]=true;
-_AGARWARE["99"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["99"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["99"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["99"]["TextSize"]=14;
-_AGARWARE["99"]["LayoutOrder"]=1;
-_AGARWARE["99"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["99"]["Text"]=[[ESP Settings]];
-_AGARWARE["99"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["99"]["BackgroundTransparency"]=0.95;
-_AGARWARE["99"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["9a"]=Instance.new("TextButton",_AGARWARE["99"]);
-_AGARWARE["9a"].Name="ESPSMinimize";
+_AGARWARE["93"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["94"]=Instance.new("Frame",_AGARWARE["7a"]);
+_AGARWARE["94"].Name="VisualRightSide";
+_AGARWARE["94"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["94"]["BorderSizePixel"]=0;
+_AGARWARE["94"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["94"]["BackgroundTransparency"]=1;
+_AGARWARE["94"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
+_AGARWARE["94"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["95"]=Instance.new("UIListLayout",_AGARWARE["94"]);
+_AGARWARE["95"].Name="UIListLayout";
+_AGARWARE["95"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["95"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["96"]=Instance.new("Frame",_AGARWARE["94"]);
+_AGARWARE["96"].Name="ESPSGroup";
+_AGARWARE["96"]["Size"]=UDim2.new(0, 170, 0, 65);
+_AGARWARE["96"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["96"]["LayoutOrder"]=1;
+_AGARWARE["96"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["96"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["97"]=Instance.new("LocalScript",_AGARWARE["96"]);
+_AGARWARE["97"].Name="ESPSScript";
+_AGARWARE["98"]=Instance.new("UIListLayout",_AGARWARE["96"]);
+_AGARWARE["98"].Name="UIListLayout";
+_AGARWARE["98"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["99"]=Instance.new("Frame",_AGARWARE["96"]);
+_AGARWARE["99"].Name="ESPSAccentColor";
+_AGARWARE["99"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["99"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["99"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["99"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["99"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["9a"]=Instance.new("TextLabel",_AGARWARE["96"]);
+_AGARWARE["9a"].Name="ESPSTitle";
+_AGARWARE["9a"]["TextWrapped"]=true;
 _AGARWARE["9a"]["BorderSizePixel"]=0;
+_AGARWARE["9a"]["TextScaled"]=true;
 _AGARWARE["9a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["9a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["9a"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["9a"]["TextSize"]=14;
-_AGARWARE["9a"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["9a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["9a"]["BackgroundTransparency"]=1;
+_AGARWARE["9a"]["LayoutOrder"]=1;
 _AGARWARE["9a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["9a"]["Text"]=[[-]];
-_AGARWARE["9a"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["9b"]=Instance.new("Frame",_AGARWARE["95"]);
-_AGARWARE["9b"].Name="ESPEnableRow";
-_AGARWARE["9b"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["9a"]["Text"]=[[ESP Settings]];
+_AGARWARE["9a"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["9a"]["BackgroundTransparency"]=0.95;
+_AGARWARE["9a"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["9b"]=Instance.new("TextButton",_AGARWARE["9a"]);
+_AGARWARE["9b"].Name="ESPSMinimize";
 _AGARWARE["9b"]["BorderSizePixel"]=0;
-_AGARWARE["9b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["9b"]["LayoutOrder"]=3;
-_AGARWARE["9b"]["BackgroundTransparency"]=1;
-_AGARWARE["9b"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["9b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["9c"]=Instance.new("LocalScript",_AGARWARE["9b"]);
-_AGARWARE["9c"].Name="ESPEnableScript";
-_AGARWARE["9d"]=Instance.new("TextButton",_AGARWARE["9b"]);
-_AGARWARE["9d"].Name="ESPEnableTickBox";
-_AGARWARE["9d"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["9d"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["9d"]["TextSize"]=14;
-_AGARWARE["9d"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["9d"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["9d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["9d"]["Text"]=[[]];
-_AGARWARE["9d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["9e"]=Instance.new("TextLabel",_AGARWARE["9b"]);
-_AGARWARE["9e"].Name="ESPEnableText";
-_AGARWARE["9e"]["BorderSizePixel"]=0;
-_AGARWARE["9e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["9e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["9e"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["9e"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["9b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["9b"]["TextSize"]=14;
+_AGARWARE["9b"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["9b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["9b"]["BackgroundTransparency"]=1;
+_AGARWARE["9b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["9b"]["Text"]=[[-]];
+_AGARWARE["9b"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["9c"]=Instance.new("Frame",_AGARWARE["96"]);
+_AGARWARE["9c"].Name="ESPEnableRow";
+_AGARWARE["9c"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["9c"]["BorderSizePixel"]=0;
+_AGARWARE["9c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["9c"]["LayoutOrder"]=3;
+_AGARWARE["9c"]["BackgroundTransparency"]=1;
+_AGARWARE["9c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["9c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["9d"]=Instance.new("LocalScript",_AGARWARE["9c"]);
+_AGARWARE["9d"].Name="ESPEnableScript";
+_AGARWARE["9e"]=Instance.new("TextButton",_AGARWARE["9c"]);
+_AGARWARE["9e"].Name="ESPEnableTickBox";
+_AGARWARE["9e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["9e"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["9e"]["TextSize"]=14;
-_AGARWARE["9e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["9e"]["Text"]=[[Enable ESP]];
-_AGARWARE["9e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["9e"]["BackgroundTransparency"]=1;
-_AGARWARE["9e"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["9f"]=Instance.new("Frame",_AGARWARE["95"]);
-_AGARWARE["9f"].Name="ESPUserRow";
-_AGARWARE["9f"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["9e"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["9e"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["9e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["9e"]["Text"]=[[]];
+_AGARWARE["9e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["9f"]=Instance.new("TextLabel",_AGARWARE["9c"]);
+_AGARWARE["9f"].Name="ESPEnableText";
 _AGARWARE["9f"]["BorderSizePixel"]=0;
-_AGARWARE["9f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["9f"]["LayoutOrder"]=3;
-_AGARWARE["9f"]["BackgroundTransparency"]=1;
-_AGARWARE["9f"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["9f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["a0"]=Instance.new("LocalScript",_AGARWARE["9f"]);
-_AGARWARE["a0"].Name="ESPUserScript";
-_AGARWARE["a1"]=Instance.new("TextButton",_AGARWARE["9f"]);
-_AGARWARE["a1"].Name="ESPUserTickBox";
-_AGARWARE["a1"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["a1"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["a1"]["TextSize"]=14;
-_AGARWARE["a1"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["a1"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["a1"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["a1"]["Text"]=[[]];
-_AGARWARE["a1"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["a2"]=Instance.new("TextLabel",_AGARWARE["9f"]);
-_AGARWARE["a2"].Name="ESPUserText";
-_AGARWARE["a2"]["BorderSizePixel"]=0;
-_AGARWARE["a2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["a2"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["a2"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["a2"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["9f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["9f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["9f"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["9f"]["TextSize"]=14;
+_AGARWARE["9f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["9f"]["Text"]=[[Enable ESP]];
+_AGARWARE["9f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["9f"]["BackgroundTransparency"]=1;
+_AGARWARE["9f"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["a0"]=Instance.new("Frame",_AGARWARE["96"]);
+_AGARWARE["a0"].Name="ESPUserRow";
+_AGARWARE["a0"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["a0"]["BorderSizePixel"]=0;
+_AGARWARE["a0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["a0"]["LayoutOrder"]=3;
+_AGARWARE["a0"]["BackgroundTransparency"]=1;
+_AGARWARE["a0"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["a0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["a1"]=Instance.new("LocalScript",_AGARWARE["a0"]);
+_AGARWARE["a1"].Name="ESPUserScript";
+_AGARWARE["a2"]=Instance.new("TextButton",_AGARWARE["a0"]);
+_AGARWARE["a2"].Name="ESPUserTickBox";
+_AGARWARE["a2"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["a2"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["a2"]["TextSize"]=14;
-_AGARWARE["a2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["a2"]["Text"]=[[Show Display Names]];
-_AGARWARE["a2"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["a2"]["BackgroundTransparency"]=1;
-_AGARWARE["a2"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["a3"]=Instance.new("ScrollingFrame",_AGARWARE["15"]);
-_AGARWARE["a3"].Name="SettingsPage";
+_AGARWARE["a2"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["a2"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["a2"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["a2"]["Text"]=[[]];
+_AGARWARE["a2"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["a3"]=Instance.new("TextLabel",_AGARWARE["a0"]);
+_AGARWARE["a3"].Name="ESPUserText";
 _AGARWARE["a3"]["BorderSizePixel"]=0;
-_AGARWARE["a3"]["CanvasSize"]=UDim2.new(0, 0, 1.5, 0);
-_AGARWARE["a3"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["a3"]["Active"]=true;
-_AGARWARE["a3"]["Size"]=UDim2.new(0, 349, 0, 250);
-_AGARWARE["a3"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["a3"]["Visible"]=false;
+_AGARWARE["a3"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["a3"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["a3"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["a3"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["a3"]["TextSize"]=14;
 _AGARWARE["a3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["a3"]["ScrollBarThickness"]=0;
+_AGARWARE["a3"]["Text"]=[[Show Display Names]];
+_AGARWARE["a3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["a3"]["BackgroundTransparency"]=1;
-_AGARWARE["a3"]["Position"]=UDim2.new(0.02329, 0, 0.03008, 0);
-_AGARWARE["a4"]=Instance.new("Frame",_AGARWARE["a3"]);
-_AGARWARE["a4"].Name="SettingsLeftSide";
-_AGARWARE["a4"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["a3"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["a4"]=Instance.new("ScrollingFrame",_AGARWARE["16"]);
+_AGARWARE["a4"].Name="SettingsPage";
 _AGARWARE["a4"]["BorderSizePixel"]=0;
+_AGARWARE["a4"]["CanvasSize"]=UDim2.new(0, 0, 1.5, 0);
+_AGARWARE["a4"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["a4"]["Active"]=true;
+_AGARWARE["a4"]["Size"]=UDim2.new(0, 349, 0, 250);
+_AGARWARE["a4"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["a4"]["Visible"]=false;
 _AGARWARE["a4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["a4"]["ScrollBarThickness"]=0;
 _AGARWARE["a4"]["BackgroundTransparency"]=1;
-_AGARWARE["a4"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
-_AGARWARE["a4"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["a5"]=Instance.new("UIListLayout",_AGARWARE["a4"]);
-_AGARWARE["a5"].Name="UIListLayout";
-_AGARWARE["a5"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["a5"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["a6"]=Instance.new("Frame",_AGARWARE["a4"]);
-_AGARWARE["a6"].Name="MainSettingsGroup";
-_AGARWARE["a6"]["Size"]=UDim2.new(0, 170, 0, 65);
-_AGARWARE["a6"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["a6"]["LayoutOrder"]=2;
-_AGARWARE["a6"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["a6"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["a7"]=Instance.new("LocalScript",_AGARWARE["a6"]);
-_AGARWARE["a7"].Name="MainSettingsScript";
-_AGARWARE["a8"]=Instance.new("LocalScript",_AGARWARE["a6"]);
-_AGARWARE["a8"].Name="MainSettingsTooltip";
-_AGARWARE["a9"]=Instance.new("UIListLayout",_AGARWARE["a6"]);
-_AGARWARE["a9"].Name="UIListLayout";
-_AGARWARE["a9"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["aa"]=Instance.new("Frame",_AGARWARE["a6"]);
-_AGARWARE["aa"].Name="MainSettingsAccentColor";
-_AGARWARE["aa"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["aa"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["aa"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["aa"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["aa"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["ab"]=Instance.new("TextLabel",_AGARWARE["a6"]);
-_AGARWARE["ab"].Name="MainSettingsTitle";
-_AGARWARE["ab"]["TextWrapped"]=true;
-_AGARWARE["ab"]["BorderSizePixel"]=0;
-_AGARWARE["ab"]["TextScaled"]=true;
-_AGARWARE["ab"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["ab"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["ab"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["ab"]["TextSize"]=14;
-_AGARWARE["ab"]["LayoutOrder"]=1;
-_AGARWARE["ab"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["ab"]["Text"]=[[Main Settings]];
-_AGARWARE["ab"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["ab"]["BackgroundTransparency"]=0.95;
-_AGARWARE["ab"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["ac"]=Instance.new("TextButton",_AGARWARE["ab"]);
-_AGARWARE["ac"].Name="MainSettingsMinimize";
+_AGARWARE["a4"]["Position"]=UDim2.new(0.02329, 0, 0.03008, 0);
+_AGARWARE["a5"]=Instance.new("Frame",_AGARWARE["a4"]);
+_AGARWARE["a5"].Name="SettingsLeftSide";
+_AGARWARE["a5"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["a5"]["BorderSizePixel"]=0;
+_AGARWARE["a5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["a5"]["BackgroundTransparency"]=1;
+_AGARWARE["a5"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
+_AGARWARE["a5"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["a6"]=Instance.new("UIListLayout",_AGARWARE["a5"]);
+_AGARWARE["a6"].Name="UIListLayout";
+_AGARWARE["a6"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["a6"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["a7"]=Instance.new("Frame",_AGARWARE["a5"]);
+_AGARWARE["a7"].Name="MainSettingsGroup";
+_AGARWARE["a7"]["Size"]=UDim2.new(0, 170, 0, 65);
+_AGARWARE["a7"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["a7"]["LayoutOrder"]=2;
+_AGARWARE["a7"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["a7"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["a8"]=Instance.new("LocalScript",_AGARWARE["a7"]);
+_AGARWARE["a8"].Name="MainSettingsScript";
+_AGARWARE["a9"]=Instance.new("LocalScript",_AGARWARE["a7"]);
+_AGARWARE["a9"].Name="MainSettingsTooltip";
+_AGARWARE["aa"]=Instance.new("UIListLayout",_AGARWARE["a7"]);
+_AGARWARE["aa"].Name="UIListLayout";
+_AGARWARE["aa"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["ab"]=Instance.new("Frame",_AGARWARE["a7"]);
+_AGARWARE["ab"].Name="MainSettingsAccentColor";
+_AGARWARE["ab"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["ab"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["ab"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["ab"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["ab"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["ac"]=Instance.new("TextLabel",_AGARWARE["a7"]);
+_AGARWARE["ac"].Name="MainSettingsTitle";
+_AGARWARE["ac"]["TextWrapped"]=true;
 _AGARWARE["ac"]["BorderSizePixel"]=0;
+_AGARWARE["ac"]["TextScaled"]=true;
 _AGARWARE["ac"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["ac"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["ac"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["ac"]["TextSize"]=14;
-_AGARWARE["ac"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["ac"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["ac"]["BackgroundTransparency"]=1;
+_AGARWARE["ac"]["LayoutOrder"]=1;
 _AGARWARE["ac"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["ac"]["Text"]=[[-]];
-_AGARWARE["ac"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["ad"]=Instance.new("Frame",_AGARWARE["a6"]);
-_AGARWARE["ad"].Name="SaveScriptsRow";
-_AGARWARE["ad"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["ac"]["Text"]=[[Main Settings]];
+_AGARWARE["ac"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["ac"]["BackgroundTransparency"]=0.95;
+_AGARWARE["ac"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["ad"]=Instance.new("TextButton",_AGARWARE["ac"]);
+_AGARWARE["ad"].Name="MainSettingsMinimize";
 _AGARWARE["ad"]["BorderSizePixel"]=0;
-_AGARWARE["ad"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["ad"]["LayoutOrder"]=3;
-_AGARWARE["ad"]["BackgroundTransparency"]=1;
-_AGARWARE["ad"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["ad"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["ae"]=Instance.new("LocalScript",_AGARWARE["ad"]);
-_AGARWARE["ae"].Name="SaveScriptsScript";
-_AGARWARE["af"]=Instance.new("TextButton",_AGARWARE["ad"]);
-_AGARWARE["af"].Name="SaveScriptsTickBox";
-_AGARWARE["af"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["af"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["af"]["TextSize"]=14;
-_AGARWARE["af"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["af"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["af"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["af"]["Text"]=[[]];
-_AGARWARE["af"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["b0"]=Instance.new("TextLabel",_AGARWARE["ad"]);
-_AGARWARE["b0"].Name="SaveScriptsText";
-_AGARWARE["b0"]["BorderSizePixel"]=0;
-_AGARWARE["b0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["b0"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["b0"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["b0"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["ad"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["ad"]["TextSize"]=14;
+_AGARWARE["ad"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["ad"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["ad"]["BackgroundTransparency"]=1;
+_AGARWARE["ad"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["ad"]["Text"]=[[-]];
+_AGARWARE["ad"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["ae"]=Instance.new("Frame",_AGARWARE["a7"]);
+_AGARWARE["ae"].Name="SaveScriptsRow";
+_AGARWARE["ae"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["ae"]["BorderSizePixel"]=0;
+_AGARWARE["ae"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["ae"]["LayoutOrder"]=3;
+_AGARWARE["ae"]["BackgroundTransparency"]=1;
+_AGARWARE["ae"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["ae"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["af"]=Instance.new("LocalScript",_AGARWARE["ae"]);
+_AGARWARE["af"].Name="SaveScriptsScript";
+_AGARWARE["b0"]=Instance.new("TextButton",_AGARWARE["ae"]);
+_AGARWARE["b0"].Name="SaveScriptsTickBox";
+_AGARWARE["b0"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["b0"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["b0"]["TextSize"]=14;
-_AGARWARE["b0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["b0"]["Text"]=[[Auto Load Scripts]];
-_AGARWARE["b0"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["b0"]["BackgroundTransparency"]=1;
-_AGARWARE["b0"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["b1"]=Instance.new("Frame",_AGARWARE["a6"]);
-_AGARWARE["b1"].Name="AutoExecuteRow";
-_AGARWARE["b1"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["b0"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["b0"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["b0"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["b0"]["Text"]=[[]];
+_AGARWARE["b0"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["b1"]=Instance.new("TextLabel",_AGARWARE["ae"]);
+_AGARWARE["b1"].Name="SaveScriptsText";
 _AGARWARE["b1"]["BorderSizePixel"]=0;
-_AGARWARE["b1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["b1"]["LayoutOrder"]=3;
-_AGARWARE["b1"]["BackgroundTransparency"]=1;
-_AGARWARE["b1"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["b1"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["b2"]=Instance.new("LocalScript",_AGARWARE["b1"]);
-_AGARWARE["b2"].Name="AutoExecuteScript";
-_AGARWARE["b3"]=Instance.new("TextButton",_AGARWARE["b1"]);
-_AGARWARE["b3"].Name="AutoExecuteTickBox";
-_AGARWARE["b3"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["b3"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["b3"]["TextSize"]=14;
-_AGARWARE["b3"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["b3"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["b3"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["b3"]["Text"]=[[]];
-_AGARWARE["b3"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["b4"]=Instance.new("TextLabel",_AGARWARE["b1"]);
-_AGARWARE["b4"].Name="AutoExecuteText";
-_AGARWARE["b4"]["BorderSizePixel"]=0;
-_AGARWARE["b4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["b4"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["b4"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["b4"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["b1"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["b1"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["b1"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["b1"]["TextSize"]=14;
+_AGARWARE["b1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["b1"]["Text"]=[[Auto Load Scripts]];
+_AGARWARE["b1"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["b1"]["BackgroundTransparency"]=1;
+_AGARWARE["b1"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["b2"]=Instance.new("Frame",_AGARWARE["a7"]);
+_AGARWARE["b2"].Name="AutoExecuteRow";
+_AGARWARE["b2"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["b2"]["BorderSizePixel"]=0;
+_AGARWARE["b2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["b2"]["LayoutOrder"]=3;
+_AGARWARE["b2"]["BackgroundTransparency"]=1;
+_AGARWARE["b2"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["b2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["b3"]=Instance.new("LocalScript",_AGARWARE["b2"]);
+_AGARWARE["b3"].Name="AutoExecuteScript";
+_AGARWARE["b4"]=Instance.new("TextButton",_AGARWARE["b2"]);
+_AGARWARE["b4"].Name="AutoExecuteTickBox";
+_AGARWARE["b4"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["b4"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["b4"]["TextSize"]=14;
-_AGARWARE["b4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["b4"]["Text"]=[[Auto Execute]];
-_AGARWARE["b4"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["b4"]["BackgroundTransparency"]=1;
-_AGARWARE["b4"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["b5"]=Instance.new("Frame",_AGARWARE["a3"]);
-_AGARWARE["b5"].Name="SettingsRightSide";
-_AGARWARE["b5"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["b4"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["b4"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["b4"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["b4"]["Text"]=[[]];
+_AGARWARE["b4"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["b5"]=Instance.new("TextLabel",_AGARWARE["b2"]);
+_AGARWARE["b5"].Name="AutoExecuteText";
 _AGARWARE["b5"]["BorderSizePixel"]=0;
+_AGARWARE["b5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["b5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["b5"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["b5"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["b5"]["TextSize"]=14;
 _AGARWARE["b5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["b5"]["Text"]=[[Auto Execute]];
+_AGARWARE["b5"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["b5"]["BackgroundTransparency"]=1;
-_AGARWARE["b5"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
-_AGARWARE["b5"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["b6"]=Instance.new("UIListLayout",_AGARWARE["b5"]);
-_AGARWARE["b6"].Name="UIListLayout";
-_AGARWARE["b6"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["b6"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["b7"]=Instance.new("Frame",_AGARWARE["b5"]);
-_AGARWARE["b7"].Name="ExploitsGroup";
-_AGARWARE["b7"]["Size"]=UDim2.new(0, 170, 0, 80);
-_AGARWARE["b7"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["b7"]["LayoutOrder"]=2;
-_AGARWARE["b7"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["b7"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["b8"]=Instance.new("LocalScript",_AGARWARE["b7"]);
-_AGARWARE["b8"].Name="ExploitsScript";
-_AGARWARE["b9"]=Instance.new("UIListLayout",_AGARWARE["b7"]);
-_AGARWARE["b9"].Name="UIListLayout";
-_AGARWARE["b9"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["ba"]=Instance.new("Frame",_AGARWARE["b7"]);
-_AGARWARE["ba"].Name="ExploitsAccentColor";
-_AGARWARE["ba"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["ba"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["ba"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["ba"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["ba"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["bb"]=Instance.new("TextLabel",_AGARWARE["b7"]);
-_AGARWARE["bb"].Name="ExploitsTitle";
-_AGARWARE["bb"]["TextWrapped"]=true;
-_AGARWARE["bb"]["BorderSizePixel"]=0;
-_AGARWARE["bb"]["TextScaled"]=true;
-_AGARWARE["bb"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["bb"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["bb"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["bb"]["TextSize"]=14;
-_AGARWARE["bb"]["LayoutOrder"]=1;
-_AGARWARE["bb"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["bb"]["Text"]=[[Exploits]];
-_AGARWARE["bb"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["bb"]["BackgroundTransparency"]=0.95;
-_AGARWARE["bb"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["bc"]=Instance.new("TextButton",_AGARWARE["bb"]);
-_AGARWARE["bc"].Name="ExploitsMinimize";
+_AGARWARE["b5"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["b6"]=Instance.new("Frame",_AGARWARE["a4"]);
+_AGARWARE["b6"].Name="SettingsRightSide";
+_AGARWARE["b6"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["b6"]["BorderSizePixel"]=0;
+_AGARWARE["b6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["b6"]["BackgroundTransparency"]=1;
+_AGARWARE["b6"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
+_AGARWARE["b6"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["b7"]=Instance.new("UIListLayout",_AGARWARE["b6"]);
+_AGARWARE["b7"].Name="UIListLayout";
+_AGARWARE["b7"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["b7"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["b8"]=Instance.new("Frame",_AGARWARE["b6"]);
+_AGARWARE["b8"].Name="ExploitsGroup";
+_AGARWARE["b8"]["Size"]=UDim2.new(0, 170, 0, 80);
+_AGARWARE["b8"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["b8"]["LayoutOrder"]=2;
+_AGARWARE["b8"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["b8"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["b9"]=Instance.new("LocalScript",_AGARWARE["b8"]);
+_AGARWARE["b9"].Name="ExploitsScript";
+_AGARWARE["ba"]=Instance.new("UIListLayout",_AGARWARE["b8"]);
+_AGARWARE["ba"].Name="UIListLayout";
+_AGARWARE["ba"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["bb"]=Instance.new("Frame",_AGARWARE["b8"]);
+_AGARWARE["bb"].Name="ExploitsAccentColor";
+_AGARWARE["bb"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["bb"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["bb"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["bb"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["bb"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["bc"]=Instance.new("TextLabel",_AGARWARE["b8"]);
+_AGARWARE["bc"].Name="ExploitsTitle";
+_AGARWARE["bc"]["TextWrapped"]=true;
 _AGARWARE["bc"]["BorderSizePixel"]=0;
+_AGARWARE["bc"]["TextScaled"]=true;
 _AGARWARE["bc"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["bc"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["bc"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["bc"]["TextSize"]=14;
-_AGARWARE["bc"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["bc"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["bc"]["BackgroundTransparency"]=1;
+_AGARWARE["bc"]["LayoutOrder"]=1;
 _AGARWARE["bc"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["bc"]["Text"]=[[-]];
-_AGARWARE["bc"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["bd"]=Instance.new("Frame",_AGARWARE["b7"]);
-_AGARWARE["bd"].Name="IYRow";
-_AGARWARE["bd"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["bc"]["Text"]=[[Exploits]];
+_AGARWARE["bc"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["bc"]["BackgroundTransparency"]=0.95;
+_AGARWARE["bc"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["bd"]=Instance.new("TextButton",_AGARWARE["bc"]);
+_AGARWARE["bd"].Name="ExploitsMinimize";
 _AGARWARE["bd"]["BorderSizePixel"]=0;
-_AGARWARE["bd"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["bd"]["LayoutOrder"]=3;
-_AGARWARE["bd"]["BackgroundTransparency"]=1;
-_AGARWARE["bd"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["bd"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["be"]=Instance.new("LocalScript",_AGARWARE["bd"]);
-_AGARWARE["be"].Name="IYScript";
-_AGARWARE["bf"]=Instance.new("TextButton",_AGARWARE["bd"]);
-_AGARWARE["bf"].Name="IYButton";
-_AGARWARE["bf"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["bf"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["bf"]["TextSize"]=14;
-_AGARWARE["bf"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["bf"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["bf"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["bf"]["Text"]=[[Infinite Yield]];
-_AGARWARE["bf"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["c0"]=Instance.new("Frame",_AGARWARE["b7"]);
-_AGARWARE["c0"].Name="SSRow";
-_AGARWARE["c0"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["c0"]["BorderSizePixel"]=0;
-_AGARWARE["c0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["c0"]["LayoutOrder"]=4;
-_AGARWARE["c0"]["BackgroundTransparency"]=1;
-_AGARWARE["c0"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["c0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["c1"]=Instance.new("LocalScript",_AGARWARE["c0"]);
-_AGARWARE["c1"].Name="SSScript";
-_AGARWARE["c2"]=Instance.new("TextButton",_AGARWARE["c0"]);
-_AGARWARE["c2"].Name="SSButton";
-_AGARWARE["c2"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["c2"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["c2"]["TextSize"]=14;
-_AGARWARE["c2"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["c2"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["c2"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["c2"]["Text"]=[[Simple Spy V3]];
-_AGARWARE["c2"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["c3"]=Instance.new("Frame",_AGARWARE["b7"]);
-_AGARWARE["c3"].Name="FlingScriptRow";
-_AGARWARE["c3"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["c3"]["BorderSizePixel"]=0;
-_AGARWARE["c3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["c3"]["LayoutOrder"]=4;
-_AGARWARE["c3"]["BackgroundTransparency"]=1;
-_AGARWARE["c3"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["c3"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["c4"]=Instance.new("LocalScript",_AGARWARE["c3"]);
-_AGARWARE["c4"].Name="FlingScriptScript";
-_AGARWARE["c5"]=Instance.new("TextButton",_AGARWARE["c3"]);
-_AGARWARE["c5"].Name="FlingScriptButton";
-_AGARWARE["c5"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["c5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["c5"]["TextSize"]=14;
-_AGARWARE["c5"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["c5"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["c5"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["c5"]["Text"]=[[Fling GUI (for bedw)]];
-_AGARWARE["c5"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["c6"]=Instance.new("ScrollingFrame",_AGARWARE["15"]);
-_AGARWARE["c6"].Name="TCOMainPage";
-_AGARWARE["c6"]["BorderSizePixel"]=0;
-_AGARWARE["c6"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["c6"]["Active"]=true;
-_AGARWARE["c6"]["Size"]=UDim2.new(0, 349, 0, 233);
-_AGARWARE["c6"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["c6"]["Visible"]=false;
-_AGARWARE["c6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["c6"]["ScrollBarThickness"]=0;
-_AGARWARE["c6"]["BackgroundTransparency"]=1;
-_AGARWARE["c6"]["Position"]=UDim2.new(0.02329, 0, 0.09398, 0);
-_AGARWARE["c7"]=Instance.new("Frame",_AGARWARE["c6"]);
-_AGARWARE["c7"].Name="TCOMainLeftSide";
-_AGARWARE["c7"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["bd"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["bd"]["TextSize"]=14;
+_AGARWARE["bd"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["bd"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["bd"]["BackgroundTransparency"]=1;
+_AGARWARE["bd"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["bd"]["Text"]=[[-]];
+_AGARWARE["bd"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["be"]=Instance.new("Frame",_AGARWARE["b8"]);
+_AGARWARE["be"].Name="IYRow";
+_AGARWARE["be"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["be"]["BorderSizePixel"]=0;
+_AGARWARE["be"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["be"]["LayoutOrder"]=3;
+_AGARWARE["be"]["BackgroundTransparency"]=1;
+_AGARWARE["be"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["be"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["bf"]=Instance.new("LocalScript",_AGARWARE["be"]);
+_AGARWARE["bf"].Name="IYScript";
+_AGARWARE["c0"]=Instance.new("TextButton",_AGARWARE["be"]);
+_AGARWARE["c0"].Name="IYButton";
+_AGARWARE["c0"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["c0"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["c0"]["TextSize"]=14;
+_AGARWARE["c0"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["c0"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["c0"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["c0"]["Text"]=[[Infinite Yield]];
+_AGARWARE["c0"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["c1"]=Instance.new("Frame",_AGARWARE["b8"]);
+_AGARWARE["c1"].Name="SSRow";
+_AGARWARE["c1"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["c1"]["BorderSizePixel"]=0;
+_AGARWARE["c1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["c1"]["LayoutOrder"]=4;
+_AGARWARE["c1"]["BackgroundTransparency"]=1;
+_AGARWARE["c1"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["c1"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["c2"]=Instance.new("LocalScript",_AGARWARE["c1"]);
+_AGARWARE["c2"].Name="SSScript";
+_AGARWARE["c3"]=Instance.new("TextButton",_AGARWARE["c1"]);
+_AGARWARE["c3"].Name="SSButton";
+_AGARWARE["c3"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["c3"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["c3"]["TextSize"]=14;
+_AGARWARE["c3"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["c3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["c3"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["c3"]["Text"]=[[Simple Spy V3]];
+_AGARWARE["c3"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["c4"]=Instance.new("Frame",_AGARWARE["b8"]);
+_AGARWARE["c4"].Name="FlingScriptRow";
+_AGARWARE["c4"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["c4"]["BorderSizePixel"]=0;
+_AGARWARE["c4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["c4"]["LayoutOrder"]=4;
+_AGARWARE["c4"]["BackgroundTransparency"]=1;
+_AGARWARE["c4"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["c4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["c5"]=Instance.new("LocalScript",_AGARWARE["c4"]);
+_AGARWARE["c5"].Name="FlingScriptScript";
+_AGARWARE["c6"]=Instance.new("TextButton",_AGARWARE["c4"]);
+_AGARWARE["c6"].Name="FlingScriptButton";
+_AGARWARE["c6"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["c6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["c6"]["TextSize"]=14;
+_AGARWARE["c6"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["c6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["c6"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["c6"]["Text"]=[[Fling GUI (for bedw)]];
+_AGARWARE["c6"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["c7"]=Instance.new("ScrollingFrame",_AGARWARE["16"]);
+_AGARWARE["c7"].Name="TCOMainPage";
 _AGARWARE["c7"]["BorderSizePixel"]=0;
+_AGARWARE["c7"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["c7"]["Active"]=true;
+_AGARWARE["c7"]["Size"]=UDim2.new(0, 349, 0, 233);
+_AGARWARE["c7"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["c7"]["Visible"]=false;
 _AGARWARE["c7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["c7"]["ScrollBarThickness"]=0;
 _AGARWARE["c7"]["BackgroundTransparency"]=1;
-_AGARWARE["c7"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
-_AGARWARE["c7"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["c8"]=Instance.new("UIListLayout",_AGARWARE["c7"]);
-_AGARWARE["c8"].Name="UIListLayout";
-_AGARWARE["c8"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["c8"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["c9"]=Instance.new("Frame",_AGARWARE["c7"]);
-_AGARWARE["c9"].Name="MainGroup";
-_AGARWARE["c9"]["Size"]=UDim2.new(0, 170, 0, 100);
-_AGARWARE["c9"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["c9"]["LayoutOrder"]=2;
-_AGARWARE["c9"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["c9"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["ca"]=Instance.new("LocalScript",_AGARWARE["c9"]);
-_AGARWARE["ca"].Name="MainScript";
-_AGARWARE["cb"]=Instance.new("UIListLayout",_AGARWARE["c9"]);
-_AGARWARE["cb"].Name="UIListLayout";
-_AGARWARE["cb"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["cc"]=Instance.new("Frame",_AGARWARE["c9"]);
-_AGARWARE["cc"].Name="MainAccentColor";
-_AGARWARE["cc"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["cc"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["cc"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["cc"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["cc"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["cd"]=Instance.new("TextLabel",_AGARWARE["c9"]);
-_AGARWARE["cd"].Name="MainTitle";
-_AGARWARE["cd"]["TextWrapped"]=true;
-_AGARWARE["cd"]["BorderSizePixel"]=0;
-_AGARWARE["cd"]["TextScaled"]=true;
-_AGARWARE["cd"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["cd"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["cd"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["cd"]["TextSize"]=14;
-_AGARWARE["cd"]["LayoutOrder"]=1;
-_AGARWARE["cd"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["cd"]["Text"]=[[Main]];
-_AGARWARE["cd"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["cd"]["BackgroundTransparency"]=0.95;
-_AGARWARE["cd"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["ce"]=Instance.new("TextButton",_AGARWARE["cd"]);
-_AGARWARE["ce"].Name="MainMinimize";
+_AGARWARE["c7"]["Position"]=UDim2.new(0.02329, 0, 0.09398, 0);
+_AGARWARE["c8"]=Instance.new("Frame",_AGARWARE["c7"]);
+_AGARWARE["c8"].Name="TCOMainLeftSide";
+_AGARWARE["c8"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["c8"]["BorderSizePixel"]=0;
+_AGARWARE["c8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["c8"]["BackgroundTransparency"]=1;
+_AGARWARE["c8"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
+_AGARWARE["c8"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["c9"]=Instance.new("UIListLayout",_AGARWARE["c8"]);
+_AGARWARE["c9"].Name="UIListLayout";
+_AGARWARE["c9"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["c9"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["ca"]=Instance.new("Frame",_AGARWARE["c8"]);
+_AGARWARE["ca"].Name="MainGroup";
+_AGARWARE["ca"]["Size"]=UDim2.new(0, 170, 0, 100);
+_AGARWARE["ca"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["ca"]["LayoutOrder"]=2;
+_AGARWARE["ca"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["ca"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["cb"]=Instance.new("LocalScript",_AGARWARE["ca"]);
+_AGARWARE["cb"].Name="MainScript";
+_AGARWARE["cc"]=Instance.new("UIListLayout",_AGARWARE["ca"]);
+_AGARWARE["cc"].Name="UIListLayout";
+_AGARWARE["cc"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["cd"]=Instance.new("Frame",_AGARWARE["ca"]);
+_AGARWARE["cd"].Name="MainAccentColor";
+_AGARWARE["cd"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["cd"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["cd"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["cd"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["cd"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["ce"]=Instance.new("TextLabel",_AGARWARE["ca"]);
+_AGARWARE["ce"].Name="MainTitle";
+_AGARWARE["ce"]["TextWrapped"]=true;
 _AGARWARE["ce"]["BorderSizePixel"]=0;
+_AGARWARE["ce"]["TextScaled"]=true;
 _AGARWARE["ce"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["ce"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["ce"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["ce"]["TextSize"]=14;
-_AGARWARE["ce"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["ce"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["ce"]["BackgroundTransparency"]=1;
+_AGARWARE["ce"]["LayoutOrder"]=1;
 _AGARWARE["ce"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["ce"]["Text"]=[[-]];
-_AGARWARE["ce"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["cf"]=Instance.new("Frame",_AGARWARE["c9"]);
-_AGARWARE["cf"].Name="ChatSpyRow";
-_AGARWARE["cf"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["ce"]["Text"]=[[Main]];
+_AGARWARE["ce"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["ce"]["BackgroundTransparency"]=0.95;
+_AGARWARE["ce"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["cf"]=Instance.new("TextButton",_AGARWARE["ce"]);
+_AGARWARE["cf"].Name="MainMinimize";
 _AGARWARE["cf"]["BorderSizePixel"]=0;
-_AGARWARE["cf"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["cf"]["LayoutOrder"]=2;
-_AGARWARE["cf"]["BackgroundTransparency"]=1;
-_AGARWARE["cf"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["cf"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["d0"]=Instance.new("LocalScript",_AGARWARE["cf"]);
-_AGARWARE["d0"].Name="ChatSpyScript";
-_AGARWARE["d1"]=Instance.new("TextButton",_AGARWARE["cf"]);
-_AGARWARE["d1"].Name="ChatSpyTickBox";
-_AGARWARE["d1"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d1"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["d1"]["TextSize"]=14;
-_AGARWARE["d1"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["d1"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d1"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["d1"]["Text"]=[[]];
-_AGARWARE["d1"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["d2"]=Instance.new("TextLabel",_AGARWARE["cf"]);
-_AGARWARE["d2"].Name="ChatSpyText";
-_AGARWARE["d2"]["BorderSizePixel"]=0;
-_AGARWARE["d2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["d2"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["d2"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["d2"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["cf"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["cf"]["TextSize"]=14;
+_AGARWARE["cf"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["cf"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["cf"]["BackgroundTransparency"]=1;
+_AGARWARE["cf"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["cf"]["Text"]=[[-]];
+_AGARWARE["cf"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["d0"]=Instance.new("Frame",_AGARWARE["ca"]);
+_AGARWARE["d0"].Name="ChatSpyRow";
+_AGARWARE["d0"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["d0"]["BorderSizePixel"]=0;
+_AGARWARE["d0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["d0"]["LayoutOrder"]=2;
+_AGARWARE["d0"]["BackgroundTransparency"]=1;
+_AGARWARE["d0"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["d0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["d1"]=Instance.new("LocalScript",_AGARWARE["d0"]);
+_AGARWARE["d1"].Name="ChatSpyScript";
+_AGARWARE["d2"]=Instance.new("TextButton",_AGARWARE["d0"]);
+_AGARWARE["d2"].Name="ChatSpyTickBox";
+_AGARWARE["d2"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["d2"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["d2"]["TextSize"]=14;
-_AGARWARE["d2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d2"]["Text"]=[[Spy Chat]];
-_AGARWARE["d2"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["d2"]["BackgroundTransparency"]=1;
-_AGARWARE["d2"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["d3"]=Instance.new("Frame",_AGARWARE["c9"]);
-_AGARWARE["d3"].Name="ADODeathRow";
-_AGARWARE["d3"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["d2"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["d2"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["d2"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["d2"]["Text"]=[[]];
+_AGARWARE["d2"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["d3"]=Instance.new("TextLabel",_AGARWARE["d0"]);
+_AGARWARE["d3"].Name="ChatSpyText";
 _AGARWARE["d3"]["BorderSizePixel"]=0;
-_AGARWARE["d3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d3"]["LayoutOrder"]=2;
-_AGARWARE["d3"]["BackgroundTransparency"]=1;
-_AGARWARE["d3"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["d3"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["d4"]=Instance.new("TextButton",_AGARWARE["d3"]);
-_AGARWARE["d4"].Name="ADODeathTickBox";
-_AGARWARE["d4"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d4"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["d4"]["TextSize"]=14;
-_AGARWARE["d4"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["d4"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d4"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["d4"]["Text"]=[[]];
-_AGARWARE["d4"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["d5"]=Instance.new("TextLabel",_AGARWARE["d3"]);
-_AGARWARE["d5"].Name="ADODeathText";
-_AGARWARE["d5"]["BorderSizePixel"]=0;
-_AGARWARE["d5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["d5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["d5"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["d5"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["d3"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["d3"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["d3"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["d3"]["TextSize"]=14;
+_AGARWARE["d3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["d3"]["Text"]=[[Spy Chat]];
+_AGARWARE["d3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["d3"]["BackgroundTransparency"]=1;
+_AGARWARE["d3"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["d4"]=Instance.new("Frame",_AGARWARE["ca"]);
+_AGARWARE["d4"].Name="ADODeathRow";
+_AGARWARE["d4"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["d4"]["BorderSizePixel"]=0;
+_AGARWARE["d4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["d4"]["LayoutOrder"]=2;
+_AGARWARE["d4"]["BackgroundTransparency"]=1;
+_AGARWARE["d4"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["d4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["d5"]=Instance.new("TextButton",_AGARWARE["d4"]);
+_AGARWARE["d5"].Name="ADODeathTickBox";
+_AGARWARE["d5"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["d5"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["d5"]["TextSize"]=14;
-_AGARWARE["d5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d5"]["Text"]=[[Auto Drop on Death]];
-_AGARWARE["d5"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["d5"]["BackgroundTransparency"]=1;
-_AGARWARE["d5"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["d6"]=Instance.new("Frame",_AGARWARE["c9"]);
-_AGARWARE["d6"].Name="APickupRow";
-_AGARWARE["d6"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["d5"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["d5"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["d5"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["d5"]["Text"]=[[]];
+_AGARWARE["d5"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["d6"]=Instance.new("TextLabel",_AGARWARE["d4"]);
+_AGARWARE["d6"].Name="ADODeathText";
 _AGARWARE["d6"]["BorderSizePixel"]=0;
-_AGARWARE["d6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d6"]["LayoutOrder"]=2;
-_AGARWARE["d6"]["BackgroundTransparency"]=1;
-_AGARWARE["d6"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["d6"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["d7"]=Instance.new("TextButton",_AGARWARE["d6"]);
-_AGARWARE["d7"].Name="APickupTickBox";
-_AGARWARE["d7"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d7"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["d7"]["TextSize"]=14;
-_AGARWARE["d7"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["d7"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d7"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["d7"]["Text"]=[[]];
-_AGARWARE["d7"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["d8"]=Instance.new("TextLabel",_AGARWARE["d6"]);
-_AGARWARE["d8"].Name="APickupText";
-_AGARWARE["d8"]["BorderSizePixel"]=0;
-_AGARWARE["d8"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["d8"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["d8"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["d8"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["d6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["d6"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["d6"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["d6"]["TextSize"]=14;
+_AGARWARE["d6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["d6"]["Text"]=[[Auto Drop on Death]];
+_AGARWARE["d6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["d6"]["BackgroundTransparency"]=1;
+_AGARWARE["d6"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["d7"]=Instance.new("Frame",_AGARWARE["ca"]);
+_AGARWARE["d7"].Name="APickupRow";
+_AGARWARE["d7"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["d7"]["BorderSizePixel"]=0;
+_AGARWARE["d7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["d7"]["LayoutOrder"]=2;
+_AGARWARE["d7"]["BackgroundTransparency"]=1;
+_AGARWARE["d7"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["d7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["d8"]=Instance.new("TextButton",_AGARWARE["d7"]);
+_AGARWARE["d8"].Name="APickupTickBox";
+_AGARWARE["d8"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["d8"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["d8"]["TextSize"]=14;
-_AGARWARE["d8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d8"]["Text"]=[[Auto Grab Items]];
-_AGARWARE["d8"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["d8"]["BackgroundTransparency"]=1;
-_AGARWARE["d8"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["d9"]=Instance.new("Frame",_AGARWARE["c9"]);
-_AGARWARE["d9"].Name="AntiEnliRow";
-_AGARWARE["d9"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["d8"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["d8"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["d8"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["d8"]["Text"]=[[]];
+_AGARWARE["d8"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["d9"]=Instance.new("TextLabel",_AGARWARE["d7"]);
+_AGARWARE["d9"].Name="APickupText";
 _AGARWARE["d9"]["BorderSizePixel"]=0;
-_AGARWARE["d9"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["d9"]["LayoutOrder"]=2;
-_AGARWARE["d9"]["BackgroundTransparency"]=1;
-_AGARWARE["d9"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["d9"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["da"]=Instance.new("TextButton",_AGARWARE["d9"]);
-_AGARWARE["da"].Name="AntiEnliTickBox";
-_AGARWARE["da"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["da"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["da"]["TextSize"]=14;
-_AGARWARE["da"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["da"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["da"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["da"]["Text"]=[[]];
-_AGARWARE["da"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["db"]=Instance.new("TextLabel",_AGARWARE["d9"]);
-_AGARWARE["db"].Name="AntiEnliText";
-_AGARWARE["db"]["BorderSizePixel"]=0;
-_AGARWARE["db"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["db"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["db"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["db"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["d9"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["d9"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["d9"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["d9"]["TextSize"]=14;
+_AGARWARE["d9"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["d9"]["Text"]=[[Auto Grab Items]];
+_AGARWARE["d9"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["d9"]["BackgroundTransparency"]=1;
+_AGARWARE["d9"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["da"]=Instance.new("Frame",_AGARWARE["ca"]);
+_AGARWARE["da"].Name="AntiEnliRow";
+_AGARWARE["da"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["da"]["BorderSizePixel"]=0;
+_AGARWARE["da"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["da"]["LayoutOrder"]=2;
+_AGARWARE["da"]["BackgroundTransparency"]=1;
+_AGARWARE["da"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["da"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["db"]=Instance.new("TextButton",_AGARWARE["da"]);
+_AGARWARE["db"].Name="AntiEnliTickBox";
+_AGARWARE["db"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["db"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["db"]["TextSize"]=14;
-_AGARWARE["db"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["db"]["Text"]=[[Prevent Enli Drop]];
-_AGARWARE["db"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["db"]["BackgroundTransparency"]=1;
-_AGARWARE["db"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["dc"]=Instance.new("Frame",_AGARWARE["c7"]);
-_AGARWARE["dc"].Name="ToolsGroup";
-_AGARWARE["dc"]["Size"]=UDim2.new(0, 170, 0, 81);
-_AGARWARE["dc"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["dc"]["LayoutOrder"]=2;
-_AGARWARE["dc"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["dc"]["Position"]=UDim2.new(0, 0, 0.29722, 0);
-_AGARWARE["dc"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["dd"]=Instance.new("LocalScript",_AGARWARE["dc"]);
-_AGARWARE["dd"].Name="ToolsScript";
-_AGARWARE["de"]=Instance.new("UIListLayout",_AGARWARE["dc"]);
-_AGARWARE["de"].Name="UIListLayout";
-_AGARWARE["de"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["df"]=Instance.new("Frame",_AGARWARE["dc"]);
-_AGARWARE["df"].Name="ToolsAccentColor";
-_AGARWARE["df"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["df"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["df"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["df"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["df"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["e0"]=Instance.new("TextLabel",_AGARWARE["dc"]);
-_AGARWARE["e0"].Name="ToolsTitle";
-_AGARWARE["e0"]["TextWrapped"]=true;
-_AGARWARE["e0"]["BorderSizePixel"]=0;
-_AGARWARE["e0"]["TextScaled"]=true;
-_AGARWARE["e0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["e0"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["e0"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["e0"]["TextSize"]=14;
-_AGARWARE["e0"]["LayoutOrder"]=1;
-_AGARWARE["e0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["e0"]["Text"]=[[Tools]];
-_AGARWARE["e0"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["e0"]["BackgroundTransparency"]=0.95;
-_AGARWARE["e0"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["e1"]=Instance.new("TextButton",_AGARWARE["e0"]);
-_AGARWARE["e1"].Name="ToolsMinimize";
+_AGARWARE["db"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["db"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["db"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["db"]["Text"]=[[]];
+_AGARWARE["db"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["dc"]=Instance.new("TextLabel",_AGARWARE["da"]);
+_AGARWARE["dc"].Name="AntiEnliText";
+_AGARWARE["dc"]["BorderSizePixel"]=0;
+_AGARWARE["dc"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["dc"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["dc"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["dc"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["dc"]["TextSize"]=14;
+_AGARWARE["dc"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["dc"]["Text"]=[[Prevent Enli Drop]];
+_AGARWARE["dc"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["dc"]["BackgroundTransparency"]=1;
+_AGARWARE["dc"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["dd"]=Instance.new("Frame",_AGARWARE["c8"]);
+_AGARWARE["dd"].Name="ToolsGroup";
+_AGARWARE["dd"]["Size"]=UDim2.new(0, 170, 0, 81);
+_AGARWARE["dd"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["dd"]["LayoutOrder"]=2;
+_AGARWARE["dd"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["dd"]["Position"]=UDim2.new(0, 0, 0.29722, 0);
+_AGARWARE["dd"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["de"]=Instance.new("LocalScript",_AGARWARE["dd"]);
+_AGARWARE["de"].Name="ToolsScript";
+_AGARWARE["df"]=Instance.new("UIListLayout",_AGARWARE["dd"]);
+_AGARWARE["df"].Name="UIListLayout";
+_AGARWARE["df"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["e0"]=Instance.new("Frame",_AGARWARE["dd"]);
+_AGARWARE["e0"].Name="ToolsAccentColor";
+_AGARWARE["e0"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["e0"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["e0"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["e0"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["e0"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["e1"]=Instance.new("TextLabel",_AGARWARE["dd"]);
+_AGARWARE["e1"].Name="ToolsTitle";
+_AGARWARE["e1"]["TextWrapped"]=true;
 _AGARWARE["e1"]["BorderSizePixel"]=0;
+_AGARWARE["e1"]["TextScaled"]=true;
 _AGARWARE["e1"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["e1"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["e1"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["e1"]["TextSize"]=14;
-_AGARWARE["e1"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["e1"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["e1"]["BackgroundTransparency"]=1;
+_AGARWARE["e1"]["LayoutOrder"]=1;
 _AGARWARE["e1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["e1"]["Text"]=[[-]];
-_AGARWARE["e1"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["e2"]=Instance.new("Frame",_AGARWARE["dc"]);
-_AGARWARE["e2"].Name="DropAllRow";
-_AGARWARE["e2"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["e1"]["Text"]=[[Tools]];
+_AGARWARE["e1"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["e1"]["BackgroundTransparency"]=0.95;
+_AGARWARE["e1"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["e2"]=Instance.new("TextButton",_AGARWARE["e1"]);
+_AGARWARE["e2"].Name="ToolsMinimize";
 _AGARWARE["e2"]["BorderSizePixel"]=0;
-_AGARWARE["e2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["e2"]["LayoutOrder"]=1;
-_AGARWARE["e2"]["BackgroundTransparency"]=1;
-_AGARWARE["e2"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["e2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["e3"]=Instance.new("TextButton",_AGARWARE["e2"]);
-_AGARWARE["e3"].Name="DropAllButton";
-_AGARWARE["e3"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["e3"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["e3"]["TextSize"]=14;
-_AGARWARE["e3"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["e3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["e3"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["e3"]["Text"]=[[Drop All Items]];
-_AGARWARE["e3"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["e4"]=Instance.new("Frame",_AGARWARE["dc"]);
-_AGARWARE["e4"].Name="EquipAllRow";
-_AGARWARE["e4"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["e4"]["BorderSizePixel"]=0;
-_AGARWARE["e4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["e4"]["LayoutOrder"]=1;
-_AGARWARE["e4"]["BackgroundTransparency"]=1;
-_AGARWARE["e4"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["e4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["e5"]=Instance.new("TextButton",_AGARWARE["e4"]);
-_AGARWARE["e5"].Name="EquipAllButton";
-_AGARWARE["e5"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["e5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["e5"]["TextSize"]=14;
-_AGARWARE["e5"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["e5"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["e5"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["e5"]["Text"]=[[Equip All Items]];
-_AGARWARE["e5"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["e6"]=Instance.new("Frame",_AGARWARE["dc"]);
-_AGARWARE["e6"].Name="EquipEnlightenRow";
-_AGARWARE["e6"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["e6"]["BorderSizePixel"]=0;
-_AGARWARE["e6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["e6"]["LayoutOrder"]=6;
-_AGARWARE["e6"]["BackgroundTransparency"]=1;
-_AGARWARE["e6"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["e6"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["e7"]=Instance.new("TextButton",_AGARWARE["e6"]);
-_AGARWARE["e7"].Name="EquipEnlightenHelp";
-_AGARWARE["e7"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["e7"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-_AGARWARE["e7"]["TextSize"]=14;
-_AGARWARE["e7"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["e7"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["e7"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["e7"]["Text"]=[[?]];
-_AGARWARE["e7"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["e8"]=Instance.new("TextButton",_AGARWARE["e6"]);
-_AGARWARE["e8"].Name="EquipEnlightenButton";
+_AGARWARE["e2"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["e2"]["TextSize"]=14;
+_AGARWARE["e2"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["e2"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["e2"]["BackgroundTransparency"]=1;
+_AGARWARE["e2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["e2"]["Text"]=[[-]];
+_AGARWARE["e2"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["e3"]=Instance.new("Frame",_AGARWARE["dd"]);
+_AGARWARE["e3"].Name="DropAllRow";
+_AGARWARE["e3"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["e3"]["BorderSizePixel"]=0;
+_AGARWARE["e3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["e3"]["LayoutOrder"]=1;
+_AGARWARE["e3"]["BackgroundTransparency"]=1;
+_AGARWARE["e3"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["e3"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["e4"]=Instance.new("TextButton",_AGARWARE["e3"]);
+_AGARWARE["e4"].Name="DropAllButton";
+_AGARWARE["e4"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["e4"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["e4"]["TextSize"]=14;
+_AGARWARE["e4"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["e4"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["e4"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["e4"]["Text"]=[[Drop All Items]];
+_AGARWARE["e4"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["e5"]=Instance.new("Frame",_AGARWARE["dd"]);
+_AGARWARE["e5"].Name="EquipAllRow";
+_AGARWARE["e5"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["e5"]["BorderSizePixel"]=0;
+_AGARWARE["e5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["e5"]["LayoutOrder"]=1;
+_AGARWARE["e5"]["BackgroundTransparency"]=1;
+_AGARWARE["e5"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["e5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["e6"]=Instance.new("TextButton",_AGARWARE["e5"]);
+_AGARWARE["e6"].Name="EquipAllButton";
+_AGARWARE["e6"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["e6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["e6"]["TextSize"]=14;
+_AGARWARE["e6"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["e6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["e6"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["e6"]["Text"]=[[Equip All Items]];
+_AGARWARE["e6"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["e7"]=Instance.new("Frame",_AGARWARE["dd"]);
+_AGARWARE["e7"].Name="EquipEnlightenRow";
+_AGARWARE["e7"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["e7"]["BorderSizePixel"]=0;
+_AGARWARE["e7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["e7"]["LayoutOrder"]=6;
+_AGARWARE["e7"]["BackgroundTransparency"]=1;
+_AGARWARE["e7"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["e7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["e8"]=Instance.new("TextButton",_AGARWARE["e7"]);
+_AGARWARE["e8"].Name="EquipEnlightenHelp";
 _AGARWARE["e8"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["e8"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["e8"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 _AGARWARE["e8"]["TextSize"]=14;
-_AGARWARE["e8"]["Size"]=UDim2.new(0, 135, 0, 16);
-_AGARWARE["e8"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["e8"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["e8"]["Text"]=[[Equip Enlighten]];
-_AGARWARE["e8"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
-_AGARWARE["e9"]=Instance.new("Frame",_AGARWARE["c6"]);
-_AGARWARE["e9"].Name="TCOMainRightSide";
-_AGARWARE["e9"]["Size"]=UDim2.new(0, 170, 0, 360);
-_AGARWARE["e9"]["BorderSizePixel"]=0;
-_AGARWARE["e9"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["e9"]["BackgroundTransparency"]=1;
-_AGARWARE["e9"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
-_AGARWARE["e9"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["ea"]=Instance.new("UIListLayout",_AGARWARE["e9"]);
-_AGARWARE["ea"].Name="UIListLayout";
-_AGARWARE["ea"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["ea"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["eb"]=Instance.new("Frame",_AGARWARE["e9"]);
-_AGARWARE["eb"].Name="AntiGroup";
-_AGARWARE["eb"]["Size"]=UDim2.new(0, 170, 0, 183);
-_AGARWARE["eb"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["eb"]["LayoutOrder"]=1;
-_AGARWARE["eb"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["eb"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["ec"]=Instance.new("LocalScript",_AGARWARE["eb"]);
-_AGARWARE["ec"].Name="AntiScript";
-_AGARWARE["ed"]=Instance.new("UIListLayout",_AGARWARE["eb"]);
-_AGARWARE["ed"].Name="UIListLayout";
-_AGARWARE["ed"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["ee"]=Instance.new("TextLabel",_AGARWARE["eb"]);
-_AGARWARE["ee"].Name="AntiTitle";
-_AGARWARE["ee"]["TextWrapped"]=true;
-_AGARWARE["ee"]["BorderSizePixel"]=0;
-_AGARWARE["ee"]["TextScaled"]=true;
-_AGARWARE["ee"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["ee"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["ee"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["ee"]["TextSize"]=14;
-_AGARWARE["ee"]["LayoutOrder"]=1;
-_AGARWARE["ee"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["ee"]["Text"]=[[Anti]];
-_AGARWARE["ee"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["ee"]["BackgroundTransparency"]=0.95;
-_AGARWARE["ee"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["ef"]=Instance.new("TextButton",_AGARWARE["ee"]);
-_AGARWARE["ef"].Name="AntiMinimize";
+_AGARWARE["e8"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["e8"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["e8"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["e8"]["Text"]=[[?]];
+_AGARWARE["e8"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["e9"]=Instance.new("TextButton",_AGARWARE["e7"]);
+_AGARWARE["e9"].Name="EquipEnlightenButton";
+_AGARWARE["e9"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["e9"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["e9"]["TextSize"]=14;
+_AGARWARE["e9"]["Size"]=UDim2.new(0, 135, 0, 16);
+_AGARWARE["e9"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["e9"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["e9"]["Text"]=[[Equip Enlighten]];
+_AGARWARE["e9"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
+_AGARWARE["ea"]=Instance.new("Frame",_AGARWARE["c7"]);
+_AGARWARE["ea"].Name="TCOMainRightSide";
+_AGARWARE["ea"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["ea"]["BorderSizePixel"]=0;
+_AGARWARE["ea"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["ea"]["BackgroundTransparency"]=1;
+_AGARWARE["ea"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
+_AGARWARE["ea"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["eb"]=Instance.new("UIListLayout",_AGARWARE["ea"]);
+_AGARWARE["eb"].Name="UIListLayout";
+_AGARWARE["eb"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["eb"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["ec"]=Instance.new("Frame",_AGARWARE["ea"]);
+_AGARWARE["ec"].Name="AntiGroup";
+_AGARWARE["ec"]["Size"]=UDim2.new(0, 170, 0, 183);
+_AGARWARE["ec"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["ec"]["LayoutOrder"]=1;
+_AGARWARE["ec"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["ec"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["ed"]=Instance.new("LocalScript",_AGARWARE["ec"]);
+_AGARWARE["ed"].Name="AntiScript";
+_AGARWARE["ee"]=Instance.new("UIListLayout",_AGARWARE["ec"]);
+_AGARWARE["ee"].Name="UIListLayout";
+_AGARWARE["ee"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["ef"]=Instance.new("TextLabel",_AGARWARE["ec"]);
+_AGARWARE["ef"].Name="AntiTitle";
+_AGARWARE["ef"]["TextWrapped"]=true;
 _AGARWARE["ef"]["BorderSizePixel"]=0;
+_AGARWARE["ef"]["TextScaled"]=true;
 _AGARWARE["ef"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["ef"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["ef"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["ef"]["TextSize"]=14;
-_AGARWARE["ef"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["ef"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["ef"]["BackgroundTransparency"]=1;
+_AGARWARE["ef"]["LayoutOrder"]=1;
 _AGARWARE["ef"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["ef"]["Text"]=[[-]];
-_AGARWARE["ef"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["f0"]=Instance.new("Frame",_AGARWARE["eb"]);
-_AGARWARE["f0"].Name="AntiNanRow";
-_AGARWARE["f0"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["ef"]["Text"]=[[Anti]];
+_AGARWARE["ef"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["ef"]["BackgroundTransparency"]=0.95;
+_AGARWARE["ef"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["f0"]=Instance.new("TextButton",_AGARWARE["ef"]);
+_AGARWARE["f0"].Name="AntiMinimize";
 _AGARWARE["f0"]["BorderSizePixel"]=0;
-_AGARWARE["f0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["f0"]["LayoutOrder"]=3;
-_AGARWARE["f0"]["BackgroundTransparency"]=1;
-_AGARWARE["f0"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["f0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["f1"]=Instance.new("TextButton",_AGARWARE["f0"]);
-_AGARWARE["f1"].Name="AntiNanTickBox";
-_AGARWARE["f1"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["f1"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["f1"]["TextSize"]=14;
-_AGARWARE["f1"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["f1"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["f1"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["f1"]["Text"]=[[]];
-_AGARWARE["f1"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["f2"]=Instance.new("TextLabel",_AGARWARE["f0"]);
-_AGARWARE["f2"].Name="AntiNanText";
-_AGARWARE["f2"]["BorderSizePixel"]=0;
-_AGARWARE["f2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["f2"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["f2"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["f2"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["f0"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["f0"]["TextSize"]=14;
+_AGARWARE["f0"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["f0"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["f0"]["BackgroundTransparency"]=1;
+_AGARWARE["f0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["f0"]["Text"]=[[-]];
+_AGARWARE["f0"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["f1"]=Instance.new("Frame",_AGARWARE["ec"]);
+_AGARWARE["f1"].Name="AntiNanRow";
+_AGARWARE["f1"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["f1"]["BorderSizePixel"]=0;
+_AGARWARE["f1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["f1"]["LayoutOrder"]=3;
+_AGARWARE["f1"]["BackgroundTransparency"]=1;
+_AGARWARE["f1"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["f1"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["f2"]=Instance.new("TextButton",_AGARWARE["f1"]);
+_AGARWARE["f2"].Name="AntiNanTickBox";
+_AGARWARE["f2"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["f2"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["f2"]["TextSize"]=14;
-_AGARWARE["f2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["f2"]["Text"]=[[Anti Maptide NaN]];
-_AGARWARE["f2"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["f2"]["BackgroundTransparency"]=1;
-_AGARWARE["f2"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["f3"]=Instance.new("Frame",_AGARWARE["eb"]);
-_AGARWARE["f3"].Name="AntiAccentColor";
-_AGARWARE["f3"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["f3"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["f3"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["f3"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["f3"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["f4"]=Instance.new("Frame",_AGARWARE["eb"]);
-_AGARWARE["f4"].Name="AntiVisualRow";
-_AGARWARE["f4"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["f4"]["BorderSizePixel"]=0;
-_AGARWARE["f4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["f4"]["LayoutOrder"]=3;
-_AGARWARE["f4"]["BackgroundTransparency"]=1;
-_AGARWARE["f4"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["f4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["f5"]=Instance.new("TextButton",_AGARWARE["f4"]);
-_AGARWARE["f5"].Name="AntiVisualTickBox";
-_AGARWARE["f5"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["f5"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["f5"]["TextSize"]=14;
-_AGARWARE["f5"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["f5"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["f5"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["f5"]["Text"]=[[]];
-_AGARWARE["f5"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["f6"]=Instance.new("TextLabel",_AGARWARE["f4"]);
-_AGARWARE["f6"].Name="AntiVisualText";
-_AGARWARE["f6"]["BorderSizePixel"]=0;
-_AGARWARE["f6"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["f6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["f6"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["f6"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["f2"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["f2"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["f2"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["f2"]["Text"]=[[]];
+_AGARWARE["f2"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["f3"]=Instance.new("TextLabel",_AGARWARE["f1"]);
+_AGARWARE["f3"].Name="AntiNanText";
+_AGARWARE["f3"]["BorderSizePixel"]=0;
+_AGARWARE["f3"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["f3"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["f3"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["f3"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["f3"]["TextSize"]=14;
+_AGARWARE["f3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["f3"]["Text"]=[[Anti Maptide NaN]];
+_AGARWARE["f3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["f3"]["BackgroundTransparency"]=1;
+_AGARWARE["f3"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["f4"]=Instance.new("Frame",_AGARWARE["ec"]);
+_AGARWARE["f4"].Name="AntiAccentColor";
+_AGARWARE["f4"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["f4"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["f4"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["f4"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["f4"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["f5"]=Instance.new("Frame",_AGARWARE["ec"]);
+_AGARWARE["f5"].Name="AntiVisualRow";
+_AGARWARE["f5"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["f5"]["BorderSizePixel"]=0;
+_AGARWARE["f5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["f5"]["LayoutOrder"]=3;
+_AGARWARE["f5"]["BackgroundTransparency"]=1;
+_AGARWARE["f5"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["f5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["f6"]=Instance.new("TextButton",_AGARWARE["f5"]);
+_AGARWARE["f6"].Name="AntiVisualTickBox";
+_AGARWARE["f6"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["f6"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["f6"]["TextSize"]=14;
-_AGARWARE["f6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["f6"]["Text"]=[[Anti Visual]];
-_AGARWARE["f6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["f6"]["BackgroundTransparency"]=1;
-_AGARWARE["f6"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["f7"]=Instance.new("Frame",_AGARWARE["eb"]);
-_AGARWARE["f7"].Name="AntiJailRow";
-_AGARWARE["f7"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["f6"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["f6"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["f6"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["f6"]["Text"]=[[]];
+_AGARWARE["f6"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["f7"]=Instance.new("TextLabel",_AGARWARE["f5"]);
+_AGARWARE["f7"].Name="AntiVisualText";
 _AGARWARE["f7"]["BorderSizePixel"]=0;
-_AGARWARE["f7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["f7"]["LayoutOrder"]=3;
-_AGARWARE["f7"]["BackgroundTransparency"]=1;
-_AGARWARE["f7"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["f7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["f8"]=Instance.new("TextButton",_AGARWARE["f7"]);
-_AGARWARE["f8"].Name="AntiJailTickBox";
-_AGARWARE["f8"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["f8"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["f8"]["TextSize"]=14;
-_AGARWARE["f8"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["f8"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["f8"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["f8"]["Text"]=[[]];
-_AGARWARE["f8"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["f9"]=Instance.new("TextLabel",_AGARWARE["f7"]);
-_AGARWARE["f9"].Name="AntiJailText";
-_AGARWARE["f9"]["BorderSizePixel"]=0;
-_AGARWARE["f9"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["f9"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["f9"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["f9"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["f7"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["f7"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["f7"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["f7"]["TextSize"]=14;
+_AGARWARE["f7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["f7"]["Text"]=[[Anti Visual]];
+_AGARWARE["f7"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["f7"]["BackgroundTransparency"]=1;
+_AGARWARE["f7"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["f8"]=Instance.new("Frame",_AGARWARE["ec"]);
+_AGARWARE["f8"].Name="AntiJailRow";
+_AGARWARE["f8"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["f8"]["BorderSizePixel"]=0;
+_AGARWARE["f8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["f8"]["LayoutOrder"]=3;
+_AGARWARE["f8"]["BackgroundTransparency"]=1;
+_AGARWARE["f8"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["f8"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["f9"]=Instance.new("TextButton",_AGARWARE["f8"]);
+_AGARWARE["f9"].Name="AntiJailTickBox";
+_AGARWARE["f9"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["f9"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["f9"]["TextSize"]=14;
-_AGARWARE["f9"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["f9"]["Text"]=[[Anti Jail]];
-_AGARWARE["f9"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["f9"]["BackgroundTransparency"]=1;
-_AGARWARE["f9"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["fa"]=Instance.new("Frame",_AGARWARE["eb"]);
-_AGARWARE["fa"].Name="AntiFreezeRow";
-_AGARWARE["fa"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["f9"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["f9"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["f9"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["f9"]["Text"]=[[]];
+_AGARWARE["f9"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["fa"]=Instance.new("TextLabel",_AGARWARE["f8"]);
+_AGARWARE["fa"].Name="AntiJailText";
 _AGARWARE["fa"]["BorderSizePixel"]=0;
-_AGARWARE["fa"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["fa"]["LayoutOrder"]=4;
-_AGARWARE["fa"]["BackgroundTransparency"]=1;
-_AGARWARE["fa"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["fa"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["fb"]=Instance.new("TextButton",_AGARWARE["fa"]);
-_AGARWARE["fb"].Name="AntiFreezeTickBox";
-_AGARWARE["fb"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["fb"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["fb"]["TextSize"]=14;
-_AGARWARE["fb"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["fb"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["fb"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["fb"]["Text"]=[[]];
-_AGARWARE["fb"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["fc"]=Instance.new("TextLabel",_AGARWARE["fa"]);
-_AGARWARE["fc"].Name="AntiFreezeText";
-_AGARWARE["fc"]["BorderSizePixel"]=0;
-_AGARWARE["fc"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["fc"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["fc"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["fc"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["fa"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["fa"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["fa"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["fa"]["TextSize"]=14;
+_AGARWARE["fa"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["fa"]["Text"]=[[Anti Jail]];
+_AGARWARE["fa"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["fa"]["BackgroundTransparency"]=1;
+_AGARWARE["fa"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["fb"]=Instance.new("Frame",_AGARWARE["ec"]);
+_AGARWARE["fb"].Name="AntiFreezeRow";
+_AGARWARE["fb"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["fb"]["BorderSizePixel"]=0;
+_AGARWARE["fb"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["fb"]["LayoutOrder"]=4;
+_AGARWARE["fb"]["BackgroundTransparency"]=1;
+_AGARWARE["fb"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["fb"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["fc"]=Instance.new("TextButton",_AGARWARE["fb"]);
+_AGARWARE["fc"].Name="AntiFreezeTickBox";
+_AGARWARE["fc"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["fc"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["fc"]["TextSize"]=14;
-_AGARWARE["fc"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["fc"]["Text"]=[[Anti Freeze]];
-_AGARWARE["fc"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["fc"]["BackgroundTransparency"]=1;
-_AGARWARE["fc"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["fd"]=Instance.new("Frame",_AGARWARE["eb"]);
-_AGARWARE["fd"].Name="RedInfoRow";
-_AGARWARE["fd"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["fc"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["fc"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["fc"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["fc"]["Text"]=[[]];
+_AGARWARE["fc"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["fd"]=Instance.new("TextLabel",_AGARWARE["fb"]);
+_AGARWARE["fd"].Name="AntiFreezeText";
 _AGARWARE["fd"]["BorderSizePixel"]=0;
-_AGARWARE["fd"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["fd"]["LayoutOrder"]=20;
-_AGARWARE["fd"]["BackgroundTransparency"]=1;
-_AGARWARE["fd"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["fd"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["fe"]=Instance.new("TextButton",_AGARWARE["fd"]);
-_AGARWARE["fe"].Name="RedInfo";
-_AGARWARE["fe"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["fe"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["fe"]["TextSize"]=14;
-_AGARWARE["fe"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["fe"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["fe"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["fe"]["Text"]=[[Red = Auto Reset]];
-_AGARWARE["fe"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["ff"]=Instance.new("Frame",_AGARWARE["eb"]);
-_AGARWARE["ff"].Name="AntiVampRow";
-_AGARWARE["ff"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["ff"]["BorderSizePixel"]=0;
-_AGARWARE["ff"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["ff"]["LayoutOrder"]=3;
-_AGARWARE["ff"]["BackgroundTransparency"]=1;
-_AGARWARE["ff"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["ff"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["100"]=Instance.new("TextButton",_AGARWARE["ff"]);
-_AGARWARE["100"].Name="AntiVampTickBox";
-_AGARWARE["100"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["100"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["100"]["TextSize"]=14;
-_AGARWARE["100"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["100"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["100"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["100"]["Text"]=[[]];
-_AGARWARE["100"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["101"]=Instance.new("TextLabel",_AGARWARE["ff"]);
-_AGARWARE["101"].Name="AntiVampText";
-_AGARWARE["101"]["BorderSizePixel"]=0;
-_AGARWARE["101"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["101"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["101"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["101"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["fd"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["fd"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["fd"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["fd"]["TextSize"]=14;
+_AGARWARE["fd"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["fd"]["Text"]=[[Anti Freeze]];
+_AGARWARE["fd"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["fd"]["BackgroundTransparency"]=1;
+_AGARWARE["fd"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["fe"]=Instance.new("Frame",_AGARWARE["ec"]);
+_AGARWARE["fe"].Name="RedInfoRow";
+_AGARWARE["fe"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["fe"]["BorderSizePixel"]=0;
+_AGARWARE["fe"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["fe"]["LayoutOrder"]=20;
+_AGARWARE["fe"]["BackgroundTransparency"]=1;
+_AGARWARE["fe"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["fe"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["ff"]=Instance.new("TextButton",_AGARWARE["fe"]);
+_AGARWARE["ff"].Name="RedInfo";
+_AGARWARE["ff"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["ff"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["ff"]["TextSize"]=14;
+_AGARWARE["ff"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["ff"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["ff"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["ff"]["Text"]=[[Red = Auto Reset]];
+_AGARWARE["ff"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["100"]=Instance.new("Frame",_AGARWARE["ec"]);
+_AGARWARE["100"].Name="AntiVampRow";
+_AGARWARE["100"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["100"]["BorderSizePixel"]=0;
+_AGARWARE["100"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["100"]["LayoutOrder"]=3;
+_AGARWARE["100"]["BackgroundTransparency"]=1;
+_AGARWARE["100"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["100"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["101"]=Instance.new("TextButton",_AGARWARE["100"]);
+_AGARWARE["101"].Name="AntiVampTickBox";
+_AGARWARE["101"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["101"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["101"]["TextSize"]=14;
-_AGARWARE["101"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["101"]["Text"]=[[Anti Vampire]];
-_AGARWARE["101"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["101"]["BackgroundTransparency"]=1;
-_AGARWARE["101"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["102"]=Instance.new("Frame",_AGARWARE["eb"]);
-_AGARWARE["102"].Name="AntiGlitchRow";
-_AGARWARE["102"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["101"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["101"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["101"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["101"]["Text"]=[[]];
+_AGARWARE["101"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["102"]=Instance.new("TextLabel",_AGARWARE["100"]);
+_AGARWARE["102"].Name="AntiVampText";
 _AGARWARE["102"]["BorderSizePixel"]=0;
-_AGARWARE["102"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["102"]["LayoutOrder"]=3;
-_AGARWARE["102"]["BackgroundTransparency"]=1;
-_AGARWARE["102"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["102"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["103"]=Instance.new("TextButton",_AGARWARE["102"]);
-_AGARWARE["103"].Name="AntiGlitchTickBox";
-_AGARWARE["103"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["103"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["103"]["TextSize"]=14;
-_AGARWARE["103"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["103"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["103"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["103"]["Text"]=[[]];
-_AGARWARE["103"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["104"]=Instance.new("TextLabel",_AGARWARE["102"]);
-_AGARWARE["104"].Name="AntiGlitchText";
-_AGARWARE["104"]["BorderSizePixel"]=0;
-_AGARWARE["104"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["104"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["104"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["104"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["102"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["102"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["102"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["102"]["TextSize"]=14;
+_AGARWARE["102"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["102"]["Text"]=[[Anti Vampire]];
+_AGARWARE["102"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["102"]["BackgroundTransparency"]=1;
+_AGARWARE["102"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["103"]=Instance.new("Frame",_AGARWARE["ec"]);
+_AGARWARE["103"].Name="AntiGlitchRow";
+_AGARWARE["103"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["103"]["BorderSizePixel"]=0;
+_AGARWARE["103"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["103"]["LayoutOrder"]=3;
+_AGARWARE["103"]["BackgroundTransparency"]=1;
+_AGARWARE["103"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["103"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["104"]=Instance.new("TextButton",_AGARWARE["103"]);
+_AGARWARE["104"].Name="AntiGlitchTickBox";
+_AGARWARE["104"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["104"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["104"]["TextSize"]=14;
-_AGARWARE["104"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["104"]["Text"]=[[Anti Glitch]];
-_AGARWARE["104"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["104"]["BackgroundTransparency"]=1;
-_AGARWARE["104"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["105"]=Instance.new("Frame",_AGARWARE["eb"]);
-_AGARWARE["105"].Name="AntiTeleportRow";
-_AGARWARE["105"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["104"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["104"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["104"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["104"]["Text"]=[[]];
+_AGARWARE["104"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["105"]=Instance.new("TextLabel",_AGARWARE["103"]);
+_AGARWARE["105"].Name="AntiGlitchText";
 _AGARWARE["105"]["BorderSizePixel"]=0;
-_AGARWARE["105"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["105"]["LayoutOrder"]=3;
-_AGARWARE["105"]["BackgroundTransparency"]=1;
-_AGARWARE["105"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["105"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["106"]=Instance.new("TextButton",_AGARWARE["105"]);
-_AGARWARE["106"].Name="AntiTeleportTickBox";
-_AGARWARE["106"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["106"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["106"]["TextSize"]=14;
-_AGARWARE["106"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["106"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["106"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["106"]["Text"]=[[]];
-_AGARWARE["106"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["107"]=Instance.new("TextLabel",_AGARWARE["105"]);
-_AGARWARE["107"].Name="AntiTeleportText";
-_AGARWARE["107"]["BorderSizePixel"]=0;
-_AGARWARE["107"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["107"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["107"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["107"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["105"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["105"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["105"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["105"]["TextSize"]=14;
+_AGARWARE["105"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["105"]["Text"]=[[Anti Glitch]];
+_AGARWARE["105"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["105"]["BackgroundTransparency"]=1;
+_AGARWARE["105"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["106"]=Instance.new("Frame",_AGARWARE["ec"]);
+_AGARWARE["106"].Name="AntiTeleportRow";
+_AGARWARE["106"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["106"]["BorderSizePixel"]=0;
+_AGARWARE["106"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["106"]["LayoutOrder"]=3;
+_AGARWARE["106"]["BackgroundTransparency"]=1;
+_AGARWARE["106"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["106"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["107"]=Instance.new("TextButton",_AGARWARE["106"]);
+_AGARWARE["107"].Name="AntiTeleportTickBox";
+_AGARWARE["107"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["107"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["107"]["TextSize"]=14;
-_AGARWARE["107"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["107"]["Text"]=[[Anti Teleport]];
-_AGARWARE["107"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["107"]["BackgroundTransparency"]=1;
-_AGARWARE["107"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["108"]=Instance.new("ScrollingFrame",_AGARWARE["15"]);
-_AGARWARE["108"].Name="MiscPage";
+_AGARWARE["107"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["107"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["107"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["107"]["Text"]=[[]];
+_AGARWARE["107"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["108"]=Instance.new("TextLabel",_AGARWARE["106"]);
+_AGARWARE["108"].Name="AntiTeleportText";
 _AGARWARE["108"]["BorderSizePixel"]=0;
-_AGARWARE["108"]["CanvasSize"]=UDim2.new(0, 0, 1.5, 0);
-_AGARWARE["108"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["108"]["Active"]=true;
-_AGARWARE["108"]["Size"]=UDim2.new(0, 349, 0, 250);
-_AGARWARE["108"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["108"]["Visible"]=false;
+_AGARWARE["108"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["108"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["108"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["108"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["108"]["TextSize"]=14;
 _AGARWARE["108"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["108"]["ScrollBarThickness"]=0;
+_AGARWARE["108"]["Text"]=[[Anti Teleport]];
+_AGARWARE["108"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["108"]["BackgroundTransparency"]=1;
-_AGARWARE["108"]["Position"]=UDim2.new(0.02329, 0, 0.03008, 0);
-_AGARWARE["109"]=Instance.new("Frame",_AGARWARE["108"]);
-_AGARWARE["109"].Name="MiscLeftSide";
-_AGARWARE["109"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["108"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["109"]=Instance.new("ScrollingFrame",_AGARWARE["16"]);
+_AGARWARE["109"].Name="MiscPage";
 _AGARWARE["109"]["BorderSizePixel"]=0;
+_AGARWARE["109"]["CanvasSize"]=UDim2.new(0, 0, 1.5, 0);
+_AGARWARE["109"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["109"]["Active"]=true;
+_AGARWARE["109"]["Size"]=UDim2.new(0, 349, 0, 250);
+_AGARWARE["109"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["109"]["Visible"]=false;
 _AGARWARE["109"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["109"]["ScrollBarThickness"]=0;
 _AGARWARE["109"]["BackgroundTransparency"]=1;
-_AGARWARE["109"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
-_AGARWARE["109"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["10a"]=Instance.new("UIListLayout",_AGARWARE["109"]);
-_AGARWARE["10a"].Name="UIListLayout";
-_AGARWARE["10a"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["10a"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["10b"]=Instance.new("Frame",_AGARWARE["109"]);
-_AGARWARE["10b"].Name="Misc1Group";
-_AGARWARE["10b"]["Size"]=UDim2.new(0, 170, 0, 103);
-_AGARWARE["10b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["10b"]["LayoutOrder"]=2;
-_AGARWARE["10b"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["10b"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["10c"]=Instance.new("LocalScript",_AGARWARE["10b"]);
-_AGARWARE["10c"].Name="Misc1Script";
-_AGARWARE["10d"]=Instance.new("UIListLayout",_AGARWARE["10b"]);
-_AGARWARE["10d"].Name="UIListLayout";
-_AGARWARE["10d"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["10e"]=Instance.new("Frame",_AGARWARE["10b"]);
-_AGARWARE["10e"].Name="MiscAccentColor";
-_AGARWARE["10e"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["10e"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["10e"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["10e"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["10e"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["10f"]=Instance.new("TextLabel",_AGARWARE["10b"]);
-_AGARWARE["10f"].Name="Misc1Title";
-_AGARWARE["10f"]["TextWrapped"]=true;
-_AGARWARE["10f"]["BorderSizePixel"]=0;
-_AGARWARE["10f"]["TextScaled"]=true;
-_AGARWARE["10f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["10f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["10f"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["10f"]["TextSize"]=14;
-_AGARWARE["10f"]["LayoutOrder"]=1;
-_AGARWARE["10f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["10f"]["Text"]=[[Misc]];
-_AGARWARE["10f"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["10f"]["BackgroundTransparency"]=0.95;
-_AGARWARE["10f"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["110"]=Instance.new("TextButton",_AGARWARE["10f"]);
-_AGARWARE["110"].Name="Misc1Minimize";
+_AGARWARE["109"]["Position"]=UDim2.new(0.02329, 0, 0.03008, 0);
+_AGARWARE["10a"]=Instance.new("Frame",_AGARWARE["109"]);
+_AGARWARE["10a"].Name="MiscLeftSide";
+_AGARWARE["10a"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["10a"]["BorderSizePixel"]=0;
+_AGARWARE["10a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["10a"]["BackgroundTransparency"]=1;
+_AGARWARE["10a"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
+_AGARWARE["10a"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["10b"]=Instance.new("UIListLayout",_AGARWARE["10a"]);
+_AGARWARE["10b"].Name="UIListLayout";
+_AGARWARE["10b"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["10b"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["10c"]=Instance.new("Frame",_AGARWARE["10a"]);
+_AGARWARE["10c"].Name="Misc1Group";
+_AGARWARE["10c"]["Size"]=UDim2.new(0, 170, 0, 103);
+_AGARWARE["10c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["10c"]["LayoutOrder"]=2;
+_AGARWARE["10c"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["10c"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["10d"]=Instance.new("LocalScript",_AGARWARE["10c"]);
+_AGARWARE["10d"].Name="Misc1Script";
+_AGARWARE["10e"]=Instance.new("UIListLayout",_AGARWARE["10c"]);
+_AGARWARE["10e"].Name="UIListLayout";
+_AGARWARE["10e"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["10f"]=Instance.new("Frame",_AGARWARE["10c"]);
+_AGARWARE["10f"].Name="MiscAccentColor";
+_AGARWARE["10f"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["10f"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["10f"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["10f"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["10f"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["110"]=Instance.new("TextLabel",_AGARWARE["10c"]);
+_AGARWARE["110"].Name="Misc1Title";
+_AGARWARE["110"]["TextWrapped"]=true;
 _AGARWARE["110"]["BorderSizePixel"]=0;
+_AGARWARE["110"]["TextScaled"]=true;
 _AGARWARE["110"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["110"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["110"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["110"]["TextSize"]=14;
-_AGARWARE["110"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["110"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["110"]["BackgroundTransparency"]=1;
+_AGARWARE["110"]["LayoutOrder"]=1;
 _AGARWARE["110"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["110"]["Text"]=[[-]];
-_AGARWARE["110"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["111"]=Instance.new("Frame",_AGARWARE["10b"]);
-_AGARWARE["111"].Name="WWalkRow";
-_AGARWARE["111"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["110"]["Text"]=[[Misc]];
+_AGARWARE["110"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["110"]["BackgroundTransparency"]=0.95;
+_AGARWARE["110"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["111"]=Instance.new("TextButton",_AGARWARE["110"]);
+_AGARWARE["111"].Name="Misc1Minimize";
 _AGARWARE["111"]["BorderSizePixel"]=0;
-_AGARWARE["111"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["111"]["LayoutOrder"]=2;
-_AGARWARE["111"]["BackgroundTransparency"]=1;
-_AGARWARE["111"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["111"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["112"]=Instance.new("LocalScript",_AGARWARE["111"]);
-_AGARWARE["112"].Name="WWalkScript";
-_AGARWARE["113"]=Instance.new("TextButton",_AGARWARE["111"]);
-_AGARWARE["113"].Name="WWalkButton";
-_AGARWARE["113"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["113"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["113"]["TextSize"]=14;
-_AGARWARE["113"]["Size"]=UDim2.new(0, 135, 0, 16);
-_AGARWARE["113"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["113"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["113"]["Text"]=[[Execute Wall Walk]];
-_AGARWARE["113"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
-_AGARWARE["114"]=Instance.new("TextButton",_AGARWARE["111"]);
-_AGARWARE["114"].Name="WWalkHelp";
+_AGARWARE["111"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["111"]["TextSize"]=14;
+_AGARWARE["111"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["111"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["111"]["BackgroundTransparency"]=1;
+_AGARWARE["111"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["111"]["Text"]=[[-]];
+_AGARWARE["111"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["112"]=Instance.new("Frame",_AGARWARE["10c"]);
+_AGARWARE["112"].Name="WWalkRow";
+_AGARWARE["112"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["112"]["BorderSizePixel"]=0;
+_AGARWARE["112"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["112"]["LayoutOrder"]=2;
+_AGARWARE["112"]["BackgroundTransparency"]=1;
+_AGARWARE["112"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["112"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["113"]=Instance.new("LocalScript",_AGARWARE["112"]);
+_AGARWARE["113"].Name="WWalkScript";
+_AGARWARE["114"]=Instance.new("TextButton",_AGARWARE["112"]);
+_AGARWARE["114"].Name="WWalkButton";
 _AGARWARE["114"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["114"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["114"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["114"]["TextSize"]=14;
-_AGARWARE["114"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["114"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["114"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["114"]["Text"]=[[?]];
-_AGARWARE["114"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["115"]=Instance.new("Frame",_AGARWARE["10b"]);
-_AGARWARE["115"].Name="SpinRow";
-_AGARWARE["115"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["115"]["BorderSizePixel"]=0;
-_AGARWARE["115"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["115"]["LayoutOrder"]=2;
-_AGARWARE["115"]["BackgroundTransparency"]=1;
-_AGARWARE["115"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["115"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["116"]=Instance.new("LocalScript",_AGARWARE["115"]);
-_AGARWARE["116"].Name="SpinScript";
-_AGARWARE["117"]=Instance.new("TextButton",_AGARWARE["115"]);
-_AGARWARE["117"].Name="SpinTickBox";
-_AGARWARE["117"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["117"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["117"]["TextSize"]=14;
-_AGARWARE["117"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["117"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["117"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["117"]["Text"]=[[]];
-_AGARWARE["117"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["118"]=Instance.new("TextLabel",_AGARWARE["115"]);
-_AGARWARE["118"].Name="SpinText";
-_AGARWARE["118"]["BorderSizePixel"]=0;
-_AGARWARE["118"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["118"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["118"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["118"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["114"]["Size"]=UDim2.new(0, 135, 0, 16);
+_AGARWARE["114"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["114"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["114"]["Text"]=[[Execute Wall Walk]];
+_AGARWARE["114"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
+_AGARWARE["115"]=Instance.new("TextButton",_AGARWARE["112"]);
+_AGARWARE["115"].Name="WWalkHelp";
+_AGARWARE["115"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["115"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["115"]["TextSize"]=14;
+_AGARWARE["115"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["115"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["115"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["115"]["Text"]=[[?]];
+_AGARWARE["115"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["116"]=Instance.new("Frame",_AGARWARE["10c"]);
+_AGARWARE["116"].Name="SpinRow";
+_AGARWARE["116"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["116"]["BorderSizePixel"]=0;
+_AGARWARE["116"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["116"]["LayoutOrder"]=2;
+_AGARWARE["116"]["BackgroundTransparency"]=1;
+_AGARWARE["116"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["116"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["117"]=Instance.new("LocalScript",_AGARWARE["116"]);
+_AGARWARE["117"].Name="SpinScript";
+_AGARWARE["118"]=Instance.new("TextButton",_AGARWARE["116"]);
+_AGARWARE["118"].Name="SpinTickBox";
+_AGARWARE["118"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["118"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["118"]["TextSize"]=14;
-_AGARWARE["118"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["118"]["Text"]=[[Spin]];
-_AGARWARE["118"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["118"]["BackgroundTransparency"]=1;
-_AGARWARE["118"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["119"]=Instance.new("TextBox",_AGARWARE["115"]);
-_AGARWARE["119"].Name="SpinChanger";
-_AGARWARE["119"]["TextWrapped"]=true;
-_AGARWARE["119"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["119"]["TextScaled"]=true;
-_AGARWARE["119"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["118"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["118"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["118"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["118"]["Text"]=[[]];
+_AGARWARE["118"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["119"]=Instance.new("TextLabel",_AGARWARE["116"]);
+_AGARWARE["119"].Name="SpinText";
+_AGARWARE["119"]["BorderSizePixel"]=0;
+_AGARWARE["119"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["119"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["119"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["119"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["119"]["TextSize"]=14;
-_AGARWARE["119"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["119"]["PlaceholderText"]=[[(1)]];
-_AGARWARE["119"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["119"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["119"]["Text"]=[[]];
-_AGARWARE["119"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["11a"]=Instance.new("Frame",_AGARWARE["10b"]);
-_AGARWARE["11a"].Name="FakeLagRow";
-_AGARWARE["11a"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["11a"]["BorderSizePixel"]=0;
-_AGARWARE["11a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["11a"]["LayoutOrder"]=2;
-_AGARWARE["11a"]["BackgroundTransparency"]=1;
-_AGARWARE["11a"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["11a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["11b"]=Instance.new("LocalScript",_AGARWARE["11a"]);
-_AGARWARE["11b"].Name="FakeLagScript";
-_AGARWARE["11c"]=Instance.new("TextButton",_AGARWARE["11a"]);
-_AGARWARE["11c"].Name="FakeLagTickBox";
-_AGARWARE["11c"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["11c"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["11c"]["TextSize"]=14;
-_AGARWARE["11c"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["11c"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["11c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["11c"]["Text"]=[[]];
-_AGARWARE["11c"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["11d"]=Instance.new("TextLabel",_AGARWARE["11a"]);
-_AGARWARE["11d"].Name="FakeLagText";
-_AGARWARE["11d"]["BorderSizePixel"]=0;
-_AGARWARE["11d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["11d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["11d"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["11d"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["119"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["119"]["Text"]=[[Spin]];
+_AGARWARE["119"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["119"]["BackgroundTransparency"]=1;
+_AGARWARE["119"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["11a"]=Instance.new("TextBox",_AGARWARE["116"]);
+_AGARWARE["11a"].Name="SpinChanger";
+_AGARWARE["11a"]["TextWrapped"]=true;
+_AGARWARE["11a"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["11a"]["TextScaled"]=true;
+_AGARWARE["11a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["11a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["11a"]["TextSize"]=14;
+_AGARWARE["11a"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["11a"]["PlaceholderText"]=[[(1)]];
+_AGARWARE["11a"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["11a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["11a"]["Text"]=[[]];
+_AGARWARE["11a"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["11b"]=Instance.new("Frame",_AGARWARE["10c"]);
+_AGARWARE["11b"].Name="FakeLagRow";
+_AGARWARE["11b"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["11b"]["BorderSizePixel"]=0;
+_AGARWARE["11b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["11b"]["LayoutOrder"]=2;
+_AGARWARE["11b"]["BackgroundTransparency"]=1;
+_AGARWARE["11b"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["11b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["11c"]=Instance.new("LocalScript",_AGARWARE["11b"]);
+_AGARWARE["11c"].Name="FakeLagScript";
+_AGARWARE["11d"]=Instance.new("TextButton",_AGARWARE["11b"]);
+_AGARWARE["11d"].Name="FakeLagTickBox";
+_AGARWARE["11d"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["11d"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["11d"]["TextSize"]=14;
-_AGARWARE["11d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["11d"]["Text"]=[[Fake Lag]];
-_AGARWARE["11d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["11d"]["BackgroundTransparency"]=1;
-_AGARWARE["11d"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["11e"]=Instance.new("TextBox",_AGARWARE["11a"]);
-_AGARWARE["11e"].Name="FakeLagChanger";
-_AGARWARE["11e"]["TextWrapped"]=true;
-_AGARWARE["11e"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["11e"]["TextScaled"]=true;
-_AGARWARE["11e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["11d"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["11d"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["11d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["11d"]["Text"]=[[]];
+_AGARWARE["11d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["11e"]=Instance.new("TextLabel",_AGARWARE["11b"]);
+_AGARWARE["11e"].Name="FakeLagText";
+_AGARWARE["11e"]["BorderSizePixel"]=0;
+_AGARWARE["11e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["11e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["11e"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["11e"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["11e"]["TextSize"]=14;
-_AGARWARE["11e"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["11e"]["PlaceholderText"]=[[(1)]];
-_AGARWARE["11e"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["11e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["11e"]["Text"]=[[]];
-_AGARWARE["11e"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["11f"]=Instance.new("Frame",_AGARWARE["10b"]);
-_AGARWARE["11f"].Name="AnimSpeedRow";
-_AGARWARE["11f"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["11f"]["BorderSizePixel"]=0;
-_AGARWARE["11f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["11f"]["LayoutOrder"]=2;
-_AGARWARE["11f"]["BackgroundTransparency"]=1;
-_AGARWARE["11f"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["11f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["120"]=Instance.new("LocalScript",_AGARWARE["11f"]);
-_AGARWARE["120"].Name="AnimSpeedScript";
-_AGARWARE["121"]=Instance.new("TextButton",_AGARWARE["11f"]);
-_AGARWARE["121"].Name="AnimSpeedTickBox";
-_AGARWARE["121"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["121"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["121"]["TextSize"]=14;
-_AGARWARE["121"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["121"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["121"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["121"]["Text"]=[[]];
-_AGARWARE["121"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["122"]=Instance.new("TextLabel",_AGARWARE["11f"]);
-_AGARWARE["122"].Name="AnimSpeedText";
-_AGARWARE["122"]["BorderSizePixel"]=0;
-_AGARWARE["122"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["122"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["122"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["122"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["11e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["11e"]["Text"]=[[Fake Lag]];
+_AGARWARE["11e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["11e"]["BackgroundTransparency"]=1;
+_AGARWARE["11e"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["11f"]=Instance.new("TextBox",_AGARWARE["11b"]);
+_AGARWARE["11f"].Name="FakeLagChanger";
+_AGARWARE["11f"]["TextWrapped"]=true;
+_AGARWARE["11f"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["11f"]["TextScaled"]=true;
+_AGARWARE["11f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["11f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["11f"]["TextSize"]=14;
+_AGARWARE["11f"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["11f"]["PlaceholderText"]=[[(1)]];
+_AGARWARE["11f"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["11f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["11f"]["Text"]=[[]];
+_AGARWARE["11f"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["120"]=Instance.new("Frame",_AGARWARE["10c"]);
+_AGARWARE["120"].Name="AnimSpeedRow";
+_AGARWARE["120"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["120"]["BorderSizePixel"]=0;
+_AGARWARE["120"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["120"]["LayoutOrder"]=2;
+_AGARWARE["120"]["BackgroundTransparency"]=1;
+_AGARWARE["120"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["120"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["121"]=Instance.new("LocalScript",_AGARWARE["120"]);
+_AGARWARE["121"].Name="AnimSpeedScript";
+_AGARWARE["122"]=Instance.new("TextButton",_AGARWARE["120"]);
+_AGARWARE["122"].Name="AnimSpeedTickBox";
+_AGARWARE["122"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["122"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["122"]["TextSize"]=14;
-_AGARWARE["122"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["122"]["Text"]=[[Anim Speed]];
-_AGARWARE["122"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["122"]["BackgroundTransparency"]=1;
-_AGARWARE["122"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["123"]=Instance.new("TextBox",_AGARWARE["11f"]);
-_AGARWARE["123"].Name="AnimSpeedChanger";
-_AGARWARE["123"]["TextWrapped"]=true;
-_AGARWARE["123"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["123"]["TextScaled"]=true;
-_AGARWARE["123"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["122"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["122"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["122"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["122"]["Text"]=[[]];
+_AGARWARE["122"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["123"]=Instance.new("TextLabel",_AGARWARE["120"]);
+_AGARWARE["123"].Name="AnimSpeedText";
+_AGARWARE["123"]["BorderSizePixel"]=0;
+_AGARWARE["123"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["123"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["123"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["123"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["123"]["TextSize"]=14;
-_AGARWARE["123"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["123"]["PlaceholderText"]=[[(1)]];
-_AGARWARE["123"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["123"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["123"]["Text"]=[[]];
-_AGARWARE["123"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["124"]=Instance.new("Frame",_AGARWARE["108"]);
-_AGARWARE["124"].Name="MiscRightSide";
-_AGARWARE["124"]["Size"]=UDim2.new(0, 170, 0, 360);
-_AGARWARE["124"]["BorderSizePixel"]=0;
-_AGARWARE["124"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["124"]["BackgroundTransparency"]=1;
-_AGARWARE["124"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
-_AGARWARE["124"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["125"]=Instance.new("UIListLayout",_AGARWARE["124"]);
-_AGARWARE["125"].Name="UIListLayout";
-_AGARWARE["125"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["125"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["126"]=Instance.new("Frame",_AGARWARE["15"]);
-_AGARWARE["126"].Name="TCOSideBar";
-_AGARWARE["126"]["Visible"]=false;
-_AGARWARE["126"]["Size"]=UDim2.new(0, 365, 0, 25);
-_AGARWARE["126"]["BorderSizePixel"]=0;
-_AGARWARE["126"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["126"]["BackgroundTransparency"]=1;
-_AGARWARE["126"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["127"]=Instance.new("TextButton",_AGARWARE["126"]);
-_AGARWARE["127"].Name="MainTCOPG";
-_AGARWARE["127"]["TextWrapped"]=true;
-_AGARWARE["127"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["127"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["127"]["TextSize"]=12;
-_AGARWARE["127"]["Size"]=UDim2.new(0, 80, 0, 25);
-_AGARWARE["127"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["127"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["127"]["Text"]=[[Main]];
-_AGARWARE["128"]=Instance.new("UIListLayout",_AGARWARE["126"]);
-_AGARWARE["128"].Name="UIListLayout";
-_AGARWARE["128"]["FillDirection"]=Enum.FillDirection.Horizontal;
-_AGARWARE["128"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["129"]=Instance.new("TextButton",_AGARWARE["126"]);
-_AGARWARE["129"].Name="MiscTCOPG";
-_AGARWARE["129"]["LayoutOrder"]=10;
-_AGARWARE["129"]["TextWrapped"]=true;
-_AGARWARE["129"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["129"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["129"]["TextSize"]=12;
-_AGARWARE["129"]["Size"]=UDim2.new(0, 80, 0, 25);
-_AGARWARE["129"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["129"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["129"]["Text"]=[[Misc]];
-_AGARWARE["12a"]=Instance.new("TextButton",_AGARWARE["126"]);
-_AGARWARE["12a"].Name="TrollTCOPG";
-_AGARWARE["12a"]["LayoutOrder"]=1;
+_AGARWARE["123"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["123"]["Text"]=[[Anim Speed]];
+_AGARWARE["123"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["123"]["BackgroundTransparency"]=1;
+_AGARWARE["123"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["124"]=Instance.new("TextBox",_AGARWARE["120"]);
+_AGARWARE["124"].Name="AnimSpeedChanger";
+_AGARWARE["124"]["TextWrapped"]=true;
+_AGARWARE["124"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["124"]["TextScaled"]=true;
+_AGARWARE["124"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["124"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["124"]["TextSize"]=14;
+_AGARWARE["124"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["124"]["PlaceholderText"]=[[(1)]];
+_AGARWARE["124"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["124"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["124"]["Text"]=[[]];
+_AGARWARE["124"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["125"]=Instance.new("Frame",_AGARWARE["109"]);
+_AGARWARE["125"].Name="MiscRightSide";
+_AGARWARE["125"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["125"]["BorderSizePixel"]=0;
+_AGARWARE["125"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["125"]["BackgroundTransparency"]=1;
+_AGARWARE["125"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
+_AGARWARE["125"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["126"]=Instance.new("UIListLayout",_AGARWARE["125"]);
+_AGARWARE["126"].Name="UIListLayout";
+_AGARWARE["126"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["126"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["127"]=Instance.new("Frame",_AGARWARE["16"]);
+_AGARWARE["127"].Name="TCOSideBar";
+_AGARWARE["127"]["Visible"]=false;
+_AGARWARE["127"]["Size"]=UDim2.new(0, 365, 0, 25);
+_AGARWARE["127"]["BorderSizePixel"]=0;
+_AGARWARE["127"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["127"]["BackgroundTransparency"]=1;
+_AGARWARE["127"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["128"]=Instance.new("TextButton",_AGARWARE["127"]);
+_AGARWARE["128"].Name="MainTCOPG";
+_AGARWARE["128"]["TextWrapped"]=true;
+_AGARWARE["128"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["128"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["128"]["TextSize"]=12;
+_AGARWARE["128"]["Size"]=UDim2.new(0, 80, 0, 25);
+_AGARWARE["128"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["128"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["128"]["Text"]=[[Main]];
+_AGARWARE["129"]=Instance.new("UIListLayout",_AGARWARE["127"]);
+_AGARWARE["129"].Name="UIListLayout";
+_AGARWARE["129"]["FillDirection"]=Enum.FillDirection.Horizontal;
+_AGARWARE["129"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["12a"]=Instance.new("TextButton",_AGARWARE["127"]);
+_AGARWARE["12a"].Name="MiscTCOPG";
+_AGARWARE["12a"]["LayoutOrder"]=10;
 _AGARWARE["12a"]["TextWrapped"]=true;
 _AGARWARE["12a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["12a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
@@ -2608,10 +2599,10 @@ _AGARWARE["12a"]["TextSize"]=12;
 _AGARWARE["12a"]["Size"]=UDim2.new(0, 80, 0, 25);
 _AGARWARE["12a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["12a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["12a"]["Text"]=[[Troll]];
-_AGARWARE["12b"]=Instance.new("TextButton",_AGARWARE["126"]);
-_AGARWARE["12b"].Name="DetectionTCOPG";
-_AGARWARE["12b"]["LayoutOrder"]=2;
+_AGARWARE["12a"]["Text"]=[[Misc]];
+_AGARWARE["12b"]=Instance.new("TextButton",_AGARWARE["127"]);
+_AGARWARE["12b"].Name="TrollTCOPG";
+_AGARWARE["12b"]["LayoutOrder"]=1;
 _AGARWARE["12b"]["TextWrapped"]=true;
 _AGARWARE["12b"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["12b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
@@ -2619,4710 +2610,4721 @@ _AGARWARE["12b"]["TextSize"]=12;
 _AGARWARE["12b"]["Size"]=UDim2.new(0, 80, 0, 25);
 _AGARWARE["12b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["12b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["12b"]["Text"]=[[Detection]];
-_AGARWARE["12c"]=Instance.new("ScrollingFrame",_AGARWARE["15"]);
-_AGARWARE["12c"].Name="TCOTrollPage";
-_AGARWARE["12c"]["BorderSizePixel"]=0;
-_AGARWARE["12c"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["12c"]["Active"]=true;
-_AGARWARE["12c"]["Size"]=UDim2.new(0, 349, 0, 233);
-_AGARWARE["12c"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["12c"]["Visible"]=false;
-_AGARWARE["12c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["12c"]["ScrollBarThickness"]=0;
-_AGARWARE["12c"]["BackgroundTransparency"]=1;
-_AGARWARE["12c"]["Position"]=UDim2.new(0.02329, 0, 0.09398, 0);
-_AGARWARE["12d"]=Instance.new("Frame",_AGARWARE["12c"]);
-_AGARWARE["12d"].Name="TCOTrollRightSide";
-_AGARWARE["12d"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["12b"]["Text"]=[[Troll]];
+_AGARWARE["12c"]=Instance.new("TextButton",_AGARWARE["127"]);
+_AGARWARE["12c"].Name="DetectionTCOPG";
+_AGARWARE["12c"]["LayoutOrder"]=2;
+_AGARWARE["12c"]["TextWrapped"]=true;
+_AGARWARE["12c"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["12c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["12c"]["TextSize"]=12;
+_AGARWARE["12c"]["Size"]=UDim2.new(0, 80, 0, 25);
+_AGARWARE["12c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["12c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["12c"]["Text"]=[[Detection]];
+_AGARWARE["12d"]=Instance.new("ScrollingFrame",_AGARWARE["16"]);
+_AGARWARE["12d"].Name="TCOTrollPage";
 _AGARWARE["12d"]["BorderSizePixel"]=0;
+_AGARWARE["12d"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["12d"]["Active"]=true;
+_AGARWARE["12d"]["Size"]=UDim2.new(0, 349, 0, 233);
+_AGARWARE["12d"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["12d"]["Visible"]=false;
 _AGARWARE["12d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["12d"]["ScrollBarThickness"]=0;
 _AGARWARE["12d"]["BackgroundTransparency"]=1;
-_AGARWARE["12d"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
-_AGARWARE["12d"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["12e"]=Instance.new("UIListLayout",_AGARWARE["12d"]);
-_AGARWARE["12e"].Name="UIListLayout";
-_AGARWARE["12e"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["12e"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["12f"]=Instance.new("Frame",_AGARWARE["12d"]);
-_AGARWARE["12f"].Name="RepGroup";
-_AGARWARE["12f"]["Size"]=UDim2.new(0, 170, 0, 285);
-_AGARWARE["12f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["12f"]["LayoutOrder"]=2;
-_AGARWARE["12f"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["12f"]["Position"]=UDim2.new(0, 0, -0, 0);
-_AGARWARE["12f"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["130"]=Instance.new("LocalScript",_AGARWARE["12f"]);
-_AGARWARE["130"].Name="RepScript";
-_AGARWARE["131"]=Instance.new("LocalScript",_AGARWARE["12f"]);
-_AGARWARE["131"].Name="RepTooltip";
-_AGARWARE["132"]=Instance.new("UIListLayout",_AGARWARE["12f"]);
-_AGARWARE["132"].Name="UIListLayout";
-_AGARWARE["132"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["133"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["133"].Name="RepAccentColor";
-_AGARWARE["133"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["133"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["133"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["133"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["133"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["134"]=Instance.new("TextLabel",_AGARWARE["12f"]);
-_AGARWARE["134"].Name="RepTitle";
-_AGARWARE["134"]["TextWrapped"]=true;
-_AGARWARE["134"]["BorderSizePixel"]=0;
-_AGARWARE["134"]["TextScaled"]=true;
-_AGARWARE["134"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["134"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["134"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["134"]["TextSize"]=14;
-_AGARWARE["134"]["LayoutOrder"]=1;
-_AGARWARE["134"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["134"]["Text"]=[[RepStorage Brick]];
-_AGARWARE["134"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["134"]["BackgroundTransparency"]=0.95;
-_AGARWARE["134"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["135"]=Instance.new("TextButton",_AGARWARE["134"]);
-_AGARWARE["135"].Name="RepMinimize";
+_AGARWARE["12d"]["Position"]=UDim2.new(0.02329, 0, 0.09398, 0);
+_AGARWARE["12e"]=Instance.new("Frame",_AGARWARE["12d"]);
+_AGARWARE["12e"].Name="TCOTrollRightSide";
+_AGARWARE["12e"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["12e"]["BorderSizePixel"]=0;
+_AGARWARE["12e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["12e"]["BackgroundTransparency"]=1;
+_AGARWARE["12e"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
+_AGARWARE["12e"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["12f"]=Instance.new("UIListLayout",_AGARWARE["12e"]);
+_AGARWARE["12f"].Name="UIListLayout";
+_AGARWARE["12f"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["12f"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["130"]=Instance.new("Frame",_AGARWARE["12e"]);
+_AGARWARE["130"].Name="RepGroup";
+_AGARWARE["130"]["Size"]=UDim2.new(0, 170, 0, 285);
+_AGARWARE["130"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["130"]["LayoutOrder"]=2;
+_AGARWARE["130"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["130"]["Position"]=UDim2.new(0, 0, -0, 0);
+_AGARWARE["130"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["131"]=Instance.new("LocalScript",_AGARWARE["130"]);
+_AGARWARE["131"].Name="RepScript";
+_AGARWARE["132"]=Instance.new("LocalScript",_AGARWARE["130"]);
+_AGARWARE["132"].Name="RepTooltip";
+_AGARWARE["133"]=Instance.new("UIListLayout",_AGARWARE["130"]);
+_AGARWARE["133"].Name="UIListLayout";
+_AGARWARE["133"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["134"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["134"].Name="RepAccentColor";
+_AGARWARE["134"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["134"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["134"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["134"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["134"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["135"]=Instance.new("TextLabel",_AGARWARE["130"]);
+_AGARWARE["135"].Name="RepTitle";
+_AGARWARE["135"]["TextWrapped"]=true;
 _AGARWARE["135"]["BorderSizePixel"]=0;
+_AGARWARE["135"]["TextScaled"]=true;
 _AGARWARE["135"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["135"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["135"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["135"]["TextSize"]=14;
-_AGARWARE["135"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["135"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["135"]["BackgroundTransparency"]=1;
+_AGARWARE["135"]["LayoutOrder"]=1;
 _AGARWARE["135"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["135"]["Text"]=[[-]];
-_AGARWARE["135"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["136"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["136"].Name="BKitFixRow";
-_AGARWARE["136"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["135"]["Text"]=[[RepStorage Brick]];
+_AGARWARE["135"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["135"]["BackgroundTransparency"]=0.95;
+_AGARWARE["135"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["136"]=Instance.new("TextButton",_AGARWARE["135"]);
+_AGARWARE["136"].Name="RepMinimize";
 _AGARWARE["136"]["BorderSizePixel"]=0;
-_AGARWARE["136"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["136"]["LayoutOrder"]=4;
-_AGARWARE["136"]["BackgroundTransparency"]=1;
-_AGARWARE["136"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["136"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["137"]=Instance.new("LocalScript",_AGARWARE["136"]);
-_AGARWARE["137"].Name="BKitFixScript";
-_AGARWARE["138"]=Instance.new("TextButton",_AGARWARE["136"]);
-_AGARWARE["138"].Name="BKitFixButton";
-_AGARWARE["138"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["138"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["138"]["TextSize"]=14;
-_AGARWARE["138"]["Size"]=UDim2.new(0, 135, 0, 16);
-_AGARWARE["138"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["138"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["138"]["Text"]=[[Fix Bkit (Client)]];
-_AGARWARE["138"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
-_AGARWARE["139"]=Instance.new("TextButton",_AGARWARE["136"]);
-_AGARWARE["139"].Name="BKitFixHelp";
+_AGARWARE["136"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["136"]["TextSize"]=14;
+_AGARWARE["136"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["136"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["136"]["BackgroundTransparency"]=1;
+_AGARWARE["136"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["136"]["Text"]=[[-]];
+_AGARWARE["136"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["137"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["137"].Name="BKitFixRow";
+_AGARWARE["137"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["137"]["BorderSizePixel"]=0;
+_AGARWARE["137"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["137"]["LayoutOrder"]=4;
+_AGARWARE["137"]["BackgroundTransparency"]=1;
+_AGARWARE["137"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["137"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["138"]=Instance.new("LocalScript",_AGARWARE["137"]);
+_AGARWARE["138"].Name="BKitFixScript";
+_AGARWARE["139"]=Instance.new("TextButton",_AGARWARE["137"]);
+_AGARWARE["139"].Name="BKitFixButton";
 _AGARWARE["139"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["139"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["139"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["139"]["TextSize"]=14;
-_AGARWARE["139"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["139"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["139"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["139"]["Text"]=[[?]];
-_AGARWARE["139"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["13a"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["13a"].Name="BKitBreakRow";
-_AGARWARE["13a"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["13a"]["BorderSizePixel"]=0;
-_AGARWARE["13a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["13a"]["LayoutOrder"]=3;
-_AGARWARE["13a"]["BackgroundTransparency"]=1;
-_AGARWARE["13a"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["13a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["13b"]=Instance.new("LocalScript",_AGARWARE["13a"]);
-_AGARWARE["13b"].Name="BKitBreakScript";
-_AGARWARE["13c"]=Instance.new("TextButton",_AGARWARE["13a"]);
-_AGARWARE["13c"].Name="BKitBreakButton";
-_AGARWARE["13c"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["13c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["13c"]["TextSize"]=14;
-_AGARWARE["13c"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["13c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["13c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["13c"]["Text"]=[[Break Bkit]];
-_AGARWARE["13c"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["13d"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["13d"].Name="SprayRepRow";
-_AGARWARE["13d"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["13d"]["BorderSizePixel"]=0;
-_AGARWARE["13d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["13d"]["LayoutOrder"]=16;
-_AGARWARE["13d"]["BackgroundTransparency"]=1;
-_AGARWARE["13d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["13d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["13e"]=Instance.new("TextLabel",_AGARWARE["13d"]);
-_AGARWARE["13e"].Name="SprayRepText";
+_AGARWARE["139"]["Size"]=UDim2.new(0, 135, 0, 16);
+_AGARWARE["139"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["139"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["139"]["Text"]=[[Fix Bkit (Client)]];
+_AGARWARE["139"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
+_AGARWARE["13a"]=Instance.new("TextButton",_AGARWARE["137"]);
+_AGARWARE["13a"].Name="BKitFixHelp";
+_AGARWARE["13a"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["13a"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["13a"]["TextSize"]=14;
+_AGARWARE["13a"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["13a"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["13a"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["13a"]["Text"]=[[?]];
+_AGARWARE["13a"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["13b"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["13b"].Name="BKitBreakRow";
+_AGARWARE["13b"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["13b"]["BorderSizePixel"]=0;
+_AGARWARE["13b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["13b"]["LayoutOrder"]=3;
+_AGARWARE["13b"]["BackgroundTransparency"]=1;
+_AGARWARE["13b"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["13b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["13c"]=Instance.new("LocalScript",_AGARWARE["13b"]);
+_AGARWARE["13c"].Name="BKitBreakScript";
+_AGARWARE["13d"]=Instance.new("TextButton",_AGARWARE["13b"]);
+_AGARWARE["13d"].Name="BKitBreakButton";
+_AGARWARE["13d"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["13d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["13d"]["TextSize"]=14;
+_AGARWARE["13d"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["13d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["13d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["13d"]["Text"]=[[Break Bkit]];
+_AGARWARE["13d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["13e"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["13e"].Name="SprayRepRow";
+_AGARWARE["13e"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["13e"]["BorderSizePixel"]=0;
-_AGARWARE["13e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["13e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["13e"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["13e"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["13e"]["TextSize"]=14;
 _AGARWARE["13e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["13e"]["Text"]=[[Spray:]];
-_AGARWARE["13e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["13e"]["LayoutOrder"]=16;
 _AGARWARE["13e"]["BackgroundTransparency"]=1;
-_AGARWARE["13e"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["13f"]=Instance.new("TextBox",_AGARWARE["13d"]);
-_AGARWARE["13f"].Name="SprayRepChanger";
-_AGARWARE["13f"]["TextWrapped"]=true;
-_AGARWARE["13f"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["13f"]["TextScaled"]=true;
-_AGARWARE["13f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["13e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["13e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["13f"]=Instance.new("TextLabel",_AGARWARE["13e"]);
+_AGARWARE["13f"].Name="SprayRepText";
+_AGARWARE["13f"]["BorderSizePixel"]=0;
+_AGARWARE["13f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["13f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["13f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["13f"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["13f"]["TextSize"]=14;
-_AGARWARE["13f"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["13f"]["PlaceholderText"]=[[(none)]];
-_AGARWARE["13f"]["Size"]=UDim2.new(0, 114, 0, 16);
-_AGARWARE["13f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["13f"]["Text"]=[[]];
-_AGARWARE["13f"]["Position"]=UDim2.new(0.29586, 0, 0.16, 0);
-_AGARWARE["140"]=Instance.new("LocalScript",_AGARWARE["13f"]);
-_AGARWARE["140"].Name="SprayRepScript";
-_AGARWARE["141"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["141"].Name="APPLYCHANGESRow";
-_AGARWARE["141"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["141"]["BorderSizePixel"]=0;
-_AGARWARE["141"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["141"]["LayoutOrder"]=20;
-_AGARWARE["141"]["BackgroundTransparency"]=1;
-_AGARWARE["141"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["141"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["142"]=Instance.new("LocalScript",_AGARWARE["141"]);
-_AGARWARE["142"].Name="APPLYCHANGESScript";
-_AGARWARE["143"]=Instance.new("TextButton",_AGARWARE["141"]);
-_AGARWARE["143"].Name="APPLYCHANGESButton";
-_AGARWARE["143"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["143"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["143"]["TextSize"]=14;
-_AGARWARE["143"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["143"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["143"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["143"]["Text"]=[[Apply Changes]];
-_AGARWARE["143"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["144"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["144"].Name="UnanchorRepRow";
-_AGARWARE["144"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["144"]["BorderSizePixel"]=0;
-_AGARWARE["144"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["144"]["LayoutOrder"]=13;
-_AGARWARE["144"]["BackgroundTransparency"]=1;
-_AGARWARE["144"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["144"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["145"]=Instance.new("LocalScript",_AGARWARE["144"]);
-_AGARWARE["145"].Name="UnanchorRepScript";
-_AGARWARE["146"]=Instance.new("TextButton",_AGARWARE["144"]);
-_AGARWARE["146"].Name="UnanchorRepTickBox";
-_AGARWARE["146"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["146"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["146"]["TextSize"]=14;
-_AGARWARE["146"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["146"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["146"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["146"]["Text"]=[[]];
-_AGARWARE["146"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["147"]=Instance.new("TextLabel",_AGARWARE["144"]);
-_AGARWARE["147"].Name="UnanchorRepText";
-_AGARWARE["147"]["BorderSizePixel"]=0;
-_AGARWARE["147"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["147"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["147"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["147"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["13f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["13f"]["Text"]=[[Spray:]];
+_AGARWARE["13f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["13f"]["BackgroundTransparency"]=1;
+_AGARWARE["13f"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["140"]=Instance.new("TextBox",_AGARWARE["13e"]);
+_AGARWARE["140"].Name="SprayRepChanger";
+_AGARWARE["140"]["TextWrapped"]=true;
+_AGARWARE["140"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["140"]["TextScaled"]=true;
+_AGARWARE["140"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["140"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["140"]["TextSize"]=14;
+_AGARWARE["140"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["140"]["PlaceholderText"]=[[(none)]];
+_AGARWARE["140"]["Size"]=UDim2.new(0, 114, 0, 16);
+_AGARWARE["140"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["140"]["Text"]=[[]];
+_AGARWARE["140"]["Position"]=UDim2.new(0.29586, 0, 0.16, 0);
+_AGARWARE["141"]=Instance.new("LocalScript",_AGARWARE["140"]);
+_AGARWARE["141"].Name="SprayRepScript";
+_AGARWARE["142"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["142"].Name="APPLYCHANGESRow";
+_AGARWARE["142"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["142"]["BorderSizePixel"]=0;
+_AGARWARE["142"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["142"]["LayoutOrder"]=20;
+_AGARWARE["142"]["BackgroundTransparency"]=1;
+_AGARWARE["142"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["142"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["143"]=Instance.new("LocalScript",_AGARWARE["142"]);
+_AGARWARE["143"].Name="APPLYCHANGESScript";
+_AGARWARE["144"]=Instance.new("TextButton",_AGARWARE["142"]);
+_AGARWARE["144"].Name="APPLYCHANGESButton";
+_AGARWARE["144"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["144"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["144"]["TextSize"]=14;
+_AGARWARE["144"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["144"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["144"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["144"]["Text"]=[[Apply Changes]];
+_AGARWARE["144"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["145"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["145"].Name="UnanchorRepRow";
+_AGARWARE["145"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["145"]["BorderSizePixel"]=0;
+_AGARWARE["145"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["145"]["LayoutOrder"]=13;
+_AGARWARE["145"]["BackgroundTransparency"]=1;
+_AGARWARE["145"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["145"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["146"]=Instance.new("LocalScript",_AGARWARE["145"]);
+_AGARWARE["146"].Name="UnanchorRepScript";
+_AGARWARE["147"]=Instance.new("TextButton",_AGARWARE["145"]);
+_AGARWARE["147"].Name="UnanchorRepTickBox";
+_AGARWARE["147"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["147"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["147"]["TextSize"]=14;
-_AGARWARE["147"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["147"]["Text"]=[[Unanchor Block]];
-_AGARWARE["147"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["147"]["BackgroundTransparency"]=1;
-_AGARWARE["147"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["148"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["148"].Name="MaterialRepLabelRow";
-_AGARWARE["148"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["147"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["147"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["147"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["147"]["Text"]=[[]];
+_AGARWARE["147"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["148"]=Instance.new("TextLabel",_AGARWARE["145"]);
+_AGARWARE["148"].Name="UnanchorRepText";
 _AGARWARE["148"]["BorderSizePixel"]=0;
-_AGARWARE["148"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["148"]["LayoutOrder"]=18;
-_AGARWARE["148"]["BackgroundTransparency"]=1;
-_AGARWARE["148"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["148"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["149"]=Instance.new("TextLabel",_AGARWARE["148"]);
-_AGARWARE["149"].Name="MaterialRapLabelText";
+_AGARWARE["148"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["148"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["148"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["148"]["TextSize"]=14;
+_AGARWARE["148"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["148"]["Text"]=[[Unanchor Block]];
+_AGARWARE["148"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["148"]["BackgroundTransparency"]=1;
+_AGARWARE["148"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["149"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["149"].Name="MaterialRepLabelRow";
+_AGARWARE["149"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["149"]["BorderSizePixel"]=0;
-_AGARWARE["149"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["149"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["149"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["149"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["149"]["TextSize"]=14;
 _AGARWARE["149"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["149"]["Text"]=[[Material:]];
-_AGARWARE["149"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["149"]["LayoutOrder"]=18;
 _AGARWARE["149"]["BackgroundTransparency"]=1;
-_AGARWARE["149"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["14a"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["14a"].Name="MaterialRepRow";
-_AGARWARE["14a"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["149"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["149"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["14a"]=Instance.new("TextLabel",_AGARWARE["149"]);
+_AGARWARE["14a"].Name="MaterialRapLabelText";
 _AGARWARE["14a"]["BorderSizePixel"]=0;
-_AGARWARE["14a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["14a"]["LayoutOrder"]=19;
-_AGARWARE["14a"]["BackgroundTransparency"]=1;
-_AGARWARE["14a"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["14a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["14b"]=Instance.new("LocalScript",_AGARWARE["14a"]);
-_AGARWARE["14b"].Name="MaterialRepScript";
-_AGARWARE["14c"]=Instance.new("TextButton",_AGARWARE["14a"]);
-_AGARWARE["14c"].Name="MaterialRepDropdown";
-_AGARWARE["14c"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["14c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["14c"]["TextSize"]=14;
-_AGARWARE["14c"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["14c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["14c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["14c"]["Text"]=[[]];
-_AGARWARE["14c"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["14d"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["14d"].Name="ColorRepRow";
-_AGARWARE["14d"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["14d"]["BorderSizePixel"]=0;
-_AGARWARE["14d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["14d"]["LayoutOrder"]=14;
-_AGARWARE["14d"]["BackgroundTransparency"]=1;
-_AGARWARE["14d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["14d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["14e"]=Instance.new("TextLabel",_AGARWARE["14d"]);
-_AGARWARE["14e"].Name="ColorRepText";
+_AGARWARE["14a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["14a"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["14a"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["14a"]["TextSize"]=14;
+_AGARWARE["14a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["14a"]["Text"]=[[Material:]];
+_AGARWARE["14a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["14a"]["BackgroundTransparency"]=1;
+_AGARWARE["14a"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["14b"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["14b"].Name="MaterialRepRow";
+_AGARWARE["14b"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["14b"]["BorderSizePixel"]=0;
+_AGARWARE["14b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["14b"]["LayoutOrder"]=19;
+_AGARWARE["14b"]["BackgroundTransparency"]=1;
+_AGARWARE["14b"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["14b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["14c"]=Instance.new("LocalScript",_AGARWARE["14b"]);
+_AGARWARE["14c"].Name="MaterialRepScript";
+_AGARWARE["14d"]=Instance.new("TextButton",_AGARWARE["14b"]);
+_AGARWARE["14d"].Name="MaterialRepDropdown";
+_AGARWARE["14d"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["14d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["14d"]["TextSize"]=14;
+_AGARWARE["14d"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["14d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["14d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["14d"]["Text"]=[[]];
+_AGARWARE["14d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["14e"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["14e"].Name="ColorRepRow";
+_AGARWARE["14e"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["14e"]["BorderSizePixel"]=0;
-_AGARWARE["14e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["14e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["14e"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["14e"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["14e"]["TextSize"]=14;
 _AGARWARE["14e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["14e"]["Text"]=[[Block Color:]];
-_AGARWARE["14e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["14e"]["LayoutOrder"]=14;
 _AGARWARE["14e"]["BackgroundTransparency"]=1;
-_AGARWARE["14e"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["14f"]=Instance.new("TextButton",_AGARWARE["14d"]);
-_AGARWARE["14f"].Name="ColorRepButton";
+_AGARWARE["14e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["14e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["14f"]=Instance.new("TextLabel",_AGARWARE["14e"]);
+_AGARWARE["14f"].Name="ColorRepText";
 _AGARWARE["14f"]["BorderSizePixel"]=0;
-_AGARWARE["14f"]["BackgroundColor3"]=Color3.fromRGB(193, 193, 193);
-_AGARWARE["14f"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["14f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["14f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["14f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["14f"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["14f"]["TextSize"]=14;
-_AGARWARE["14f"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["14f"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["14f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["14f"]["Text"]=[[]];
-_AGARWARE["14f"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["150"]=Instance.new("LocalScript",_AGARWARE["14f"]);
-_AGARWARE["150"].Name="ColorRepButtonScript";
-_AGARWARE["151"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["151"].Name="SprayColorRepRow";
-_AGARWARE["151"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["151"]["BorderSizePixel"]=0;
-_AGARWARE["151"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["151"]["LayoutOrder"]=15;
-_AGARWARE["151"]["BackgroundTransparency"]=1;
-_AGARWARE["151"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["151"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["152"]=Instance.new("TextLabel",_AGARWARE["151"]);
-_AGARWARE["152"].Name="SprayColorRepText";
+_AGARWARE["14f"]["Text"]=[[Block Color:]];
+_AGARWARE["14f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["14f"]["BackgroundTransparency"]=1;
+_AGARWARE["14f"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["150"]=Instance.new("TextButton",_AGARWARE["14e"]);
+_AGARWARE["150"].Name="ColorRepButton";
+_AGARWARE["150"]["BorderSizePixel"]=0;
+_AGARWARE["150"]["BackgroundColor3"]=Color3.fromRGB(193, 193, 193);
+_AGARWARE["150"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["150"]["TextSize"]=14;
+_AGARWARE["150"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["150"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["150"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["150"]["Text"]=[[]];
+_AGARWARE["150"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["151"]=Instance.new("LocalScript",_AGARWARE["150"]);
+_AGARWARE["151"].Name="ColorRepButtonScript";
+_AGARWARE["152"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["152"].Name="SprayColorRepRow";
+_AGARWARE["152"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["152"]["BorderSizePixel"]=0;
-_AGARWARE["152"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["152"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["152"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["152"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["152"]["TextSize"]=14;
 _AGARWARE["152"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["152"]["Text"]=[[Spray Color:]];
-_AGARWARE["152"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["152"]["LayoutOrder"]=15;
 _AGARWARE["152"]["BackgroundTransparency"]=1;
-_AGARWARE["152"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["153"]=Instance.new("TextButton",_AGARWARE["151"]);
-_AGARWARE["153"].Name="SprayColorRepButton";
+_AGARWARE["152"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["152"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["153"]=Instance.new("TextLabel",_AGARWARE["152"]);
+_AGARWARE["153"].Name="SprayColorRepText";
 _AGARWARE["153"]["BorderSizePixel"]=0;
 _AGARWARE["153"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["153"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["153"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["153"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["153"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["153"]["TextSize"]=14;
-_AGARWARE["153"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["153"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["153"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["153"]["Text"]=[[]];
-_AGARWARE["153"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["154"]=Instance.new("LocalScript",_AGARWARE["153"]);
-_AGARWARE["154"].Name="SprayColorRepButtonScript";
-_AGARWARE["155"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["155"].Name="DefaultRepRow";
-_AGARWARE["155"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["155"]["BorderSizePixel"]=0;
-_AGARWARE["155"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["155"]["LayoutOrder"]=21;
-_AGARWARE["155"]["BackgroundTransparency"]=1;
-_AGARWARE["155"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["155"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["156"]=Instance.new("LocalScript",_AGARWARE["155"]);
-_AGARWARE["156"].Name="DefaultRepScript";
-_AGARWARE["157"]=Instance.new("TextButton",_AGARWARE["155"]);
-_AGARWARE["157"].Name="DefaultRepButton";
-_AGARWARE["157"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["157"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["157"]["TextSize"]=14;
-_AGARWARE["157"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["157"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["157"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["157"]["Text"]=[[Set Default Colors]];
-_AGARWARE["157"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["158"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["158"].Name="RowREPSTART";
-_AGARWARE["158"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["158"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["153"]["Text"]=[[Spray Color:]];
+_AGARWARE["153"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["153"]["BackgroundTransparency"]=1;
+_AGARWARE["153"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["154"]=Instance.new("TextButton",_AGARWARE["152"]);
+_AGARWARE["154"].Name="SprayColorRepButton";
+_AGARWARE["154"]["BorderSizePixel"]=0;
+_AGARWARE["154"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["154"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["154"]["TextSize"]=14;
+_AGARWARE["154"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["154"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["154"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["154"]["Text"]=[[]];
+_AGARWARE["154"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["155"]=Instance.new("LocalScript",_AGARWARE["154"]);
+_AGARWARE["155"].Name="SprayColorRepButtonScript";
+_AGARWARE["156"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["156"].Name="DefaultRepRow";
+_AGARWARE["156"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["156"]["BorderSizePixel"]=0;
+_AGARWARE["156"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["156"]["LayoutOrder"]=21;
+_AGARWARE["156"]["BackgroundTransparency"]=1;
+_AGARWARE["156"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["156"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["157"]=Instance.new("LocalScript",_AGARWARE["156"]);
+_AGARWARE["157"].Name="DefaultRepScript";
+_AGARWARE["158"]=Instance.new("TextButton",_AGARWARE["156"]);
+_AGARWARE["158"].Name="DefaultRepButton";
+_AGARWARE["158"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["158"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["158"]["TextSize"]=14;
+_AGARWARE["158"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["158"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
 _AGARWARE["158"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["158"]["LayoutOrder"]=10;
-_AGARWARE["158"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["158"]["BackgroundColor3"]=Color3.fromRGB(89, 89, 89);
-_AGARWARE["159"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["159"].Name="RowREPSPACESTART";
-_AGARWARE["159"]["Size"]=UDim2.new(0, 169, 0, 8);
-_AGARWARE["159"]["BorderSizePixel"]=0;
-_AGARWARE["159"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["159"]["LayoutOrder"]=9;
-_AGARWARE["159"]["BackgroundTransparency"]=1;
-_AGARWARE["159"]["Position"]=UDim2.new(0.00294, 0, 0.26136, 0);
-_AGARWARE["159"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["15a"]=Instance.new("TextLabel",_AGARWARE["12f"]);
-_AGARWARE["15a"].Name="RepRepRow";
-_AGARWARE["15a"]["TextWrapped"]=true;
+_AGARWARE["158"]["Text"]=[[Set Default Colors]];
+_AGARWARE["158"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["159"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["159"].Name="RowREPSTART";
+_AGARWARE["159"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["159"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["159"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["159"]["LayoutOrder"]=10;
+_AGARWARE["159"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["159"]["BackgroundColor3"]=Color3.fromRGB(89, 89, 89);
+_AGARWARE["15a"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["15a"].Name="RowREPSPACESTART";
+_AGARWARE["15a"]["Size"]=UDim2.new(0, 169, 0, 8);
 _AGARWARE["15a"]["BorderSizePixel"]=0;
-_AGARWARE["15a"]["TextScaled"]=true;
-_AGARWARE["15a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["15a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["15a"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["15a"]["TextSize"]=14;
-_AGARWARE["15a"]["LayoutOrder"]=11;
 _AGARWARE["15a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["15a"]["Text"]=[[Customize Block]];
-_AGARWARE["15a"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["15a"]["BackgroundTransparency"]=0.95;
-_AGARWARE["15a"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["15b"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["15b"].Name="RichTextRepRow";
-_AGARWARE["15b"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["15a"]["LayoutOrder"]=9;
+_AGARWARE["15a"]["BackgroundTransparency"]=1;
+_AGARWARE["15a"]["Position"]=UDim2.new(0.00294, 0, 0.26136, 0);
+_AGARWARE["15a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["15b"]=Instance.new("TextLabel",_AGARWARE["130"]);
+_AGARWARE["15b"].Name="RepRepRow";
+_AGARWARE["15b"]["TextWrapped"]=true;
 _AGARWARE["15b"]["BorderSizePixel"]=0;
-_AGARWARE["15b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["15b"]["LayoutOrder"]=17;
-_AGARWARE["15b"]["BackgroundTransparency"]=1;
-_AGARWARE["15b"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["15b"]["TextScaled"]=true;
 _AGARWARE["15b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["15c"]=Instance.new("LocalScript",_AGARWARE["15b"]);
-_AGARWARE["15c"].Name="RichTextRepScript";
-_AGARWARE["15d"]=Instance.new("TextButton",_AGARWARE["15b"]);
-_AGARWARE["15d"].Name="RichTextRepTickBox";
-_AGARWARE["15d"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["15d"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["15d"]["TextSize"]=14;
-_AGARWARE["15d"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["15d"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["15d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["15d"]["Text"]=[[]];
-_AGARWARE["15d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["15e"]=Instance.new("TextLabel",_AGARWARE["15b"]);
-_AGARWARE["15e"].Name="RichTextRepText";
-_AGARWARE["15e"]["BorderSizePixel"]=0;
-_AGARWARE["15e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["15e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["15e"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["15e"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["15b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["15b"]["Size"]=UDim2.new(0, 169, 0, 15);
+_AGARWARE["15b"]["TextSize"]=14;
+_AGARWARE["15b"]["LayoutOrder"]=11;
+_AGARWARE["15b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["15b"]["Text"]=[[Customize Block]];
+_AGARWARE["15b"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["15b"]["BackgroundTransparency"]=0.95;
+_AGARWARE["15b"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["15c"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["15c"].Name="RichTextRepRow";
+_AGARWARE["15c"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["15c"]["BorderSizePixel"]=0;
+_AGARWARE["15c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["15c"]["LayoutOrder"]=17;
+_AGARWARE["15c"]["BackgroundTransparency"]=1;
+_AGARWARE["15c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["15c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["15d"]=Instance.new("LocalScript",_AGARWARE["15c"]);
+_AGARWARE["15d"].Name="RichTextRepScript";
+_AGARWARE["15e"]=Instance.new("TextButton",_AGARWARE["15c"]);
+_AGARWARE["15e"].Name="RichTextRepTickBox";
+_AGARWARE["15e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["15e"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["15e"]["TextSize"]=14;
-_AGARWARE["15e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["15e"]["Text"]=[[Rich Text Bypass]];
-_AGARWARE["15e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["15e"]["BackgroundTransparency"]=1;
-_AGARWARE["15e"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["15f"]=Instance.new("Frame",_AGARWARE["12f"]);
-_AGARWARE["15f"].Name="RestoreBrickRow";
-_AGARWARE["15f"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["15e"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["15e"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["15e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["15e"]["Text"]=[[]];
+_AGARWARE["15e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["15f"]=Instance.new("TextLabel",_AGARWARE["15c"]);
+_AGARWARE["15f"].Name="RichTextRepText";
 _AGARWARE["15f"]["BorderSizePixel"]=0;
-_AGARWARE["15f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["15f"]["LayoutOrder"]=4;
-_AGARWARE["15f"]["BackgroundTransparency"]=1;
-_AGARWARE["15f"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["15f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["160"]=Instance.new("LocalScript",_AGARWARE["15f"]);
-_AGARWARE["160"].Name="RestoreBrickScript";
-_AGARWARE["161"]=Instance.new("TextButton",_AGARWARE["15f"]);
-_AGARWARE["161"].Name="RestoreBrickButton";
-_AGARWARE["161"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["161"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["161"]["TextSize"]=14;
-_AGARWARE["161"]["Size"]=UDim2.new(0, 135, 0, 16);
-_AGARWARE["161"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["161"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["161"]["Text"]=[[Restore Brick]];
-_AGARWARE["161"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
-_AGARWARE["162"]=Instance.new("TextButton",_AGARWARE["15f"]);
-_AGARWARE["162"].Name="RestoreBrickHelp";
+_AGARWARE["15f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["15f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["15f"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["15f"]["TextSize"]=14;
+_AGARWARE["15f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["15f"]["Text"]=[[Rich Text Bypass]];
+_AGARWARE["15f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["15f"]["BackgroundTransparency"]=1;
+_AGARWARE["15f"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["160"]=Instance.new("Frame",_AGARWARE["130"]);
+_AGARWARE["160"].Name="RestoreBrickRow";
+_AGARWARE["160"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["160"]["BorderSizePixel"]=0;
+_AGARWARE["160"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["160"]["LayoutOrder"]=4;
+_AGARWARE["160"]["BackgroundTransparency"]=1;
+_AGARWARE["160"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["160"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["161"]=Instance.new("LocalScript",_AGARWARE["160"]);
+_AGARWARE["161"].Name="RestoreBrickScript";
+_AGARWARE["162"]=Instance.new("TextButton",_AGARWARE["160"]);
+_AGARWARE["162"].Name="RestoreBrickButton";
 _AGARWARE["162"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["162"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["162"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["162"]["TextSize"]=14;
-_AGARWARE["162"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["162"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["162"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["162"]["Text"]=[[?]];
-_AGARWARE["162"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["163"]=Instance.new("Frame",_AGARWARE["12d"]);
-_AGARWARE["163"].Name="ExploitsGroup";
-_AGARWARE["163"]["Size"]=UDim2.new(0, 170, 0, 80);
-_AGARWARE["163"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["163"]["LayoutOrder"]=2;
-_AGARWARE["163"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["163"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["164"]=Instance.new("LocalScript",_AGARWARE["163"]);
-_AGARWARE["164"].Name="ExploitsScript";
-_AGARWARE["165"]=Instance.new("UIListLayout",_AGARWARE["163"]);
-_AGARWARE["165"].Name="UIListLayout";
-_AGARWARE["165"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["166"]=Instance.new("Frame",_AGARWARE["163"]);
-_AGARWARE["166"].Name="ExploitsAccentColor";
-_AGARWARE["166"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["166"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["166"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["166"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["166"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["167"]=Instance.new("TextLabel",_AGARWARE["163"]);
-_AGARWARE["167"].Name="ExploitsTitle";
-_AGARWARE["167"]["TextWrapped"]=true;
-_AGARWARE["167"]["BorderSizePixel"]=0;
-_AGARWARE["167"]["TextScaled"]=true;
-_AGARWARE["167"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["167"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["167"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["167"]["TextSize"]=14;
-_AGARWARE["167"]["LayoutOrder"]=1;
-_AGARWARE["167"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["167"]["Text"]=[[More scripts i made or edited]];
-_AGARWARE["167"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["167"]["BackgroundTransparency"]=0.95;
-_AGARWARE["167"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["168"]=Instance.new("TextButton",_AGARWARE["167"]);
-_AGARWARE["168"].Name="ExploitsMinimize";
+_AGARWARE["162"]["Size"]=UDim2.new(0, 135, 0, 16);
+_AGARWARE["162"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["162"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["162"]["Text"]=[[Restore Brick]];
+_AGARWARE["162"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
+_AGARWARE["163"]=Instance.new("TextButton",_AGARWARE["160"]);
+_AGARWARE["163"].Name="RestoreBrickHelp";
+_AGARWARE["163"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["163"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["163"]["TextSize"]=14;
+_AGARWARE["163"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["163"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["163"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["163"]["Text"]=[[?]];
+_AGARWARE["163"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["164"]=Instance.new("Frame",_AGARWARE["12e"]);
+_AGARWARE["164"].Name="ExploitsGroup";
+_AGARWARE["164"]["Size"]=UDim2.new(0, 170, 0, 80);
+_AGARWARE["164"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["164"]["LayoutOrder"]=2;
+_AGARWARE["164"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["164"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["165"]=Instance.new("LocalScript",_AGARWARE["164"]);
+_AGARWARE["165"].Name="ExploitsScript";
+_AGARWARE["166"]=Instance.new("UIListLayout",_AGARWARE["164"]);
+_AGARWARE["166"].Name="UIListLayout";
+_AGARWARE["166"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["167"]=Instance.new("Frame",_AGARWARE["164"]);
+_AGARWARE["167"].Name="ExploitsAccentColor";
+_AGARWARE["167"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["167"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["167"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["167"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["167"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["168"]=Instance.new("TextLabel",_AGARWARE["164"]);
+_AGARWARE["168"].Name="ExploitsTitle";
+_AGARWARE["168"]["TextWrapped"]=true;
 _AGARWARE["168"]["BorderSizePixel"]=0;
+_AGARWARE["168"]["TextScaled"]=true;
 _AGARWARE["168"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["168"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["168"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["168"]["TextSize"]=14;
-_AGARWARE["168"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["168"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["168"]["BackgroundTransparency"]=1;
+_AGARWARE["168"]["LayoutOrder"]=1;
 _AGARWARE["168"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["168"]["Text"]=[[-]];
-_AGARWARE["168"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["169"]=Instance.new("Frame",_AGARWARE["163"]);
-_AGARWARE["169"].Name="UNRow";
-_AGARWARE["169"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["168"]["Text"]=[[More scripts i made or edited]];
+_AGARWARE["168"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["168"]["BackgroundTransparency"]=0.95;
+_AGARWARE["168"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["169"]=Instance.new("TextButton",_AGARWARE["168"]);
+_AGARWARE["169"].Name="ExploitsMinimize";
 _AGARWARE["169"]["BorderSizePixel"]=0;
-_AGARWARE["169"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["169"]["LayoutOrder"]=4;
-_AGARWARE["169"]["BackgroundTransparency"]=1;
-_AGARWARE["169"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["169"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["16a"]=Instance.new("LocalScript",_AGARWARE["169"]);
-_AGARWARE["16a"].Name="UNScript";
-_AGARWARE["16b"]=Instance.new("TextButton",_AGARWARE["169"]);
-_AGARWARE["16b"].Name="UNButton";
-_AGARWARE["16b"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["16b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["16b"]["TextSize"]=14;
-_AGARWARE["16b"]["Size"]=UDim2.new(0, 135, 0, 16);
-_AGARWARE["16b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["16b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["16b"]["Text"]=[[Part Abuse (READ)]];
-_AGARWARE["16b"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
-_AGARWARE["16c"]=Instance.new("TextButton",_AGARWARE["169"]);
-_AGARWARE["16c"].Name="UNHelp";
+_AGARWARE["169"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["169"]["TextSize"]=14;
+_AGARWARE["169"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["169"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["169"]["BackgroundTransparency"]=1;
+_AGARWARE["169"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["169"]["Text"]=[[-]];
+_AGARWARE["169"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["16a"]=Instance.new("Frame",_AGARWARE["164"]);
+_AGARWARE["16a"].Name="UNRow";
+_AGARWARE["16a"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["16a"]["BorderSizePixel"]=0;
+_AGARWARE["16a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["16a"]["LayoutOrder"]=4;
+_AGARWARE["16a"]["BackgroundTransparency"]=1;
+_AGARWARE["16a"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["16a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["16b"]=Instance.new("LocalScript",_AGARWARE["16a"]);
+_AGARWARE["16b"].Name="UNScript";
+_AGARWARE["16c"]=Instance.new("TextButton",_AGARWARE["16a"]);
+_AGARWARE["16c"].Name="UNButton";
 _AGARWARE["16c"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["16c"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["16c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["16c"]["TextSize"]=14;
-_AGARWARE["16c"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["16c"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["16c"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["16c"]["Text"]=[[?]];
-_AGARWARE["16c"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["16d"]=Instance.new("Frame",_AGARWARE["163"]);
-_AGARWARE["16d"].Name="BBRow";
-_AGARWARE["16d"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["16d"]["BorderSizePixel"]=0;
-_AGARWARE["16d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["16d"]["LayoutOrder"]=4;
-_AGARWARE["16d"]["BackgroundTransparency"]=1;
-_AGARWARE["16d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["16d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["16e"]=Instance.new("LocalScript",_AGARWARE["16d"]);
-_AGARWARE["16e"].Name="BBScript";
-_AGARWARE["16f"]=Instance.new("TextButton",_AGARWARE["16d"]);
-_AGARWARE["16f"].Name="BBButton";
-_AGARWARE["16f"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["16f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["16f"]["TextSize"]=14;
-_AGARWARE["16f"]["Size"]=UDim2.new(0, 135, 0, 16);
-_AGARWARE["16f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["16f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["16f"]["Text"]=[[Bkit Disabler Bot]];
-_AGARWARE["16f"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
-_AGARWARE["170"]=Instance.new("TextButton",_AGARWARE["16d"]);
-_AGARWARE["170"].Name="BBHelp";
+_AGARWARE["16c"]["Size"]=UDim2.new(0, 135, 0, 16);
+_AGARWARE["16c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["16c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["16c"]["Text"]=[[Part Abuse (READ)]];
+_AGARWARE["16c"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
+_AGARWARE["16d"]=Instance.new("TextButton",_AGARWARE["16a"]);
+_AGARWARE["16d"].Name="UNHelp";
+_AGARWARE["16d"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["16d"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["16d"]["TextSize"]=14;
+_AGARWARE["16d"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["16d"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["16d"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["16d"]["Text"]=[[?]];
+_AGARWARE["16d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["16e"]=Instance.new("Frame",_AGARWARE["164"]);
+_AGARWARE["16e"].Name="BBRow";
+_AGARWARE["16e"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["16e"]["BorderSizePixel"]=0;
+_AGARWARE["16e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["16e"]["LayoutOrder"]=4;
+_AGARWARE["16e"]["BackgroundTransparency"]=1;
+_AGARWARE["16e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["16e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["16f"]=Instance.new("LocalScript",_AGARWARE["16e"]);
+_AGARWARE["16f"].Name="BBScript";
+_AGARWARE["170"]=Instance.new("TextButton",_AGARWARE["16e"]);
+_AGARWARE["170"].Name="BBButton";
 _AGARWARE["170"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["170"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["170"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["170"]["TextSize"]=14;
-_AGARWARE["170"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["170"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["170"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["170"]["Text"]=[[?]];
-_AGARWARE["170"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["171"]=Instance.new("Frame",_AGARWARE["163"]);
-_AGARWARE["171"].Name="FFRow";
-_AGARWARE["171"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["171"]["BorderSizePixel"]=0;
-_AGARWARE["171"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["171"]["LayoutOrder"]=4;
-_AGARWARE["171"]["BackgroundTransparency"]=1;
-_AGARWARE["171"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["171"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["172"]=Instance.new("LocalScript",_AGARWARE["171"]);
-_AGARWARE["172"].Name="FFScript";
-_AGARWARE["173"]=Instance.new("TextButton",_AGARWARE["171"]);
-_AGARWARE["173"].Name="FFButton";
-_AGARWARE["173"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["173"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["173"]["TextSize"]=14;
-_AGARWARE["173"]["Size"]=UDim2.new(0, 135, 0, 16);
-_AGARWARE["173"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["173"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["173"]["Text"]=[[Monkey Gang Raider]];
-_AGARWARE["173"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
-_AGARWARE["174"]=Instance.new("TextButton",_AGARWARE["171"]);
-_AGARWARE["174"].Name="FFHelp";
+_AGARWARE["170"]["Size"]=UDim2.new(0, 135, 0, 16);
+_AGARWARE["170"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["170"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["170"]["Text"]=[[Bkit Disabler Bot]];
+_AGARWARE["170"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
+_AGARWARE["171"]=Instance.new("TextButton",_AGARWARE["16e"]);
+_AGARWARE["171"].Name="BBHelp";
+_AGARWARE["171"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["171"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["171"]["TextSize"]=14;
+_AGARWARE["171"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["171"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["171"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["171"]["Text"]=[[?]];
+_AGARWARE["171"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["172"]=Instance.new("Frame",_AGARWARE["164"]);
+_AGARWARE["172"].Name="FFRow";
+_AGARWARE["172"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["172"]["BorderSizePixel"]=0;
+_AGARWARE["172"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["172"]["LayoutOrder"]=4;
+_AGARWARE["172"]["BackgroundTransparency"]=1;
+_AGARWARE["172"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["172"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["173"]=Instance.new("LocalScript",_AGARWARE["172"]);
+_AGARWARE["173"].Name="FFScript";
+_AGARWARE["174"]=Instance.new("TextButton",_AGARWARE["172"]);
+_AGARWARE["174"].Name="FFButton";
 _AGARWARE["174"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["174"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["174"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["174"]["TextSize"]=14;
-_AGARWARE["174"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["174"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["174"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["174"]["Text"]=[[?]];
-_AGARWARE["174"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["175"]=Instance.new("Frame",_AGARWARE["12d"]);
-_AGARWARE["175"].Name="WeirdGroup";
-_AGARWARE["175"]["Size"]=UDim2.new(0, 170, 0, 82);
-_AGARWARE["175"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["175"]["LayoutOrder"]=2;
-_AGARWARE["175"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["175"]["Position"]=UDim2.new(0, 0, 0.58056, 0);
-_AGARWARE["175"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["176"]=Instance.new("LocalScript",_AGARWARE["175"]);
-_AGARWARE["176"].Name="WeirdScript";
-_AGARWARE["177"]=Instance.new("UIListLayout",_AGARWARE["175"]);
-_AGARWARE["177"].Name="UIListLayout";
-_AGARWARE["177"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["178"]=Instance.new("Frame",_AGARWARE["175"]);
-_AGARWARE["178"].Name="WeirdAccentColor";
-_AGARWARE["178"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["178"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["178"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["178"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["178"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["179"]=Instance.new("TextLabel",_AGARWARE["175"]);
-_AGARWARE["179"].Name="WeirdTitle";
-_AGARWARE["179"]["TextWrapped"]=true;
-_AGARWARE["179"]["BorderSizePixel"]=0;
-_AGARWARE["179"]["TextScaled"]=true;
-_AGARWARE["179"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["179"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["179"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["179"]["TextSize"]=14;
-_AGARWARE["179"]["LayoutOrder"]=1;
-_AGARWARE["179"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["179"]["Text"]=[[idk i was bored]];
-_AGARWARE["179"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["179"]["BackgroundTransparency"]=0.95;
-_AGARWARE["179"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["17a"]=Instance.new("TextButton",_AGARWARE["179"]);
-_AGARWARE["17a"].Name="WeirdMinimize";
+_AGARWARE["174"]["Size"]=UDim2.new(0, 135, 0, 16);
+_AGARWARE["174"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["174"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["174"]["Text"]=[[Monkey Gang Raider]];
+_AGARWARE["174"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
+_AGARWARE["175"]=Instance.new("TextButton",_AGARWARE["172"]);
+_AGARWARE["175"].Name="FFHelp";
+_AGARWARE["175"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["175"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["175"]["TextSize"]=14;
+_AGARWARE["175"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["175"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["175"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["175"]["Text"]=[[?]];
+_AGARWARE["175"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["176"]=Instance.new("Frame",_AGARWARE["12e"]);
+_AGARWARE["176"].Name="WeirdGroup";
+_AGARWARE["176"]["Size"]=UDim2.new(0, 170, 0, 82);
+_AGARWARE["176"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["176"]["LayoutOrder"]=2;
+_AGARWARE["176"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["176"]["Position"]=UDim2.new(0, 0, 0.58056, 0);
+_AGARWARE["176"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["177"]=Instance.new("LocalScript",_AGARWARE["176"]);
+_AGARWARE["177"].Name="WeirdScript";
+_AGARWARE["178"]=Instance.new("UIListLayout",_AGARWARE["176"]);
+_AGARWARE["178"].Name="UIListLayout";
+_AGARWARE["178"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["179"]=Instance.new("Frame",_AGARWARE["176"]);
+_AGARWARE["179"].Name="WeirdAccentColor";
+_AGARWARE["179"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["179"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["179"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["179"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["179"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["17a"]=Instance.new("TextLabel",_AGARWARE["176"]);
+_AGARWARE["17a"].Name="WeirdTitle";
+_AGARWARE["17a"]["TextWrapped"]=true;
 _AGARWARE["17a"]["BorderSizePixel"]=0;
+_AGARWARE["17a"]["TextScaled"]=true;
 _AGARWARE["17a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["17a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["17a"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["17a"]["TextSize"]=14;
-_AGARWARE["17a"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["17a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["17a"]["BackgroundTransparency"]=1;
+_AGARWARE["17a"]["LayoutOrder"]=1;
 _AGARWARE["17a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["17a"]["Text"]=[[-]];
-_AGARWARE["17a"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["17b"]=Instance.new("Frame",_AGARWARE["175"]);
-_AGARWARE["17b"].Name="SpamAdvertRow";
-_AGARWARE["17b"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["17a"]["Text"]=[[idk i was bored]];
+_AGARWARE["17a"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["17a"]["BackgroundTransparency"]=0.95;
+_AGARWARE["17a"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["17b"]=Instance.new("TextButton",_AGARWARE["17a"]);
+_AGARWARE["17b"].Name="WeirdMinimize";
 _AGARWARE["17b"]["BorderSizePixel"]=0;
-_AGARWARE["17b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["17b"]["LayoutOrder"]=21;
-_AGARWARE["17b"]["BackgroundTransparency"]=1;
-_AGARWARE["17b"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["17b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["17c"]=Instance.new("LocalScript",_AGARWARE["17b"]);
-_AGARWARE["17c"].Name="SpamAdvertScript";
-_AGARWARE["17d"]=Instance.new("TextButton",_AGARWARE["17b"]);
-_AGARWARE["17d"].Name="SpamAdvertButton";
-_AGARWARE["17d"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["17d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["17d"]["TextSize"]=14;
-_AGARWARE["17d"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["17d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["17d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["17d"]["Text"]=[[Spam Adver Agar Ware]];
-_AGARWARE["17d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["17e"]=Instance.new("Frame",_AGARWARE["175"]);
-_AGARWARE["17e"].Name="PPBoomboxRow";
-_AGARWARE["17e"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["17e"]["BorderSizePixel"]=0;
-_AGARWARE["17e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["17e"]["LayoutOrder"]=20;
-_AGARWARE["17e"]["BackgroundTransparency"]=1;
-_AGARWARE["17e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["17e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["17f"]=Instance.new("LocalScript",_AGARWARE["17e"]);
-_AGARWARE["17f"].Name="PPBoomboxScript";
-_AGARWARE["180"]=Instance.new("TextButton",_AGARWARE["17e"]);
-_AGARWARE["180"].Name="PPBoomboxButton";
-_AGARWARE["180"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["180"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["180"]["TextSize"]=14;
-_AGARWARE["180"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["180"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["180"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["180"]["Text"]=[[Make a PP (Boombox)]];
-_AGARWARE["180"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["181"]=Instance.new("Frame",_AGARWARE["175"]);
-_AGARWARE["181"].Name="PPBkitRow";
-_AGARWARE["181"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["181"]["BorderSizePixel"]=0;
-_AGARWARE["181"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["181"]["LayoutOrder"]=20;
-_AGARWARE["181"]["BackgroundTransparency"]=1;
-_AGARWARE["181"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["181"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["182"]=Instance.new("LocalScript",_AGARWARE["181"]);
-_AGARWARE["182"].Name="PPBkitScript";
-_AGARWARE["183"]=Instance.new("TextButton",_AGARWARE["181"]);
-_AGARWARE["183"].Name="PPBkitButton";
-_AGARWARE["183"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["183"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["183"]["TextSize"]=14;
-_AGARWARE["183"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["183"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["183"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["183"]["Text"]=[[Make a PP (Bkit)]];
-_AGARWARE["183"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["184"]=Instance.new("Frame",_AGARWARE["12c"]);
-_AGARWARE["184"].Name="TCOTrollLeftSide";
-_AGARWARE["184"]["Size"]=UDim2.new(0, 170, 0, 360);
-_AGARWARE["184"]["BorderSizePixel"]=0;
-_AGARWARE["184"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["184"]["BackgroundTransparency"]=1;
-_AGARWARE["184"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
-_AGARWARE["184"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["185"]=Instance.new("UIListLayout",_AGARWARE["184"]);
-_AGARWARE["185"].Name="UIListLayout";
-_AGARWARE["185"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["185"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["186"]=Instance.new("Frame",_AGARWARE["184"]);
-_AGARWARE["186"].Name="BypassGroup";
-_AGARWARE["186"]["Size"]=UDim2.new(0, 170, 0, 144);
-_AGARWARE["186"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["186"]["LayoutOrder"]=3;
-_AGARWARE["186"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["186"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["187"]=Instance.new("LocalScript",_AGARWARE["186"]);
-_AGARWARE["187"].Name="BypassScript";
-_AGARWARE["188"]=Instance.new("LocalScript",_AGARWARE["186"]);
-_AGARWARE["188"].Name="BypassToolTip";
-_AGARWARE["189"]=Instance.new("UIListLayout",_AGARWARE["186"]);
-_AGARWARE["189"].Name="UIListLayout";
-_AGARWARE["189"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["18a"]=Instance.new("Frame",_AGARWARE["186"]);
-_AGARWARE["18a"].Name="BypassAccentColor";
-_AGARWARE["18a"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["18a"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["18a"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["18a"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["18a"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["18b"]=Instance.new("TextLabel",_AGARWARE["186"]);
-_AGARWARE["18b"].Name="BypassTitle";
-_AGARWARE["18b"]["TextWrapped"]=true;
-_AGARWARE["18b"]["BorderSizePixel"]=0;
-_AGARWARE["18b"]["TextScaled"]=true;
-_AGARWARE["18b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["18b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["18b"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["18b"]["TextSize"]=14;
-_AGARWARE["18b"]["LayoutOrder"]=1;
-_AGARWARE["18b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["18b"]["Text"]=[[Tool Bypass]];
-_AGARWARE["18b"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["18b"]["BackgroundTransparency"]=0.95;
-_AGARWARE["18b"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["18c"]=Instance.new("TextButton",_AGARWARE["18b"]);
-_AGARWARE["18c"].Name="BypassMinimize";
+_AGARWARE["17b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["17b"]["TextSize"]=14;
+_AGARWARE["17b"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["17b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["17b"]["BackgroundTransparency"]=1;
+_AGARWARE["17b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["17b"]["Text"]=[[-]];
+_AGARWARE["17b"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["17c"]=Instance.new("Frame",_AGARWARE["176"]);
+_AGARWARE["17c"].Name="SpamAdvertRow";
+_AGARWARE["17c"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["17c"]["BorderSizePixel"]=0;
+_AGARWARE["17c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["17c"]["LayoutOrder"]=21;
+_AGARWARE["17c"]["BackgroundTransparency"]=1;
+_AGARWARE["17c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["17c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["17d"]=Instance.new("LocalScript",_AGARWARE["17c"]);
+_AGARWARE["17d"].Name="SpamAdvertScript";
+_AGARWARE["17e"]=Instance.new("TextButton",_AGARWARE["17c"]);
+_AGARWARE["17e"].Name="SpamAdvertButton";
+_AGARWARE["17e"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["17e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["17e"]["TextSize"]=14;
+_AGARWARE["17e"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["17e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["17e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["17e"]["Text"]=[[Spam Adver Agar Ware]];
+_AGARWARE["17e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["17f"]=Instance.new("Frame",_AGARWARE["176"]);
+_AGARWARE["17f"].Name="PPBoomboxRow";
+_AGARWARE["17f"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["17f"]["BorderSizePixel"]=0;
+_AGARWARE["17f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["17f"]["LayoutOrder"]=20;
+_AGARWARE["17f"]["BackgroundTransparency"]=1;
+_AGARWARE["17f"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["17f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["180"]=Instance.new("LocalScript",_AGARWARE["17f"]);
+_AGARWARE["180"].Name="PPBoomboxScript";
+_AGARWARE["181"]=Instance.new("TextButton",_AGARWARE["17f"]);
+_AGARWARE["181"].Name="PPBoomboxButton";
+_AGARWARE["181"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["181"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["181"]["TextSize"]=14;
+_AGARWARE["181"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["181"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["181"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["181"]["Text"]=[[Make a PP (Boombox)]];
+_AGARWARE["181"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["182"]=Instance.new("Frame",_AGARWARE["176"]);
+_AGARWARE["182"].Name="PPBkitRow";
+_AGARWARE["182"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["182"]["BorderSizePixel"]=0;
+_AGARWARE["182"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["182"]["LayoutOrder"]=20;
+_AGARWARE["182"]["BackgroundTransparency"]=1;
+_AGARWARE["182"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["182"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["183"]=Instance.new("LocalScript",_AGARWARE["182"]);
+_AGARWARE["183"].Name="PPBkitScript";
+_AGARWARE["184"]=Instance.new("TextButton",_AGARWARE["182"]);
+_AGARWARE["184"].Name="PPBkitButton";
+_AGARWARE["184"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["184"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["184"]["TextSize"]=14;
+_AGARWARE["184"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["184"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["184"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["184"]["Text"]=[[Make a PP (Bkit)]];
+_AGARWARE["184"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["185"]=Instance.new("Frame",_AGARWARE["12d"]);
+_AGARWARE["185"].Name="TCOTrollLeftSide";
+_AGARWARE["185"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["185"]["BorderSizePixel"]=0;
+_AGARWARE["185"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["185"]["BackgroundTransparency"]=1;
+_AGARWARE["185"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
+_AGARWARE["185"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["186"]=Instance.new("UIListLayout",_AGARWARE["185"]);
+_AGARWARE["186"].Name="UIListLayout";
+_AGARWARE["186"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["186"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["187"]=Instance.new("Frame",_AGARWARE["185"]);
+_AGARWARE["187"].Name="BypassGroup";
+_AGARWARE["187"]["Size"]=UDim2.new(0, 170, 0, 144);
+_AGARWARE["187"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["187"]["LayoutOrder"]=3;
+_AGARWARE["187"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["187"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["188"]=Instance.new("LocalScript",_AGARWARE["187"]);
+_AGARWARE["188"].Name="BypassScript";
+_AGARWARE["189"]=Instance.new("LocalScript",_AGARWARE["187"]);
+_AGARWARE["189"].Name="BypassToolTip";
+_AGARWARE["18a"]=Instance.new("UIListLayout",_AGARWARE["187"]);
+_AGARWARE["18a"].Name="UIListLayout";
+_AGARWARE["18a"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["18b"]=Instance.new("Frame",_AGARWARE["187"]);
+_AGARWARE["18b"].Name="BypassAccentColor";
+_AGARWARE["18b"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["18b"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["18b"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["18b"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["18b"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["18c"]=Instance.new("TextLabel",_AGARWARE["187"]);
+_AGARWARE["18c"].Name="BypassTitle";
+_AGARWARE["18c"]["TextWrapped"]=true;
 _AGARWARE["18c"]["BorderSizePixel"]=0;
+_AGARWARE["18c"]["TextScaled"]=true;
 _AGARWARE["18c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["18c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["18c"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["18c"]["TextSize"]=14;
-_AGARWARE["18c"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["18c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["18c"]["BackgroundTransparency"]=1;
+_AGARWARE["18c"]["LayoutOrder"]=1;
 _AGARWARE["18c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["18c"]["Text"]=[[-]];
-_AGARWARE["18c"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["18d"]=Instance.new("Frame",_AGARWARE["186"]);
-_AGARWARE["18d"].Name="PaintBypassRow";
-_AGARWARE["18d"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["18c"]["Text"]=[[Tool Bypass]];
+_AGARWARE["18c"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["18c"]["BackgroundTransparency"]=0.95;
+_AGARWARE["18c"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["18d"]=Instance.new("TextButton",_AGARWARE["18c"]);
+_AGARWARE["18d"].Name="BypassMinimize";
 _AGARWARE["18d"]["BorderSizePixel"]=0;
-_AGARWARE["18d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["18d"]["LayoutOrder"]=5;
-_AGARWARE["18d"]["BackgroundTransparency"]=1;
-_AGARWARE["18d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["18d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["18e"]=Instance.new("LocalScript",_AGARWARE["18d"]);
-_AGARWARE["18e"].Name="PaintBypassScript";
-_AGARWARE["18f"]=Instance.new("TextButton",_AGARWARE["18d"]);
-_AGARWARE["18f"].Name="PaintBypassTickBox";
-_AGARWARE["18f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["18f"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["18f"]["TextSize"]=14;
-_AGARWARE["18f"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["18f"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["18f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["18f"]["Text"]=[[]];
-_AGARWARE["18f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["190"]=Instance.new("TextLabel",_AGARWARE["18d"]);
-_AGARWARE["190"].Name="PaintBypassText";
-_AGARWARE["190"]["BorderSizePixel"]=0;
-_AGARWARE["190"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["190"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["190"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["190"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["18d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["18d"]["TextSize"]=14;
+_AGARWARE["18d"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["18d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["18d"]["BackgroundTransparency"]=1;
+_AGARWARE["18d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["18d"]["Text"]=[[-]];
+_AGARWARE["18d"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["18e"]=Instance.new("Frame",_AGARWARE["187"]);
+_AGARWARE["18e"].Name="PaintBypassRow";
+_AGARWARE["18e"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["18e"]["BorderSizePixel"]=0;
+_AGARWARE["18e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["18e"]["LayoutOrder"]=5;
+_AGARWARE["18e"]["BackgroundTransparency"]=1;
+_AGARWARE["18e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["18e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["18f"]=Instance.new("LocalScript",_AGARWARE["18e"]);
+_AGARWARE["18f"].Name="PaintBypassScript";
+_AGARWARE["190"]=Instance.new("TextButton",_AGARWARE["18e"]);
+_AGARWARE["190"].Name="PaintBypassTickBox";
+_AGARWARE["190"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["190"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["190"]["TextSize"]=14;
-_AGARWARE["190"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["190"]["Text"]=[[Paint]];
-_AGARWARE["190"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["190"]["BackgroundTransparency"]=1;
-_AGARWARE["190"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["191"]=Instance.new("Frame",_AGARWARE["186"]);
-_AGARWARE["191"].Name="DeleteBypassRow";
-_AGARWARE["191"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["190"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["190"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["190"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["190"]["Text"]=[[]];
+_AGARWARE["190"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["191"]=Instance.new("TextLabel",_AGARWARE["18e"]);
+_AGARWARE["191"].Name="PaintBypassText";
 _AGARWARE["191"]["BorderSizePixel"]=0;
-_AGARWARE["191"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["191"]["LayoutOrder"]=4;
-_AGARWARE["191"]["BackgroundTransparency"]=1;
-_AGARWARE["191"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["191"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["192"]=Instance.new("LocalScript",_AGARWARE["191"]);
-_AGARWARE["192"].Name="DeleteBypassScript";
-_AGARWARE["193"]=Instance.new("TextButton",_AGARWARE["191"]);
-_AGARWARE["193"].Name="DeleteBypassTickBox";
-_AGARWARE["193"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["193"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["193"]["TextSize"]=14;
-_AGARWARE["193"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["193"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["193"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["193"]["Text"]=[[]];
-_AGARWARE["193"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["194"]=Instance.new("TextLabel",_AGARWARE["191"]);
-_AGARWARE["194"].Name="DeleteBypassText";
-_AGARWARE["194"]["BorderSizePixel"]=0;
-_AGARWARE["194"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["194"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["194"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["194"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["191"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["191"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["191"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["191"]["TextSize"]=14;
+_AGARWARE["191"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["191"]["Text"]=[[Paint]];
+_AGARWARE["191"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["191"]["BackgroundTransparency"]=1;
+_AGARWARE["191"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["192"]=Instance.new("Frame",_AGARWARE["187"]);
+_AGARWARE["192"].Name="DeleteBypassRow";
+_AGARWARE["192"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["192"]["BorderSizePixel"]=0;
+_AGARWARE["192"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["192"]["LayoutOrder"]=4;
+_AGARWARE["192"]["BackgroundTransparency"]=1;
+_AGARWARE["192"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["192"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["193"]=Instance.new("LocalScript",_AGARWARE["192"]);
+_AGARWARE["193"].Name="DeleteBypassScript";
+_AGARWARE["194"]=Instance.new("TextButton",_AGARWARE["192"]);
+_AGARWARE["194"].Name="DeleteBypassTickBox";
+_AGARWARE["194"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["194"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["194"]["TextSize"]=14;
-_AGARWARE["194"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["194"]["Text"]=[[Delete]];
-_AGARWARE["194"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["194"]["BackgroundTransparency"]=1;
-_AGARWARE["194"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["195"]=Instance.new("Frame",_AGARWARE["186"]);
-_AGARWARE["195"].Name="ShapeBypassRow";
-_AGARWARE["195"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["194"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["194"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["194"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["194"]["Text"]=[[]];
+_AGARWARE["194"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["195"]=Instance.new("TextLabel",_AGARWARE["192"]);
+_AGARWARE["195"].Name="DeleteBypassText";
 _AGARWARE["195"]["BorderSizePixel"]=0;
-_AGARWARE["195"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["195"]["LayoutOrder"]=6;
-_AGARWARE["195"]["BackgroundTransparency"]=1;
-_AGARWARE["195"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["195"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["196"]=Instance.new("LocalScript",_AGARWARE["195"]);
-_AGARWARE["196"].Name="ShapeBypassScript";
-_AGARWARE["197"]=Instance.new("TextButton",_AGARWARE["195"]);
-_AGARWARE["197"].Name="ShapeBypassTickBox";
-_AGARWARE["197"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["197"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["197"]["TextSize"]=14;
-_AGARWARE["197"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["197"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["197"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["197"]["Text"]=[[]];
-_AGARWARE["197"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["198"]=Instance.new("TextLabel",_AGARWARE["195"]);
-_AGARWARE["198"].Name="ShapeBypassText";
-_AGARWARE["198"]["BorderSizePixel"]=0;
-_AGARWARE["198"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["198"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["198"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["198"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["195"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["195"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["195"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["195"]["TextSize"]=14;
+_AGARWARE["195"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["195"]["Text"]=[[Delete]];
+_AGARWARE["195"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["195"]["BackgroundTransparency"]=1;
+_AGARWARE["195"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["196"]=Instance.new("Frame",_AGARWARE["187"]);
+_AGARWARE["196"].Name="ShapeBypassRow";
+_AGARWARE["196"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["196"]["BorderSizePixel"]=0;
+_AGARWARE["196"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["196"]["LayoutOrder"]=6;
+_AGARWARE["196"]["BackgroundTransparency"]=1;
+_AGARWARE["196"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["196"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["197"]=Instance.new("LocalScript",_AGARWARE["196"]);
+_AGARWARE["197"].Name="ShapeBypassScript";
+_AGARWARE["198"]=Instance.new("TextButton",_AGARWARE["196"]);
+_AGARWARE["198"].Name="ShapeBypassTickBox";
+_AGARWARE["198"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["198"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["198"]["TextSize"]=14;
-_AGARWARE["198"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["198"]["Text"]=[[Shape]];
-_AGARWARE["198"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["198"]["BackgroundTransparency"]=1;
-_AGARWARE["198"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["199"]=Instance.new("Frame",_AGARWARE["186"]);
-_AGARWARE["199"].Name="ShovelBypassRow";
-_AGARWARE["199"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["198"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["198"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["198"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["198"]["Text"]=[[]];
+_AGARWARE["198"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["199"]=Instance.new("TextLabel",_AGARWARE["196"]);
+_AGARWARE["199"].Name="ShapeBypassText";
 _AGARWARE["199"]["BorderSizePixel"]=0;
-_AGARWARE["199"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["199"]["LayoutOrder"]=7;
-_AGARWARE["199"]["BackgroundTransparency"]=1;
-_AGARWARE["199"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["199"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["19a"]=Instance.new("LocalScript",_AGARWARE["199"]);
-_AGARWARE["19a"].Name="ShovelBypassScript";
-_AGARWARE["19b"]=Instance.new("TextButton",_AGARWARE["199"]);
-_AGARWARE["19b"].Name="ShovelBypassTickBox";
-_AGARWARE["19b"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["19b"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["19b"]["TextSize"]=14;
-_AGARWARE["19b"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["19b"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["19b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["19b"]["Text"]=[[]];
-_AGARWARE["19b"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["19c"]=Instance.new("TextLabel",_AGARWARE["199"]);
-_AGARWARE["19c"].Name="ShovelBypassText";
-_AGARWARE["19c"]["BorderSizePixel"]=0;
-_AGARWARE["19c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["19c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["19c"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["19c"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["199"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["199"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["199"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["199"]["TextSize"]=14;
+_AGARWARE["199"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["199"]["Text"]=[[Shape]];
+_AGARWARE["199"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["199"]["BackgroundTransparency"]=1;
+_AGARWARE["199"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["19a"]=Instance.new("Frame",_AGARWARE["187"]);
+_AGARWARE["19a"].Name="ShovelBypassRow";
+_AGARWARE["19a"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["19a"]["BorderSizePixel"]=0;
+_AGARWARE["19a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["19a"]["LayoutOrder"]=7;
+_AGARWARE["19a"]["BackgroundTransparency"]=1;
+_AGARWARE["19a"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["19a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["19b"]=Instance.new("LocalScript",_AGARWARE["19a"]);
+_AGARWARE["19b"].Name="ShovelBypassScript";
+_AGARWARE["19c"]=Instance.new("TextButton",_AGARWARE["19a"]);
+_AGARWARE["19c"].Name="ShovelBypassTickBox";
+_AGARWARE["19c"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["19c"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["19c"]["TextSize"]=14;
-_AGARWARE["19c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["19c"]["Text"]=[[Shovel]];
-_AGARWARE["19c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["19c"]["BackgroundTransparency"]=1;
-_AGARWARE["19c"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["19d"]=Instance.new("Frame",_AGARWARE["186"]);
-_AGARWARE["19d"].Name="SignBypassRow";
-_AGARWARE["19d"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["19c"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["19c"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["19c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["19c"]["Text"]=[[]];
+_AGARWARE["19c"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["19d"]=Instance.new("TextLabel",_AGARWARE["19a"]);
+_AGARWARE["19d"].Name="ShovelBypassText";
 _AGARWARE["19d"]["BorderSizePixel"]=0;
-_AGARWARE["19d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["19d"]["LayoutOrder"]=8;
-_AGARWARE["19d"]["BackgroundTransparency"]=1;
-_AGARWARE["19d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["19d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["19e"]=Instance.new("LocalScript",_AGARWARE["19d"]);
-_AGARWARE["19e"].Name="SignBypassScript";
-_AGARWARE["19f"]=Instance.new("TextButton",_AGARWARE["19d"]);
-_AGARWARE["19f"].Name="SignBypassTickBox";
-_AGARWARE["19f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["19f"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["19f"]["TextSize"]=14;
-_AGARWARE["19f"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["19f"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["19f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["19f"]["Text"]=[[]];
-_AGARWARE["19f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1a0"]=Instance.new("TextLabel",_AGARWARE["19d"]);
-_AGARWARE["1a0"].Name="SignBypassText";
-_AGARWARE["1a0"]["BorderSizePixel"]=0;
-_AGARWARE["1a0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1a0"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1a0"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1a0"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["19d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["19d"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["19d"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["19d"]["TextSize"]=14;
+_AGARWARE["19d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["19d"]["Text"]=[[Shovel]];
+_AGARWARE["19d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["19d"]["BackgroundTransparency"]=1;
+_AGARWARE["19d"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["19e"]=Instance.new("Frame",_AGARWARE["187"]);
+_AGARWARE["19e"].Name="SignBypassRow";
+_AGARWARE["19e"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["19e"]["BorderSizePixel"]=0;
+_AGARWARE["19e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["19e"]["LayoutOrder"]=8;
+_AGARWARE["19e"]["BackgroundTransparency"]=1;
+_AGARWARE["19e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["19e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["19f"]=Instance.new("LocalScript",_AGARWARE["19e"]);
+_AGARWARE["19f"].Name="SignBypassScript";
+_AGARWARE["1a0"]=Instance.new("TextButton",_AGARWARE["19e"]);
+_AGARWARE["1a0"].Name="SignBypassTickBox";
+_AGARWARE["1a0"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1a0"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["1a0"]["TextSize"]=14;
-_AGARWARE["1a0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1a0"]["Text"]=[[Sign]];
-_AGARWARE["1a0"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1a0"]["BackgroundTransparency"]=1;
-_AGARWARE["1a0"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["1a1"]=Instance.new("Frame",_AGARWARE["186"]);
-_AGARWARE["1a1"].Name="BuildBypassRow";
-_AGARWARE["1a1"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1a0"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["1a0"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1a0"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1a0"]["Text"]=[[]];
+_AGARWARE["1a0"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1a1"]=Instance.new("TextLabel",_AGARWARE["19e"]);
+_AGARWARE["1a1"].Name="SignBypassText";
 _AGARWARE["1a1"]["BorderSizePixel"]=0;
-_AGARWARE["1a1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1a1"]["LayoutOrder"]=3;
-_AGARWARE["1a1"]["BackgroundTransparency"]=1;
-_AGARWARE["1a1"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["1a1"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1a2"]=Instance.new("LocalScript",_AGARWARE["1a1"]);
-_AGARWARE["1a2"].Name="BuildBypassScript";
-_AGARWARE["1a3"]=Instance.new("TextButton",_AGARWARE["1a1"]);
-_AGARWARE["1a3"].Name="BuildBypassTickBox";
-_AGARWARE["1a3"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1a3"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1a3"]["TextSize"]=14;
-_AGARWARE["1a3"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["1a3"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1a3"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1a3"]["Text"]=[[]];
-_AGARWARE["1a3"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1a4"]=Instance.new("TextLabel",_AGARWARE["1a1"]);
-_AGARWARE["1a4"].Name="BuildBypassText";
-_AGARWARE["1a4"]["BorderSizePixel"]=0;
-_AGARWARE["1a4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1a4"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1a4"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1a4"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1a1"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1a1"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1a1"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1a1"]["TextSize"]=14;
+_AGARWARE["1a1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1a1"]["Text"]=[[Sign]];
+_AGARWARE["1a1"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1a1"]["BackgroundTransparency"]=1;
+_AGARWARE["1a1"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["1a2"]=Instance.new("Frame",_AGARWARE["187"]);
+_AGARWARE["1a2"].Name="BuildBypassRow";
+_AGARWARE["1a2"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1a2"]["BorderSizePixel"]=0;
+_AGARWARE["1a2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1a2"]["LayoutOrder"]=3;
+_AGARWARE["1a2"]["BackgroundTransparency"]=1;
+_AGARWARE["1a2"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1a2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1a3"]=Instance.new("LocalScript",_AGARWARE["1a2"]);
+_AGARWARE["1a3"].Name="BuildBypassScript";
+_AGARWARE["1a4"]=Instance.new("TextButton",_AGARWARE["1a2"]);
+_AGARWARE["1a4"].Name="BuildBypassTickBox";
+_AGARWARE["1a4"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1a4"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["1a4"]["TextSize"]=14;
-_AGARWARE["1a4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1a4"]["Text"]=[[Build]];
-_AGARWARE["1a4"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1a4"]["BackgroundTransparency"]=1;
-_AGARWARE["1a4"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["1a5"]=Instance.new("Frame",_AGARWARE["184"]);
-_AGARWARE["1a5"].Name="LagGroup";
-_AGARWARE["1a5"]["Size"]=UDim2.new(0, 170, 0, 202);
-_AGARWARE["1a5"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1a5"]["LayoutOrder"]=2;
-_AGARWARE["1a5"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["1a5"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["1a6"]=Instance.new("LocalScript",_AGARWARE["1a5"]);
-_AGARWARE["1a6"].Name="LagScript";
-_AGARWARE["1a7"]=Instance.new("LocalScript",_AGARWARE["1a5"]);
-_AGARWARE["1a7"].Name="LagToolTip";
-_AGARWARE["1a8"]=Instance.new("UIListLayout",_AGARWARE["1a5"]);
-_AGARWARE["1a8"].Name="UIListLayout";
-_AGARWARE["1a8"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["1a9"]=Instance.new("Frame",_AGARWARE["1a5"]);
-_AGARWARE["1a9"].Name="LagAccentColor";
-_AGARWARE["1a9"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["1a9"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["1a9"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["1a9"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["1a9"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["1aa"]=Instance.new("TextLabel",_AGARWARE["1a5"]);
-_AGARWARE["1aa"].Name="LagTitle";
-_AGARWARE["1aa"]["TextWrapped"]=true;
-_AGARWARE["1aa"]["BorderSizePixel"]=0;
-_AGARWARE["1aa"]["TextScaled"]=true;
-_AGARWARE["1aa"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1aa"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1aa"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["1aa"]["TextSize"]=14;
-_AGARWARE["1aa"]["LayoutOrder"]=1;
-_AGARWARE["1aa"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1aa"]["Text"]=[[Lag Machine]];
-_AGARWARE["1aa"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["1aa"]["BackgroundTransparency"]=0.95;
-_AGARWARE["1aa"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["1ab"]=Instance.new("TextButton",_AGARWARE["1aa"]);
-_AGARWARE["1ab"].Name="LagMinimize";
+_AGARWARE["1a4"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["1a4"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1a4"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1a4"]["Text"]=[[]];
+_AGARWARE["1a4"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1a5"]=Instance.new("TextLabel",_AGARWARE["1a2"]);
+_AGARWARE["1a5"].Name="BuildBypassText";
+_AGARWARE["1a5"]["BorderSizePixel"]=0;
+_AGARWARE["1a5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1a5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1a5"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1a5"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1a5"]["TextSize"]=14;
+_AGARWARE["1a5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1a5"]["Text"]=[[Build]];
+_AGARWARE["1a5"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1a5"]["BackgroundTransparency"]=1;
+_AGARWARE["1a5"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["1a6"]=Instance.new("Frame",_AGARWARE["185"]);
+_AGARWARE["1a6"].Name="LagGroup";
+_AGARWARE["1a6"]["Size"]=UDim2.new(0, 170, 0, 202);
+_AGARWARE["1a6"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1a6"]["LayoutOrder"]=2;
+_AGARWARE["1a6"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["1a6"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["1a7"]=Instance.new("LocalScript",_AGARWARE["1a6"]);
+_AGARWARE["1a7"].Name="LagScript";
+_AGARWARE["1a8"]=Instance.new("LocalScript",_AGARWARE["1a6"]);
+_AGARWARE["1a8"].Name="LagToolTip";
+_AGARWARE["1a9"]=Instance.new("UIListLayout",_AGARWARE["1a6"]);
+_AGARWARE["1a9"].Name="UIListLayout";
+_AGARWARE["1a9"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["1aa"]=Instance.new("Frame",_AGARWARE["1a6"]);
+_AGARWARE["1aa"].Name="LagAccentColor";
+_AGARWARE["1aa"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["1aa"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["1aa"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["1aa"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["1aa"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["1ab"]=Instance.new("TextLabel",_AGARWARE["1a6"]);
+_AGARWARE["1ab"].Name="LagTitle";
+_AGARWARE["1ab"]["TextWrapped"]=true;
 _AGARWARE["1ab"]["BorderSizePixel"]=0;
+_AGARWARE["1ab"]["TextScaled"]=true;
 _AGARWARE["1ab"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["1ab"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1ab"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["1ab"]["TextSize"]=14;
-_AGARWARE["1ab"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["1ab"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1ab"]["BackgroundTransparency"]=1;
+_AGARWARE["1ab"]["LayoutOrder"]=1;
 _AGARWARE["1ab"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1ab"]["Text"]=[[-]];
-_AGARWARE["1ab"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["1ac"]=Instance.new("TextButton",_AGARWARE["1aa"]);
-_AGARWARE["1ac"].Name="LagHelp";
-_AGARWARE["1ac"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["1ac"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["1ab"]["Text"]=[[Lag Machine]];
+_AGARWARE["1ab"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["1ab"]["BackgroundTransparency"]=0.95;
+_AGARWARE["1ab"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["1ac"]=Instance.new("TextButton",_AGARWARE["1ab"]);
+_AGARWARE["1ac"].Name="LagMinimize";
+_AGARWARE["1ac"]["BorderSizePixel"]=0;
+_AGARWARE["1ac"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1ac"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["1ac"]["TextSize"]=14;
-_AGARWARE["1ac"]["Size"]=UDim2.new(0, 12, 0, 12);
-_AGARWARE["1ac"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["1ac"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["1ac"]["Text"]=[[?]];
-_AGARWARE["1ac"]["Position"]=UDim2.new(0.02367, 0, 0.15999, 0);
-_AGARWARE["1ad"]=Instance.new("Frame",_AGARWARE["1a5"]);
-_AGARWARE["1ad"].Name="SpamSelectRow";
-_AGARWARE["1ad"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["1ad"]["BorderSizePixel"]=0;
-_AGARWARE["1ad"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1ad"]["LayoutOrder"]=6;
-_AGARWARE["1ad"]["BackgroundTransparency"]=1;
-_AGARWARE["1ad"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["1ad"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1ae"]=Instance.new("LocalScript",_AGARWARE["1ad"]);
-_AGARWARE["1ae"].Name="SpamSelectScript";
-_AGARWARE["1af"]=Instance.new("TextButton",_AGARWARE["1ad"]);
-_AGARWARE["1af"].Name="SpamSelectHelp";
-_AGARWARE["1af"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["1af"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-_AGARWARE["1af"]["TextSize"]=14;
-_AGARWARE["1af"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["1af"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["1af"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["1af"]["Text"]=[[?]];
-_AGARWARE["1af"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1b0"]=Instance.new("TextButton",_AGARWARE["1ad"]);
-_AGARWARE["1b0"].Name="SpamSelectButton";
+_AGARWARE["1ac"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["1ac"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1ac"]["BackgroundTransparency"]=1;
+_AGARWARE["1ac"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1ac"]["Text"]=[[-]];
+_AGARWARE["1ac"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["1ad"]=Instance.new("TextButton",_AGARWARE["1ab"]);
+_AGARWARE["1ad"].Name="LagHelp";
+_AGARWARE["1ad"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["1ad"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["1ad"]["TextSize"]=14;
+_AGARWARE["1ad"]["Size"]=UDim2.new(0, 12, 0, 12);
+_AGARWARE["1ad"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["1ad"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["1ad"]["Text"]=[[?]];
+_AGARWARE["1ad"]["Position"]=UDim2.new(0.02367, 0, 0.15999, 0);
+_AGARWARE["1ae"]=Instance.new("Frame",_AGARWARE["1a6"]);
+_AGARWARE["1ae"].Name="SpamSelectRow";
+_AGARWARE["1ae"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1ae"]["BorderSizePixel"]=0;
+_AGARWARE["1ae"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1ae"]["LayoutOrder"]=6;
+_AGARWARE["1ae"]["BackgroundTransparency"]=1;
+_AGARWARE["1ae"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1ae"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1af"]=Instance.new("LocalScript",_AGARWARE["1ae"]);
+_AGARWARE["1af"].Name="SpamSelectScript";
+_AGARWARE["1b0"]=Instance.new("TextButton",_AGARWARE["1ae"]);
+_AGARWARE["1b0"].Name="SpamSelectHelp";
 _AGARWARE["1b0"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["1b0"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1b0"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 _AGARWARE["1b0"]["TextSize"]=14;
-_AGARWARE["1b0"]["Size"]=UDim2.new(0, 135, 0, 16);
-_AGARWARE["1b0"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1b0"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1b0"]["Text"]=[[Select Block]];
-_AGARWARE["1b0"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
-_AGARWARE["1b1"]=Instance.new("Frame",_AGARWARE["1a5"]);
-_AGARWARE["1b1"].Name="BlockSpamRow";
-_AGARWARE["1b1"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["1b1"]["BorderSizePixel"]=0;
-_AGARWARE["1b1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1b1"]["LayoutOrder"]=7;
-_AGARWARE["1b1"]["BackgroundTransparency"]=1;
-_AGARWARE["1b1"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["1b1"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1b2"]=Instance.new("LocalScript",_AGARWARE["1b1"]);
-_AGARWARE["1b2"].Name="BlockSpamScript";
-_AGARWARE["1b3"]=Instance.new("TextButton",_AGARWARE["1b1"]);
-_AGARWARE["1b3"].Name="BlockSpamButton";
-_AGARWARE["1b3"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["1b3"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1b3"]["TextSize"]=14;
-_AGARWARE["1b3"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["1b3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1b3"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1b3"]["Text"]=[[Start Spam]];
-_AGARWARE["1b3"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1b4"]=Instance.new("Frame",_AGARWARE["1a5"]);
-_AGARWARE["1b4"].Name="BlockSizeRow";
-_AGARWARE["1b4"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["1b4"]["BorderSizePixel"]=0;
-_AGARWARE["1b4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1b4"]["LayoutOrder"]=8;
-_AGARWARE["1b4"]["BackgroundTransparency"]=1;
-_AGARWARE["1b4"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["1b4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1b5"]=Instance.new("TextLabel",_AGARWARE["1b4"]);
-_AGARWARE["1b5"].Name="BlockSizeText";
+_AGARWARE["1b0"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["1b0"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["1b0"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["1b0"]["Text"]=[[?]];
+_AGARWARE["1b0"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1b1"]=Instance.new("TextButton",_AGARWARE["1ae"]);
+_AGARWARE["1b1"].Name="SpamSelectButton";
+_AGARWARE["1b1"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["1b1"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1b1"]["TextSize"]=14;
+_AGARWARE["1b1"]["Size"]=UDim2.new(0, 135, 0, 16);
+_AGARWARE["1b1"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1b1"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1b1"]["Text"]=[[Select Block]];
+_AGARWARE["1b1"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
+_AGARWARE["1b2"]=Instance.new("Frame",_AGARWARE["1a6"]);
+_AGARWARE["1b2"].Name="BlockSpamRow";
+_AGARWARE["1b2"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1b2"]["BorderSizePixel"]=0;
+_AGARWARE["1b2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1b2"]["LayoutOrder"]=7;
+_AGARWARE["1b2"]["BackgroundTransparency"]=1;
+_AGARWARE["1b2"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1b2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1b3"]=Instance.new("LocalScript",_AGARWARE["1b2"]);
+_AGARWARE["1b3"].Name="BlockSpamScript";
+_AGARWARE["1b4"]=Instance.new("TextButton",_AGARWARE["1b2"]);
+_AGARWARE["1b4"].Name="BlockSpamButton";
+_AGARWARE["1b4"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["1b4"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1b4"]["TextSize"]=14;
+_AGARWARE["1b4"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["1b4"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1b4"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1b4"]["Text"]=[[Start Spam]];
+_AGARWARE["1b4"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1b5"]=Instance.new("Frame",_AGARWARE["1a6"]);
+_AGARWARE["1b5"].Name="BlockSizeRow";
+_AGARWARE["1b5"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["1b5"]["BorderSizePixel"]=0;
-_AGARWARE["1b5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1b5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1b5"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1b5"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["1b5"]["TextSize"]=14;
 _AGARWARE["1b5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1b5"]["Text"]=[[Block Size]];
-_AGARWARE["1b5"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1b5"]["LayoutOrder"]=8;
 _AGARWARE["1b5"]["BackgroundTransparency"]=1;
-_AGARWARE["1b5"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["1b6"]=Instance.new("TextBox",_AGARWARE["1b4"]);
-_AGARWARE["1b6"].Name="BlockSizeChanger";
-_AGARWARE["1b6"]["TextWrapped"]=true;
-_AGARWARE["1b6"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["1b6"]["TextScaled"]=true;
-_AGARWARE["1b6"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1b5"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1b5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1b6"]=Instance.new("TextLabel",_AGARWARE["1b5"]);
+_AGARWARE["1b6"].Name="BlockSizeText";
+_AGARWARE["1b6"]["BorderSizePixel"]=0;
+_AGARWARE["1b6"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["1b6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1b6"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1b6"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["1b6"]["TextSize"]=14;
-_AGARWARE["1b6"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["1b6"]["PlaceholderText"]=[[(1)]];
-_AGARWARE["1b6"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["1b6"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1b6"]["Text"]=[[]];
-_AGARWARE["1b6"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["1b7"]=Instance.new("LocalScript",_AGARWARE["1b6"]);
-_AGARWARE["1b7"].Name="BlockSizeScript";
-_AGARWARE["1b8"]=Instance.new("TextButton",_AGARWARE["1b4"]);
-_AGARWARE["1b8"].Name="BlockSizeHelp";
-_AGARWARE["1b8"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["1b8"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-_AGARWARE["1b8"]["TextSize"]=14;
-_AGARWARE["1b8"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["1b8"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["1b8"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["1b8"]["Text"]=[[?]];
-_AGARWARE["1b8"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1b9"]=Instance.new("Frame",_AGARWARE["1a5"]);
-_AGARWARE["1b9"].Name="BlockAmountRow";
-_AGARWARE["1b9"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["1b9"]["BorderSizePixel"]=0;
-_AGARWARE["1b9"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1b9"]["LayoutOrder"]=9;
-_AGARWARE["1b9"]["BackgroundTransparency"]=1;
-_AGARWARE["1b9"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["1b9"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1ba"]=Instance.new("TextButton",_AGARWARE["1b9"]);
-_AGARWARE["1ba"].Name="BlockAmountView";
-_AGARWARE["1ba"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["1ba"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1ba"]["TextSize"]=14;
-_AGARWARE["1ba"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["1ba"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1ba"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1ba"]["Text"]=[[Block Spam Amount: 0]];
-_AGARWARE["1ba"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1bb"]=Instance.new("LocalScript",_AGARWARE["1ba"]);
-_AGARWARE["1bb"].Name="BlockAmountViewScript";
-_AGARWARE["1bc"]=Instance.new("Frame",_AGARWARE["1a5"]);
-_AGARWARE["1bc"].Name="ReduceLagRow";
-_AGARWARE["1bc"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["1bc"]["BorderSizePixel"]=0;
-_AGARWARE["1bc"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1bc"]["LayoutOrder"]=8;
-_AGARWARE["1bc"]["BackgroundTransparency"]=1;
-_AGARWARE["1bc"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["1bc"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1bd"]=Instance.new("LocalScript",_AGARWARE["1bc"]);
-_AGARWARE["1bd"].Name="ReduceLagScript";
-_AGARWARE["1be"]=Instance.new("TextLabel",_AGARWARE["1bc"]);
-_AGARWARE["1be"].Name="ReduceLagText";
-_AGARWARE["1be"]["BorderSizePixel"]=0;
-_AGARWARE["1be"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1be"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1be"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1be"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["1be"]["TextSize"]=14;
-_AGARWARE["1be"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1be"]["Text"]=[[Disable Lag]];
-_AGARWARE["1be"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1be"]["BackgroundTransparency"]=1;
-_AGARWARE["1be"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["1bf"]=Instance.new("TextButton",_AGARWARE["1bc"]);
-_AGARWARE["1bf"].Name="ReduceLagTickBox";
-_AGARWARE["1bf"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1bf"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1b6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1b6"]["Text"]=[[Block Size]];
+_AGARWARE["1b6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1b6"]["BackgroundTransparency"]=1;
+_AGARWARE["1b6"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["1b7"]=Instance.new("TextBox",_AGARWARE["1b5"]);
+_AGARWARE["1b7"].Name="BlockSizeChanger";
+_AGARWARE["1b7"]["TextWrapped"]=true;
+_AGARWARE["1b7"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["1b7"]["TextScaled"]=true;
+_AGARWARE["1b7"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1b7"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1b7"]["TextSize"]=14;
+_AGARWARE["1b7"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["1b7"]["PlaceholderText"]=[[(1)]];
+_AGARWARE["1b7"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["1b7"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1b7"]["Text"]=[[]];
+_AGARWARE["1b7"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["1b8"]=Instance.new("LocalScript",_AGARWARE["1b7"]);
+_AGARWARE["1b8"].Name="BlockSizeScript";
+_AGARWARE["1b9"]=Instance.new("TextButton",_AGARWARE["1b5"]);
+_AGARWARE["1b9"].Name="BlockSizeHelp";
+_AGARWARE["1b9"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["1b9"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["1b9"]["TextSize"]=14;
+_AGARWARE["1b9"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["1b9"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["1b9"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["1b9"]["Text"]=[[?]];
+_AGARWARE["1b9"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1ba"]=Instance.new("Frame",_AGARWARE["1a6"]);
+_AGARWARE["1ba"].Name="BlockAmountRow";
+_AGARWARE["1ba"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1ba"]["BorderSizePixel"]=0;
+_AGARWARE["1ba"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1ba"]["LayoutOrder"]=9;
+_AGARWARE["1ba"]["BackgroundTransparency"]=1;
+_AGARWARE["1ba"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1ba"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1bb"]=Instance.new("TextButton",_AGARWARE["1ba"]);
+_AGARWARE["1bb"].Name="BlockAmountView";
+_AGARWARE["1bb"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["1bb"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1bb"]["TextSize"]=14;
+_AGARWARE["1bb"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["1bb"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1bb"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1bb"]["Text"]=[[Block Spam Amount: 0]];
+_AGARWARE["1bb"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1bc"]=Instance.new("LocalScript",_AGARWARE["1bb"]);
+_AGARWARE["1bc"].Name="BlockAmountViewScript";
+_AGARWARE["1bd"]=Instance.new("Frame",_AGARWARE["1a6"]);
+_AGARWARE["1bd"].Name="ReduceLagRow";
+_AGARWARE["1bd"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1bd"]["BorderSizePixel"]=0;
+_AGARWARE["1bd"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1bd"]["LayoutOrder"]=8;
+_AGARWARE["1bd"]["BackgroundTransparency"]=1;
+_AGARWARE["1bd"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1bd"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1be"]=Instance.new("LocalScript",_AGARWARE["1bd"]);
+_AGARWARE["1be"].Name="ReduceLagScript";
+_AGARWARE["1bf"]=Instance.new("TextLabel",_AGARWARE["1bd"]);
+_AGARWARE["1bf"].Name="ReduceLagText";
+_AGARWARE["1bf"]["BorderSizePixel"]=0;
+_AGARWARE["1bf"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1bf"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1bf"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1bf"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["1bf"]["TextSize"]=14;
-_AGARWARE["1bf"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["1bf"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1bf"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1bf"]["Text"]=[[]];
-_AGARWARE["1bf"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1c0"]=Instance.new("Frame",_AGARWARE["1a5"]);
-_AGARWARE["1c0"].Name="BlackholeLagRow";
-_AGARWARE["1c0"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["1c0"]["BorderSizePixel"]=0;
-_AGARWARE["1c0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1c0"]["LayoutOrder"]=11;
-_AGARWARE["1c0"]["BackgroundTransparency"]=1;
-_AGARWARE["1c0"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["1c0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1c1"]=Instance.new("LocalScript",_AGARWARE["1c0"]);
-_AGARWARE["1c1"].Name="BlackholeLagScript";
-_AGARWARE["1c2"]=Instance.new("TextLabel",_AGARWARE["1c0"]);
-_AGARWARE["1c2"].Name="BlackholeLagText";
-_AGARWARE["1c2"]["BorderSizePixel"]=0;
-_AGARWARE["1c2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1c2"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1c2"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1c2"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["1c2"]["TextSize"]=14;
-_AGARWARE["1c2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1c2"]["Text"]=[[Enable Blackhole]];
-_AGARWARE["1c2"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1c2"]["BackgroundTransparency"]=1;
-_AGARWARE["1c2"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["1c3"]=Instance.new("TextButton",_AGARWARE["1c0"]);
-_AGARWARE["1c3"].Name="BlackholeLagTickBox";
-_AGARWARE["1c3"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1c3"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1bf"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1bf"]["Text"]=[[Disable Lag]];
+_AGARWARE["1bf"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1bf"]["BackgroundTransparency"]=1;
+_AGARWARE["1bf"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["1c0"]=Instance.new("TextButton",_AGARWARE["1bd"]);
+_AGARWARE["1c0"].Name="ReduceLagTickBox";
+_AGARWARE["1c0"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1c0"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1c0"]["TextSize"]=14;
+_AGARWARE["1c0"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["1c0"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1c0"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1c0"]["Text"]=[[]];
+_AGARWARE["1c0"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1c1"]=Instance.new("Frame",_AGARWARE["1a6"]);
+_AGARWARE["1c1"].Name="BlackholeLagRow";
+_AGARWARE["1c1"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1c1"]["BorderSizePixel"]=0;
+_AGARWARE["1c1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1c1"]["LayoutOrder"]=11;
+_AGARWARE["1c1"]["BackgroundTransparency"]=1;
+_AGARWARE["1c1"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1c1"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1c2"]=Instance.new("LocalScript",_AGARWARE["1c1"]);
+_AGARWARE["1c2"].Name="BlackholeLagScript";
+_AGARWARE["1c3"]=Instance.new("TextLabel",_AGARWARE["1c1"]);
+_AGARWARE["1c3"].Name="BlackholeLagText";
+_AGARWARE["1c3"]["BorderSizePixel"]=0;
+_AGARWARE["1c3"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1c3"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1c3"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1c3"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["1c3"]["TextSize"]=14;
-_AGARWARE["1c3"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["1c3"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1c3"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1c3"]["Text"]=[[]];
-_AGARWARE["1c3"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1c4"]=Instance.new("Frame",_AGARWARE["1a5"]);
-_AGARWARE["1c4"].Name="TPBlackholeRow";
-_AGARWARE["1c4"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["1c4"]["BorderSizePixel"]=0;
-_AGARWARE["1c4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1c4"]["LayoutOrder"]=20;
-_AGARWARE["1c4"]["BackgroundTransparency"]=1;
-_AGARWARE["1c4"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["1c4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1c5"]=Instance.new("TextButton",_AGARWARE["1c4"]);
-_AGARWARE["1c5"].Name="TPBlackholeButton";
-_AGARWARE["1c5"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["1c5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1c5"]["TextSize"]=14;
-_AGARWARE["1c5"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["1c5"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1c5"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1c5"]["Text"]=[[Bring Blackhole]];
-_AGARWARE["1c5"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1c6"]=Instance.new("Frame",_AGARWARE["1a5"]);
-_AGARWARE["1c6"].Name="OrbitBlackholeRow";
-_AGARWARE["1c6"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["1c6"]["BorderSizePixel"]=0;
-_AGARWARE["1c6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1c6"]["LayoutOrder"]=12;
-_AGARWARE["1c6"]["BackgroundTransparency"]=1;
-_AGARWARE["1c6"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["1c6"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1c7"]=Instance.new("TextLabel",_AGARWARE["1c6"]);
-_AGARWARE["1c7"].Name="OrbitBlackholeText";
+_AGARWARE["1c3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1c3"]["Text"]=[[Enable Blackhole]];
+_AGARWARE["1c3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1c3"]["BackgroundTransparency"]=1;
+_AGARWARE["1c3"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["1c4"]=Instance.new("TextButton",_AGARWARE["1c1"]);
+_AGARWARE["1c4"].Name="BlackholeLagTickBox";
+_AGARWARE["1c4"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1c4"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1c4"]["TextSize"]=14;
+_AGARWARE["1c4"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["1c4"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1c4"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1c4"]["Text"]=[[]];
+_AGARWARE["1c4"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1c5"]=Instance.new("Frame",_AGARWARE["1a6"]);
+_AGARWARE["1c5"].Name="TPBlackholeRow";
+_AGARWARE["1c5"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1c5"]["BorderSizePixel"]=0;
+_AGARWARE["1c5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1c5"]["LayoutOrder"]=20;
+_AGARWARE["1c5"]["BackgroundTransparency"]=1;
+_AGARWARE["1c5"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1c5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1c6"]=Instance.new("TextButton",_AGARWARE["1c5"]);
+_AGARWARE["1c6"].Name="TPBlackholeButton";
+_AGARWARE["1c6"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["1c6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1c6"]["TextSize"]=14;
+_AGARWARE["1c6"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["1c6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1c6"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1c6"]["Text"]=[[Bring Blackhole]];
+_AGARWARE["1c6"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1c7"]=Instance.new("Frame",_AGARWARE["1a6"]);
+_AGARWARE["1c7"].Name="OrbitBlackholeRow";
+_AGARWARE["1c7"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["1c7"]["BorderSizePixel"]=0;
-_AGARWARE["1c7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1c7"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1c7"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1c7"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["1c7"]["TextSize"]=14;
 _AGARWARE["1c7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1c7"]["Text"]=[[Orbit]];
-_AGARWARE["1c7"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1c7"]["LayoutOrder"]=12;
 _AGARWARE["1c7"]["BackgroundTransparency"]=1;
-_AGARWARE["1c7"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["1c8"]=Instance.new("TextBox",_AGARWARE["1c6"]);
-_AGARWARE["1c8"].Name="OrbitBlackholeChanger";
-_AGARWARE["1c8"]["TextWrapped"]=true;
-_AGARWARE["1c8"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["1c8"]["TextScaled"]=true;
-_AGARWARE["1c8"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1c7"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1c7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1c8"]=Instance.new("TextLabel",_AGARWARE["1c7"]);
+_AGARWARE["1c8"].Name="OrbitBlackholeText";
+_AGARWARE["1c8"]["BorderSizePixel"]=0;
+_AGARWARE["1c8"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["1c8"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1c8"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1c8"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["1c8"]["TextSize"]=14;
-_AGARWARE["1c8"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["1c8"]["PlaceholderText"]=[[(10)]];
-_AGARWARE["1c8"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["1c8"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1c8"]["Text"]=[[]];
-_AGARWARE["1c8"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["1c9"]=Instance.new("TextButton",_AGARWARE["1c6"]);
-_AGARWARE["1c9"].Name="OrbitBlackholeTickBox";
+_AGARWARE["1c8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1c8"]["Text"]=[[Orbit]];
+_AGARWARE["1c8"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1c8"]["BackgroundTransparency"]=1;
+_AGARWARE["1c8"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["1c9"]=Instance.new("TextBox",_AGARWARE["1c7"]);
+_AGARWARE["1c9"].Name="OrbitBlackholeChanger";
+_AGARWARE["1c9"]["TextWrapped"]=true;
+_AGARWARE["1c9"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["1c9"]["TextScaled"]=true;
 _AGARWARE["1c9"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1c9"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1c9"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["1c9"]["TextSize"]=14;
-_AGARWARE["1c9"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["1c9"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1c9"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["1c9"]["PlaceholderText"]=[[(10)]];
+_AGARWARE["1c9"]["Size"]=UDim2.new(0, 46, 0, 16);
 _AGARWARE["1c9"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
 _AGARWARE["1c9"]["Text"]=[[]];
-_AGARWARE["1c9"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1ca"]=Instance.new("Frame",_AGARWARE["1a5"]);
-_AGARWARE["1ca"].Name="BlackholeLabelRow";
-_AGARWARE["1ca"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["1ca"]["BorderSizePixel"]=0;
-_AGARWARE["1ca"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1ca"]["LayoutOrder"]=10;
-_AGARWARE["1ca"]["BackgroundTransparency"]=1;
-_AGARWARE["1ca"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["1ca"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1cb"]=Instance.new("TextLabel",_AGARWARE["1ca"]);
-_AGARWARE["1cb"].Name="BlackholeLabelText";
+_AGARWARE["1c9"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["1ca"]=Instance.new("TextButton",_AGARWARE["1c7"]);
+_AGARWARE["1ca"].Name="OrbitBlackholeTickBox";
+_AGARWARE["1ca"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1ca"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1ca"]["TextSize"]=14;
+_AGARWARE["1ca"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["1ca"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1ca"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1ca"]["Text"]=[[]];
+_AGARWARE["1ca"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1cb"]=Instance.new("Frame",_AGARWARE["1a6"]);
+_AGARWARE["1cb"].Name="BlackholeLabelRow";
+_AGARWARE["1cb"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["1cb"]["BorderSizePixel"]=0;
-_AGARWARE["1cb"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1cb"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1cb"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1cb"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["1cb"]["TextSize"]=14;
 _AGARWARE["1cb"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1cb"]["Text"]=[[Blackhole:]];
-_AGARWARE["1cb"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1cb"]["LayoutOrder"]=10;
 _AGARWARE["1cb"]["BackgroundTransparency"]=1;
-_AGARWARE["1cb"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["1cc"]=Instance.new("Frame",_AGARWARE["184"]);
-_AGARWARE["1cc"].Name="GriefGroup";
-_AGARWARE["1cc"]["Size"]=UDim2.new(0, 170, 0, 123);
-_AGARWARE["1cc"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1cc"]["LayoutOrder"]=1;
-_AGARWARE["1cc"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["1cc"]["Position"]=UDim2.new(0, 0, 1.05278, 0);
-_AGARWARE["1cc"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["1cd"]=Instance.new("LocalScript",_AGARWARE["1cc"]);
-_AGARWARE["1cd"].Name="GriefScript";
-_AGARWARE["1ce"]=Instance.new("UIListLayout",_AGARWARE["1cc"]);
-_AGARWARE["1ce"].Name="UIListLayout";
-_AGARWARE["1ce"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["1cf"]=Instance.new("Frame",_AGARWARE["1cc"]);
-_AGARWARE["1cf"].Name="GriefAccentColor";
-_AGARWARE["1cf"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["1cf"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["1cf"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["1cf"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["1cf"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["1d0"]=Instance.new("TextLabel",_AGARWARE["1cc"]);
-_AGARWARE["1d0"].Name="GriefTitle";
-_AGARWARE["1d0"]["TextWrapped"]=true;
-_AGARWARE["1d0"]["BorderSizePixel"]=0;
-_AGARWARE["1d0"]["TextScaled"]=true;
-_AGARWARE["1d0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1d0"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1d0"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["1d0"]["TextSize"]=14;
-_AGARWARE["1d0"]["LayoutOrder"]=1;
-_AGARWARE["1d0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1d0"]["Text"]=[[Grief]];
-_AGARWARE["1d0"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["1d0"]["BackgroundTransparency"]=0.95;
-_AGARWARE["1d0"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["1d1"]=Instance.new("TextButton",_AGARWARE["1d0"]);
-_AGARWARE["1d1"].Name="GriefMinimize";
+_AGARWARE["1cb"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1cb"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1cc"]=Instance.new("TextLabel",_AGARWARE["1cb"]);
+_AGARWARE["1cc"].Name="BlackholeLabelText";
+_AGARWARE["1cc"]["BorderSizePixel"]=0;
+_AGARWARE["1cc"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1cc"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1cc"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1cc"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1cc"]["TextSize"]=14;
+_AGARWARE["1cc"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1cc"]["Text"]=[[Blackhole:]];
+_AGARWARE["1cc"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1cc"]["BackgroundTransparency"]=1;
+_AGARWARE["1cc"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["1cd"]=Instance.new("Frame",_AGARWARE["185"]);
+_AGARWARE["1cd"].Name="GriefGroup";
+_AGARWARE["1cd"]["Size"]=UDim2.new(0, 170, 0, 123);
+_AGARWARE["1cd"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1cd"]["LayoutOrder"]=1;
+_AGARWARE["1cd"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["1cd"]["Position"]=UDim2.new(0, 0, 1.05278, 0);
+_AGARWARE["1cd"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["1ce"]=Instance.new("LocalScript",_AGARWARE["1cd"]);
+_AGARWARE["1ce"].Name="GriefScript";
+_AGARWARE["1cf"]=Instance.new("UIListLayout",_AGARWARE["1cd"]);
+_AGARWARE["1cf"].Name="UIListLayout";
+_AGARWARE["1cf"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["1d0"]=Instance.new("Frame",_AGARWARE["1cd"]);
+_AGARWARE["1d0"].Name="GriefAccentColor";
+_AGARWARE["1d0"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["1d0"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["1d0"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["1d0"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["1d0"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["1d1"]=Instance.new("TextLabel",_AGARWARE["1cd"]);
+_AGARWARE["1d1"].Name="GriefTitle";
+_AGARWARE["1d1"]["TextWrapped"]=true;
 _AGARWARE["1d1"]["BorderSizePixel"]=0;
+_AGARWARE["1d1"]["TextScaled"]=true;
 _AGARWARE["1d1"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["1d1"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1d1"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["1d1"]["TextSize"]=14;
-_AGARWARE["1d1"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["1d1"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1d1"]["BackgroundTransparency"]=1;
+_AGARWARE["1d1"]["LayoutOrder"]=1;
 _AGARWARE["1d1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1d1"]["Text"]=[[-]];
-_AGARWARE["1d1"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["1d2"]=Instance.new("Frame",_AGARWARE["1cc"]);
-_AGARWARE["1d2"].Name="SelectDRow";
-_AGARWARE["1d2"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1d1"]["Text"]=[[Grief]];
+_AGARWARE["1d1"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["1d1"]["BackgroundTransparency"]=0.95;
+_AGARWARE["1d1"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["1d2"]=Instance.new("TextButton",_AGARWARE["1d1"]);
+_AGARWARE["1d2"].Name="GriefMinimize";
 _AGARWARE["1d2"]["BorderSizePixel"]=0;
-_AGARWARE["1d2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1d2"]["LayoutOrder"]=3;
-_AGARWARE["1d2"]["BackgroundTransparency"]=1;
-_AGARWARE["1d2"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["1d2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1d3"]=Instance.new("LocalScript",_AGARWARE["1d2"]);
-_AGARWARE["1d3"].Name="SelectDScript";
-_AGARWARE["1d4"]=Instance.new("TextButton",_AGARWARE["1d2"]);
-_AGARWARE["1d4"].Name="SelectDDropdown";
-_AGARWARE["1d4"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["1d4"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1d4"]["TextSize"]=14;
-_AGARWARE["1d4"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["1d4"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1d4"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1d4"]["Text"]=[[]];
-_AGARWARE["1d4"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1d5"]=Instance.new("Frame",_AGARWARE["1cc"]);
-_AGARWARE["1d5"].Name="GPLabelRow";
-_AGARWARE["1d5"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["1d5"]["BorderSizePixel"]=0;
-_AGARWARE["1d5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1d5"]["LayoutOrder"]=2;
-_AGARWARE["1d5"]["BackgroundTransparency"]=1;
-_AGARWARE["1d5"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["1d5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1d6"]=Instance.new("TextLabel",_AGARWARE["1d5"]);
-_AGARWARE["1d6"].Name="GPLabelText";
+_AGARWARE["1d2"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1d2"]["TextSize"]=14;
+_AGARWARE["1d2"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["1d2"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1d2"]["BackgroundTransparency"]=1;
+_AGARWARE["1d2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1d2"]["Text"]=[[-]];
+_AGARWARE["1d2"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["1d3"]=Instance.new("Frame",_AGARWARE["1cd"]);
+_AGARWARE["1d3"].Name="SelectDRow";
+_AGARWARE["1d3"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1d3"]["BorderSizePixel"]=0;
+_AGARWARE["1d3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1d3"]["LayoutOrder"]=3;
+_AGARWARE["1d3"]["BackgroundTransparency"]=1;
+_AGARWARE["1d3"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1d3"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1d4"]=Instance.new("LocalScript",_AGARWARE["1d3"]);
+_AGARWARE["1d4"].Name="SelectDScript";
+_AGARWARE["1d5"]=Instance.new("TextButton",_AGARWARE["1d3"]);
+_AGARWARE["1d5"].Name="SelectDDropdown";
+_AGARWARE["1d5"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["1d5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1d5"]["TextSize"]=14;
+_AGARWARE["1d5"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["1d5"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1d5"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1d5"]["Text"]=[[]];
+_AGARWARE["1d5"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1d6"]=Instance.new("Frame",_AGARWARE["1cd"]);
+_AGARWARE["1d6"].Name="GPLabelRow";
+_AGARWARE["1d6"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["1d6"]["BorderSizePixel"]=0;
-_AGARWARE["1d6"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1d6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1d6"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1d6"]["Size"]=UDim2.new(0, 114, 0, 20);
-_AGARWARE["1d6"]["TextSize"]=14;
 _AGARWARE["1d6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1d6"]["Text"]=[[Select Players:]];
-_AGARWARE["1d6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1d6"]["LayoutOrder"]=2;
 _AGARWARE["1d6"]["BackgroundTransparency"]=1;
-_AGARWARE["1d6"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["1d7"]=Instance.new("Frame",_AGARWARE["1cc"]);
-_AGARWARE["1d7"].Name="HLBlockRow";
-_AGARWARE["1d7"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1d6"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1d6"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1d7"]=Instance.new("TextLabel",_AGARWARE["1d6"]);
+_AGARWARE["1d7"].Name="GPLabelText";
 _AGARWARE["1d7"]["BorderSizePixel"]=0;
-_AGARWARE["1d7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1d7"]["LayoutOrder"]=4;
-_AGARWARE["1d7"]["BackgroundTransparency"]=1;
-_AGARWARE["1d7"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["1d7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1d8"]=Instance.new("LocalScript",_AGARWARE["1d7"]);
-_AGARWARE["1d8"].Name="HLBlockScript";
-_AGARWARE["1d9"]=Instance.new("TextButton",_AGARWARE["1d7"]);
-_AGARWARE["1d9"].Name="HLBlockTickBox";
-_AGARWARE["1d9"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1d9"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1d9"]["TextSize"]=14;
-_AGARWARE["1d9"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["1d9"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1d9"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1d9"]["Text"]=[[]];
-_AGARWARE["1d9"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1da"]=Instance.new("TextLabel",_AGARWARE["1d7"]);
-_AGARWARE["1da"].Name="HLBlockText";
-_AGARWARE["1da"]["BorderSizePixel"]=0;
-_AGARWARE["1da"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1da"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1da"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1da"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1d7"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1d7"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1d7"]["Size"]=UDim2.new(0, 114, 0, 20);
+_AGARWARE["1d7"]["TextSize"]=14;
+_AGARWARE["1d7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1d7"]["Text"]=[[Select Players:]];
+_AGARWARE["1d7"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1d7"]["BackgroundTransparency"]=1;
+_AGARWARE["1d7"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["1d8"]=Instance.new("Frame",_AGARWARE["1cd"]);
+_AGARWARE["1d8"].Name="HLBlockRow";
+_AGARWARE["1d8"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1d8"]["BorderSizePixel"]=0;
+_AGARWARE["1d8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1d8"]["LayoutOrder"]=4;
+_AGARWARE["1d8"]["BackgroundTransparency"]=1;
+_AGARWARE["1d8"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1d8"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1d9"]=Instance.new("LocalScript",_AGARWARE["1d8"]);
+_AGARWARE["1d9"].Name="HLBlockScript";
+_AGARWARE["1da"]=Instance.new("TextButton",_AGARWARE["1d8"]);
+_AGARWARE["1da"].Name="HLBlockTickBox";
+_AGARWARE["1da"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1da"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["1da"]["TextSize"]=14;
-_AGARWARE["1da"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1da"]["Text"]=[[Highlight Blocks]];
-_AGARWARE["1da"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1da"]["BackgroundTransparency"]=1;
-_AGARWARE["1da"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["1db"]=Instance.new("Frame",_AGARWARE["1cc"]);
-_AGARWARE["1db"].Name="ToggleGriefRow";
-_AGARWARE["1db"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1da"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["1da"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1da"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1da"]["Text"]=[[]];
+_AGARWARE["1da"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1db"]=Instance.new("TextLabel",_AGARWARE["1d8"]);
+_AGARWARE["1db"].Name="HLBlockText";
 _AGARWARE["1db"]["BorderSizePixel"]=0;
-_AGARWARE["1db"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1db"]["LayoutOrder"]=6;
-_AGARWARE["1db"]["BackgroundTransparency"]=1;
-_AGARWARE["1db"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["1db"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1dc"]=Instance.new("LocalScript",_AGARWARE["1db"]);
-_AGARWARE["1dc"].Name="ToggleGriefScript";
-_AGARWARE["1dd"]=Instance.new("TextButton",_AGARWARE["1db"]);
-_AGARWARE["1dd"].Name="ToggleGriefButton";
-_AGARWARE["1dd"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["1dd"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1dd"]["TextSize"]=14;
-_AGARWARE["1dd"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["1dd"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1dd"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1dd"]["Text"]=[[Start Grief]];
-_AGARWARE["1dd"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1de"]=Instance.new("Frame",_AGARWARE["1cc"]);
-_AGARWARE["1de"].Name="GriefAllRow";
-_AGARWARE["1de"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["1de"]["BorderSizePixel"]=0;
-_AGARWARE["1de"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1de"]["LayoutOrder"]=6;
-_AGARWARE["1de"]["BackgroundTransparency"]=1;
-_AGARWARE["1de"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["1de"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1df"]=Instance.new("LocalScript",_AGARWARE["1de"]);
-_AGARWARE["1df"].Name="GriefAllScript";
-_AGARWARE["1e0"]=Instance.new("TextButton",_AGARWARE["1de"]);
-_AGARWARE["1e0"].Name="GriefAllButton";
-_AGARWARE["1e0"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["1e0"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1e0"]["TextSize"]=14;
-_AGARWARE["1e0"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["1e0"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1e0"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1e0"]["Text"]=[[Delete Aura]];
-_AGARWARE["1e0"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1e1"]=Instance.new("ScrollingFrame",_AGARWARE["15"]);
-_AGARWARE["1e1"].Name="TCODetectionPage";
-_AGARWARE["1e1"]["BorderSizePixel"]=0;
-_AGARWARE["1e1"]["CanvasSize"]=UDim2.new(0, 0, 1.5, 0);
-_AGARWARE["1e1"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["1e1"]["Active"]=true;
-_AGARWARE["1e1"]["Size"]=UDim2.new(0, 349, 0, 233);
-_AGARWARE["1e1"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1e1"]["Visible"]=false;
-_AGARWARE["1e1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1e1"]["ScrollBarThickness"]=0;
-_AGARWARE["1e1"]["BackgroundTransparency"]=1;
-_AGARWARE["1e1"]["Position"]=UDim2.new(0.02329, 0, 0.09398, 0);
-_AGARWARE["1e2"]=Instance.new("Frame",_AGARWARE["1e1"]);
-_AGARWARE["1e2"].Name="TCODetectionLeftSide";
-_AGARWARE["1e2"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["1db"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1db"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1db"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1db"]["TextSize"]=14;
+_AGARWARE["1db"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1db"]["Text"]=[[Highlight Blocks]];
+_AGARWARE["1db"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1db"]["BackgroundTransparency"]=1;
+_AGARWARE["1db"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["1dc"]=Instance.new("Frame",_AGARWARE["1cd"]);
+_AGARWARE["1dc"].Name="ToggleGriefRow";
+_AGARWARE["1dc"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1dc"]["BorderSizePixel"]=0;
+_AGARWARE["1dc"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1dc"]["LayoutOrder"]=6;
+_AGARWARE["1dc"]["BackgroundTransparency"]=1;
+_AGARWARE["1dc"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1dc"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1dd"]=Instance.new("LocalScript",_AGARWARE["1dc"]);
+_AGARWARE["1dd"].Name="ToggleGriefScript";
+_AGARWARE["1de"]=Instance.new("TextButton",_AGARWARE["1dc"]);
+_AGARWARE["1de"].Name="ToggleGriefButton";
+_AGARWARE["1de"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["1de"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1de"]["TextSize"]=14;
+_AGARWARE["1de"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["1de"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1de"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1de"]["Text"]=[[Start Grief]];
+_AGARWARE["1de"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1df"]=Instance.new("Frame",_AGARWARE["1cd"]);
+_AGARWARE["1df"].Name="GriefAllRow";
+_AGARWARE["1df"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1df"]["BorderSizePixel"]=0;
+_AGARWARE["1df"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1df"]["LayoutOrder"]=6;
+_AGARWARE["1df"]["BackgroundTransparency"]=1;
+_AGARWARE["1df"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1df"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1e0"]=Instance.new("LocalScript",_AGARWARE["1df"]);
+_AGARWARE["1e0"].Name="GriefAllScript";
+_AGARWARE["1e1"]=Instance.new("TextButton",_AGARWARE["1df"]);
+_AGARWARE["1e1"].Name="GriefAllButton";
+_AGARWARE["1e1"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["1e1"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1e1"]["TextSize"]=14;
+_AGARWARE["1e1"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["1e1"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1e1"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1e1"]["Text"]=[[Delete Aura]];
+_AGARWARE["1e1"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1e2"]=Instance.new("ScrollingFrame",_AGARWARE["16"]);
+_AGARWARE["1e2"].Name="TCODetectionPage";
 _AGARWARE["1e2"]["BorderSizePixel"]=0;
+_AGARWARE["1e2"]["CanvasSize"]=UDim2.new(0, 0, 1.5, 0);
+_AGARWARE["1e2"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["1e2"]["Active"]=true;
+_AGARWARE["1e2"]["Size"]=UDim2.new(0, 349, 0, 233);
+_AGARWARE["1e2"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1e2"]["Visible"]=false;
 _AGARWARE["1e2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1e2"]["ScrollBarThickness"]=0;
 _AGARWARE["1e2"]["BackgroundTransparency"]=1;
-_AGARWARE["1e2"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
-_AGARWARE["1e2"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["1e3"]=Instance.new("UIListLayout",_AGARWARE["1e2"]);
-_AGARWARE["1e3"].Name="UIListLayout";
-_AGARWARE["1e3"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["1e3"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["1e4"]=Instance.new("Frame",_AGARWARE["1e2"]);
-_AGARWARE["1e4"].Name="EnableGroup";
-_AGARWARE["1e4"]["Size"]=UDim2.new(0, 170, 0, 100);
-_AGARWARE["1e4"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1e4"]["LayoutOrder"]=2;
-_AGARWARE["1e4"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["1e4"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["1e5"]=Instance.new("LocalScript",_AGARWARE["1e4"]);
-_AGARWARE["1e5"].Name="EnableScript";
-_AGARWARE["1e6"]=Instance.new("LocalScript",_AGARWARE["1e4"]);
-_AGARWARE["1e6"].Name="EnableToolTip";
-_AGARWARE["1e7"]=Instance.new("UIListLayout",_AGARWARE["1e4"]);
-_AGARWARE["1e7"].Name="UIListLayout";
-_AGARWARE["1e7"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["1e8"]=Instance.new("Frame",_AGARWARE["1e4"]);
-_AGARWARE["1e8"].Name="EnableAccentColor";
-_AGARWARE["1e8"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["1e8"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["1e8"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["1e8"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["1e8"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["1e9"]=Instance.new("TextLabel",_AGARWARE["1e4"]);
-_AGARWARE["1e9"].Name="EnableTitle";
-_AGARWARE["1e9"]["TextWrapped"]=true;
-_AGARWARE["1e9"]["BorderSizePixel"]=0;
-_AGARWARE["1e9"]["TextScaled"]=true;
-_AGARWARE["1e9"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1e9"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1e9"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["1e9"]["TextSize"]=14;
-_AGARWARE["1e9"]["LayoutOrder"]=1;
-_AGARWARE["1e9"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1e9"]["Text"]=[[Grief Monitor]];
-_AGARWARE["1e9"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["1e9"]["BackgroundTransparency"]=0.95;
-_AGARWARE["1e9"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["1ea"]=Instance.new("TextButton",_AGARWARE["1e9"]);
-_AGARWARE["1ea"].Name="EnableMinimize";
+_AGARWARE["1e2"]["Position"]=UDim2.new(0.02329, 0, 0.09398, 0);
+_AGARWARE["1e3"]=Instance.new("Frame",_AGARWARE["1e2"]);
+_AGARWARE["1e3"].Name="TCODetectionLeftSide";
+_AGARWARE["1e3"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["1e3"]["BorderSizePixel"]=0;
+_AGARWARE["1e3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1e3"]["BackgroundTransparency"]=1;
+_AGARWARE["1e3"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
+_AGARWARE["1e3"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["1e4"]=Instance.new("UIListLayout",_AGARWARE["1e3"]);
+_AGARWARE["1e4"].Name="UIListLayout";
+_AGARWARE["1e4"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["1e4"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["1e5"]=Instance.new("Frame",_AGARWARE["1e3"]);
+_AGARWARE["1e5"].Name="EnableGroup";
+_AGARWARE["1e5"]["Size"]=UDim2.new(0, 170, 0, 100);
+_AGARWARE["1e5"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1e5"]["LayoutOrder"]=2;
+_AGARWARE["1e5"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["1e5"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["1e6"]=Instance.new("LocalScript",_AGARWARE["1e5"]);
+_AGARWARE["1e6"].Name="EnableScript";
+_AGARWARE["1e7"]=Instance.new("LocalScript",_AGARWARE["1e5"]);
+_AGARWARE["1e7"].Name="EnableToolTip";
+_AGARWARE["1e8"]=Instance.new("UIListLayout",_AGARWARE["1e5"]);
+_AGARWARE["1e8"].Name="UIListLayout";
+_AGARWARE["1e8"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["1e9"]=Instance.new("Frame",_AGARWARE["1e5"]);
+_AGARWARE["1e9"].Name="EnableAccentColor";
+_AGARWARE["1e9"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["1e9"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["1e9"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["1e9"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["1e9"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["1ea"]=Instance.new("TextLabel",_AGARWARE["1e5"]);
+_AGARWARE["1ea"].Name="EnableTitle";
+_AGARWARE["1ea"]["TextWrapped"]=true;
 _AGARWARE["1ea"]["BorderSizePixel"]=0;
+_AGARWARE["1ea"]["TextScaled"]=true;
 _AGARWARE["1ea"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["1ea"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1ea"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["1ea"]["TextSize"]=14;
-_AGARWARE["1ea"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["1ea"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1ea"]["BackgroundTransparency"]=1;
+_AGARWARE["1ea"]["LayoutOrder"]=1;
 _AGARWARE["1ea"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1ea"]["Text"]=[[-]];
-_AGARWARE["1ea"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["1eb"]=Instance.new("TextButton",_AGARWARE["1e9"]);
-_AGARWARE["1eb"].Name="EnableHelp";
-_AGARWARE["1eb"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["1eb"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["1ea"]["Text"]=[[Grief Monitor]];
+_AGARWARE["1ea"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["1ea"]["BackgroundTransparency"]=0.95;
+_AGARWARE["1ea"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["1eb"]=Instance.new("TextButton",_AGARWARE["1ea"]);
+_AGARWARE["1eb"].Name="EnableMinimize";
+_AGARWARE["1eb"]["BorderSizePixel"]=0;
+_AGARWARE["1eb"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1eb"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["1eb"]["TextSize"]=14;
-_AGARWARE["1eb"]["Size"]=UDim2.new(0, 12, 0, 12);
-_AGARWARE["1eb"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["1eb"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["1eb"]["Text"]=[[?]];
-_AGARWARE["1eb"]["Position"]=UDim2.new(0.02367, 0, 0.15999, 0);
-_AGARWARE["1ec"]=Instance.new("Frame",_AGARWARE["1e4"]);
-_AGARWARE["1ec"].Name="EnableDeleteRow";
-_AGARWARE["1ec"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["1ec"]["BorderSizePixel"]=0;
-_AGARWARE["1ec"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1ec"]["LayoutOrder"]=2;
-_AGARWARE["1ec"]["BackgroundTransparency"]=1;
-_AGARWARE["1ec"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["1ec"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1ed"]=Instance.new("LocalScript",_AGARWARE["1ec"]);
-_AGARWARE["1ed"].Name="EnableDeleteScript";
-_AGARWARE["1ee"]=Instance.new("TextButton",_AGARWARE["1ec"]);
-_AGARWARE["1ee"].Name="EnableDeleteTickBox";
-_AGARWARE["1ee"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1ee"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1ee"]["TextSize"]=14;
-_AGARWARE["1ee"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["1ee"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1ee"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1ee"]["Text"]=[[]];
-_AGARWARE["1ee"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1ef"]=Instance.new("TextLabel",_AGARWARE["1ec"]);
-_AGARWARE["1ef"].Name="EnableDeleteText";
-_AGARWARE["1ef"]["BorderSizePixel"]=0;
-_AGARWARE["1ef"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1ef"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1ef"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1ef"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1eb"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["1eb"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1eb"]["BackgroundTransparency"]=1;
+_AGARWARE["1eb"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1eb"]["Text"]=[[-]];
+_AGARWARE["1eb"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["1ec"]=Instance.new("TextButton",_AGARWARE["1ea"]);
+_AGARWARE["1ec"].Name="EnableHelp";
+_AGARWARE["1ec"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["1ec"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["1ec"]["TextSize"]=14;
+_AGARWARE["1ec"]["Size"]=UDim2.new(0, 12, 0, 12);
+_AGARWARE["1ec"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["1ec"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["1ec"]["Text"]=[[?]];
+_AGARWARE["1ec"]["Position"]=UDim2.new(0.02367, 0, 0.15999, 0);
+_AGARWARE["1ed"]=Instance.new("Frame",_AGARWARE["1e5"]);
+_AGARWARE["1ed"].Name="EnableDeleteRow";
+_AGARWARE["1ed"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1ed"]["BorderSizePixel"]=0;
+_AGARWARE["1ed"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1ed"]["LayoutOrder"]=2;
+_AGARWARE["1ed"]["BackgroundTransparency"]=1;
+_AGARWARE["1ed"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1ed"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1ee"]=Instance.new("LocalScript",_AGARWARE["1ed"]);
+_AGARWARE["1ee"].Name="EnableDeleteScript";
+_AGARWARE["1ef"]=Instance.new("TextButton",_AGARWARE["1ed"]);
+_AGARWARE["1ef"].Name="EnableDeleteTickBox";
+_AGARWARE["1ef"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1ef"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["1ef"]["TextSize"]=14;
-_AGARWARE["1ef"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1ef"]["Text"]=[[Delete Detection]];
-_AGARWARE["1ef"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1ef"]["BackgroundTransparency"]=1;
-_AGARWARE["1ef"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["1f0"]=Instance.new("Frame",_AGARWARE["1e4"]);
-_AGARWARE["1f0"].Name="EnablePaintRow";
-_AGARWARE["1f0"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1ef"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["1ef"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1ef"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1ef"]["Text"]=[[]];
+_AGARWARE["1ef"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1f0"]=Instance.new("TextLabel",_AGARWARE["1ed"]);
+_AGARWARE["1f0"].Name="EnableDeleteText";
 _AGARWARE["1f0"]["BorderSizePixel"]=0;
-_AGARWARE["1f0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1f0"]["LayoutOrder"]=2;
-_AGARWARE["1f0"]["BackgroundTransparency"]=1;
-_AGARWARE["1f0"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["1f0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1f1"]=Instance.new("LocalScript",_AGARWARE["1f0"]);
-_AGARWARE["1f1"].Name="EnablePaintScript";
-_AGARWARE["1f2"]=Instance.new("TextButton",_AGARWARE["1f0"]);
-_AGARWARE["1f2"].Name="EnablePaintTickBox";
-_AGARWARE["1f2"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1f2"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1f2"]["TextSize"]=14;
-_AGARWARE["1f2"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["1f2"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1f2"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1f2"]["Text"]=[[]];
-_AGARWARE["1f2"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1f3"]=Instance.new("TextLabel",_AGARWARE["1f0"]);
-_AGARWARE["1f3"].Name="EnablePaintText";
-_AGARWARE["1f3"]["BorderSizePixel"]=0;
-_AGARWARE["1f3"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1f3"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1f3"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1f3"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1f0"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1f0"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1f0"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1f0"]["TextSize"]=14;
+_AGARWARE["1f0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1f0"]["Text"]=[[Delete Detection]];
+_AGARWARE["1f0"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1f0"]["BackgroundTransparency"]=1;
+_AGARWARE["1f0"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["1f1"]=Instance.new("Frame",_AGARWARE["1e5"]);
+_AGARWARE["1f1"].Name="EnablePaintRow";
+_AGARWARE["1f1"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1f1"]["BorderSizePixel"]=0;
+_AGARWARE["1f1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1f1"]["LayoutOrder"]=2;
+_AGARWARE["1f1"]["BackgroundTransparency"]=1;
+_AGARWARE["1f1"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1f1"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1f2"]=Instance.new("LocalScript",_AGARWARE["1f1"]);
+_AGARWARE["1f2"].Name="EnablePaintScript";
+_AGARWARE["1f3"]=Instance.new("TextButton",_AGARWARE["1f1"]);
+_AGARWARE["1f3"].Name="EnablePaintTickBox";
+_AGARWARE["1f3"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1f3"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["1f3"]["TextSize"]=14;
-_AGARWARE["1f3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1f3"]["Text"]=[[Paint Detection]];
-_AGARWARE["1f3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1f3"]["BackgroundTransparency"]=1;
-_AGARWARE["1f3"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["1f4"]=Instance.new("Frame",_AGARWARE["1e4"]);
-_AGARWARE["1f4"].Name="EnableSpamRow";
-_AGARWARE["1f4"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1f3"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["1f3"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1f3"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1f3"]["Text"]=[[]];
+_AGARWARE["1f3"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1f4"]=Instance.new("TextLabel",_AGARWARE["1f1"]);
+_AGARWARE["1f4"].Name="EnablePaintText";
 _AGARWARE["1f4"]["BorderSizePixel"]=0;
-_AGARWARE["1f4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1f4"]["LayoutOrder"]=2;
-_AGARWARE["1f4"]["BackgroundTransparency"]=1;
-_AGARWARE["1f4"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["1f4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1f5"]=Instance.new("LocalScript",_AGARWARE["1f4"]);
-_AGARWARE["1f5"].Name="EnableSpamScript";
-_AGARWARE["1f6"]=Instance.new("TextButton",_AGARWARE["1f4"]);
-_AGARWARE["1f6"].Name="EnableSpamTickBox";
-_AGARWARE["1f6"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1f6"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1f6"]["TextSize"]=14;
-_AGARWARE["1f6"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["1f6"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1f6"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1f6"]["Text"]=[[]];
-_AGARWARE["1f6"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1f7"]=Instance.new("TextLabel",_AGARWARE["1f4"]);
-_AGARWARE["1f7"].Name="EnableSpamText";
-_AGARWARE["1f7"]["BorderSizePixel"]=0;
-_AGARWARE["1f7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1f7"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1f7"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1f7"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1f4"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1f4"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1f4"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1f4"]["TextSize"]=14;
+_AGARWARE["1f4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1f4"]["Text"]=[[Paint Detection]];
+_AGARWARE["1f4"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1f4"]["BackgroundTransparency"]=1;
+_AGARWARE["1f4"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["1f5"]=Instance.new("Frame",_AGARWARE["1e5"]);
+_AGARWARE["1f5"].Name="EnableSpamRow";
+_AGARWARE["1f5"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1f5"]["BorderSizePixel"]=0;
+_AGARWARE["1f5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1f5"]["LayoutOrder"]=2;
+_AGARWARE["1f5"]["BackgroundTransparency"]=1;
+_AGARWARE["1f5"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1f5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1f6"]=Instance.new("LocalScript",_AGARWARE["1f5"]);
+_AGARWARE["1f6"].Name="EnableSpamScript";
+_AGARWARE["1f7"]=Instance.new("TextButton",_AGARWARE["1f5"]);
+_AGARWARE["1f7"].Name="EnableSpamTickBox";
+_AGARWARE["1f7"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1f7"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["1f7"]["TextSize"]=14;
-_AGARWARE["1f7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1f7"]["Text"]=[[Build Spam Detect..]];
-_AGARWARE["1f7"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1f7"]["BackgroundTransparency"]=1;
-_AGARWARE["1f7"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["1f8"]=Instance.new("Frame",_AGARWARE["1e4"]);
-_AGARWARE["1f8"].Name="EnableExploitsRow";
-_AGARWARE["1f8"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1f7"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["1f7"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1f7"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1f7"]["Text"]=[[]];
+_AGARWARE["1f7"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1f8"]=Instance.new("TextLabel",_AGARWARE["1f5"]);
+_AGARWARE["1f8"].Name="EnableSpamText";
 _AGARWARE["1f8"]["BorderSizePixel"]=0;
-_AGARWARE["1f8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1f8"]["LayoutOrder"]=2;
-_AGARWARE["1f8"]["BackgroundTransparency"]=1;
-_AGARWARE["1f8"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["1f8"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1f9"]=Instance.new("LocalScript",_AGARWARE["1f8"]);
-_AGARWARE["1f9"].Name="EnableExploitsScript";
-_AGARWARE["1fa"]=Instance.new("TextButton",_AGARWARE["1f8"]);
-_AGARWARE["1fa"].Name="EnableExploitsTickBox";
-_AGARWARE["1fa"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1fa"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1fa"]["TextSize"]=14;
-_AGARWARE["1fa"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["1fa"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1fa"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1fa"]["Text"]=[[]];
-_AGARWARE["1fa"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["1fb"]=Instance.new("TextLabel",_AGARWARE["1f8"]);
-_AGARWARE["1fb"].Name="EnableExploitsText";
-_AGARWARE["1fb"]["BorderSizePixel"]=0;
-_AGARWARE["1fb"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1fb"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["1fb"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["1fb"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1f8"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1f8"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1f8"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1f8"]["TextSize"]=14;
+_AGARWARE["1f8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1f8"]["Text"]=[[Build Spam Detect..]];
+_AGARWARE["1f8"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1f8"]["BackgroundTransparency"]=1;
+_AGARWARE["1f8"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["1f9"]=Instance.new("Frame",_AGARWARE["1e5"]);
+_AGARWARE["1f9"].Name="EnableExploitsRow";
+_AGARWARE["1f9"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["1f9"]["BorderSizePixel"]=0;
+_AGARWARE["1f9"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1f9"]["LayoutOrder"]=2;
+_AGARWARE["1f9"]["BackgroundTransparency"]=1;
+_AGARWARE["1f9"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["1f9"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1fa"]=Instance.new("LocalScript",_AGARWARE["1f9"]);
+_AGARWARE["1fa"].Name="EnableExploitsScript";
+_AGARWARE["1fb"]=Instance.new("TextButton",_AGARWARE["1f9"]);
+_AGARWARE["1fb"].Name="EnableExploitsTickBox";
+_AGARWARE["1fb"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1fb"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["1fb"]["TextSize"]=14;
-_AGARWARE["1fb"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["1fb"]["Text"]=[[Exploit Detection]];
-_AGARWARE["1fb"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["1fb"]["BackgroundTransparency"]=1;
-_AGARWARE["1fb"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["1fc"]=Instance.new("Frame",_AGARWARE["1e2"]);
-_AGARWARE["1fc"].Name="MiscGroup";
-_AGARWARE["1fc"]["Size"]=UDim2.new(0, 170, 0, 65);
-_AGARWARE["1fc"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["1fc"]["LayoutOrder"]=2;
-_AGARWARE["1fc"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["1fc"]["Position"]=UDim2.new(0, 0, 0.35278, 0);
-_AGARWARE["1fc"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["1fd"]=Instance.new("LocalScript",_AGARWARE["1fc"]);
-_AGARWARE["1fd"].Name="MiscScript";
-_AGARWARE["1fe"]=Instance.new("LocalScript",_AGARWARE["1fc"]);
-_AGARWARE["1fe"].Name="MiscToolTip";
-_AGARWARE["1ff"]=Instance.new("UIListLayout",_AGARWARE["1fc"]);
-_AGARWARE["1ff"].Name="UIListLayout";
-_AGARWARE["1ff"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["200"]=Instance.new("Frame",_AGARWARE["1fc"]);
-_AGARWARE["200"].Name="MiscAccentColor";
-_AGARWARE["200"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["200"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["200"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["200"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["200"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["201"]=Instance.new("TextLabel",_AGARWARE["1fc"]);
-_AGARWARE["201"].Name="MiscTitle";
-_AGARWARE["201"]["TextWrapped"]=true;
-_AGARWARE["201"]["BorderSizePixel"]=0;
-_AGARWARE["201"]["TextScaled"]=true;
-_AGARWARE["201"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["201"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["201"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["201"]["TextSize"]=14;
-_AGARWARE["201"]["LayoutOrder"]=1;
-_AGARWARE["201"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["201"]["Text"]=[[Misc]];
-_AGARWARE["201"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["201"]["BackgroundTransparency"]=0.95;
-_AGARWARE["201"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["202"]=Instance.new("TextButton",_AGARWARE["201"]);
-_AGARWARE["202"].Name="MiscMinimize";
+_AGARWARE["1fb"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["1fb"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1fb"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1fb"]["Text"]=[[]];
+_AGARWARE["1fb"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["1fc"]=Instance.new("TextLabel",_AGARWARE["1f9"]);
+_AGARWARE["1fc"].Name="EnableExploitsText";
+_AGARWARE["1fc"]["BorderSizePixel"]=0;
+_AGARWARE["1fc"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1fc"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["1fc"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["1fc"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["1fc"]["TextSize"]=14;
+_AGARWARE["1fc"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["1fc"]["Text"]=[[Exploit Detection]];
+_AGARWARE["1fc"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["1fc"]["BackgroundTransparency"]=1;
+_AGARWARE["1fc"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["1fd"]=Instance.new("Frame",_AGARWARE["1e3"]);
+_AGARWARE["1fd"].Name="MiscGroup";
+_AGARWARE["1fd"]["Size"]=UDim2.new(0, 170, 0, 65);
+_AGARWARE["1fd"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["1fd"]["LayoutOrder"]=2;
+_AGARWARE["1fd"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["1fd"]["Position"]=UDim2.new(0, 0, 0.35278, 0);
+_AGARWARE["1fd"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["1fe"]=Instance.new("LocalScript",_AGARWARE["1fd"]);
+_AGARWARE["1fe"].Name="MiscScript";
+_AGARWARE["1ff"]=Instance.new("LocalScript",_AGARWARE["1fd"]);
+_AGARWARE["1ff"].Name="MiscToolTip";
+_AGARWARE["200"]=Instance.new("UIListLayout",_AGARWARE["1fd"]);
+_AGARWARE["200"].Name="UIListLayout";
+_AGARWARE["200"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["201"]=Instance.new("Frame",_AGARWARE["1fd"]);
+_AGARWARE["201"].Name="MiscAccentColor";
+_AGARWARE["201"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["201"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["201"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["201"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["201"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["202"]=Instance.new("TextLabel",_AGARWARE["1fd"]);
+_AGARWARE["202"].Name="MiscTitle";
+_AGARWARE["202"]["TextWrapped"]=true;
 _AGARWARE["202"]["BorderSizePixel"]=0;
+_AGARWARE["202"]["TextScaled"]=true;
 _AGARWARE["202"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["202"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["202"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["202"]["TextSize"]=14;
-_AGARWARE["202"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["202"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["202"]["BackgroundTransparency"]=1;
+_AGARWARE["202"]["LayoutOrder"]=1;
 _AGARWARE["202"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["202"]["Text"]=[[-]];
-_AGARWARE["202"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["203"]=Instance.new("Frame",_AGARWARE["1fc"]);
-_AGARWARE["203"].Name="LBoomboxRow";
-_AGARWARE["203"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["202"]["Text"]=[[Misc]];
+_AGARWARE["202"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["202"]["BackgroundTransparency"]=0.95;
+_AGARWARE["202"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["203"]=Instance.new("TextButton",_AGARWARE["202"]);
+_AGARWARE["203"].Name="MiscMinimize";
 _AGARWARE["203"]["BorderSizePixel"]=0;
-_AGARWARE["203"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["203"]["LayoutOrder"]=2;
-_AGARWARE["203"]["BackgroundTransparency"]=1;
-_AGARWARE["203"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["203"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["204"]=Instance.new("LocalScript",_AGARWARE["203"]);
-_AGARWARE["204"].Name="LBoomboxScript";
-_AGARWARE["205"]=Instance.new("TextButton",_AGARWARE["203"]);
-_AGARWARE["205"].Name="LBoomboxTickBox";
-_AGARWARE["205"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["205"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["205"]["TextSize"]=14;
-_AGARWARE["205"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["205"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["205"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["205"]["Text"]=[[]];
-_AGARWARE["205"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["206"]=Instance.new("TextLabel",_AGARWARE["203"]);
-_AGARWARE["206"].Name="LBoomboxText";
-_AGARWARE["206"]["BorderSizePixel"]=0;
-_AGARWARE["206"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["206"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["206"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["206"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["203"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["203"]["TextSize"]=14;
+_AGARWARE["203"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["203"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["203"]["BackgroundTransparency"]=1;
+_AGARWARE["203"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["203"]["Text"]=[[-]];
+_AGARWARE["203"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["204"]=Instance.new("Frame",_AGARWARE["1fd"]);
+_AGARWARE["204"].Name="LBoomboxRow";
+_AGARWARE["204"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["204"]["BorderSizePixel"]=0;
+_AGARWARE["204"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["204"]["LayoutOrder"]=2;
+_AGARWARE["204"]["BackgroundTransparency"]=1;
+_AGARWARE["204"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["204"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["205"]=Instance.new("LocalScript",_AGARWARE["204"]);
+_AGARWARE["205"].Name="LBoomboxScript";
+_AGARWARE["206"]=Instance.new("TextButton",_AGARWARE["204"]);
+_AGARWARE["206"].Name="LBoomboxTickBox";
+_AGARWARE["206"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["206"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["206"]["TextSize"]=14;
-_AGARWARE["206"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["206"]["Text"]=[[Detect Loud Boombox]];
-_AGARWARE["206"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["206"]["BackgroundTransparency"]=1;
-_AGARWARE["206"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["207"]=Instance.new("Frame",_AGARWARE["1fc"]);
-_AGARWARE["207"].Name="AutoPaintRepRow";
-_AGARWARE["207"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["206"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["206"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["206"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["206"]["Text"]=[[]];
+_AGARWARE["206"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["207"]=Instance.new("TextLabel",_AGARWARE["204"]);
+_AGARWARE["207"].Name="LBoomboxText";
 _AGARWARE["207"]["BorderSizePixel"]=0;
-_AGARWARE["207"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["207"]["LayoutOrder"]=8;
-_AGARWARE["207"]["BackgroundTransparency"]=1;
-_AGARWARE["207"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["207"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["208"]=Instance.new("LocalScript",_AGARWARE["207"]);
-_AGARWARE["208"].Name="AutoPaintRepScript";
-_AGARWARE["209"]=Instance.new("TextButton",_AGARWARE["207"]);
-_AGARWARE["209"].Name="AutoPaintRepTickBox";
-_AGARWARE["209"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["209"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["209"]["TextSize"]=14;
-_AGARWARE["209"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["209"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["209"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["209"]["Text"]=[[]];
-_AGARWARE["209"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["20a"]=Instance.new("TextLabel",_AGARWARE["207"]);
-_AGARWARE["20a"].Name="AutoPaintRepText";
-_AGARWARE["20a"]["BorderSizePixel"]=0;
-_AGARWARE["20a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["20a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["20a"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["20a"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["207"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["207"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["207"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["207"]["TextSize"]=14;
+_AGARWARE["207"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["207"]["Text"]=[[Detect Loud Boombox]];
+_AGARWARE["207"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["207"]["BackgroundTransparency"]=1;
+_AGARWARE["207"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["208"]=Instance.new("Frame",_AGARWARE["1fd"]);
+_AGARWARE["208"].Name="AutoPaintRepRow";
+_AGARWARE["208"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["208"]["BorderSizePixel"]=0;
+_AGARWARE["208"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["208"]["LayoutOrder"]=8;
+_AGARWARE["208"]["BackgroundTransparency"]=1;
+_AGARWARE["208"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["208"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["209"]=Instance.new("LocalScript",_AGARWARE["208"]);
+_AGARWARE["209"].Name="AutoPaintRepScript";
+_AGARWARE["20a"]=Instance.new("TextButton",_AGARWARE["208"]);
+_AGARWARE["20a"].Name="AutoPaintRepTickBox";
+_AGARWARE["20a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["20a"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["20a"]["TextSize"]=14;
-_AGARWARE["20a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["20a"]["Text"]=[[Auto Repaint Bkit]];
-_AGARWARE["20a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["20a"]["BackgroundTransparency"]=1;
-_AGARWARE["20a"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["20b"]=Instance.new("Frame",_AGARWARE["1e1"]);
-_AGARWARE["20b"].Name="TCODetectionRightSide";
-_AGARWARE["20b"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["20a"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["20a"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["20a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["20a"]["Text"]=[[]];
+_AGARWARE["20a"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["20b"]=Instance.new("TextLabel",_AGARWARE["208"]);
+_AGARWARE["20b"].Name="AutoPaintRepText";
 _AGARWARE["20b"]["BorderSizePixel"]=0;
+_AGARWARE["20b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["20b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["20b"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["20b"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["20b"]["TextSize"]=14;
 _AGARWARE["20b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["20b"]["Text"]=[[Auto Repaint Bkit]];
+_AGARWARE["20b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["20b"]["BackgroundTransparency"]=1;
-_AGARWARE["20b"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
-_AGARWARE["20b"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["20c"]=Instance.new("UIListLayout",_AGARWARE["20b"]);
-_AGARWARE["20c"].Name="UIListLayout";
-_AGARWARE["20c"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["20c"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["20d"]=Instance.new("Frame",_AGARWARE["20b"]);
-_AGARWARE["20d"].Name="GSettingsGroup";
-_AGARWARE["20d"]["Size"]=UDim2.new(0, 170, 0, 137);
-_AGARWARE["20d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["20d"]["LayoutOrder"]=1;
-_AGARWARE["20d"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["20d"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["20e"]=Instance.new("LocalScript",_AGARWARE["20d"]);
-_AGARWARE["20e"].Name="GSettingsScript";
-_AGARWARE["20f"]=Instance.new("LocalScript",_AGARWARE["20d"]);
-_AGARWARE["20f"].Name="GSettingsToolTip";
-_AGARWARE["210"]=Instance.new("UIListLayout",_AGARWARE["20d"]);
-_AGARWARE["210"].Name="UIListLayout";
-_AGARWARE["210"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["211"]=Instance.new("TextLabel",_AGARWARE["20d"]);
-_AGARWARE["211"].Name="GSettingsTitle";
-_AGARWARE["211"]["TextWrapped"]=true;
-_AGARWARE["211"]["BorderSizePixel"]=0;
-_AGARWARE["211"]["TextScaled"]=true;
-_AGARWARE["211"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["211"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["211"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["211"]["TextSize"]=14;
-_AGARWARE["211"]["LayoutOrder"]=1;
-_AGARWARE["211"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["211"]["Text"]=[[Detection Settings]];
-_AGARWARE["211"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["211"]["BackgroundTransparency"]=0.95;
-_AGARWARE["211"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["212"]=Instance.new("TextButton",_AGARWARE["211"]);
-_AGARWARE["212"].Name="GSettingsMinimize";
+_AGARWARE["20b"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["20c"]=Instance.new("Frame",_AGARWARE["1e2"]);
+_AGARWARE["20c"].Name="TCODetectionRightSide";
+_AGARWARE["20c"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["20c"]["BorderSizePixel"]=0;
+_AGARWARE["20c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["20c"]["BackgroundTransparency"]=1;
+_AGARWARE["20c"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
+_AGARWARE["20c"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["20d"]=Instance.new("UIListLayout",_AGARWARE["20c"]);
+_AGARWARE["20d"].Name="UIListLayout";
+_AGARWARE["20d"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["20d"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["20e"]=Instance.new("Frame",_AGARWARE["20c"]);
+_AGARWARE["20e"].Name="GSettingsGroup";
+_AGARWARE["20e"]["Size"]=UDim2.new(0, 170, 0, 137);
+_AGARWARE["20e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["20e"]["LayoutOrder"]=1;
+_AGARWARE["20e"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["20e"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["20f"]=Instance.new("LocalScript",_AGARWARE["20e"]);
+_AGARWARE["20f"].Name="GSettingsScript";
+_AGARWARE["210"]=Instance.new("LocalScript",_AGARWARE["20e"]);
+_AGARWARE["210"].Name="GSettingsToolTip";
+_AGARWARE["211"]=Instance.new("UIListLayout",_AGARWARE["20e"]);
+_AGARWARE["211"].Name="UIListLayout";
+_AGARWARE["211"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["212"]=Instance.new("TextLabel",_AGARWARE["20e"]);
+_AGARWARE["212"].Name="GSettingsTitle";
+_AGARWARE["212"]["TextWrapped"]=true;
 _AGARWARE["212"]["BorderSizePixel"]=0;
+_AGARWARE["212"]["TextScaled"]=true;
 _AGARWARE["212"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["212"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["212"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["212"]["TextSize"]=14;
-_AGARWARE["212"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["212"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["212"]["BackgroundTransparency"]=1;
+_AGARWARE["212"]["LayoutOrder"]=1;
 _AGARWARE["212"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["212"]["Text"]=[[-]];
-_AGARWARE["212"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["213"]=Instance.new("Frame",_AGARWARE["20d"]);
-_AGARWARE["213"].Name="GSettingsAccentColor";
-_AGARWARE["213"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["213"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["213"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["213"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["213"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["214"]=Instance.new("Frame",_AGARWARE["20d"]);
-_AGARWARE["214"].Name="TimeFilterRow";
-_AGARWARE["214"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["214"]["BorderSizePixel"]=0;
-_AGARWARE["214"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["214"]["LayoutOrder"]=3;
-_AGARWARE["214"]["BackgroundTransparency"]=1;
-_AGARWARE["214"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["214"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["215"]=Instance.new("TextLabel",_AGARWARE["214"]);
-_AGARWARE["215"].Name="TimeFilterText";
+_AGARWARE["212"]["Text"]=[[Detection Settings]];
+_AGARWARE["212"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["212"]["BackgroundTransparency"]=0.95;
+_AGARWARE["212"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["213"]=Instance.new("TextButton",_AGARWARE["212"]);
+_AGARWARE["213"].Name="GSettingsMinimize";
+_AGARWARE["213"]["BorderSizePixel"]=0;
+_AGARWARE["213"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["213"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["213"]["TextSize"]=14;
+_AGARWARE["213"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["213"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["213"]["BackgroundTransparency"]=1;
+_AGARWARE["213"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["213"]["Text"]=[[-]];
+_AGARWARE["213"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["214"]=Instance.new("Frame",_AGARWARE["20e"]);
+_AGARWARE["214"].Name="GSettingsAccentColor";
+_AGARWARE["214"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["214"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["214"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["214"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["214"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["215"]=Instance.new("Frame",_AGARWARE["20e"]);
+_AGARWARE["215"].Name="TimeFilterRow";
+_AGARWARE["215"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["215"]["BorderSizePixel"]=0;
-_AGARWARE["215"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["215"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["215"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["215"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["215"]["TextSize"]=14;
 _AGARWARE["215"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["215"]["Text"]=[[Time Filter]];
-_AGARWARE["215"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["215"]["LayoutOrder"]=3;
 _AGARWARE["215"]["BackgroundTransparency"]=1;
-_AGARWARE["215"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["216"]=Instance.new("TextBox",_AGARWARE["214"]);
-_AGARWARE["216"].Name="TimeFilterChanger";
-_AGARWARE["216"]["TextWrapped"]=true;
-_AGARWARE["216"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["216"]["TextScaled"]=true;
-_AGARWARE["216"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["215"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["215"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["216"]=Instance.new("TextLabel",_AGARWARE["215"]);
+_AGARWARE["216"].Name="TimeFilterText";
+_AGARWARE["216"]["BorderSizePixel"]=0;
+_AGARWARE["216"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["216"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["216"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["216"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["216"]["TextSize"]=14;
-_AGARWARE["216"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["216"]["PlaceholderText"]=[[(none)]];
-_AGARWARE["216"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["216"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["216"]["Text"]=[[]];
-_AGARWARE["216"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["217"]=Instance.new("LocalScript",_AGARWARE["216"]);
-_AGARWARE["217"].Name="TimeFilterScript";
-_AGARWARE["218"]=Instance.new("TextButton",_AGARWARE["214"]);
-_AGARWARE["218"].Name="TimeFilterHelp";
-_AGARWARE["218"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["218"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-_AGARWARE["218"]["TextSize"]=14;
-_AGARWARE["218"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["218"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["218"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["218"]["Text"]=[[?]];
-_AGARWARE["218"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["219"]=Instance.new("Frame",_AGARWARE["20d"]);
-_AGARWARE["219"].Name="WListLabelRow";
-_AGARWARE["219"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["219"]["BorderSizePixel"]=0;
-_AGARWARE["219"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["219"]["LayoutOrder"]=20;
-_AGARWARE["219"]["BackgroundTransparency"]=1;
-_AGARWARE["219"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["219"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["21a"]=Instance.new("LocalScript",_AGARWARE["219"]);
-_AGARWARE["21a"].Name="WListLabelScript";
-_AGARWARE["21b"]=Instance.new("TextLabel",_AGARWARE["219"]);
-_AGARWARE["21b"].Name="WListLabelText";
-_AGARWARE["21b"]["BorderSizePixel"]=0;
-_AGARWARE["21b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["21b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["21b"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["21b"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["21b"]["TextSize"]=14;
-_AGARWARE["21b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["21b"]["Text"]=[[Whitelist Players:]];
-_AGARWARE["21b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["21b"]["BackgroundTransparency"]=1;
-_AGARWARE["21b"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["21c"]=Instance.new("TextButton",_AGARWARE["219"]);
-_AGARWARE["21c"].Name="WListLabelHelp";
-_AGARWARE["21c"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["21c"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["216"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["216"]["Text"]=[[Time Filter]];
+_AGARWARE["216"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["216"]["BackgroundTransparency"]=1;
+_AGARWARE["216"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["217"]=Instance.new("TextBox",_AGARWARE["215"]);
+_AGARWARE["217"].Name="TimeFilterChanger";
+_AGARWARE["217"]["TextWrapped"]=true;
+_AGARWARE["217"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["217"]["TextScaled"]=true;
+_AGARWARE["217"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["217"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["217"]["TextSize"]=14;
+_AGARWARE["217"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["217"]["PlaceholderText"]=[[(none)]];
+_AGARWARE["217"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["217"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["217"]["Text"]=[[]];
+_AGARWARE["217"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["218"]=Instance.new("LocalScript",_AGARWARE["217"]);
+_AGARWARE["218"].Name="TimeFilterScript";
+_AGARWARE["219"]=Instance.new("TextButton",_AGARWARE["215"]);
+_AGARWARE["219"].Name="TimeFilterHelp";
+_AGARWARE["219"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["219"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["219"]["TextSize"]=14;
+_AGARWARE["219"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["219"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["219"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["219"]["Text"]=[[?]];
+_AGARWARE["219"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["21a"]=Instance.new("Frame",_AGARWARE["20e"]);
+_AGARWARE["21a"].Name="WListLabelRow";
+_AGARWARE["21a"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["21a"]["BorderSizePixel"]=0;
+_AGARWARE["21a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["21a"]["LayoutOrder"]=20;
+_AGARWARE["21a"]["BackgroundTransparency"]=1;
+_AGARWARE["21a"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["21a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["21b"]=Instance.new("LocalScript",_AGARWARE["21a"]);
+_AGARWARE["21b"].Name="WListLabelScript";
+_AGARWARE["21c"]=Instance.new("TextLabel",_AGARWARE["21a"]);
+_AGARWARE["21c"].Name="WListLabelText";
+_AGARWARE["21c"]["BorderSizePixel"]=0;
+_AGARWARE["21c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["21c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["21c"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["21c"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["21c"]["TextSize"]=14;
-_AGARWARE["21c"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["21c"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["21c"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["21c"]["Text"]=[[?]];
-_AGARWARE["21c"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["21d"]=Instance.new("Frame",_AGARWARE["20d"]);
-_AGARWARE["21d"].Name="WListRow";
-_AGARWARE["21d"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["21d"]["BorderSizePixel"]=0;
-_AGARWARE["21d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["21d"]["LayoutOrder"]=21;
-_AGARWARE["21d"]["BackgroundTransparency"]=1;
-_AGARWARE["21d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["21d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["21e"]=Instance.new("LocalScript",_AGARWARE["21d"]);
-_AGARWARE["21e"].Name="WListScript";
-_AGARWARE["21f"]=Instance.new("TextButton",_AGARWARE["21d"]);
-_AGARWARE["21f"].Name="WListDropdown";
-_AGARWARE["21f"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["21f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["21f"]["TextSize"]=14;
-_AGARWARE["21f"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["21f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["21f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["21f"]["Text"]=[[]];
-_AGARWARE["21f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["220"]=Instance.new("Frame",_AGARWARE["20d"]);
-_AGARWARE["220"].Name="GriefInGameRow";
-_AGARWARE["220"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["220"]["BorderSizePixel"]=0;
-_AGARWARE["220"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["220"]["LayoutOrder"]=5;
-_AGARWARE["220"]["BackgroundTransparency"]=1;
-_AGARWARE["220"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["220"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["221"]=Instance.new("LocalScript",_AGARWARE["220"]);
-_AGARWARE["221"].Name="GriefInGameScript";
-_AGARWARE["222"]=Instance.new("TextButton",_AGARWARE["220"]);
-_AGARWARE["222"].Name="GriefInGameTickBox";
-_AGARWARE["222"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["222"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["222"]["TextSize"]=14;
-_AGARWARE["222"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["222"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["222"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["222"]["Text"]=[[]];
-_AGARWARE["222"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["223"]=Instance.new("TextLabel",_AGARWARE["220"]);
-_AGARWARE["223"].Name="GriefInGameText";
-_AGARWARE["223"]["BorderSizePixel"]=0;
-_AGARWARE["223"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["223"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["223"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["223"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["21c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["21c"]["Text"]=[[Whitelist Players:]];
+_AGARWARE["21c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["21c"]["BackgroundTransparency"]=1;
+_AGARWARE["21c"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["21d"]=Instance.new("TextButton",_AGARWARE["21a"]);
+_AGARWARE["21d"].Name="WListLabelHelp";
+_AGARWARE["21d"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["21d"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["21d"]["TextSize"]=14;
+_AGARWARE["21d"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["21d"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["21d"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["21d"]["Text"]=[[?]];
+_AGARWARE["21d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["21e"]=Instance.new("Frame",_AGARWARE["20e"]);
+_AGARWARE["21e"].Name="WListRow";
+_AGARWARE["21e"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["21e"]["BorderSizePixel"]=0;
+_AGARWARE["21e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["21e"]["LayoutOrder"]=21;
+_AGARWARE["21e"]["BackgroundTransparency"]=1;
+_AGARWARE["21e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["21e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["21f"]=Instance.new("LocalScript",_AGARWARE["21e"]);
+_AGARWARE["21f"].Name="WListScript";
+_AGARWARE["220"]=Instance.new("TextButton",_AGARWARE["21e"]);
+_AGARWARE["220"].Name="WListDropdown";
+_AGARWARE["220"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["220"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["220"]["TextSize"]=14;
+_AGARWARE["220"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["220"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["220"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["220"]["Text"]=[[]];
+_AGARWARE["220"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["221"]=Instance.new("Frame",_AGARWARE["20e"]);
+_AGARWARE["221"].Name="GriefInGameRow";
+_AGARWARE["221"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["221"]["BorderSizePixel"]=0;
+_AGARWARE["221"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["221"]["LayoutOrder"]=5;
+_AGARWARE["221"]["BackgroundTransparency"]=1;
+_AGARWARE["221"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["221"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["222"]=Instance.new("LocalScript",_AGARWARE["221"]);
+_AGARWARE["222"].Name="GriefInGameScript";
+_AGARWARE["223"]=Instance.new("TextButton",_AGARWARE["221"]);
+_AGARWARE["223"].Name="GriefInGameTickBox";
+_AGARWARE["223"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["223"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["223"]["TextSize"]=14;
-_AGARWARE["223"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["223"]["Text"]=[[Abandoned Blocks]];
-_AGARWARE["223"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["223"]["BackgroundTransparency"]=1;
-_AGARWARE["223"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["224"]=Instance.new("Frame",_AGARWARE["20d"]);
-_AGARWARE["224"].Name="GriefEnlightenRow";
-_AGARWARE["224"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["223"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["223"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["223"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["223"]["Text"]=[[]];
+_AGARWARE["223"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["224"]=Instance.new("TextLabel",_AGARWARE["221"]);
+_AGARWARE["224"].Name="GriefInGameText";
 _AGARWARE["224"]["BorderSizePixel"]=0;
-_AGARWARE["224"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["224"]["LayoutOrder"]=5;
-_AGARWARE["224"]["BackgroundTransparency"]=1;
-_AGARWARE["224"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["224"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["225"]=Instance.new("LocalScript",_AGARWARE["224"]);
-_AGARWARE["225"].Name="GriefEnlightenScript";
-_AGARWARE["226"]=Instance.new("TextButton",_AGARWARE["224"]);
-_AGARWARE["226"].Name="GriefEnlightenTickBox";
-_AGARWARE["226"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["226"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["226"]["TextSize"]=14;
-_AGARWARE["226"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["226"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["226"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["226"]["Text"]=[[]];
-_AGARWARE["226"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["227"]=Instance.new("TextLabel",_AGARWARE["224"]);
-_AGARWARE["227"].Name="GriefEnlightenText";
-_AGARWARE["227"]["BorderSizePixel"]=0;
-_AGARWARE["227"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["227"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["227"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["227"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["224"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["224"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["224"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["224"]["TextSize"]=14;
+_AGARWARE["224"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["224"]["Text"]=[[Abandoned Blocks]];
+_AGARWARE["224"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["224"]["BackgroundTransparency"]=1;
+_AGARWARE["224"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["225"]=Instance.new("Frame",_AGARWARE["20e"]);
+_AGARWARE["225"].Name="GriefEnlightenRow";
+_AGARWARE["225"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["225"]["BorderSizePixel"]=0;
+_AGARWARE["225"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["225"]["LayoutOrder"]=5;
+_AGARWARE["225"]["BackgroundTransparency"]=1;
+_AGARWARE["225"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["225"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["226"]=Instance.new("LocalScript",_AGARWARE["225"]);
+_AGARWARE["226"].Name="GriefEnlightenScript";
+_AGARWARE["227"]=Instance.new("TextButton",_AGARWARE["225"]);
+_AGARWARE["227"].Name="GriefEnlightenTickBox";
+_AGARWARE["227"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["227"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["227"]["TextSize"]=14;
-_AGARWARE["227"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["227"]["Text"]=[[Detect Enlighteners]];
-_AGARWARE["227"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["227"]["BackgroundTransparency"]=1;
-_AGARWARE["227"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["228"]=Instance.new("Frame",_AGARWARE["20d"]);
-_AGARWARE["228"].Name="CooldownGriefRow";
-_AGARWARE["228"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["227"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["227"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["227"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["227"]["Text"]=[[]];
+_AGARWARE["227"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["228"]=Instance.new("TextLabel",_AGARWARE["225"]);
+_AGARWARE["228"].Name="GriefEnlightenText";
 _AGARWARE["228"]["BorderSizePixel"]=0;
-_AGARWARE["228"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["228"]["LayoutOrder"]=3;
-_AGARWARE["228"]["BackgroundTransparency"]=1;
-_AGARWARE["228"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["228"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["229"]=Instance.new("TextLabel",_AGARWARE["228"]);
-_AGARWARE["229"].Name="CooldownGriefText";
+_AGARWARE["228"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["228"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["228"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["228"]["TextSize"]=14;
+_AGARWARE["228"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["228"]["Text"]=[[Detect Enlighteners]];
+_AGARWARE["228"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["228"]["BackgroundTransparency"]=1;
+_AGARWARE["228"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["229"]=Instance.new("Frame",_AGARWARE["20e"]);
+_AGARWARE["229"].Name="CooldownGriefRow";
+_AGARWARE["229"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["229"]["BorderSizePixel"]=0;
-_AGARWARE["229"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["229"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["229"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["229"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["229"]["TextSize"]=14;
 _AGARWARE["229"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["229"]["Text"]=[[Cooldown]];
-_AGARWARE["229"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["229"]["LayoutOrder"]=3;
 _AGARWARE["229"]["BackgroundTransparency"]=1;
-_AGARWARE["229"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["22a"]=Instance.new("TextBox",_AGARWARE["228"]);
-_AGARWARE["22a"].Name="CooldownGriefChanger";
-_AGARWARE["22a"]["TextWrapped"]=true;
-_AGARWARE["22a"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["22a"]["TextScaled"]=true;
-_AGARWARE["22a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["229"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["229"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["22a"]=Instance.new("TextLabel",_AGARWARE["229"]);
+_AGARWARE["22a"].Name="CooldownGriefText";
+_AGARWARE["22a"]["BorderSizePixel"]=0;
+_AGARWARE["22a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["22a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["22a"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["22a"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["22a"]["TextSize"]=14;
-_AGARWARE["22a"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["22a"]["PlaceholderText"]=[[(30)]];
-_AGARWARE["22a"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["22a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["22a"]["Text"]=[[]];
-_AGARWARE["22a"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["22b"]=Instance.new("LocalScript",_AGARWARE["22a"]);
-_AGARWARE["22b"].Name="CooldownScript";
-_AGARWARE["22c"]=Instance.new("TextButton",_AGARWARE["228"]);
-_AGARWARE["22c"].Name="CooldownGriefHelp";
-_AGARWARE["22c"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["22c"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-_AGARWARE["22c"]["TextSize"]=14;
-_AGARWARE["22c"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["22c"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["22c"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["22c"]["Text"]=[[?]];
-_AGARWARE["22c"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["22d"]=Instance.new("Frame",_AGARWARE["20b"]);
-_AGARWARE["22d"].Name="PunishGroup";
-_AGARWARE["22d"]["Size"]=UDim2.new(0, 170, 0, 104);
-_AGARWARE["22d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["22d"]["LayoutOrder"]=2;
-_AGARWARE["22d"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["22d"]["Position"]=UDim2.new(0, 0, 0.4, 0);
-_AGARWARE["22d"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["22e"]=Instance.new("LocalScript",_AGARWARE["22d"]);
-_AGARWARE["22e"].Name="PunishScript";
-_AGARWARE["22f"]=Instance.new("LocalScript",_AGARWARE["22d"]);
-_AGARWARE["22f"].Name="PunishToolTip";
-_AGARWARE["230"]=Instance.new("UIListLayout",_AGARWARE["22d"]);
-_AGARWARE["230"].Name="UIListLayout";
-_AGARWARE["230"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["231"]=Instance.new("Frame",_AGARWARE["22d"]);
-_AGARWARE["231"].Name="PunishAccentColor";
-_AGARWARE["231"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["231"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["231"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["231"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["231"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["232"]=Instance.new("TextLabel",_AGARWARE["22d"]);
-_AGARWARE["232"].Name="PunishTitle";
-_AGARWARE["232"]["TextWrapped"]=true;
-_AGARWARE["232"]["BorderSizePixel"]=0;
-_AGARWARE["232"]["TextScaled"]=true;
-_AGARWARE["232"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["232"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["232"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["232"]["TextSize"]=14;
-_AGARWARE["232"]["LayoutOrder"]=1;
-_AGARWARE["232"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["232"]["Text"]=[[Punish]];
-_AGARWARE["232"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["232"]["BackgroundTransparency"]=0.95;
-_AGARWARE["232"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["233"]=Instance.new("TextButton",_AGARWARE["232"]);
-_AGARWARE["233"].Name="PunishMinimize";
+_AGARWARE["22a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["22a"]["Text"]=[[Cooldown]];
+_AGARWARE["22a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["22a"]["BackgroundTransparency"]=1;
+_AGARWARE["22a"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["22b"]=Instance.new("TextBox",_AGARWARE["229"]);
+_AGARWARE["22b"].Name="CooldownGriefChanger";
+_AGARWARE["22b"]["TextWrapped"]=true;
+_AGARWARE["22b"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["22b"]["TextScaled"]=true;
+_AGARWARE["22b"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["22b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["22b"]["TextSize"]=14;
+_AGARWARE["22b"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["22b"]["PlaceholderText"]=[[(30)]];
+_AGARWARE["22b"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["22b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["22b"]["Text"]=[[]];
+_AGARWARE["22b"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["22c"]=Instance.new("LocalScript",_AGARWARE["22b"]);
+_AGARWARE["22c"].Name="CooldownScript";
+_AGARWARE["22d"]=Instance.new("TextButton",_AGARWARE["229"]);
+_AGARWARE["22d"].Name="CooldownGriefHelp";
+_AGARWARE["22d"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["22d"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["22d"]["TextSize"]=14;
+_AGARWARE["22d"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["22d"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["22d"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["22d"]["Text"]=[[?]];
+_AGARWARE["22d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["22e"]=Instance.new("Frame",_AGARWARE["20c"]);
+_AGARWARE["22e"].Name="PunishGroup";
+_AGARWARE["22e"]["Size"]=UDim2.new(0, 170, 0, 104);
+_AGARWARE["22e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["22e"]["LayoutOrder"]=2;
+_AGARWARE["22e"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["22e"]["Position"]=UDim2.new(0, 0, 0.4, 0);
+_AGARWARE["22e"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["22f"]=Instance.new("LocalScript",_AGARWARE["22e"]);
+_AGARWARE["22f"].Name="PunishScript";
+_AGARWARE["230"]=Instance.new("LocalScript",_AGARWARE["22e"]);
+_AGARWARE["230"].Name="PunishToolTip";
+_AGARWARE["231"]=Instance.new("UIListLayout",_AGARWARE["22e"]);
+_AGARWARE["231"].Name="UIListLayout";
+_AGARWARE["231"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["232"]=Instance.new("Frame",_AGARWARE["22e"]);
+_AGARWARE["232"].Name="PunishAccentColor";
+_AGARWARE["232"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["232"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["232"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["232"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["232"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["233"]=Instance.new("TextLabel",_AGARWARE["22e"]);
+_AGARWARE["233"].Name="PunishTitle";
+_AGARWARE["233"]["TextWrapped"]=true;
 _AGARWARE["233"]["BorderSizePixel"]=0;
+_AGARWARE["233"]["TextScaled"]=true;
 _AGARWARE["233"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["233"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["233"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["233"]["TextSize"]=14;
-_AGARWARE["233"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["233"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["233"]["BackgroundTransparency"]=1;
+_AGARWARE["233"]["LayoutOrder"]=1;
 _AGARWARE["233"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["233"]["Text"]=[[-]];
-_AGARWARE["233"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["234"]=Instance.new("Frame",_AGARWARE["22d"]);
-_AGARWARE["234"].Name="AlertGriefRow";
-_AGARWARE["234"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["233"]["Text"]=[[Punish]];
+_AGARWARE["233"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["233"]["BackgroundTransparency"]=0.95;
+_AGARWARE["233"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["234"]=Instance.new("TextButton",_AGARWARE["233"]);
+_AGARWARE["234"].Name="PunishMinimize";
 _AGARWARE["234"]["BorderSizePixel"]=0;
-_AGARWARE["234"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["234"]["LayoutOrder"]=2;
-_AGARWARE["234"]["BackgroundTransparency"]=1;
-_AGARWARE["234"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["234"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["235"]=Instance.new("LocalScript",_AGARWARE["234"]);
-_AGARWARE["235"].Name="AlertGriefScript";
-_AGARWARE["236"]=Instance.new("TextButton",_AGARWARE["234"]);
-_AGARWARE["236"].Name="AlertGriefTickBox";
-_AGARWARE["236"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["236"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["236"]["TextSize"]=14;
-_AGARWARE["236"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["236"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["236"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["236"]["Text"]=[[]];
-_AGARWARE["236"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["237"]=Instance.new("TextLabel",_AGARWARE["234"]);
-_AGARWARE["237"].Name="AlertGriefText";
-_AGARWARE["237"]["BorderSizePixel"]=0;
-_AGARWARE["237"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["237"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["237"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["237"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["234"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["234"]["TextSize"]=14;
+_AGARWARE["234"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["234"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["234"]["BackgroundTransparency"]=1;
+_AGARWARE["234"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["234"]["Text"]=[[-]];
+_AGARWARE["234"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["235"]=Instance.new("Frame",_AGARWARE["22e"]);
+_AGARWARE["235"].Name="AlertGriefRow";
+_AGARWARE["235"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["235"]["BorderSizePixel"]=0;
+_AGARWARE["235"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["235"]["LayoutOrder"]=2;
+_AGARWARE["235"]["BackgroundTransparency"]=1;
+_AGARWARE["235"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["235"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["236"]=Instance.new("LocalScript",_AGARWARE["235"]);
+_AGARWARE["236"].Name="AlertGriefScript";
+_AGARWARE["237"]=Instance.new("TextButton",_AGARWARE["235"]);
+_AGARWARE["237"].Name="AlertGriefTickBox";
+_AGARWARE["237"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["237"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["237"]["TextSize"]=14;
-_AGARWARE["237"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["237"]["Text"]=[[Alert in Chat]];
-_AGARWARE["237"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["237"]["BackgroundTransparency"]=1;
-_AGARWARE["237"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["238"]=Instance.new("Frame",_AGARWARE["22d"]);
-_AGARWARE["238"].Name="ConfirmGriefRow";
-_AGARWARE["238"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["237"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["237"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["237"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["237"]["Text"]=[[]];
+_AGARWARE["237"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["238"]=Instance.new("TextLabel",_AGARWARE["235"]);
+_AGARWARE["238"].Name="AlertGriefText";
 _AGARWARE["238"]["BorderSizePixel"]=0;
-_AGARWARE["238"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["238"]["LayoutOrder"]=3;
-_AGARWARE["238"]["BackgroundTransparency"]=1;
-_AGARWARE["238"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["238"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["239"]=Instance.new("LocalScript",_AGARWARE["238"]);
-_AGARWARE["239"].Name="ConfirmGriefScript";
-_AGARWARE["23a"]=Instance.new("TextButton",_AGARWARE["238"]);
-_AGARWARE["23a"].Name="ConfirmGriefTickBox";
-_AGARWARE["23a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["23a"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["23a"]["TextSize"]=14;
-_AGARWARE["23a"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["23a"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["23a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["23a"]["Text"]=[[]];
-_AGARWARE["23a"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["23b"]=Instance.new("TextLabel",_AGARWARE["238"]);
-_AGARWARE["23b"].Name="ConfirmGriefText";
-_AGARWARE["23b"]["BorderSizePixel"]=0;
-_AGARWARE["23b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["23b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["23b"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["23b"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["238"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["238"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["238"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["238"]["TextSize"]=14;
+_AGARWARE["238"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["238"]["Text"]=[[Alert in Chat]];
+_AGARWARE["238"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["238"]["BackgroundTransparency"]=1;
+_AGARWARE["238"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["239"]=Instance.new("Frame",_AGARWARE["22e"]);
+_AGARWARE["239"].Name="ConfirmGriefRow";
+_AGARWARE["239"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["239"]["BorderSizePixel"]=0;
+_AGARWARE["239"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["239"]["LayoutOrder"]=3;
+_AGARWARE["239"]["BackgroundTransparency"]=1;
+_AGARWARE["239"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["239"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["23a"]=Instance.new("LocalScript",_AGARWARE["239"]);
+_AGARWARE["23a"].Name="ConfirmGriefScript";
+_AGARWARE["23b"]=Instance.new("TextButton",_AGARWARE["239"]);
+_AGARWARE["23b"].Name="ConfirmGriefTickBox";
+_AGARWARE["23b"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["23b"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["23b"]["TextSize"]=14;
-_AGARWARE["23b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["23b"]["Text"]=[[Confirm Grief]];
-_AGARWARE["23b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["23b"]["BackgroundTransparency"]=1;
-_AGARWARE["23b"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["23c"]=Instance.new("Frame",_AGARWARE["22d"]);
-_AGARWARE["23c"].Name="SFXGriefRow";
-_AGARWARE["23c"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["23b"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["23b"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["23b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["23b"]["Text"]=[[]];
+_AGARWARE["23b"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["23c"]=Instance.new("TextLabel",_AGARWARE["239"]);
+_AGARWARE["23c"].Name="ConfirmGriefText";
 _AGARWARE["23c"]["BorderSizePixel"]=0;
-_AGARWARE["23c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["23c"]["LayoutOrder"]=3;
-_AGARWARE["23c"]["BackgroundTransparency"]=1;
-_AGARWARE["23c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["23c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["23d"]=Instance.new("LocalScript",_AGARWARE["23c"]);
-_AGARWARE["23d"].Name="SFXGriefScript";
-_AGARWARE["23e"]=Instance.new("TextButton",_AGARWARE["23c"]);
-_AGARWARE["23e"].Name="SFXGriefTickBox";
-_AGARWARE["23e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["23e"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["23e"]["TextSize"]=14;
-_AGARWARE["23e"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["23e"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["23e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["23e"]["Text"]=[[]];
-_AGARWARE["23e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["23f"]=Instance.new("TextLabel",_AGARWARE["23c"]);
-_AGARWARE["23f"].Name="SFXGriefText";
-_AGARWARE["23f"]["BorderSizePixel"]=0;
-_AGARWARE["23f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["23f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["23f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["23f"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["23c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["23c"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["23c"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["23c"]["TextSize"]=14;
+_AGARWARE["23c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["23c"]["Text"]=[[Confirm Grief]];
+_AGARWARE["23c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["23c"]["BackgroundTransparency"]=1;
+_AGARWARE["23c"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["23d"]=Instance.new("Frame",_AGARWARE["22e"]);
+_AGARWARE["23d"].Name="SFXGriefRow";
+_AGARWARE["23d"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["23d"]["BorderSizePixel"]=0;
+_AGARWARE["23d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["23d"]["LayoutOrder"]=3;
+_AGARWARE["23d"]["BackgroundTransparency"]=1;
+_AGARWARE["23d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["23d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["23e"]=Instance.new("LocalScript",_AGARWARE["23d"]);
+_AGARWARE["23e"].Name="SFXGriefScript";
+_AGARWARE["23f"]=Instance.new("TextButton",_AGARWARE["23d"]);
+_AGARWARE["23f"].Name="SFXGriefTickBox";
+_AGARWARE["23f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["23f"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["23f"]["TextSize"]=14;
-_AGARWARE["23f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["23f"]["Text"]=[[Play Alert Sfx]];
-_AGARWARE["23f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["23f"]["BackgroundTransparency"]=1;
-_AGARWARE["23f"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["240"]=Instance.new("Frame",_AGARWARE["22d"]);
-_AGARWARE["240"].Name="FlingExploitRow";
-_AGARWARE["240"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["23f"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["23f"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["23f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["23f"]["Text"]=[[]];
+_AGARWARE["23f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["240"]=Instance.new("TextLabel",_AGARWARE["23d"]);
+_AGARWARE["240"].Name="SFXGriefText";
 _AGARWARE["240"]["BorderSizePixel"]=0;
-_AGARWARE["240"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["240"]["LayoutOrder"]=3;
-_AGARWARE["240"]["BackgroundTransparency"]=1;
-_AGARWARE["240"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["240"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["241"]=Instance.new("LocalScript",_AGARWARE["240"]);
-_AGARWARE["241"].Name="FlingExploitScript";
-_AGARWARE["242"]=Instance.new("TextButton",_AGARWARE["240"]);
-_AGARWARE["242"].Name="FlingExploitTickBox";
-_AGARWARE["242"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["242"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["242"]["TextSize"]=14;
-_AGARWARE["242"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["242"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["242"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["242"]["Text"]=[[]];
-_AGARWARE["242"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["243"]=Instance.new("TextLabel",_AGARWARE["240"]);
-_AGARWARE["243"].Name="FlingExploitText";
-_AGARWARE["243"]["BorderSizePixel"]=0;
-_AGARWARE["243"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["243"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["243"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["243"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["240"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["240"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["240"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["240"]["TextSize"]=14;
+_AGARWARE["240"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["240"]["Text"]=[[Play Alert Sfx]];
+_AGARWARE["240"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["240"]["BackgroundTransparency"]=1;
+_AGARWARE["240"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["241"]=Instance.new("Frame",_AGARWARE["22e"]);
+_AGARWARE["241"].Name="FlingExploitRow";
+_AGARWARE["241"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["241"]["BorderSizePixel"]=0;
+_AGARWARE["241"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["241"]["LayoutOrder"]=3;
+_AGARWARE["241"]["BackgroundTransparency"]=1;
+_AGARWARE["241"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["241"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["242"]=Instance.new("LocalScript",_AGARWARE["241"]);
+_AGARWARE["242"].Name="FlingExploitScript";
+_AGARWARE["243"]=Instance.new("TextButton",_AGARWARE["241"]);
+_AGARWARE["243"].Name="FlingExploitTickBox";
+_AGARWARE["243"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["243"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["243"]["TextSize"]=14;
-_AGARWARE["243"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["243"]["Text"]=[[Fling When Exploit]];
-_AGARWARE["243"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["243"]["BackgroundTransparency"]=1;
-_AGARWARE["243"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["244"]=Instance.new("ScrollingFrame",_AGARWARE["15"]);
-_AGARWARE["244"].Name="TCOMiscPage";
+_AGARWARE["243"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["243"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["243"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["243"]["Text"]=[[]];
+_AGARWARE["243"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["244"]=Instance.new("TextLabel",_AGARWARE["241"]);
+_AGARWARE["244"].Name="FlingExploitText";
 _AGARWARE["244"]["BorderSizePixel"]=0;
-_AGARWARE["244"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["244"]["Active"]=true;
-_AGARWARE["244"]["Size"]=UDim2.new(0, 349, 0, 233);
-_AGARWARE["244"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["244"]["Visible"]=false;
+_AGARWARE["244"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["244"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["244"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["244"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["244"]["TextSize"]=14;
 _AGARWARE["244"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["244"]["ScrollBarThickness"]=0;
+_AGARWARE["244"]["Text"]=[[Fling When Exploit]];
+_AGARWARE["244"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["244"]["BackgroundTransparency"]=1;
-_AGARWARE["244"]["Position"]=UDim2.new(0.02329, 0, 0.09398, 0);
-_AGARWARE["245"]=Instance.new("Frame",_AGARWARE["244"]);
-_AGARWARE["245"].Name="TCOMiscLeftSide";
-_AGARWARE["245"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["244"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["245"]=Instance.new("ScrollingFrame",_AGARWARE["16"]);
+_AGARWARE["245"].Name="TCOMiscPage";
 _AGARWARE["245"]["BorderSizePixel"]=0;
+_AGARWARE["245"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["245"]["Active"]=true;
+_AGARWARE["245"]["Size"]=UDim2.new(0, 349, 0, 233);
+_AGARWARE["245"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["245"]["Visible"]=false;
 _AGARWARE["245"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["245"]["ScrollBarThickness"]=0;
 _AGARWARE["245"]["BackgroundTransparency"]=1;
-_AGARWARE["245"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
-_AGARWARE["245"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["246"]=Instance.new("UIListLayout",_AGARWARE["245"]);
-_AGARWARE["246"].Name="UIListLayout";
-_AGARWARE["246"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["246"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["247"]=Instance.new("Frame",_AGARWARE["245"]);
-_AGARWARE["247"].Name="MiscGroup";
-_AGARWARE["247"]["Size"]=UDim2.new(0, 170, 0, 204);
-_AGARWARE["247"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["247"]["LayoutOrder"]=2;
-_AGARWARE["247"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["247"]["Position"]=UDim2.new(0, 0, 0, 0);
-_AGARWARE["247"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["248"]=Instance.new("LocalScript",_AGARWARE["247"]);
-_AGARWARE["248"].Name="MiscScript";
-_AGARWARE["249"]=Instance.new("UIListLayout",_AGARWARE["247"]);
-_AGARWARE["249"].Name="UIListLayout";
-_AGARWARE["249"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["24a"]=Instance.new("Frame",_AGARWARE["247"]);
-_AGARWARE["24a"].Name="MiscAccentColor";
-_AGARWARE["24a"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["24a"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["24a"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["24a"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["24a"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["24b"]=Instance.new("TextLabel",_AGARWARE["247"]);
-_AGARWARE["24b"].Name="MiscTitle";
-_AGARWARE["24b"]["TextWrapped"]=true;
-_AGARWARE["24b"]["BorderSizePixel"]=0;
-_AGARWARE["24b"]["TextScaled"]=true;
-_AGARWARE["24b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["24b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["24b"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["24b"]["TextSize"]=14;
-_AGARWARE["24b"]["LayoutOrder"]=1;
-_AGARWARE["24b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["24b"]["Text"]=[[More Stuff]];
-_AGARWARE["24b"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["24b"]["BackgroundTransparency"]=0.95;
-_AGARWARE["24b"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["24c"]=Instance.new("TextButton",_AGARWARE["24b"]);
-_AGARWARE["24c"].Name="MiscMinimize";
+_AGARWARE["245"]["Position"]=UDim2.new(0.02329, 0, 0.09398, 0);
+_AGARWARE["246"]=Instance.new("Frame",_AGARWARE["245"]);
+_AGARWARE["246"].Name="TCOMiscLeftSide";
+_AGARWARE["246"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["246"]["BorderSizePixel"]=0;
+_AGARWARE["246"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["246"]["BackgroundTransparency"]=1;
+_AGARWARE["246"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
+_AGARWARE["246"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["247"]=Instance.new("UIListLayout",_AGARWARE["246"]);
+_AGARWARE["247"].Name="UIListLayout";
+_AGARWARE["247"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["247"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["248"]=Instance.new("Frame",_AGARWARE["246"]);
+_AGARWARE["248"].Name="MiscGroup";
+_AGARWARE["248"]["Size"]=UDim2.new(0, 170, 0, 204);
+_AGARWARE["248"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["248"]["LayoutOrder"]=2;
+_AGARWARE["248"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["248"]["Position"]=UDim2.new(0, 0, 0, 0);
+_AGARWARE["248"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["249"]=Instance.new("LocalScript",_AGARWARE["248"]);
+_AGARWARE["249"].Name="MiscScript";
+_AGARWARE["24a"]=Instance.new("UIListLayout",_AGARWARE["248"]);
+_AGARWARE["24a"].Name="UIListLayout";
+_AGARWARE["24a"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["24b"]=Instance.new("Frame",_AGARWARE["248"]);
+_AGARWARE["24b"].Name="MiscAccentColor";
+_AGARWARE["24b"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["24b"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["24b"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["24b"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["24b"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["24c"]=Instance.new("TextLabel",_AGARWARE["248"]);
+_AGARWARE["24c"].Name="MiscTitle";
+_AGARWARE["24c"]["TextWrapped"]=true;
 _AGARWARE["24c"]["BorderSizePixel"]=0;
+_AGARWARE["24c"]["TextScaled"]=true;
 _AGARWARE["24c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["24c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["24c"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["24c"]["TextSize"]=14;
-_AGARWARE["24c"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["24c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["24c"]["BackgroundTransparency"]=1;
+_AGARWARE["24c"]["LayoutOrder"]=1;
 _AGARWARE["24c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["24c"]["Text"]=[[-]];
-_AGARWARE["24c"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["24d"]=Instance.new("Frame",_AGARWARE["247"]);
-_AGARWARE["24d"].Name="LJoinXLRow";
-_AGARWARE["24d"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["24c"]["Text"]=[[More Stuff]];
+_AGARWARE["24c"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["24c"]["BackgroundTransparency"]=0.95;
+_AGARWARE["24c"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["24d"]=Instance.new("TextButton",_AGARWARE["24c"]);
+_AGARWARE["24d"].Name="MiscMinimize";
 _AGARWARE["24d"]["BorderSizePixel"]=0;
-_AGARWARE["24d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["24d"]["LayoutOrder"]=10;
-_AGARWARE["24d"]["BackgroundTransparency"]=1;
-_AGARWARE["24d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["24d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["24e"]=Instance.new("LocalScript",_AGARWARE["24d"]);
-_AGARWARE["24e"].Name="LJoinXLScript";
-_AGARWARE["24f"]=Instance.new("TextButton",_AGARWARE["24d"]);
-_AGARWARE["24f"].Name="LJoinXLButton";
-_AGARWARE["24f"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["24f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["24f"]["TextSize"]=14;
-_AGARWARE["24f"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["24f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["24f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["24f"]["Text"]=[[Join Largest XL]];
-_AGARWARE["24f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["250"]=Instance.new("Frame",_AGARWARE["247"]);
-_AGARWARE["250"].Name="NNoclipRow";
-_AGARWARE["250"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["250"]["BorderSizePixel"]=0;
-_AGARWARE["250"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["250"]["LayoutOrder"]=2;
-_AGARWARE["250"]["BackgroundTransparency"]=1;
-_AGARWARE["250"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["250"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["251"]=Instance.new("LocalScript",_AGARWARE["250"]);
-_AGARWARE["251"].Name="NNoclipScript";
-_AGARWARE["252"]=Instance.new("TextButton",_AGARWARE["250"]);
-_AGARWARE["252"].Name="NNoclipTickBox";
-_AGARWARE["252"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["252"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["252"]["TextSize"]=14;
-_AGARWARE["252"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["252"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["252"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["252"]["Text"]=[[]];
-_AGARWARE["252"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["253"]=Instance.new("TextLabel",_AGARWARE["250"]);
-_AGARWARE["253"].Name="NNoclipText";
-_AGARWARE["253"]["BorderSizePixel"]=0;
-_AGARWARE["253"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["253"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["253"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["253"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["24d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["24d"]["TextSize"]=14;
+_AGARWARE["24d"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["24d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["24d"]["BackgroundTransparency"]=1;
+_AGARWARE["24d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["24d"]["Text"]=[[-]];
+_AGARWARE["24d"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["24e"]=Instance.new("Frame",_AGARWARE["248"]);
+_AGARWARE["24e"].Name="LJoinXLRow";
+_AGARWARE["24e"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["24e"]["BorderSizePixel"]=0;
+_AGARWARE["24e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["24e"]["LayoutOrder"]=10;
+_AGARWARE["24e"]["BackgroundTransparency"]=1;
+_AGARWARE["24e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["24e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["24f"]=Instance.new("LocalScript",_AGARWARE["24e"]);
+_AGARWARE["24f"].Name="LJoinXLScript";
+_AGARWARE["250"]=Instance.new("TextButton",_AGARWARE["24e"]);
+_AGARWARE["250"].Name="LJoinXLButton";
+_AGARWARE["250"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["250"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["250"]["TextSize"]=14;
+_AGARWARE["250"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["250"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["250"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["250"]["Text"]=[[Join Largest XL]];
+_AGARWARE["250"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["251"]=Instance.new("Frame",_AGARWARE["248"]);
+_AGARWARE["251"].Name="NNoclipRow";
+_AGARWARE["251"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["251"]["BorderSizePixel"]=0;
+_AGARWARE["251"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["251"]["LayoutOrder"]=2;
+_AGARWARE["251"]["BackgroundTransparency"]=1;
+_AGARWARE["251"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["251"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["252"]=Instance.new("LocalScript",_AGARWARE["251"]);
+_AGARWARE["252"].Name="NNoclipScript";
+_AGARWARE["253"]=Instance.new("TextButton",_AGARWARE["251"]);
+_AGARWARE["253"].Name="NNoclipTickBox";
+_AGARWARE["253"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["253"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["253"]["TextSize"]=14;
-_AGARWARE["253"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["253"]["Text"]=[[Noclip Bypass]];
-_AGARWARE["253"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["253"]["BackgroundTransparency"]=1;
-_AGARWARE["253"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["254"]=Instance.new("Frame",_AGARWARE["247"]);
-_AGARWARE["254"].Name="DecimalFixerRow";
-_AGARWARE["254"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["253"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["253"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["253"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["253"]["Text"]=[[]];
+_AGARWARE["253"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["254"]=Instance.new("TextLabel",_AGARWARE["251"]);
+_AGARWARE["254"].Name="NNoclipText";
 _AGARWARE["254"]["BorderSizePixel"]=0;
-_AGARWARE["254"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["254"]["LayoutOrder"]=2;
-_AGARWARE["254"]["BackgroundTransparency"]=1;
-_AGARWARE["254"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["254"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["255"]=Instance.new("LocalScript",_AGARWARE["254"]);
-_AGARWARE["255"].Name="DecimalFixerScript";
-_AGARWARE["256"]=Instance.new("TextButton",_AGARWARE["254"]);
-_AGARWARE["256"].Name="DecimalFixerTickBox";
-_AGARWARE["256"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["256"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["256"]["TextSize"]=14;
-_AGARWARE["256"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["256"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["256"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["256"]["Text"]=[[]];
-_AGARWARE["256"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["257"]=Instance.new("TextLabel",_AGARWARE["254"]);
-_AGARWARE["257"].Name="DecimalFixerText";
-_AGARWARE["257"]["BorderSizePixel"]=0;
-_AGARWARE["257"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["257"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["257"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["257"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["254"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["254"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["254"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["254"]["TextSize"]=14;
+_AGARWARE["254"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["254"]["Text"]=[[Noclip Bypass]];
+_AGARWARE["254"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["254"]["BackgroundTransparency"]=1;
+_AGARWARE["254"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["255"]=Instance.new("Frame",_AGARWARE["248"]);
+_AGARWARE["255"].Name="DecimalFixerRow";
+_AGARWARE["255"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["255"]["BorderSizePixel"]=0;
+_AGARWARE["255"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["255"]["LayoutOrder"]=2;
+_AGARWARE["255"]["BackgroundTransparency"]=1;
+_AGARWARE["255"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["255"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["256"]=Instance.new("LocalScript",_AGARWARE["255"]);
+_AGARWARE["256"].Name="DecimalFixerScript";
+_AGARWARE["257"]=Instance.new("TextButton",_AGARWARE["255"]);
+_AGARWARE["257"].Name="DecimalFixerTickBox";
+_AGARWARE["257"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["257"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["257"]["TextSize"]=14;
-_AGARWARE["257"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["257"]["Text"]=[[Fix Decimal Time]];
-_AGARWARE["257"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["257"]["BackgroundTransparency"]=1;
-_AGARWARE["257"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["258"]=Instance.new("Frame",_AGARWARE["247"]);
-_AGARWARE["258"].Name="OtherDecimalFixerRow";
-_AGARWARE["258"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["257"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["257"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["257"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["257"]["Text"]=[[]];
+_AGARWARE["257"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["258"]=Instance.new("TextLabel",_AGARWARE["255"]);
+_AGARWARE["258"].Name="DecimalFixerText";
 _AGARWARE["258"]["BorderSizePixel"]=0;
-_AGARWARE["258"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["258"]["LayoutOrder"]=2;
-_AGARWARE["258"]["BackgroundTransparency"]=1;
-_AGARWARE["258"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["258"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["259"]=Instance.new("LocalScript",_AGARWARE["258"]);
-_AGARWARE["259"].Name="OtherDecimalFixerScript";
-_AGARWARE["25a"]=Instance.new("TextButton",_AGARWARE["258"]);
-_AGARWARE["25a"].Name="OtherDecimalFixerTickBox";
-_AGARWARE["25a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["25a"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["25a"]["TextSize"]=14;
-_AGARWARE["25a"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["25a"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["25a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["25a"]["Text"]=[[]];
-_AGARWARE["25a"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["25b"]=Instance.new("TextLabel",_AGARWARE["258"]);
-_AGARWARE["25b"].Name="OtherDecimalFixerText";
-_AGARWARE["25b"]["BorderSizePixel"]=0;
-_AGARWARE["25b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["25b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["25b"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["25b"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["258"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["258"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["258"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["258"]["TextSize"]=14;
+_AGARWARE["258"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["258"]["Text"]=[[Fix Decimal Time]];
+_AGARWARE["258"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["258"]["BackgroundTransparency"]=1;
+_AGARWARE["258"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["259"]=Instance.new("Frame",_AGARWARE["248"]);
+_AGARWARE["259"].Name="OtherDecimalFixerRow";
+_AGARWARE["259"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["259"]["BorderSizePixel"]=0;
+_AGARWARE["259"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["259"]["LayoutOrder"]=2;
+_AGARWARE["259"]["BackgroundTransparency"]=1;
+_AGARWARE["259"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["259"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["25a"]=Instance.new("LocalScript",_AGARWARE["259"]);
+_AGARWARE["25a"].Name="OtherDecimalFixerScript";
+_AGARWARE["25b"]=Instance.new("TextButton",_AGARWARE["259"]);
+_AGARWARE["25b"].Name="OtherDecimalFixerTickBox";
+_AGARWARE["25b"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["25b"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["25b"]["TextSize"]=14;
-_AGARWARE["25b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["25b"]["Text"]=[[Fix Other Decimals]];
-_AGARWARE["25b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["25b"]["BackgroundTransparency"]=1;
-_AGARWARE["25b"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["25c"]=Instance.new("Frame",_AGARWARE["247"]);
-_AGARWARE["25c"].Name="EnliChatBlueRow";
-_AGARWARE["25c"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["25b"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["25b"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["25b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["25b"]["Text"]=[[]];
+_AGARWARE["25b"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["25c"]=Instance.new("TextLabel",_AGARWARE["259"]);
+_AGARWARE["25c"].Name="OtherDecimalFixerText";
 _AGARWARE["25c"]["BorderSizePixel"]=0;
-_AGARWARE["25c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["25c"]["LayoutOrder"]=2;
-_AGARWARE["25c"]["BackgroundTransparency"]=1;
-_AGARWARE["25c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["25c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["25d"]=Instance.new("LocalScript",_AGARWARE["25c"]);
-_AGARWARE["25d"].Name="EnliChatBlueScript";
-_AGARWARE["25e"]=Instance.new("TextButton",_AGARWARE["25c"]);
-_AGARWARE["25e"].Name="EnliChatBlueTickBox";
-_AGARWARE["25e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["25e"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["25e"]["TextSize"]=14;
-_AGARWARE["25e"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["25e"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["25e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["25e"]["Text"]=[[]];
-_AGARWARE["25e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["25f"]=Instance.new("TextLabel",_AGARWARE["25c"]);
-_AGARWARE["25f"].Name="EnliChatBlueText";
-_AGARWARE["25f"]["BorderSizePixel"]=0;
-_AGARWARE["25f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["25f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["25f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["25f"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["25c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["25c"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["25c"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["25c"]["TextSize"]=14;
+_AGARWARE["25c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["25c"]["Text"]=[[Fix Other Decimals]];
+_AGARWARE["25c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["25c"]["BackgroundTransparency"]=1;
+_AGARWARE["25c"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["25d"]=Instance.new("Frame",_AGARWARE["248"]);
+_AGARWARE["25d"].Name="EnliChatBlueRow";
+_AGARWARE["25d"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["25d"]["BorderSizePixel"]=0;
+_AGARWARE["25d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["25d"]["LayoutOrder"]=2;
+_AGARWARE["25d"]["BackgroundTransparency"]=1;
+_AGARWARE["25d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["25d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["25e"]=Instance.new("LocalScript",_AGARWARE["25d"]);
+_AGARWARE["25e"].Name="EnliChatBlueScript";
+_AGARWARE["25f"]=Instance.new("TextButton",_AGARWARE["25d"]);
+_AGARWARE["25f"].Name="EnliChatBlueTickBox";
+_AGARWARE["25f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["25f"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["25f"]["TextSize"]=14;
-_AGARWARE["25f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["25f"]["Text"]=[[Enli Icon (Chat)]];
-_AGARWARE["25f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["25f"]["BackgroundTransparency"]=1;
-_AGARWARE["25f"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["260"]=Instance.new("Frame",_AGARWARE["247"]);
-_AGARWARE["260"].Name="AutoEnliRow";
-_AGARWARE["260"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["25f"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["25f"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["25f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["25f"]["Text"]=[[]];
+_AGARWARE["25f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["260"]=Instance.new("TextLabel",_AGARWARE["25d"]);
+_AGARWARE["260"].Name="EnliChatBlueText";
 _AGARWARE["260"]["BorderSizePixel"]=0;
-_AGARWARE["260"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["260"]["LayoutOrder"]=3;
-_AGARWARE["260"]["BackgroundTransparency"]=1;
-_AGARWARE["260"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["260"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["261"]=Instance.new("LocalScript",_AGARWARE["260"]);
-_AGARWARE["261"].Name="AutoEnliScript";
-_AGARWARE["262"]=Instance.new("TextButton",_AGARWARE["260"]);
-_AGARWARE["262"].Name="AutoEnliTickBox";
-_AGARWARE["262"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["262"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["262"]["TextSize"]=14;
-_AGARWARE["262"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["262"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["262"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["262"]["Text"]=[[]];
-_AGARWARE["262"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["263"]=Instance.new("TextLabel",_AGARWARE["260"]);
-_AGARWARE["263"].Name="AutoEnliText";
-_AGARWARE["263"]["BorderSizePixel"]=0;
-_AGARWARE["263"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["263"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["263"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["263"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["260"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["260"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["260"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["260"]["TextSize"]=14;
+_AGARWARE["260"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["260"]["Text"]=[[Enli Icon (Chat)]];
+_AGARWARE["260"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["260"]["BackgroundTransparency"]=1;
+_AGARWARE["260"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["261"]=Instance.new("Frame",_AGARWARE["248"]);
+_AGARWARE["261"].Name="AutoEnliRow";
+_AGARWARE["261"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["261"]["BorderSizePixel"]=0;
+_AGARWARE["261"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["261"]["LayoutOrder"]=3;
+_AGARWARE["261"]["BackgroundTransparency"]=1;
+_AGARWARE["261"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["261"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["262"]=Instance.new("LocalScript",_AGARWARE["261"]);
+_AGARWARE["262"].Name="AutoEnliScript";
+_AGARWARE["263"]=Instance.new("TextButton",_AGARWARE["261"]);
+_AGARWARE["263"].Name="AutoEnliTickBox";
+_AGARWARE["263"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["263"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["263"]["TextSize"]=14;
-_AGARWARE["263"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["263"]["Text"]=[[Auto Equip Enli]];
-_AGARWARE["263"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["263"]["BackgroundTransparency"]=1;
-_AGARWARE["263"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["264"]=Instance.new("Frame",_AGARWARE["247"]);
-_AGARWARE["264"].Name="ChatFixRow";
-_AGARWARE["264"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["263"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["263"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["263"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["263"]["Text"]=[[]];
+_AGARWARE["263"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["264"]=Instance.new("TextLabel",_AGARWARE["261"]);
+_AGARWARE["264"].Name="AutoEnliText";
 _AGARWARE["264"]["BorderSizePixel"]=0;
-_AGARWARE["264"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["264"]["LayoutOrder"]=3;
-_AGARWARE["264"]["BackgroundTransparency"]=1;
-_AGARWARE["264"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["264"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["265"]=Instance.new("LocalScript",_AGARWARE["264"]);
-_AGARWARE["265"].Name="ChatFixScript";
-_AGARWARE["266"]=Instance.new("TextButton",_AGARWARE["264"]);
-_AGARWARE["266"].Name="ChatFixTickBox";
-_AGARWARE["266"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["266"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["266"]["TextSize"]=14;
-_AGARWARE["266"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["266"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["266"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["266"]["Text"]=[[]];
-_AGARWARE["266"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["267"]=Instance.new("TextLabel",_AGARWARE["264"]);
-_AGARWARE["267"].Name="ChatFixText";
-_AGARWARE["267"]["BorderSizePixel"]=0;
-_AGARWARE["267"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["267"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["267"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["267"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["264"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["264"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["264"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["264"]["TextSize"]=14;
+_AGARWARE["264"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["264"]["Text"]=[[Auto Equip Enli]];
+_AGARWARE["264"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["264"]["BackgroundTransparency"]=1;
+_AGARWARE["264"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["265"]=Instance.new("Frame",_AGARWARE["248"]);
+_AGARWARE["265"].Name="ChatFixRow";
+_AGARWARE["265"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["265"]["BorderSizePixel"]=0;
+_AGARWARE["265"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["265"]["LayoutOrder"]=3;
+_AGARWARE["265"]["BackgroundTransparency"]=1;
+_AGARWARE["265"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["265"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["266"]=Instance.new("LocalScript",_AGARWARE["265"]);
+_AGARWARE["266"].Name="ChatFixScript";
+_AGARWARE["267"]=Instance.new("TextButton",_AGARWARE["265"]);
+_AGARWARE["267"].Name="ChatFixTickBox";
+_AGARWARE["267"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["267"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["267"]["TextSize"]=14;
-_AGARWARE["267"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["267"]["Text"]=[[Chat Fix]];
-_AGARWARE["267"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["267"]["BackgroundTransparency"]=1;
-_AGARWARE["267"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["268"]=Instance.new("Frame",_AGARWARE["247"]);
-_AGARWARE["268"].Name="EnliLBRow";
-_AGARWARE["268"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["267"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["267"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["267"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["267"]["Text"]=[[]];
+_AGARWARE["267"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["268"]=Instance.new("TextLabel",_AGARWARE["265"]);
+_AGARWARE["268"].Name="ChatFixText";
 _AGARWARE["268"]["BorderSizePixel"]=0;
-_AGARWARE["268"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["268"]["LayoutOrder"]=2;
-_AGARWARE["268"]["BackgroundTransparency"]=1;
-_AGARWARE["268"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["268"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["269"]=Instance.new("LocalScript",_AGARWARE["268"]);
-_AGARWARE["269"].Name="EnliLBScript";
-_AGARWARE["26a"]=Instance.new("TextButton",_AGARWARE["268"]);
-_AGARWARE["26a"].Name="EnliLBTickBox";
-_AGARWARE["26a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["26a"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["26a"]["TextSize"]=14;
-_AGARWARE["26a"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["26a"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["26a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["26a"]["Text"]=[[]];
-_AGARWARE["26a"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["26b"]=Instance.new("TextLabel",_AGARWARE["268"]);
-_AGARWARE["26b"].Name="EnliLBText";
-_AGARWARE["26b"]["BorderSizePixel"]=0;
-_AGARWARE["26b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["26b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["26b"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["26b"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["268"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["268"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["268"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["268"]["TextSize"]=14;
+_AGARWARE["268"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["268"]["Text"]=[[Chat Fix]];
+_AGARWARE["268"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["268"]["BackgroundTransparency"]=1;
+_AGARWARE["268"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["269"]=Instance.new("Frame",_AGARWARE["248"]);
+_AGARWARE["269"].Name="EnliLBRow";
+_AGARWARE["269"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["269"]["BorderSizePixel"]=0;
+_AGARWARE["269"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["269"]["LayoutOrder"]=2;
+_AGARWARE["269"]["BackgroundTransparency"]=1;
+_AGARWARE["269"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["269"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["26a"]=Instance.new("LocalScript",_AGARWARE["269"]);
+_AGARWARE["26a"].Name="EnliLBScript";
+_AGARWARE["26b"]=Instance.new("TextButton",_AGARWARE["269"]);
+_AGARWARE["26b"].Name="EnliLBTickBox";
+_AGARWARE["26b"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["26b"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["26b"]["TextSize"]=14;
-_AGARWARE["26b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["26b"]["Text"]=[[Enli Icon (LB)]];
-_AGARWARE["26b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["26b"]["BackgroundTransparency"]=1;
-_AGARWARE["26b"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["26c"]=Instance.new("Frame",_AGARWARE["247"]);
-_AGARWARE["26c"].Name="BkitUIFixRow";
-_AGARWARE["26c"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["26b"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["26b"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["26b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["26b"]["Text"]=[[]];
+_AGARWARE["26b"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["26c"]=Instance.new("TextLabel",_AGARWARE["269"]);
+_AGARWARE["26c"].Name="EnliLBText";
 _AGARWARE["26c"]["BorderSizePixel"]=0;
-_AGARWARE["26c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["26c"]["LayoutOrder"]=3;
-_AGARWARE["26c"]["BackgroundTransparency"]=1;
-_AGARWARE["26c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["26c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["26d"]=Instance.new("LocalScript",_AGARWARE["26c"]);
-_AGARWARE["26d"].Name="BkitUIFixScript";
-_AGARWARE["26e"]=Instance.new("TextButton",_AGARWARE["26c"]);
-_AGARWARE["26e"].Name="BkitUIFixTickBox";
-_AGARWARE["26e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["26e"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["26e"]["TextSize"]=14;
-_AGARWARE["26e"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["26e"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["26e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["26e"]["Text"]=[[]];
-_AGARWARE["26e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["26f"]=Instance.new("TextLabel",_AGARWARE["26c"]);
-_AGARWARE["26f"].Name="BkitUIFixText";
-_AGARWARE["26f"]["BorderSizePixel"]=0;
-_AGARWARE["26f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["26f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["26f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["26f"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["26c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["26c"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["26c"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["26c"]["TextSize"]=14;
+_AGARWARE["26c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["26c"]["Text"]=[[Enli Icon (LB)]];
+_AGARWARE["26c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["26c"]["BackgroundTransparency"]=1;
+_AGARWARE["26c"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["26d"]=Instance.new("Frame",_AGARWARE["248"]);
+_AGARWARE["26d"].Name="BkitUIFixRow";
+_AGARWARE["26d"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["26d"]["BorderSizePixel"]=0;
+_AGARWARE["26d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["26d"]["LayoutOrder"]=3;
+_AGARWARE["26d"]["BackgroundTransparency"]=1;
+_AGARWARE["26d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["26d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["26e"]=Instance.new("LocalScript",_AGARWARE["26d"]);
+_AGARWARE["26e"].Name="BkitUIFixScript";
+_AGARWARE["26f"]=Instance.new("TextButton",_AGARWARE["26d"]);
+_AGARWARE["26f"].Name="BkitUIFixTickBox";
+_AGARWARE["26f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["26f"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["26f"]["TextSize"]=14;
-_AGARWARE["26f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["26f"]["Text"]=[[B-Kit UI Fix]];
-_AGARWARE["26f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["26f"]["BackgroundTransparency"]=1;
-_AGARWARE["26f"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["270"]=Instance.new("Frame",_AGARWARE["245"]);
-_AGARWARE["270"].Name="BoomboxGroup";
-_AGARWARE["270"]["Size"]=UDim2.new(0, 170, 0, 160);
-_AGARWARE["270"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["270"]["LayoutOrder"]=2;
-_AGARWARE["270"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["270"]["Position"]=UDim2.new(0, 0, 0.51944, 0);
-_AGARWARE["270"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["271"]=Instance.new("LocalScript",_AGARWARE["270"]);
-_AGARWARE["271"].Name="BoomboxScript";
-_AGARWARE["272"]=Instance.new("LocalScript",_AGARWARE["270"]);
-_AGARWARE["272"].Name="BoomboxTooltip";
-_AGARWARE["273"]=Instance.new("UIListLayout",_AGARWARE["270"]);
-_AGARWARE["273"].Name="UIListLayout";
-_AGARWARE["273"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["274"]=Instance.new("Frame",_AGARWARE["270"]);
-_AGARWARE["274"].Name="BoomboxAccentColor";
-_AGARWARE["274"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["274"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["274"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["274"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["274"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["275"]=Instance.new("TextLabel",_AGARWARE["270"]);
-_AGARWARE["275"].Name="BoomboxTitle";
-_AGARWARE["275"]["TextWrapped"]=true;
-_AGARWARE["275"]["BorderSizePixel"]=0;
-_AGARWARE["275"]["TextScaled"]=true;
-_AGARWARE["275"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["275"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["275"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["275"]["TextSize"]=14;
-_AGARWARE["275"]["LayoutOrder"]=1;
-_AGARWARE["275"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["275"]["Text"]=[[Boombox]];
-_AGARWARE["275"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["275"]["BackgroundTransparency"]=0.95;
-_AGARWARE["275"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["276"]=Instance.new("TextButton",_AGARWARE["275"]);
-_AGARWARE["276"].Name="BoomboxMinimize";
+_AGARWARE["26f"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["26f"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["26f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["26f"]["Text"]=[[]];
+_AGARWARE["26f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["270"]=Instance.new("TextLabel",_AGARWARE["26d"]);
+_AGARWARE["270"].Name="BkitUIFixText";
+_AGARWARE["270"]["BorderSizePixel"]=0;
+_AGARWARE["270"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["270"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["270"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["270"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["270"]["TextSize"]=14;
+_AGARWARE["270"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["270"]["Text"]=[[B-Kit UI Fix]];
+_AGARWARE["270"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["270"]["BackgroundTransparency"]=1;
+_AGARWARE["270"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["271"]=Instance.new("Frame",_AGARWARE["246"]);
+_AGARWARE["271"].Name="BoomboxGroup";
+_AGARWARE["271"]["Size"]=UDim2.new(0, 170, 0, 160);
+_AGARWARE["271"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["271"]["LayoutOrder"]=2;
+_AGARWARE["271"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["271"]["Position"]=UDim2.new(0, 0, 0.51944, 0);
+_AGARWARE["271"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["272"]=Instance.new("LocalScript",_AGARWARE["271"]);
+_AGARWARE["272"].Name="BoomboxScript";
+_AGARWARE["273"]=Instance.new("LocalScript",_AGARWARE["271"]);
+_AGARWARE["273"].Name="BoomboxTooltip";
+_AGARWARE["274"]=Instance.new("UIListLayout",_AGARWARE["271"]);
+_AGARWARE["274"].Name="UIListLayout";
+_AGARWARE["274"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["275"]=Instance.new("Frame",_AGARWARE["271"]);
+_AGARWARE["275"].Name="BoomboxAccentColor";
+_AGARWARE["275"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["275"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["275"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["275"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["275"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["276"]=Instance.new("TextLabel",_AGARWARE["271"]);
+_AGARWARE["276"].Name="BoomboxTitle";
+_AGARWARE["276"]["TextWrapped"]=true;
 _AGARWARE["276"]["BorderSizePixel"]=0;
+_AGARWARE["276"]["TextScaled"]=true;
 _AGARWARE["276"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["276"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["276"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["276"]["TextSize"]=14;
-_AGARWARE["276"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["276"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["276"]["BackgroundTransparency"]=1;
+_AGARWARE["276"]["LayoutOrder"]=1;
 _AGARWARE["276"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["276"]["Text"]=[[-]];
-_AGARWARE["276"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["277"]=Instance.new("Frame",_AGARWARE["270"]);
-_AGARWARE["277"].Name="BoomVolRow";
-_AGARWARE["277"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["276"]["Text"]=[[Boombox]];
+_AGARWARE["276"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["276"]["BackgroundTransparency"]=0.95;
+_AGARWARE["276"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["277"]=Instance.new("TextButton",_AGARWARE["276"]);
+_AGARWARE["277"].Name="BoomboxMinimize";
 _AGARWARE["277"]["BorderSizePixel"]=0;
-_AGARWARE["277"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["277"]["LayoutOrder"]=2;
-_AGARWARE["277"]["BackgroundTransparency"]=1;
-_AGARWARE["277"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["277"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["278"]=Instance.new("LocalScript",_AGARWARE["277"]);
-_AGARWARE["278"].Name="BoomVolScript";
-_AGARWARE["279"]=Instance.new("TextButton",_AGARWARE["277"]);
-_AGARWARE["279"].Name="BoomVolTickBox";
-_AGARWARE["279"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["279"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["279"]["TextSize"]=14;
-_AGARWARE["279"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["279"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["279"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["279"]["Text"]=[[]];
-_AGARWARE["279"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["27a"]=Instance.new("TextLabel",_AGARWARE["277"]);
-_AGARWARE["27a"].Name="BoomVolText";
-_AGARWARE["27a"]["BorderSizePixel"]=0;
-_AGARWARE["27a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["27a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["27a"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["27a"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["277"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["277"]["TextSize"]=14;
+_AGARWARE["277"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["277"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["277"]["BackgroundTransparency"]=1;
+_AGARWARE["277"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["277"]["Text"]=[[-]];
+_AGARWARE["277"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["278"]=Instance.new("Frame",_AGARWARE["271"]);
+_AGARWARE["278"].Name="BoomVolRow";
+_AGARWARE["278"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["278"]["BorderSizePixel"]=0;
+_AGARWARE["278"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["278"]["LayoutOrder"]=2;
+_AGARWARE["278"]["BackgroundTransparency"]=1;
+_AGARWARE["278"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["278"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["279"]=Instance.new("LocalScript",_AGARWARE["278"]);
+_AGARWARE["279"].Name="BoomVolScript";
+_AGARWARE["27a"]=Instance.new("TextButton",_AGARWARE["278"]);
+_AGARWARE["27a"].Name="BoomVolTickBox";
+_AGARWARE["27a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["27a"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["27a"]["TextSize"]=14;
-_AGARWARE["27a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["27a"]["Text"]=[[Volume]];
-_AGARWARE["27a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["27a"]["BackgroundTransparency"]=1;
-_AGARWARE["27a"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["27b"]=Instance.new("TextBox",_AGARWARE["277"]);
-_AGARWARE["27b"].Name="BoomVolChanger";
-_AGARWARE["27b"]["TextWrapped"]=true;
-_AGARWARE["27b"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["27b"]["TextScaled"]=true;
-_AGARWARE["27b"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["27a"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["27a"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["27a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["27a"]["Text"]=[[]];
+_AGARWARE["27a"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["27b"]=Instance.new("TextLabel",_AGARWARE["278"]);
+_AGARWARE["27b"].Name="BoomVolText";
+_AGARWARE["27b"]["BorderSizePixel"]=0;
+_AGARWARE["27b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["27b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["27b"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["27b"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["27b"]["TextSize"]=14;
-_AGARWARE["27b"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["27b"]["PlaceholderText"]=[[(100)]];
-_AGARWARE["27b"]["Size"]=UDim2.new(0, 46, 0, 16);
-_AGARWARE["27b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["27b"]["Text"]=[[]];
-_AGARWARE["27b"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
-_AGARWARE["27c"]=Instance.new("Frame",_AGARWARE["270"]);
-_AGARWARE["27c"].Name="MuteTacoRow";
-_AGARWARE["27c"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["27c"]["BorderSizePixel"]=0;
-_AGARWARE["27c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["27c"]["LayoutOrder"]=2;
-_AGARWARE["27c"]["BackgroundTransparency"]=1;
-_AGARWARE["27c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["27c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["27d"]=Instance.new("LocalScript",_AGARWARE["27c"]);
-_AGARWARE["27d"].Name="MuteTacoScript";
-_AGARWARE["27e"]=Instance.new("TextButton",_AGARWARE["27c"]);
-_AGARWARE["27e"].Name="MuteTacoTickBox";
-_AGARWARE["27e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["27e"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["27e"]["TextSize"]=14;
-_AGARWARE["27e"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["27e"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["27e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["27e"]["Text"]=[[]];
-_AGARWARE["27e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["27f"]=Instance.new("TextLabel",_AGARWARE["27c"]);
-_AGARWARE["27f"].Name="MuteTacoText";
-_AGARWARE["27f"]["BorderSizePixel"]=0;
-_AGARWARE["27f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["27f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["27f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["27f"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["27b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["27b"]["Text"]=[[Volume]];
+_AGARWARE["27b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["27b"]["BackgroundTransparency"]=1;
+_AGARWARE["27b"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["27c"]=Instance.new("TextBox",_AGARWARE["278"]);
+_AGARWARE["27c"].Name="BoomVolChanger";
+_AGARWARE["27c"]["TextWrapped"]=true;
+_AGARWARE["27c"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["27c"]["TextScaled"]=true;
+_AGARWARE["27c"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["27c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["27c"]["TextSize"]=14;
+_AGARWARE["27c"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["27c"]["PlaceholderText"]=[[(100)]];
+_AGARWARE["27c"]["Size"]=UDim2.new(0, 46, 0, 16);
+_AGARWARE["27c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["27c"]["Text"]=[[]];
+_AGARWARE["27c"]["Position"]=UDim2.new(0.69822, 0, 0.16, 0);
+_AGARWARE["27d"]=Instance.new("Frame",_AGARWARE["271"]);
+_AGARWARE["27d"].Name="MuteTacoRow";
+_AGARWARE["27d"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["27d"]["BorderSizePixel"]=0;
+_AGARWARE["27d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["27d"]["LayoutOrder"]=2;
+_AGARWARE["27d"]["BackgroundTransparency"]=1;
+_AGARWARE["27d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["27d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["27e"]=Instance.new("LocalScript",_AGARWARE["27d"]);
+_AGARWARE["27e"].Name="MuteTacoScript";
+_AGARWARE["27f"]=Instance.new("TextButton",_AGARWARE["27d"]);
+_AGARWARE["27f"].Name="MuteTacoTickBox";
+_AGARWARE["27f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["27f"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["27f"]["TextSize"]=14;
-_AGARWARE["27f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["27f"]["Text"]=[[Mute Taco Song]];
-_AGARWARE["27f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["27f"]["BackgroundTransparency"]=1;
-_AGARWARE["27f"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["280"]=Instance.new("Frame",_AGARWARE["270"]);
-_AGARWARE["280"].Name="ClickBoomRow";
-_AGARWARE["280"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["27f"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["27f"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["27f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["27f"]["Text"]=[[]];
+_AGARWARE["27f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["280"]=Instance.new("TextLabel",_AGARWARE["27d"]);
+_AGARWARE["280"].Name="MuteTacoText";
 _AGARWARE["280"]["BorderSizePixel"]=0;
-_AGARWARE["280"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["280"]["LayoutOrder"]=2;
-_AGARWARE["280"]["BackgroundTransparency"]=1;
-_AGARWARE["280"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["280"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["281"]=Instance.new("LocalScript",_AGARWARE["280"]);
-_AGARWARE["281"].Name="ClickBoomScript";
-_AGARWARE["282"]=Instance.new("TextButton",_AGARWARE["280"]);
-_AGARWARE["282"].Name="ClickBoomTickBox";
-_AGARWARE["282"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["282"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["282"]["TextSize"]=14;
-_AGARWARE["282"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["282"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["282"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["282"]["Text"]=[[]];
-_AGARWARE["282"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["283"]=Instance.new("TextLabel",_AGARWARE["280"]);
-_AGARWARE["283"].Name="ClickBoomText";
-_AGARWARE["283"]["BorderSizePixel"]=0;
-_AGARWARE["283"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["283"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["283"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["283"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["280"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["280"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["280"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["280"]["TextSize"]=14;
+_AGARWARE["280"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["280"]["Text"]=[[Mute Taco Song]];
+_AGARWARE["280"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["280"]["BackgroundTransparency"]=1;
+_AGARWARE["280"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["281"]=Instance.new("Frame",_AGARWARE["271"]);
+_AGARWARE["281"].Name="ClickBoomRow";
+_AGARWARE["281"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["281"]["BorderSizePixel"]=0;
+_AGARWARE["281"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["281"]["LayoutOrder"]=2;
+_AGARWARE["281"]["BackgroundTransparency"]=1;
+_AGARWARE["281"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["281"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["282"]=Instance.new("LocalScript",_AGARWARE["281"]);
+_AGARWARE["282"].Name="ClickBoomScript";
+_AGARWARE["283"]=Instance.new("TextButton",_AGARWARE["281"]);
+_AGARWARE["283"].Name="ClickBoomTickBox";
+_AGARWARE["283"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["283"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["283"]["TextSize"]=14;
-_AGARWARE["283"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["283"]["Text"]=[[Click to Log]];
-_AGARWARE["283"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["283"]["BackgroundTransparency"]=1;
-_AGARWARE["283"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["284"]=Instance.new("Frame",_AGARWARE["270"]);
-_AGARWARE["284"].Name="AutoPlayRow";
-_AGARWARE["284"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["283"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["283"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["283"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["283"]["Text"]=[[]];
+_AGARWARE["283"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["284"]=Instance.new("TextLabel",_AGARWARE["281"]);
+_AGARWARE["284"].Name="ClickBoomText";
 _AGARWARE["284"]["BorderSizePixel"]=0;
-_AGARWARE["284"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["284"]["LayoutOrder"]=3;
-_AGARWARE["284"]["BackgroundTransparency"]=1;
-_AGARWARE["284"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["284"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["285"]=Instance.new("LocalScript",_AGARWARE["284"]);
-_AGARWARE["285"].Name="AutoPlayScript";
-_AGARWARE["286"]=Instance.new("TextBox",_AGARWARE["284"]);
-_AGARWARE["286"].Name="AutoPlayChanger";
-_AGARWARE["286"]["TextWrapped"]=true;
-_AGARWARE["286"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["286"]["TextScaled"]=true;
-_AGARWARE["286"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["286"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["286"]["TextSize"]=14;
-_AGARWARE["286"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["286"]["PlaceholderText"]=[[(142376088)]];
-_AGARWARE["286"]["Size"]=UDim2.new(0, 134, 0, 16);
-_AGARWARE["286"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["286"]["Text"]=[[]];
-_AGARWARE["286"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
-_AGARWARE["287"]=Instance.new("TextButton",_AGARWARE["284"]);
-_AGARWARE["287"].Name="AutoPlayTickBox";
+_AGARWARE["284"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["284"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["284"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["284"]["TextSize"]=14;
+_AGARWARE["284"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["284"]["Text"]=[[Click to Log]];
+_AGARWARE["284"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["284"]["BackgroundTransparency"]=1;
+_AGARWARE["284"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["285"]=Instance.new("Frame",_AGARWARE["271"]);
+_AGARWARE["285"].Name="AutoPlayRow";
+_AGARWARE["285"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["285"]["BorderSizePixel"]=0;
+_AGARWARE["285"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["285"]["LayoutOrder"]=3;
+_AGARWARE["285"]["BackgroundTransparency"]=1;
+_AGARWARE["285"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["285"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["286"]=Instance.new("LocalScript",_AGARWARE["285"]);
+_AGARWARE["286"].Name="AutoPlayScript";
+_AGARWARE["287"]=Instance.new("TextBox",_AGARWARE["285"]);
+_AGARWARE["287"].Name="AutoPlayChanger";
+_AGARWARE["287"]["TextWrapped"]=true;
+_AGARWARE["287"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["287"]["TextScaled"]=true;
 _AGARWARE["287"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["287"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["287"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["287"]["TextSize"]=14;
-_AGARWARE["287"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["287"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["287"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["287"]["PlaceholderText"]=[[(142376088)]];
+_AGARWARE["287"]["Size"]=UDim2.new(0, 134, 0, 16);
 _AGARWARE["287"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
 _AGARWARE["287"]["Text"]=[[]];
-_AGARWARE["287"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["288"]=Instance.new("Frame",_AGARWARE["270"]);
-_AGARWARE["288"].Name="DisableBoomboxRow";
-_AGARWARE["288"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["288"]["BorderSizePixel"]=0;
-_AGARWARE["288"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["288"]["LayoutOrder"]=2;
-_AGARWARE["288"]["BackgroundTransparency"]=1;
-_AGARWARE["288"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["288"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["289"]=Instance.new("LocalScript",_AGARWARE["288"]);
-_AGARWARE["289"].Name="DisableBoomboxScript";
-_AGARWARE["28a"]=Instance.new("TextButton",_AGARWARE["288"]);
-_AGARWARE["28a"].Name="DisableBoomboxTickBox";
-_AGARWARE["28a"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["28a"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["28a"]["TextSize"]=14;
-_AGARWARE["28a"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["28a"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["28a"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["28a"]["Text"]=[[]];
-_AGARWARE["28a"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["28b"]=Instance.new("TextLabel",_AGARWARE["288"]);
-_AGARWARE["28b"].Name="DisableBoomboxText";
-_AGARWARE["28b"]["BorderSizePixel"]=0;
-_AGARWARE["28b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["28b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["28b"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["28b"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["287"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
+_AGARWARE["288"]=Instance.new("TextButton",_AGARWARE["285"]);
+_AGARWARE["288"].Name="AutoPlayTickBox";
+_AGARWARE["288"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["288"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["288"]["TextSize"]=14;
+_AGARWARE["288"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["288"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["288"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["288"]["Text"]=[[]];
+_AGARWARE["288"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["289"]=Instance.new("Frame",_AGARWARE["271"]);
+_AGARWARE["289"].Name="DisableBoomboxRow";
+_AGARWARE["289"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["289"]["BorderSizePixel"]=0;
+_AGARWARE["289"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["289"]["LayoutOrder"]=2;
+_AGARWARE["289"]["BackgroundTransparency"]=1;
+_AGARWARE["289"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["289"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["28a"]=Instance.new("LocalScript",_AGARWARE["289"]);
+_AGARWARE["28a"].Name="DisableBoomboxScript";
+_AGARWARE["28b"]=Instance.new("TextButton",_AGARWARE["289"]);
+_AGARWARE["28b"].Name="DisableBoomboxTickBox";
+_AGARWARE["28b"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["28b"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["28b"]["TextSize"]=14;
-_AGARWARE["28b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["28b"]["Text"]=[[Disable Boombox UI]];
-_AGARWARE["28b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["28b"]["BackgroundTransparency"]=1;
-_AGARWARE["28b"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["28c"]=Instance.new("Frame",_AGARWARE["270"]);
-_AGARWARE["28c"].Name="EquipBoomboxRow";
-_AGARWARE["28c"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["28b"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["28b"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["28b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["28b"]["Text"]=[[]];
+_AGARWARE["28b"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["28c"]=Instance.new("TextLabel",_AGARWARE["289"]);
+_AGARWARE["28c"].Name="DisableBoomboxText";
 _AGARWARE["28c"]["BorderSizePixel"]=0;
-_AGARWARE["28c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["28c"]["LayoutOrder"]=12;
-_AGARWARE["28c"]["BackgroundTransparency"]=1;
-_AGARWARE["28c"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["28c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["28d"]=Instance.new("LocalScript",_AGARWARE["28c"]);
-_AGARWARE["28d"].Name="EquipBoomboxScript";
-_AGARWARE["28e"]=Instance.new("TextButton",_AGARWARE["28c"]);
-_AGARWARE["28e"].Name="EquipBoomboxButton";
-_AGARWARE["28e"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["28e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["28e"]["TextSize"]=14;
-_AGARWARE["28e"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["28e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["28e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["28e"]["Text"]=[[Equip 1 Boombox (echo)]];
-_AGARWARE["28e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["28f"]=Instance.new("Frame",_AGARWARE["270"]);
-_AGARWARE["28f"].Name="EquipBoomboxesRow";
-_AGARWARE["28f"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["28f"]["BorderSizePixel"]=0;
-_AGARWARE["28f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["28f"]["LayoutOrder"]=11;
-_AGARWARE["28f"]["BackgroundTransparency"]=1;
-_AGARWARE["28f"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["28f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["290"]=Instance.new("LocalScript",_AGARWARE["28f"]);
-_AGARWARE["290"].Name="EquipBoomboxesScript";
-_AGARWARE["291"]=Instance.new("TextButton",_AGARWARE["28f"]);
-_AGARWARE["291"].Name="EquipBoomboxesButton";
-_AGARWARE["291"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["291"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["291"]["TextSize"]=14;
-_AGARWARE["291"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["291"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["291"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["291"]["Text"]=[[Equip All Boomboxes]];
-_AGARWARE["291"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["292"]=Instance.new("Frame",_AGARWARE["244"]);
-_AGARWARE["292"].Name="TCOMiscRightSide";
-_AGARWARE["292"]["Size"]=UDim2.new(0, 170, 0, 360);
-_AGARWARE["292"]["BorderSizePixel"]=0;
-_AGARWARE["292"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["292"]["BackgroundTransparency"]=1;
-_AGARWARE["292"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
-_AGARWARE["292"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["293"]=Instance.new("UIListLayout",_AGARWARE["292"]);
-_AGARWARE["293"].Name="UIListLayout";
-_AGARWARE["293"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["293"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["294"]=Instance.new("Frame",_AGARWARE["292"]);
-_AGARWARE["294"].Name="AlertGroup";
-_AGARWARE["294"]["Size"]=UDim2.new(0, 170, 0, 144);
-_AGARWARE["294"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["294"]["LayoutOrder"]=2;
-_AGARWARE["294"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["294"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["295"]=Instance.new("LocalScript",_AGARWARE["294"]);
-_AGARWARE["295"].Name="AlertScript";
-_AGARWARE["296"]=Instance.new("UIListLayout",_AGARWARE["294"]);
-_AGARWARE["296"].Name="UIListLayout";
-_AGARWARE["296"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["297"]=Instance.new("Frame",_AGARWARE["294"]);
-_AGARWARE["297"].Name="AlertAccentColor";
-_AGARWARE["297"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["297"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["297"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["297"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["297"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["298"]=Instance.new("TextLabel",_AGARWARE["294"]);
-_AGARWARE["298"].Name="AlertTitle";
-_AGARWARE["298"]["TextWrapped"]=true;
-_AGARWARE["298"]["BorderSizePixel"]=0;
-_AGARWARE["298"]["TextScaled"]=true;
-_AGARWARE["298"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["298"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["298"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["298"]["TextSize"]=14;
-_AGARWARE["298"]["LayoutOrder"]=1;
-_AGARWARE["298"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["298"]["Text"]=[[Chat Alerts]];
-_AGARWARE["298"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["298"]["BackgroundTransparency"]=0.95;
-_AGARWARE["298"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["299"]=Instance.new("TextButton",_AGARWARE["298"]);
-_AGARWARE["299"].Name="AlertMinimize";
+_AGARWARE["28c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["28c"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["28c"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["28c"]["TextSize"]=14;
+_AGARWARE["28c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["28c"]["Text"]=[[Disable Boombox UI]];
+_AGARWARE["28c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["28c"]["BackgroundTransparency"]=1;
+_AGARWARE["28c"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["28d"]=Instance.new("Frame",_AGARWARE["271"]);
+_AGARWARE["28d"].Name="EquipBoomboxRow";
+_AGARWARE["28d"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["28d"]["BorderSizePixel"]=0;
+_AGARWARE["28d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["28d"]["LayoutOrder"]=12;
+_AGARWARE["28d"]["BackgroundTransparency"]=1;
+_AGARWARE["28d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["28d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["28e"]=Instance.new("LocalScript",_AGARWARE["28d"]);
+_AGARWARE["28e"].Name="EquipBoomboxScript";
+_AGARWARE["28f"]=Instance.new("TextButton",_AGARWARE["28d"]);
+_AGARWARE["28f"].Name="EquipBoomboxButton";
+_AGARWARE["28f"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["28f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["28f"]["TextSize"]=14;
+_AGARWARE["28f"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["28f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["28f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["28f"]["Text"]=[[Equip 1 Boombox (echo)]];
+_AGARWARE["28f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["290"]=Instance.new("Frame",_AGARWARE["271"]);
+_AGARWARE["290"].Name="EquipBoomboxesRow";
+_AGARWARE["290"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["290"]["BorderSizePixel"]=0;
+_AGARWARE["290"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["290"]["LayoutOrder"]=11;
+_AGARWARE["290"]["BackgroundTransparency"]=1;
+_AGARWARE["290"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["290"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["291"]=Instance.new("LocalScript",_AGARWARE["290"]);
+_AGARWARE["291"].Name="EquipBoomboxesScript";
+_AGARWARE["292"]=Instance.new("TextButton",_AGARWARE["290"]);
+_AGARWARE["292"].Name="EquipBoomboxesButton";
+_AGARWARE["292"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["292"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["292"]["TextSize"]=14;
+_AGARWARE["292"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["292"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["292"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["292"]["Text"]=[[Equip All Boomboxes]];
+_AGARWARE["292"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["293"]=Instance.new("Frame",_AGARWARE["245"]);
+_AGARWARE["293"].Name="TCOMiscRightSide";
+_AGARWARE["293"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["293"]["BorderSizePixel"]=0;
+_AGARWARE["293"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["293"]["BackgroundTransparency"]=1;
+_AGARWARE["293"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
+_AGARWARE["293"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["294"]=Instance.new("UIListLayout",_AGARWARE["293"]);
+_AGARWARE["294"].Name="UIListLayout";
+_AGARWARE["294"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["294"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["295"]=Instance.new("Frame",_AGARWARE["293"]);
+_AGARWARE["295"].Name="AlertGroup";
+_AGARWARE["295"]["Size"]=UDim2.new(0, 170, 0, 144);
+_AGARWARE["295"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["295"]["LayoutOrder"]=2;
+_AGARWARE["295"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["295"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["296"]=Instance.new("LocalScript",_AGARWARE["295"]);
+_AGARWARE["296"].Name="AlertScript";
+_AGARWARE["297"]=Instance.new("UIListLayout",_AGARWARE["295"]);
+_AGARWARE["297"].Name="UIListLayout";
+_AGARWARE["297"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["298"]=Instance.new("Frame",_AGARWARE["295"]);
+_AGARWARE["298"].Name="AlertAccentColor";
+_AGARWARE["298"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["298"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["298"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["298"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["298"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["299"]=Instance.new("TextLabel",_AGARWARE["295"]);
+_AGARWARE["299"].Name="AlertTitle";
+_AGARWARE["299"]["TextWrapped"]=true;
 _AGARWARE["299"]["BorderSizePixel"]=0;
+_AGARWARE["299"]["TextScaled"]=true;
 _AGARWARE["299"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["299"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["299"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["299"]["TextSize"]=14;
-_AGARWARE["299"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["299"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["299"]["BackgroundTransparency"]=1;
+_AGARWARE["299"]["LayoutOrder"]=1;
 _AGARWARE["299"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["299"]["Text"]=[[-]];
-_AGARWARE["299"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["29a"]=Instance.new("Frame",_AGARWARE["294"]);
-_AGARWARE["29a"].Name="DonateSpyRow";
-_AGARWARE["29a"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["299"]["Text"]=[[Chat Alerts]];
+_AGARWARE["299"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["299"]["BackgroundTransparency"]=0.95;
+_AGARWARE["299"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["29a"]=Instance.new("TextButton",_AGARWARE["299"]);
+_AGARWARE["29a"].Name="AlertMinimize";
 _AGARWARE["29a"]["BorderSizePixel"]=0;
-_AGARWARE["29a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["29a"]["LayoutOrder"]=6;
-_AGARWARE["29a"]["BackgroundTransparency"]=1;
-_AGARWARE["29a"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["29a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["29b"]=Instance.new("TextButton",_AGARWARE["29a"]);
-_AGARWARE["29b"].Name="DonateSpyTickBox";
-_AGARWARE["29b"]["ZIndex"]=5;
-_AGARWARE["29b"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["29b"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["29b"]["TextSize"]=14;
-_AGARWARE["29b"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["29b"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["29b"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["29b"]["Text"]=[[]];
-_AGARWARE["29b"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["29c"]=Instance.new("TextLabel",_AGARWARE["29a"]);
-_AGARWARE["29c"].Name="DonateSpyText";
-_AGARWARE["29c"]["BorderSizePixel"]=0;
-_AGARWARE["29c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["29c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["29c"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["29c"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["29a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["29a"]["TextSize"]=14;
+_AGARWARE["29a"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["29a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["29a"]["BackgroundTransparency"]=1;
+_AGARWARE["29a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["29a"]["Text"]=[[-]];
+_AGARWARE["29a"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["29b"]=Instance.new("Frame",_AGARWARE["295"]);
+_AGARWARE["29b"].Name="DonateSpyRow";
+_AGARWARE["29b"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["29b"]["BorderSizePixel"]=0;
+_AGARWARE["29b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["29b"]["LayoutOrder"]=6;
+_AGARWARE["29b"]["BackgroundTransparency"]=1;
+_AGARWARE["29b"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["29b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["29c"]=Instance.new("TextButton",_AGARWARE["29b"]);
+_AGARWARE["29c"].Name="DonateSpyTickBox";
+_AGARWARE["29c"]["ZIndex"]=5;
+_AGARWARE["29c"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["29c"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["29c"]["TextSize"]=14;
-_AGARWARE["29c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["29c"]["Text"]=[[Alert Donations]];
-_AGARWARE["29c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["29c"]["BackgroundTransparency"]=1;
-_AGARWARE["29c"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["29d"]=Instance.new("Frame",_AGARWARE["294"]);
-_AGARWARE["29d"].Name="MutedSpyRow";
-_AGARWARE["29d"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["29c"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["29c"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["29c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["29c"]["Text"]=[[]];
+_AGARWARE["29c"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["29d"]=Instance.new("TextLabel",_AGARWARE["29b"]);
+_AGARWARE["29d"].Name="DonateSpyText";
 _AGARWARE["29d"]["BorderSizePixel"]=0;
-_AGARWARE["29d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["29d"]["LayoutOrder"]=6;
-_AGARWARE["29d"]["BackgroundTransparency"]=1;
-_AGARWARE["29d"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["29d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["29e"]=Instance.new("TextButton",_AGARWARE["29d"]);
-_AGARWARE["29e"].Name="MutedSpyTickBox";
-_AGARWARE["29e"]["ZIndex"]=5;
-_AGARWARE["29e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["29e"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["29e"]["TextSize"]=14;
-_AGARWARE["29e"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["29e"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["29e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["29e"]["Text"]=[[]];
-_AGARWARE["29e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["29f"]=Instance.new("TextLabel",_AGARWARE["29d"]);
-_AGARWARE["29f"].Name="MutedSpyText";
-_AGARWARE["29f"]["BorderSizePixel"]=0;
-_AGARWARE["29f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["29f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["29f"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["29f"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["29d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["29d"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["29d"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["29d"]["TextSize"]=14;
+_AGARWARE["29d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["29d"]["Text"]=[[Alert Donations]];
+_AGARWARE["29d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["29d"]["BackgroundTransparency"]=1;
+_AGARWARE["29d"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["29e"]=Instance.new("Frame",_AGARWARE["295"]);
+_AGARWARE["29e"].Name="MutedSpyRow";
+_AGARWARE["29e"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["29e"]["BorderSizePixel"]=0;
+_AGARWARE["29e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["29e"]["LayoutOrder"]=6;
+_AGARWARE["29e"]["BackgroundTransparency"]=1;
+_AGARWARE["29e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["29e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["29f"]=Instance.new("TextButton",_AGARWARE["29e"]);
+_AGARWARE["29f"].Name="MutedSpyTickBox";
+_AGARWARE["29f"]["ZIndex"]=5;
+_AGARWARE["29f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["29f"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["29f"]["TextSize"]=14;
-_AGARWARE["29f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["29f"]["Text"]=[[Alert Muted Msgs]];
-_AGARWARE["29f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["29f"]["BackgroundTransparency"]=1;
-_AGARWARE["29f"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["2a0"]=Instance.new("Frame",_AGARWARE["294"]);
-_AGARWARE["2a0"].Name="EnlightenLogRow";
-_AGARWARE["2a0"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["29f"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["29f"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["29f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["29f"]["Text"]=[[]];
+_AGARWARE["29f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["2a0"]=Instance.new("TextLabel",_AGARWARE["29e"]);
+_AGARWARE["2a0"].Name="MutedSpyText";
 _AGARWARE["2a0"]["BorderSizePixel"]=0;
-_AGARWARE["2a0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2a0"]["LayoutOrder"]=7;
-_AGARWARE["2a0"]["BackgroundTransparency"]=1;
-_AGARWARE["2a0"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["2a0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2a1"]=Instance.new("LocalScript",_AGARWARE["2a0"]);
-_AGARWARE["2a1"].Name="EnlightenLogScript";
-_AGARWARE["2a2"]=Instance.new("TextButton",_AGARWARE["2a0"]);
-_AGARWARE["2a2"].Name="EnlightenLogTickBox";
-_AGARWARE["2a2"]["ZIndex"]=5;
-_AGARWARE["2a2"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2a2"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2a2"]["TextSize"]=14;
-_AGARWARE["2a2"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["2a2"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2a2"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2a2"]["Text"]=[[]];
-_AGARWARE["2a2"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["2a3"]=Instance.new("TextLabel",_AGARWARE["2a0"]);
-_AGARWARE["2a3"].Name="EnlightenLogText";
-_AGARWARE["2a3"]["BorderSizePixel"]=0;
-_AGARWARE["2a3"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2a3"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2a3"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2a3"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2a0"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2a0"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2a0"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2a0"]["TextSize"]=14;
+_AGARWARE["2a0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2a0"]["Text"]=[[Alert Muted Msgs]];
+_AGARWARE["2a0"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2a0"]["BackgroundTransparency"]=1;
+_AGARWARE["2a0"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["2a1"]=Instance.new("Frame",_AGARWARE["295"]);
+_AGARWARE["2a1"].Name="EnlightenLogRow";
+_AGARWARE["2a1"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2a1"]["BorderSizePixel"]=0;
+_AGARWARE["2a1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2a1"]["LayoutOrder"]=7;
+_AGARWARE["2a1"]["BackgroundTransparency"]=1;
+_AGARWARE["2a1"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2a1"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2a2"]=Instance.new("LocalScript",_AGARWARE["2a1"]);
+_AGARWARE["2a2"].Name="EnlightenLogScript";
+_AGARWARE["2a3"]=Instance.new("TextButton",_AGARWARE["2a1"]);
+_AGARWARE["2a3"].Name="EnlightenLogTickBox";
+_AGARWARE["2a3"]["ZIndex"]=5;
+_AGARWARE["2a3"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2a3"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["2a3"]["TextSize"]=14;
-_AGARWARE["2a3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2a3"]["Text"]=[[Alert Enlighteners]];
-_AGARWARE["2a3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2a3"]["BackgroundTransparency"]=1;
-_AGARWARE["2a3"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["2a4"]=Instance.new("Frame",_AGARWARE["294"]);
-_AGARWARE["2a4"].Name="ArkSpyRow";
-_AGARWARE["2a4"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2a3"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["2a3"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2a3"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2a3"]["Text"]=[[]];
+_AGARWARE["2a3"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["2a4"]=Instance.new("TextLabel",_AGARWARE["2a1"]);
+_AGARWARE["2a4"].Name="EnlightenLogText";
 _AGARWARE["2a4"]["BorderSizePixel"]=0;
-_AGARWARE["2a4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2a4"]["LayoutOrder"]=6;
-_AGARWARE["2a4"]["BackgroundTransparency"]=1;
-_AGARWARE["2a4"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["2a4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2a5"]=Instance.new("TextButton",_AGARWARE["2a4"]);
-_AGARWARE["2a5"].Name="ArkSpyTickBox";
-_AGARWARE["2a5"]["ZIndex"]=5;
-_AGARWARE["2a5"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2a5"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2a5"]["TextSize"]=14;
-_AGARWARE["2a5"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["2a5"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2a5"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2a5"]["Text"]=[[]];
-_AGARWARE["2a5"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["2a6"]=Instance.new("TextLabel",_AGARWARE["2a4"]);
-_AGARWARE["2a6"].Name="ArkSpyText";
-_AGARWARE["2a6"]["BorderSizePixel"]=0;
-_AGARWARE["2a6"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2a6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2a6"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2a6"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2a4"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2a4"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2a4"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2a4"]["TextSize"]=14;
+_AGARWARE["2a4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2a4"]["Text"]=[[Alert Enlighteners]];
+_AGARWARE["2a4"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2a4"]["BackgroundTransparency"]=1;
+_AGARWARE["2a4"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["2a5"]=Instance.new("Frame",_AGARWARE["295"]);
+_AGARWARE["2a5"].Name="ArkSpyRow";
+_AGARWARE["2a5"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2a5"]["BorderSizePixel"]=0;
+_AGARWARE["2a5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2a5"]["LayoutOrder"]=6;
+_AGARWARE["2a5"]["BackgroundTransparency"]=1;
+_AGARWARE["2a5"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2a5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2a6"]=Instance.new("TextButton",_AGARWARE["2a5"]);
+_AGARWARE["2a6"].Name="ArkSpyTickBox";
+_AGARWARE["2a6"]["ZIndex"]=5;
+_AGARWARE["2a6"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2a6"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["2a6"]["TextSize"]=14;
-_AGARWARE["2a6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2a6"]["Text"]=[[Alert Hidden Cmds]];
-_AGARWARE["2a6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2a6"]["BackgroundTransparency"]=1;
-_AGARWARE["2a6"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["2a7"]=Instance.new("Frame",_AGARWARE["294"]);
-_AGARWARE["2a7"].Name="BkitDeleteRow";
-_AGARWARE["2a7"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2a6"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["2a6"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2a6"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2a6"]["Text"]=[[]];
+_AGARWARE["2a6"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["2a7"]=Instance.new("TextLabel",_AGARWARE["2a5"]);
+_AGARWARE["2a7"].Name="ArkSpyText";
 _AGARWARE["2a7"]["BorderSizePixel"]=0;
-_AGARWARE["2a7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2a7"]["LayoutOrder"]=7;
-_AGARWARE["2a7"]["BackgroundTransparency"]=1;
-_AGARWARE["2a7"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["2a7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2a8"]=Instance.new("LocalScript",_AGARWARE["2a7"]);
-_AGARWARE["2a8"].Name="BkitDeleteScript";
-_AGARWARE["2a9"]=Instance.new("TextButton",_AGARWARE["2a7"]);
-_AGARWARE["2a9"].Name="BkitDeleteTickBox";
-_AGARWARE["2a9"]["ZIndex"]=5;
-_AGARWARE["2a9"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2a9"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2a9"]["TextSize"]=14;
-_AGARWARE["2a9"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["2a9"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2a9"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2a9"]["Text"]=[[]];
-_AGARWARE["2a9"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["2aa"]=Instance.new("TextLabel",_AGARWARE["2a7"]);
-_AGARWARE["2aa"].Name="BkitDeleteText";
-_AGARWARE["2aa"]["BorderSizePixel"]=0;
-_AGARWARE["2aa"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2aa"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2aa"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2aa"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2a7"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2a7"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2a7"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2a7"]["TextSize"]=14;
+_AGARWARE["2a7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2a7"]["Text"]=[[Alert Hidden Cmds]];
+_AGARWARE["2a7"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2a7"]["BackgroundTransparency"]=1;
+_AGARWARE["2a7"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["2a8"]=Instance.new("Frame",_AGARWARE["295"]);
+_AGARWARE["2a8"].Name="BkitDeleteRow";
+_AGARWARE["2a8"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2a8"]["BorderSizePixel"]=0;
+_AGARWARE["2a8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2a8"]["LayoutOrder"]=7;
+_AGARWARE["2a8"]["BackgroundTransparency"]=1;
+_AGARWARE["2a8"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2a8"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2a9"]=Instance.new("LocalScript",_AGARWARE["2a8"]);
+_AGARWARE["2a9"].Name="BkitDeleteScript";
+_AGARWARE["2aa"]=Instance.new("TextButton",_AGARWARE["2a8"]);
+_AGARWARE["2aa"].Name="BkitDeleteTickBox";
+_AGARWARE["2aa"]["ZIndex"]=5;
+_AGARWARE["2aa"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2aa"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["2aa"]["TextSize"]=14;
-_AGARWARE["2aa"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2aa"]["Text"]=[[Alert Bkit Disabler]];
-_AGARWARE["2aa"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2aa"]["BackgroundTransparency"]=1;
-_AGARWARE["2aa"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["2ab"]=Instance.new("Frame",_AGARWARE["294"]);
-_AGARWARE["2ab"].Name="RepPaintsRow";
-_AGARWARE["2ab"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2aa"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["2aa"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2aa"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2aa"]["Text"]=[[]];
+_AGARWARE["2aa"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["2ab"]=Instance.new("TextLabel",_AGARWARE["2a8"]);
+_AGARWARE["2ab"].Name="BkitDeleteText";
 _AGARWARE["2ab"]["BorderSizePixel"]=0;
-_AGARWARE["2ab"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2ab"]["LayoutOrder"]=8;
-_AGARWARE["2ab"]["BackgroundTransparency"]=1;
-_AGARWARE["2ab"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["2ab"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2ac"]=Instance.new("LocalScript",_AGARWARE["2ab"]);
-_AGARWARE["2ac"].Name="RepPaintsScript";
-_AGARWARE["2ad"]=Instance.new("TextButton",_AGARWARE["2ab"]);
-_AGARWARE["2ad"].Name="RepPaintsTickBox";
-_AGARWARE["2ad"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2ad"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2ad"]["TextSize"]=14;
-_AGARWARE["2ad"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["2ad"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2ad"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2ad"]["Text"]=[[]];
-_AGARWARE["2ad"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["2ae"]=Instance.new("TextLabel",_AGARWARE["2ab"]);
-_AGARWARE["2ae"].Name="RepPaintsText";
-_AGARWARE["2ae"]["BorderSizePixel"]=0;
-_AGARWARE["2ae"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2ae"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2ae"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2ae"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2ab"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2ab"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2ab"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2ab"]["TextSize"]=14;
+_AGARWARE["2ab"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2ab"]["Text"]=[[Alert Bkit Disabler]];
+_AGARWARE["2ab"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2ab"]["BackgroundTransparency"]=1;
+_AGARWARE["2ab"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["2ac"]=Instance.new("Frame",_AGARWARE["295"]);
+_AGARWARE["2ac"].Name="RepPaintsRow";
+_AGARWARE["2ac"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2ac"]["BorderSizePixel"]=0;
+_AGARWARE["2ac"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2ac"]["LayoutOrder"]=8;
+_AGARWARE["2ac"]["BackgroundTransparency"]=1;
+_AGARWARE["2ac"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2ac"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2ad"]=Instance.new("LocalScript",_AGARWARE["2ac"]);
+_AGARWARE["2ad"].Name="RepPaintsScript";
+_AGARWARE["2ae"]=Instance.new("TextButton",_AGARWARE["2ac"]);
+_AGARWARE["2ae"].Name="RepPaintsTickBox";
+_AGARWARE["2ae"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2ae"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["2ae"]["TextSize"]=14;
-_AGARWARE["2ae"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2ae"]["Text"]=[[Alert Rep Changes]];
-_AGARWARE["2ae"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2ae"]["BackgroundTransparency"]=1;
-_AGARWARE["2ae"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["2af"]=Instance.new("Frame",_AGARWARE["292"]);
-_AGARWARE["2af"].Name="PlayerAlertGroup";
-_AGARWARE["2af"]["Size"]=UDim2.new(0, 170, 0, 62);
-_AGARWARE["2af"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2af"]["LayoutOrder"]=2;
-_AGARWARE["2af"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["2af"]["Position"]=UDim2.new(0, 0, 0.41944, 0);
-_AGARWARE["2af"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["2b0"]=Instance.new("LocalScript",_AGARWARE["2af"]);
-_AGARWARE["2b0"].Name="PlayerAlertTooltip";
-_AGARWARE["2b1"]=Instance.new("LocalScript",_AGARWARE["2af"]);
-_AGARWARE["2b1"].Name="PlayerAlertScript";
-_AGARWARE["2b2"]=Instance.new("UIListLayout",_AGARWARE["2af"]);
-_AGARWARE["2b2"].Name="UIListLayout";
-_AGARWARE["2b2"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["2b3"]=Instance.new("Frame",_AGARWARE["2af"]);
-_AGARWARE["2b3"].Name="PlayerAlertAccentColor";
-_AGARWARE["2b3"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["2b3"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["2b3"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["2b3"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["2b3"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["2b4"]=Instance.new("TextLabel",_AGARWARE["2af"]);
-_AGARWARE["2b4"].Name="PlayerAlertTitle";
-_AGARWARE["2b4"]["TextWrapped"]=true;
-_AGARWARE["2b4"]["BorderSizePixel"]=0;
-_AGARWARE["2b4"]["TextScaled"]=true;
-_AGARWARE["2b4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2b4"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2b4"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["2b4"]["TextSize"]=14;
-_AGARWARE["2b4"]["LayoutOrder"]=1;
-_AGARWARE["2b4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2b4"]["Text"]=[[Player Alerts]];
-_AGARWARE["2b4"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["2b4"]["BackgroundTransparency"]=0.95;
-_AGARWARE["2b4"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["2b5"]=Instance.new("TextButton",_AGARWARE["2b4"]);
-_AGARWARE["2b5"].Name="PlayerAlertMinimize";
+_AGARWARE["2ae"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["2ae"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2ae"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2ae"]["Text"]=[[]];
+_AGARWARE["2ae"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["2af"]=Instance.new("TextLabel",_AGARWARE["2ac"]);
+_AGARWARE["2af"].Name="RepPaintsText";
+_AGARWARE["2af"]["BorderSizePixel"]=0;
+_AGARWARE["2af"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2af"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2af"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2af"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2af"]["TextSize"]=14;
+_AGARWARE["2af"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2af"]["Text"]=[[Alert Rep Changes]];
+_AGARWARE["2af"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2af"]["BackgroundTransparency"]=1;
+_AGARWARE["2af"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["2b0"]=Instance.new("Frame",_AGARWARE["293"]);
+_AGARWARE["2b0"].Name="PlayerAlertGroup";
+_AGARWARE["2b0"]["Size"]=UDim2.new(0, 170, 0, 62);
+_AGARWARE["2b0"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2b0"]["LayoutOrder"]=2;
+_AGARWARE["2b0"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["2b0"]["Position"]=UDim2.new(0, 0, 0.41944, 0);
+_AGARWARE["2b0"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["2b1"]=Instance.new("LocalScript",_AGARWARE["2b0"]);
+_AGARWARE["2b1"].Name="PlayerAlertTooltip";
+_AGARWARE["2b2"]=Instance.new("LocalScript",_AGARWARE["2b0"]);
+_AGARWARE["2b2"].Name="PlayerAlertScript";
+_AGARWARE["2b3"]=Instance.new("UIListLayout",_AGARWARE["2b0"]);
+_AGARWARE["2b3"].Name="UIListLayout";
+_AGARWARE["2b3"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["2b4"]=Instance.new("Frame",_AGARWARE["2b0"]);
+_AGARWARE["2b4"].Name="PlayerAlertAccentColor";
+_AGARWARE["2b4"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["2b4"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["2b4"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["2b4"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["2b4"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["2b5"]=Instance.new("TextLabel",_AGARWARE["2b0"]);
+_AGARWARE["2b5"].Name="PlayerAlertTitle";
+_AGARWARE["2b5"]["TextWrapped"]=true;
 _AGARWARE["2b5"]["BorderSizePixel"]=0;
+_AGARWARE["2b5"]["TextScaled"]=true;
 _AGARWARE["2b5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["2b5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2b5"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["2b5"]["TextSize"]=14;
-_AGARWARE["2b5"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["2b5"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2b5"]["BackgroundTransparency"]=1;
+_AGARWARE["2b5"]["LayoutOrder"]=1;
 _AGARWARE["2b5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2b5"]["Text"]=[[-]];
-_AGARWARE["2b5"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["2b6"]=Instance.new("Frame",_AGARWARE["2af"]);
-_AGARWARE["2b6"].Name="WelcomeRow";
-_AGARWARE["2b6"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2b5"]["Text"]=[[Player Alerts]];
+_AGARWARE["2b5"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["2b5"]["BackgroundTransparency"]=0.95;
+_AGARWARE["2b5"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["2b6"]=Instance.new("TextButton",_AGARWARE["2b5"]);
+_AGARWARE["2b6"].Name="PlayerAlertMinimize";
 _AGARWARE["2b6"]["BorderSizePixel"]=0;
-_AGARWARE["2b6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2b6"]["LayoutOrder"]=2;
-_AGARWARE["2b6"]["BackgroundTransparency"]=1;
-_AGARWARE["2b6"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["2b6"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2b7"]=Instance.new("LocalScript",_AGARWARE["2b6"]);
-_AGARWARE["2b7"].Name="WelcomeScript";
-_AGARWARE["2b8"]=Instance.new("TextButton",_AGARWARE["2b6"]);
-_AGARWARE["2b8"].Name="WelcomeTickBox";
-_AGARWARE["2b8"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2b8"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2b8"]["TextSize"]=14;
-_AGARWARE["2b8"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["2b8"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2b8"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2b8"]["Text"]=[[]];
-_AGARWARE["2b8"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["2b9"]=Instance.new("TextLabel",_AGARWARE["2b6"]);
-_AGARWARE["2b9"].Name="WelcomeText";
-_AGARWARE["2b9"]["BorderSizePixel"]=0;
-_AGARWARE["2b9"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2b9"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2b9"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2b9"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2b6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2b6"]["TextSize"]=14;
+_AGARWARE["2b6"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["2b6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2b6"]["BackgroundTransparency"]=1;
+_AGARWARE["2b6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2b6"]["Text"]=[[-]];
+_AGARWARE["2b6"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["2b7"]=Instance.new("Frame",_AGARWARE["2b0"]);
+_AGARWARE["2b7"].Name="WelcomeRow";
+_AGARWARE["2b7"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2b7"]["BorderSizePixel"]=0;
+_AGARWARE["2b7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2b7"]["LayoutOrder"]=2;
+_AGARWARE["2b7"]["BackgroundTransparency"]=1;
+_AGARWARE["2b7"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2b7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2b8"]=Instance.new("LocalScript",_AGARWARE["2b7"]);
+_AGARWARE["2b8"].Name="WelcomeScript";
+_AGARWARE["2b9"]=Instance.new("TextButton",_AGARWARE["2b7"]);
+_AGARWARE["2b9"].Name="WelcomeTickBox";
+_AGARWARE["2b9"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2b9"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["2b9"]["TextSize"]=14;
-_AGARWARE["2b9"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2b9"]["Text"]=[[Welcome Messages]];
-_AGARWARE["2b9"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2b9"]["BackgroundTransparency"]=1;
-_AGARWARE["2b9"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["2ba"]=Instance.new("Frame",_AGARWARE["2af"]);
-_AGARWARE["2ba"].Name="WelcomeMSGRow";
-_AGARWARE["2ba"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2b9"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["2b9"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2b9"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2b9"]["Text"]=[[]];
+_AGARWARE["2b9"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["2ba"]=Instance.new("TextLabel",_AGARWARE["2b7"]);
+_AGARWARE["2ba"].Name="WelcomeText";
 _AGARWARE["2ba"]["BorderSizePixel"]=0;
-_AGARWARE["2ba"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2ba"]["LayoutOrder"]=3;
-_AGARWARE["2ba"]["BackgroundTransparency"]=1;
-_AGARWARE["2ba"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["2ba"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2bb"]=Instance.new("LocalScript",_AGARWARE["2ba"]);
-_AGARWARE["2bb"].Name="WelcomeMSGScript";
-_AGARWARE["2bc"]=Instance.new("TextBox",_AGARWARE["2ba"]);
-_AGARWARE["2bc"].Name="WelcomeMSGChanger";
-_AGARWARE["2bc"]["TextWrapped"]=true;
-_AGARWARE["2bc"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["2bc"]["TextScaled"]=true;
-_AGARWARE["2bc"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2bc"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2bc"]["TextSize"]=14;
-_AGARWARE["2bc"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["2bc"]["Size"]=UDim2.new(0, 134, 0, 16);
-_AGARWARE["2bc"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2bc"]["Text"]=[[]];
-_AGARWARE["2bc"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
-_AGARWARE["2bc"]["ClearTextOnFocus"]=false;
-_AGARWARE["2bd"]=Instance.new("TextButton",_AGARWARE["2ba"]);
-_AGARWARE["2bd"].Name="WelcomeMSGHelp";
-_AGARWARE["2bd"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["2bd"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["2ba"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2ba"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2ba"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2ba"]["TextSize"]=14;
+_AGARWARE["2ba"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2ba"]["Text"]=[[Welcome Messages]];
+_AGARWARE["2ba"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2ba"]["BackgroundTransparency"]=1;
+_AGARWARE["2ba"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["2bb"]=Instance.new("Frame",_AGARWARE["2b0"]);
+_AGARWARE["2bb"].Name="WelcomeMSGRow";
+_AGARWARE["2bb"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2bb"]["BorderSizePixel"]=0;
+_AGARWARE["2bb"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2bb"]["LayoutOrder"]=3;
+_AGARWARE["2bb"]["BackgroundTransparency"]=1;
+_AGARWARE["2bb"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2bb"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2bc"]=Instance.new("LocalScript",_AGARWARE["2bb"]);
+_AGARWARE["2bc"].Name="WelcomeMSGScript";
+_AGARWARE["2bd"]=Instance.new("TextBox",_AGARWARE["2bb"]);
+_AGARWARE["2bd"].Name="WelcomeMSGChanger";
+_AGARWARE["2bd"]["TextWrapped"]=true;
+_AGARWARE["2bd"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["2bd"]["TextScaled"]=true;
+_AGARWARE["2bd"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2bd"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["2bd"]["TextSize"]=14;
-_AGARWARE["2bd"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["2bd"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["2bd"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["2bd"]["Text"]=[[?]];
-_AGARWARE["2bd"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["2be"]=Instance.new("TextButton",_AGARWARE["15"]);
-_AGARWARE["2be"].Name="OPENCONSOLE";
-_AGARWARE["2be"]["LayoutOrder"]=5;
-_AGARWARE["2be"]["TextWrapped"]=true;
-_AGARWARE["2be"]["TextScaled"]=true;
-_AGARWARE["2be"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2be"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2be"]["TextSize"]=12;
-_AGARWARE["2be"]["Size"]=UDim2.new(0, 60, 0, 25);
-_AGARWARE["2be"]["TextColor3"]=Color3.fromRGB(125, 125, 125);
-_AGARWARE["2be"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2be"]["Text"]=[[OPEN CONSOLE]];
-_AGARWARE["2be"]["Position"]=UDim2.new(-0.186, 0, 0.906, 0);
-_AGARWARE["2bf"]=Instance.new("LocalScript",_AGARWARE["2be"]);
-_AGARWARE["2bf"].Name="LocalScript";
-_AGARWARE["2c0"]=Instance.new("ScrollingFrame",_AGARWARE["15"]);
-_AGARWARE["2c0"].Name="MenuPage";
-_AGARWARE["2c0"]["BorderSizePixel"]=0;
-_AGARWARE["2c0"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["2c0"]["Active"]=true;
-_AGARWARE["2c0"]["Size"]=UDim2.new(0, 349, 0, 250);
-_AGARWARE["2c0"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2c0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2c0"]["ScrollBarThickness"]=0;
-_AGARWARE["2c0"]["BackgroundTransparency"]=1;
-_AGARWARE["2c0"]["Position"]=UDim2.new(0.02329, 0, 0.03008, 0);
-_AGARWARE["2c1"]=Instance.new("Frame",_AGARWARE["2c0"]);
-_AGARWARE["2c1"].Name="MenuLeftSide";
-_AGARWARE["2c1"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["2bd"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["2bd"]["Size"]=UDim2.new(0, 134, 0, 16);
+_AGARWARE["2bd"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2bd"]["Text"]=[[]];
+_AGARWARE["2bd"]["Position"]=UDim2.new(0.17751, 0, 0.16, 0);
+_AGARWARE["2bd"]["ClearTextOnFocus"]=false;
+_AGARWARE["2be"]=Instance.new("TextButton",_AGARWARE["2bb"]);
+_AGARWARE["2be"].Name="WelcomeMSGHelp";
+_AGARWARE["2be"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["2be"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["2be"]["TextSize"]=14;
+_AGARWARE["2be"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["2be"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["2be"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["2be"]["Text"]=[[?]];
+_AGARWARE["2be"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["2bf"]=Instance.new("TextButton",_AGARWARE["16"]);
+_AGARWARE["2bf"].Name="OPENCONSOLE";
+_AGARWARE["2bf"]["LayoutOrder"]=5;
+_AGARWARE["2bf"]["TextWrapped"]=true;
+_AGARWARE["2bf"]["TextScaled"]=true;
+_AGARWARE["2bf"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2bf"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2bf"]["TextSize"]=12;
+_AGARWARE["2bf"]["Size"]=UDim2.new(0, 60, 0, 25);
+_AGARWARE["2bf"]["TextColor3"]=Color3.fromRGB(125, 125, 125);
+_AGARWARE["2bf"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2bf"]["Text"]=[[OPEN CONSOLE]];
+_AGARWARE["2bf"]["Position"]=UDim2.new(-0.186, 0, 0.906, 0);
+_AGARWARE["2c0"]=Instance.new("LocalScript",_AGARWARE["2bf"]);
+_AGARWARE["2c0"].Name="LocalScript";
+_AGARWARE["2c1"]=Instance.new("ScrollingFrame",_AGARWARE["16"]);
+_AGARWARE["2c1"].Name="MenuPage";
 _AGARWARE["2c1"]["BorderSizePixel"]=0;
+_AGARWARE["2c1"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["2c1"]["Active"]=true;
+_AGARWARE["2c1"]["Size"]=UDim2.new(0, 349, 0, 250);
+_AGARWARE["2c1"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["2c1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2c1"]["ScrollBarThickness"]=0;
 _AGARWARE["2c1"]["BackgroundTransparency"]=1;
-_AGARWARE["2c1"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
-_AGARWARE["2c1"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["2c2"]=Instance.new("UIListLayout",_AGARWARE["2c1"]);
-_AGARWARE["2c2"].Name="UIListLayout";
-_AGARWARE["2c2"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["2c2"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["2c3"]=Instance.new("Frame",_AGARWARE["2c1"]);
-_AGARWARE["2c3"].Name="ServerGroup";
-_AGARWARE["2c3"]["Size"]=UDim2.new(0, 170, 0, 103);
-_AGARWARE["2c3"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2c3"]["LayoutOrder"]=2;
-_AGARWARE["2c3"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["2c3"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["2c4"]=Instance.new("LocalScript",_AGARWARE["2c3"]);
-_AGARWARE["2c4"].Name="ServerScript";
-_AGARWARE["2c5"]=Instance.new("UIListLayout",_AGARWARE["2c3"]);
-_AGARWARE["2c5"].Name="UIListLayout";
-_AGARWARE["2c5"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["2c6"]=Instance.new("Frame",_AGARWARE["2c3"]);
-_AGARWARE["2c6"].Name="ServerAccentColor";
-_AGARWARE["2c6"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["2c6"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["2c6"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["2c6"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["2c6"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["2c7"]=Instance.new("TextLabel",_AGARWARE["2c3"]);
-_AGARWARE["2c7"].Name="ServerTitle";
-_AGARWARE["2c7"]["TextWrapped"]=true;
-_AGARWARE["2c7"]["BorderSizePixel"]=0;
-_AGARWARE["2c7"]["TextScaled"]=true;
-_AGARWARE["2c7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2c7"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2c7"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["2c7"]["TextSize"]=14;
-_AGARWARE["2c7"]["LayoutOrder"]=1;
-_AGARWARE["2c7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2c7"]["Text"]=[[Server Info]];
-_AGARWARE["2c7"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["2c7"]["BackgroundTransparency"]=0.95;
-_AGARWARE["2c7"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["2c8"]=Instance.new("TextButton",_AGARWARE["2c7"]);
-_AGARWARE["2c8"].Name="ServerMinimize";
+_AGARWARE["2c1"]["Position"]=UDim2.new(0.02329, 0, 0.03008, 0);
+_AGARWARE["2c2"]=Instance.new("Frame",_AGARWARE["2c1"]);
+_AGARWARE["2c2"].Name="MenuLeftSide";
+_AGARWARE["2c2"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["2c2"]["BorderSizePixel"]=0;
+_AGARWARE["2c2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2c2"]["BackgroundTransparency"]=1;
+_AGARWARE["2c2"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
+_AGARWARE["2c2"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["2c3"]=Instance.new("UIListLayout",_AGARWARE["2c2"]);
+_AGARWARE["2c3"].Name="UIListLayout";
+_AGARWARE["2c3"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["2c3"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["2c4"]=Instance.new("Frame",_AGARWARE["2c2"]);
+_AGARWARE["2c4"].Name="ServerGroup";
+_AGARWARE["2c4"]["Size"]=UDim2.new(0, 170, 0, 103);
+_AGARWARE["2c4"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2c4"]["LayoutOrder"]=2;
+_AGARWARE["2c4"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["2c4"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["2c5"]=Instance.new("LocalScript",_AGARWARE["2c4"]);
+_AGARWARE["2c5"].Name="ServerScript";
+_AGARWARE["2c6"]=Instance.new("UIListLayout",_AGARWARE["2c4"]);
+_AGARWARE["2c6"].Name="UIListLayout";
+_AGARWARE["2c6"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["2c7"]=Instance.new("Frame",_AGARWARE["2c4"]);
+_AGARWARE["2c7"].Name="ServerAccentColor";
+_AGARWARE["2c7"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["2c7"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["2c7"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["2c7"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["2c7"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["2c8"]=Instance.new("TextLabel",_AGARWARE["2c4"]);
+_AGARWARE["2c8"].Name="ServerTitle";
+_AGARWARE["2c8"]["TextWrapped"]=true;
 _AGARWARE["2c8"]["BorderSizePixel"]=0;
+_AGARWARE["2c8"]["TextScaled"]=true;
 _AGARWARE["2c8"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["2c8"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2c8"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["2c8"]["TextSize"]=14;
-_AGARWARE["2c8"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["2c8"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2c8"]["BackgroundTransparency"]=1;
+_AGARWARE["2c8"]["LayoutOrder"]=1;
 _AGARWARE["2c8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2c8"]["Text"]=[[-]];
-_AGARWARE["2c8"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["2c9"]=Instance.new("Frame",_AGARWARE["2c3"]);
-_AGARWARE["2c9"].Name="PlayersRow";
-_AGARWARE["2c9"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2c8"]["Text"]=[[Server Info]];
+_AGARWARE["2c8"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["2c8"]["BackgroundTransparency"]=0.95;
+_AGARWARE["2c8"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["2c9"]=Instance.new("TextButton",_AGARWARE["2c8"]);
+_AGARWARE["2c9"].Name="ServerMinimize";
 _AGARWARE["2c9"]["BorderSizePixel"]=0;
-_AGARWARE["2c9"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2c9"]["LayoutOrder"]=1;
-_AGARWARE["2c9"]["BackgroundTransparency"]=1;
-_AGARWARE["2c9"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["2c9"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2ca"]=Instance.new("TextLabel",_AGARWARE["2c9"]);
-_AGARWARE["2ca"].Name="Text";
+_AGARWARE["2c9"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2c9"]["TextSize"]=14;
+_AGARWARE["2c9"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["2c9"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2c9"]["BackgroundTransparency"]=1;
+_AGARWARE["2c9"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2c9"]["Text"]=[[-]];
+_AGARWARE["2c9"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["2ca"]=Instance.new("Frame",_AGARWARE["2c4"]);
+_AGARWARE["2ca"].Name="PlayersRow";
+_AGARWARE["2ca"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["2ca"]["BorderSizePixel"]=0;
-_AGARWARE["2ca"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2ca"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2ca"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2ca"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["2ca"]["TextSize"]=14;
 _AGARWARE["2ca"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2ca"]["Text"]=[[👥 Players:]];
-_AGARWARE["2ca"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2ca"]["LayoutOrder"]=1;
 _AGARWARE["2ca"]["BackgroundTransparency"]=1;
-_AGARWARE["2ca"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["2cb"]=Instance.new("Frame",_AGARWARE["2c3"]);
-_AGARWARE["2cb"].Name="RegionRow";
-_AGARWARE["2cb"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2ca"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2ca"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2cb"]=Instance.new("TextLabel",_AGARWARE["2ca"]);
+_AGARWARE["2cb"].Name="Text";
 _AGARWARE["2cb"]["BorderSizePixel"]=0;
-_AGARWARE["2cb"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2cb"]["LayoutOrder"]=2;
-_AGARWARE["2cb"]["BackgroundTransparency"]=1;
-_AGARWARE["2cb"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["2cb"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2cc"]=Instance.new("TextLabel",_AGARWARE["2cb"]);
-_AGARWARE["2cc"].Name="Text";
+_AGARWARE["2cb"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2cb"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2cb"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2cb"]["TextSize"]=14;
+_AGARWARE["2cb"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2cb"]["Text"]=[[👥 Players:]];
+_AGARWARE["2cb"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2cb"]["BackgroundTransparency"]=1;
+_AGARWARE["2cb"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["2cc"]=Instance.new("Frame",_AGARWARE["2c4"]);
+_AGARWARE["2cc"].Name="RegionRow";
+_AGARWARE["2cc"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["2cc"]["BorderSizePixel"]=0;
-_AGARWARE["2cc"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2cc"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2cc"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2cc"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["2cc"]["TextSize"]=14;
 _AGARWARE["2cc"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2cc"]["Text"]=[[🌐 Region:]];
-_AGARWARE["2cc"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2cc"]["LayoutOrder"]=2;
 _AGARWARE["2cc"]["BackgroundTransparency"]=1;
-_AGARWARE["2cc"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["2cd"]=Instance.new("Frame",_AGARWARE["2c3"]);
-_AGARWARE["2cd"].Name="UptimeRow";
-_AGARWARE["2cd"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2cc"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2cc"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2cd"]=Instance.new("TextLabel",_AGARWARE["2cc"]);
+_AGARWARE["2cd"].Name="Text";
 _AGARWARE["2cd"]["BorderSizePixel"]=0;
-_AGARWARE["2cd"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2cd"]["LayoutOrder"]=3;
-_AGARWARE["2cd"]["BackgroundTransparency"]=1;
-_AGARWARE["2cd"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["2cd"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2ce"]=Instance.new("TextLabel",_AGARWARE["2cd"]);
-_AGARWARE["2ce"].Name="Text";
+_AGARWARE["2cd"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2cd"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2cd"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2cd"]["TextSize"]=14;
+_AGARWARE["2cd"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2cd"]["Text"]=[[🌐 Region:]];
+_AGARWARE["2cd"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2cd"]["BackgroundTransparency"]=1;
+_AGARWARE["2cd"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["2ce"]=Instance.new("Frame",_AGARWARE["2c4"]);
+_AGARWARE["2ce"].Name="UptimeRow";
+_AGARWARE["2ce"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["2ce"]["BorderSizePixel"]=0;
-_AGARWARE["2ce"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2ce"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2ce"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2ce"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["2ce"]["TextSize"]=14;
 _AGARWARE["2ce"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2ce"]["Text"]=[[⌛ Uptime:]];
-_AGARWARE["2ce"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2ce"]["LayoutOrder"]=3;
 _AGARWARE["2ce"]["BackgroundTransparency"]=1;
-_AGARWARE["2ce"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["2cf"]=Instance.new("Frame",_AGARWARE["2c3"]);
-_AGARWARE["2cf"].Name="LatencyRow";
-_AGARWARE["2cf"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2ce"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2ce"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2cf"]=Instance.new("TextLabel",_AGARWARE["2ce"]);
+_AGARWARE["2cf"].Name="Text";
 _AGARWARE["2cf"]["BorderSizePixel"]=0;
-_AGARWARE["2cf"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2cf"]["LayoutOrder"]=4;
-_AGARWARE["2cf"]["BackgroundTransparency"]=1;
-_AGARWARE["2cf"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["2cf"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2d0"]=Instance.new("TextLabel",_AGARWARE["2cf"]);
-_AGARWARE["2d0"].Name="Text";
+_AGARWARE["2cf"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2cf"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2cf"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2cf"]["TextSize"]=14;
+_AGARWARE["2cf"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2cf"]["Text"]=[[⌛ Uptime:]];
+_AGARWARE["2cf"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2cf"]["BackgroundTransparency"]=1;
+_AGARWARE["2cf"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["2d0"]=Instance.new("Frame",_AGARWARE["2c4"]);
+_AGARWARE["2d0"].Name="LatencyRow";
+_AGARWARE["2d0"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["2d0"]["BorderSizePixel"]=0;
-_AGARWARE["2d0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2d0"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2d0"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2d0"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["2d0"]["TextSize"]=14;
 _AGARWARE["2d0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2d0"]["Text"]=[[📶 Latency:]];
-_AGARWARE["2d0"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2d0"]["LayoutOrder"]=4;
 _AGARWARE["2d0"]["BackgroundTransparency"]=1;
-_AGARWARE["2d0"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["2d1"]=Instance.new("Frame",_AGARWARE["2c1"]);
-_AGARWARE["2d1"].Name="SuggestionGroup";
-_AGARWARE["2d1"]["Size"]=UDim2.new(0, 170, 0, 187);
-_AGARWARE["2d1"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2d1"]["LayoutOrder"]=2;
-_AGARWARE["2d1"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["2d1"]["Position"]=UDim2.new(0, 0, 0.38333, 0);
-_AGARWARE["2d1"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["2d2"]=Instance.new("LocalScript",_AGARWARE["2d1"]);
-_AGARWARE["2d2"].Name="SuggestionScript";
-_AGARWARE["2d3"]=Instance.new("UIListLayout",_AGARWARE["2d1"]);
-_AGARWARE["2d3"].Name="UIListLayout";
-_AGARWARE["2d3"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["2d4"]=Instance.new("Frame",_AGARWARE["2d1"]);
-_AGARWARE["2d4"].Name="SuggestionAccentColor";
-_AGARWARE["2d4"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["2d4"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["2d4"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["2d4"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["2d4"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["2d5"]=Instance.new("TextLabel",_AGARWARE["2d1"]);
-_AGARWARE["2d5"].Name="SuggestionTitle";
-_AGARWARE["2d5"]["TextWrapped"]=true;
-_AGARWARE["2d5"]["BorderSizePixel"]=0;
-_AGARWARE["2d5"]["TextScaled"]=true;
-_AGARWARE["2d5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2d5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2d5"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["2d5"]["TextSize"]=14;
-_AGARWARE["2d5"]["LayoutOrder"]=1;
-_AGARWARE["2d5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2d5"]["Text"]=[[Suggestions/Bugs]];
-_AGARWARE["2d5"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["2d5"]["BackgroundTransparency"]=0.95;
-_AGARWARE["2d5"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["2d6"]=Instance.new("TextButton",_AGARWARE["2d5"]);
-_AGARWARE["2d6"].Name="SuggestionMinimize";
+_AGARWARE["2d0"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2d0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2d1"]=Instance.new("TextLabel",_AGARWARE["2d0"]);
+_AGARWARE["2d1"].Name="Text";
+_AGARWARE["2d1"]["BorderSizePixel"]=0;
+_AGARWARE["2d1"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2d1"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2d1"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2d1"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["2d1"]["TextSize"]=14;
+_AGARWARE["2d1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2d1"]["Text"]=[[📶 Latency:]];
+_AGARWARE["2d1"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2d1"]["BackgroundTransparency"]=1;
+_AGARWARE["2d1"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["2d2"]=Instance.new("Frame",_AGARWARE["2c2"]);
+_AGARWARE["2d2"].Name="SuggestionGroup";
+_AGARWARE["2d2"]["Size"]=UDim2.new(0, 170, 0, 187);
+_AGARWARE["2d2"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2d2"]["LayoutOrder"]=2;
+_AGARWARE["2d2"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["2d2"]["Position"]=UDim2.new(0, 0, 0.38333, 0);
+_AGARWARE["2d2"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["2d3"]=Instance.new("LocalScript",_AGARWARE["2d2"]);
+_AGARWARE["2d3"].Name="SuggestionScript";
+_AGARWARE["2d4"]=Instance.new("UIListLayout",_AGARWARE["2d2"]);
+_AGARWARE["2d4"].Name="UIListLayout";
+_AGARWARE["2d4"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["2d5"]=Instance.new("Frame",_AGARWARE["2d2"]);
+_AGARWARE["2d5"].Name="SuggestionAccentColor";
+_AGARWARE["2d5"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["2d5"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["2d5"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["2d5"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["2d5"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["2d6"]=Instance.new("TextLabel",_AGARWARE["2d2"]);
+_AGARWARE["2d6"].Name="SuggestionTitle";
+_AGARWARE["2d6"]["TextWrapped"]=true;
 _AGARWARE["2d6"]["BorderSizePixel"]=0;
+_AGARWARE["2d6"]["TextScaled"]=true;
 _AGARWARE["2d6"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["2d6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2d6"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["2d6"]["TextSize"]=14;
-_AGARWARE["2d6"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["2d6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2d6"]["BackgroundTransparency"]=1;
+_AGARWARE["2d6"]["LayoutOrder"]=1;
 _AGARWARE["2d6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2d6"]["Text"]=[[-]];
-_AGARWARE["2d6"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["2d7"]=Instance.new("Frame",_AGARWARE["2d1"]);
-_AGARWARE["2d7"].Name="TitleRow";
-_AGARWARE["2d7"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2d6"]["Text"]=[[Suggestions/Bugs]];
+_AGARWARE["2d6"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["2d6"]["BackgroundTransparency"]=0.95;
+_AGARWARE["2d6"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["2d7"]=Instance.new("TextButton",_AGARWARE["2d6"]);
+_AGARWARE["2d7"].Name="SuggestionMinimize";
 _AGARWARE["2d7"]["BorderSizePixel"]=0;
-_AGARWARE["2d7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2d7"]["LayoutOrder"]=1;
-_AGARWARE["2d7"]["BackgroundTransparency"]=1;
-_AGARWARE["2d7"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["2d7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2d8"]=Instance.new("TextLabel",_AGARWARE["2d7"]);
-_AGARWARE["2d8"].Name="SuggestText";
+_AGARWARE["2d7"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2d7"]["TextSize"]=14;
+_AGARWARE["2d7"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["2d7"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2d7"]["BackgroundTransparency"]=1;
+_AGARWARE["2d7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2d7"]["Text"]=[[-]];
+_AGARWARE["2d7"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["2d8"]=Instance.new("Frame",_AGARWARE["2d2"]);
+_AGARWARE["2d8"].Name="TitleRow";
+_AGARWARE["2d8"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["2d8"]["BorderSizePixel"]=0;
-_AGARWARE["2d8"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2d8"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2d8"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2d8"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["2d8"]["TextSize"]=14;
 _AGARWARE["2d8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2d8"]["Text"]=[[READ ME]];
-_AGARWARE["2d8"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2d8"]["LayoutOrder"]=1;
 _AGARWARE["2d8"]["BackgroundTransparency"]=1;
-_AGARWARE["2d8"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["2d9"]=Instance.new("TextButton",_AGARWARE["2d7"]);
-_AGARWARE["2d9"].Name="SuggestHelp";
-_AGARWARE["2d9"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["2d9"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["2d8"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2d8"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2d9"]=Instance.new("TextLabel",_AGARWARE["2d8"]);
+_AGARWARE["2d9"].Name="SuggestText";
+_AGARWARE["2d9"]["BorderSizePixel"]=0;
+_AGARWARE["2d9"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2d9"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2d9"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2d9"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["2d9"]["TextSize"]=14;
-_AGARWARE["2d9"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["2d9"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["2d9"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["2d9"]["Text"]=[[?]];
-_AGARWARE["2d9"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["2da"]=Instance.new("Frame",_AGARWARE["2d1"]);
-_AGARWARE["2da"].Name="MessageRow";
-_AGARWARE["2da"]["Size"]=UDim2.new(0, 169, 0, 124);
-_AGARWARE["2da"]["BorderSizePixel"]=0;
-_AGARWARE["2da"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2da"]["LayoutOrder"]=3;
-_AGARWARE["2da"]["BackgroundTransparency"]=1;
-_AGARWARE["2da"]["Position"]=UDim2.new(0.00294, 0, 0.23148, 0);
-_AGARWARE["2da"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2db"]=Instance.new("TextBox",_AGARWARE["2da"]);
-_AGARWARE["2db"].Name="MessageBox";
-_AGARWARE["2db"]["TextWrapped"]=true;
-_AGARWARE["2db"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["2db"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["2db"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2db"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2db"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2db"]["TextSize"]=12;
-_AGARWARE["2db"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["2db"]["PlaceholderText"]=[[write any bugs or suggestions...]];
-_AGARWARE["2db"]["Size"]=UDim2.new(0, 161, 0, 117);
-_AGARWARE["2db"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2db"]["Text"]=[[]];
-_AGARWARE["2db"]["Position"]=UDim2.new(0.02367, 0, 0.04114, 0);
-_AGARWARE["2db"]["ClearTextOnFocus"]=false;
-_AGARWARE["2dc"]=Instance.new("Frame",_AGARWARE["2d1"]);
-_AGARWARE["2dc"].Name="SendRow";
-_AGARWARE["2dc"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["2dc"]["BorderSizePixel"]=0;
-_AGARWARE["2dc"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2dc"]["LayoutOrder"]=4;
-_AGARWARE["2dc"]["BackgroundTransparency"]=1;
-_AGARWARE["2dc"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["2dc"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2dd"]=Instance.new("TextButton",_AGARWARE["2dc"]);
-_AGARWARE["2dd"].Name="SendButton";
-_AGARWARE["2dd"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["2dd"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2dd"]["TextSize"]=14;
-_AGARWARE["2dd"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["2dd"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2dd"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2dd"]["Text"]=[[Send Message]];
-_AGARWARE["2dd"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["2de"]=Instance.new("Frame",_AGARWARE["2c1"]);
-_AGARWARE["2de"].Name="V3";
-_AGARWARE["2de"]["Size"]=UDim2.new(0, 170, 0, 46);
+_AGARWARE["2d9"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2d9"]["Text"]=[[READ ME]];
+_AGARWARE["2d9"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2d9"]["BackgroundTransparency"]=1;
+_AGARWARE["2d9"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["2da"]=Instance.new("TextButton",_AGARWARE["2d8"]);
+_AGARWARE["2da"].Name="SuggestHelp";
+_AGARWARE["2da"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["2da"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["2da"]["TextSize"]=14;
+_AGARWARE["2da"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["2da"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["2da"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["2da"]["Text"]=[[?]];
+_AGARWARE["2da"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["2db"]=Instance.new("Frame",_AGARWARE["2d2"]);
+_AGARWARE["2db"].Name="MessageRow";
+_AGARWARE["2db"]["Size"]=UDim2.new(0, 169, 0, 124);
+_AGARWARE["2db"]["BorderSizePixel"]=0;
+_AGARWARE["2db"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2db"]["LayoutOrder"]=3;
+_AGARWARE["2db"]["BackgroundTransparency"]=1;
+_AGARWARE["2db"]["Position"]=UDim2.new(0.00294, 0, 0.23148, 0);
+_AGARWARE["2db"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2dc"]=Instance.new("TextBox",_AGARWARE["2db"]);
+_AGARWARE["2dc"].Name="MessageBox";
+_AGARWARE["2dc"]["TextWrapped"]=true;
+_AGARWARE["2dc"]["PlaceholderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["2dc"]["TextYAlignment"]=Enum.TextYAlignment.Top;
+_AGARWARE["2dc"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2dc"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2dc"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2dc"]["TextSize"]=12;
+_AGARWARE["2dc"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["2dc"]["PlaceholderText"]=[[write any bugs or suggestions...]];
+_AGARWARE["2dc"]["Size"]=UDim2.new(0, 161, 0, 117);
+_AGARWARE["2dc"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2dc"]["Text"]=[[]];
+_AGARWARE["2dc"]["Position"]=UDim2.new(0.02367, 0, 0.04114, 0);
+_AGARWARE["2dc"]["ClearTextOnFocus"]=false;
+_AGARWARE["2dd"]=Instance.new("Frame",_AGARWARE["2d2"]);
+_AGARWARE["2dd"].Name="SendRow";
+_AGARWARE["2dd"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2dd"]["BorderSizePixel"]=0;
+_AGARWARE["2dd"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2dd"]["LayoutOrder"]=4;
+_AGARWARE["2dd"]["BackgroundTransparency"]=1;
+_AGARWARE["2dd"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2dd"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2de"]=Instance.new("TextButton",_AGARWARE["2dd"]);
+_AGARWARE["2de"].Name="SendButton";
+_AGARWARE["2de"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["2de"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2de"]["TextSize"]=14;
+_AGARWARE["2de"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["2de"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["2de"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2de"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["2de"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["2df"]=Instance.new("LocalScript",_AGARWARE["2de"]);
-_AGARWARE["2df"].Name="Script";
-_AGARWARE["2e0"]=Instance.new("UIListLayout",_AGARWARE["2de"]);
-_AGARWARE["2e0"].Name="UIListLayout";
-_AGARWARE["2e0"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["2e1"]=Instance.new("Frame",_AGARWARE["2de"]);
-_AGARWARE["2e1"].Name="V3AccentColor";
-_AGARWARE["2e1"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["2e1"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["2e1"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["2e1"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["2e1"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["2e2"]=Instance.new("TextLabel",_AGARWARE["2de"]);
-_AGARWARE["2e2"].Name="Title";
-_AGARWARE["2e2"]["TextWrapped"]=true;
-_AGARWARE["2e2"]["BorderSizePixel"]=0;
-_AGARWARE["2e2"]["RichText"]=true;
-_AGARWARE["2e2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2e2"]["FontFace"]=Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2e2"]["Size"]=UDim2.new(0, 169, 0, 18);
-_AGARWARE["2e2"]["TextSize"]=12;
-_AGARWARE["2e2"]["LayoutOrder"]=1;
-_AGARWARE["2e2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2e2"]["Text"]=[[AGAR WARE V3 | PRE ALPHA]];
-_AGARWARE["2e2"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2e2"]["BackgroundTransparency"]=0.95;
-_AGARWARE["2e2"]["Position"]=UDim2.new(0.00294, 0, 0.02427, 0);
-_AGARWARE["2e3"]=Instance.new("LocalScript",_AGARWARE["2e2"]);
-_AGARWARE["2e3"].Name="texteffects";
-_AGARWARE["2e4"]=Instance.new("Frame",_AGARWARE["2de"]);
-_AGARWARE["2e4"].Name="execute";
-_AGARWARE["2e4"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["2e4"]["BorderSizePixel"]=0;
-_AGARWARE["2e4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2e4"]["LayoutOrder"]=4;
-_AGARWARE["2e4"]["BackgroundTransparency"]=1;
-_AGARWARE["2e4"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["2e4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2e5"]=Instance.new("LocalScript",_AGARWARE["2e4"]);
-_AGARWARE["2e5"].Name="script";
-_AGARWARE["2e6"]=Instance.new("TextButton",_AGARWARE["2e4"]);
-_AGARWARE["2e6"].Name="executebutton";
-_AGARWARE["2e6"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["2e6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2e6"]["TextSize"]=14;
-_AGARWARE["2e6"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["2e6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2e6"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2e6"]["Text"]=[[Execute Agar Ware V3]];
-_AGARWARE["2e6"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["2e7"]=Instance.new("Frame",_AGARWARE["2c0"]);
-_AGARWARE["2e7"].Name="MenuRightSide";
-_AGARWARE["2e7"]["Size"]=UDim2.new(0, 170, 0, 360);
-_AGARWARE["2e7"]["BorderSizePixel"]=0;
-_AGARWARE["2e7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2e7"]["BackgroundTransparency"]=1;
-_AGARWARE["2e7"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
-_AGARWARE["2e7"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["2e8"]=Instance.new("UIListLayout",_AGARWARE["2e7"]);
-_AGARWARE["2e8"].Name="UIListLayout";
-_AGARWARE["2e8"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["2e8"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["2e9"]=Instance.new("Frame",_AGARWARE["2e7"]);
-_AGARWARE["2e9"].Name="UpLogsGroup";
-_AGARWARE["2e9"]["Size"]=UDim2.new(0, 170, 0, 131);
-_AGARWARE["2e9"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2e9"]["LayoutOrder"]=2;
-_AGARWARE["2e9"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["2e9"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["2ea"]=Instance.new("LocalScript",_AGARWARE["2e9"]);
-_AGARWARE["2ea"].Name="UpLogsScript";
-_AGARWARE["2eb"]=Instance.new("UIListLayout",_AGARWARE["2e9"]);
-_AGARWARE["2eb"].Name="UIListLayout";
-_AGARWARE["2eb"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["2ec"]=Instance.new("Frame",_AGARWARE["2e9"]);
-_AGARWARE["2ec"].Name="UpLogsAccentColor";
-_AGARWARE["2ec"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["2ec"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["2ec"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["2ec"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["2ec"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["2ed"]=Instance.new("TextLabel",_AGARWARE["2e9"]);
-_AGARWARE["2ed"].Name="UpLogsTitle";
-_AGARWARE["2ed"]["TextWrapped"]=true;
-_AGARWARE["2ed"]["BorderSizePixel"]=0;
-_AGARWARE["2ed"]["TextScaled"]=true;
-_AGARWARE["2ed"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2ed"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2ed"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["2ed"]["TextSize"]=14;
-_AGARWARE["2ed"]["LayoutOrder"]=1;
-_AGARWARE["2ed"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2ed"]["Text"]=[[Change Log]];
-_AGARWARE["2ed"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["2ed"]["BackgroundTransparency"]=0.95;
-_AGARWARE["2ed"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["2ee"]=Instance.new("TextButton",_AGARWARE["2ed"]);
-_AGARWARE["2ee"].Name="UpLogsMinimize";
+_AGARWARE["2de"]["Text"]=[[Send Message]];
+_AGARWARE["2de"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["2df"]=Instance.new("Frame",_AGARWARE["2c2"]);
+_AGARWARE["2df"].Name="V3";
+_AGARWARE["2df"]["Size"]=UDim2.new(0, 170, 0, 46);
+_AGARWARE["2df"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2df"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["2df"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["2e0"]=Instance.new("LocalScript",_AGARWARE["2df"]);
+_AGARWARE["2e0"].Name="Script";
+_AGARWARE["2e1"]=Instance.new("UIListLayout",_AGARWARE["2df"]);
+_AGARWARE["2e1"].Name="UIListLayout";
+_AGARWARE["2e1"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["2e2"]=Instance.new("Frame",_AGARWARE["2df"]);
+_AGARWARE["2e2"].Name="V3AccentColor";
+_AGARWARE["2e2"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["2e2"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["2e2"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["2e2"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["2e2"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["2e3"]=Instance.new("TextLabel",_AGARWARE["2df"]);
+_AGARWARE["2e3"].Name="Title";
+_AGARWARE["2e3"]["TextWrapped"]=true;
+_AGARWARE["2e3"]["BorderSizePixel"]=0;
+_AGARWARE["2e3"]["RichText"]=true;
+_AGARWARE["2e3"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2e3"]["FontFace"]=Font.new([[rbxasset://fonts/families/PressStart2P.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2e3"]["Size"]=UDim2.new(0, 169, 0, 18);
+_AGARWARE["2e3"]["TextSize"]=12;
+_AGARWARE["2e3"]["LayoutOrder"]=1;
+_AGARWARE["2e3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2e3"]["Text"]=[[AGAR WARE V3 | PRE ALPHA]];
+_AGARWARE["2e3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2e3"]["BackgroundTransparency"]=0.95;
+_AGARWARE["2e3"]["Position"]=UDim2.new(0.00294, 0, 0.02427, 0);
+_AGARWARE["2e4"]=Instance.new("LocalScript",_AGARWARE["2e3"]);
+_AGARWARE["2e4"].Name="texteffects";
+_AGARWARE["2e5"]=Instance.new("Frame",_AGARWARE["2df"]);
+_AGARWARE["2e5"].Name="execute";
+_AGARWARE["2e5"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["2e5"]["BorderSizePixel"]=0;
+_AGARWARE["2e5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2e5"]["LayoutOrder"]=4;
+_AGARWARE["2e5"]["BackgroundTransparency"]=1;
+_AGARWARE["2e5"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["2e5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2e6"]=Instance.new("LocalScript",_AGARWARE["2e5"]);
+_AGARWARE["2e6"].Name="script";
+_AGARWARE["2e7"]=Instance.new("TextButton",_AGARWARE["2e5"]);
+_AGARWARE["2e7"].Name="executebutton";
+_AGARWARE["2e7"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["2e7"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2e7"]["TextSize"]=14;
+_AGARWARE["2e7"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["2e7"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2e7"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2e7"]["Text"]=[[Execute Agar Ware V3]];
+_AGARWARE["2e7"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["2e8"]=Instance.new("Frame",_AGARWARE["2c1"]);
+_AGARWARE["2e8"].Name="MenuRightSide";
+_AGARWARE["2e8"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["2e8"]["BorderSizePixel"]=0;
+_AGARWARE["2e8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2e8"]["BackgroundTransparency"]=1;
+_AGARWARE["2e8"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
+_AGARWARE["2e8"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["2e9"]=Instance.new("UIListLayout",_AGARWARE["2e8"]);
+_AGARWARE["2e9"].Name="UIListLayout";
+_AGARWARE["2e9"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["2e9"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["2ea"]=Instance.new("Frame",_AGARWARE["2e8"]);
+_AGARWARE["2ea"].Name="UpLogsGroup";
+_AGARWARE["2ea"]["Size"]=UDim2.new(0, 170, 0, 131);
+_AGARWARE["2ea"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2ea"]["LayoutOrder"]=2;
+_AGARWARE["2ea"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["2ea"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["2eb"]=Instance.new("LocalScript",_AGARWARE["2ea"]);
+_AGARWARE["2eb"].Name="UpLogsScript";
+_AGARWARE["2ec"]=Instance.new("UIListLayout",_AGARWARE["2ea"]);
+_AGARWARE["2ec"].Name="UIListLayout";
+_AGARWARE["2ec"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["2ed"]=Instance.new("Frame",_AGARWARE["2ea"]);
+_AGARWARE["2ed"].Name="UpLogsAccentColor";
+_AGARWARE["2ed"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["2ed"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["2ed"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["2ed"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["2ed"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["2ee"]=Instance.new("TextLabel",_AGARWARE["2ea"]);
+_AGARWARE["2ee"].Name="UpLogsTitle";
+_AGARWARE["2ee"]["TextWrapped"]=true;
 _AGARWARE["2ee"]["BorderSizePixel"]=0;
+_AGARWARE["2ee"]["TextScaled"]=true;
 _AGARWARE["2ee"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["2ee"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2ee"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["2ee"]["TextSize"]=14;
-_AGARWARE["2ee"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["2ee"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2ee"]["BackgroundTransparency"]=1;
+_AGARWARE["2ee"]["LayoutOrder"]=1;
 _AGARWARE["2ee"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2ee"]["Text"]=[[-]];
-_AGARWARE["2ee"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["2ef"]=Instance.new("Frame",_AGARWARE["2e9"]);
-_AGARWARE["2ef"].Name="ScrollingRow";
-_AGARWARE["2ef"]["Size"]=UDim2.new(0, 169, 0, 91);
+_AGARWARE["2ee"]["Text"]=[[Change Log]];
+_AGARWARE["2ee"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["2ee"]["BackgroundTransparency"]=0.95;
+_AGARWARE["2ee"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["2ef"]=Instance.new("TextButton",_AGARWARE["2ee"]);
+_AGARWARE["2ef"].Name="UpLogsMinimize";
 _AGARWARE["2ef"]["BorderSizePixel"]=0;
-_AGARWARE["2ef"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2ef"]["LayoutOrder"]=2;
-_AGARWARE["2ef"]["BackgroundTransparency"]=1;
-_AGARWARE["2ef"]["Position"]=UDim2.new(0.00294, 0, 0.15217, 0);
 _AGARWARE["2ef"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2f0"]=Instance.new("ScrollingFrame",_AGARWARE["2ef"]);
-_AGARWARE["2f0"].Name="ScrollingFrame";
-_AGARWARE["2f0"]["CanvasSize"]=UDim2.new(0, 0, 12, 0);
-_AGARWARE["2f0"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["2f0"]["Active"]=true;
-_AGARWARE["2f0"]["Size"]=UDim2.new(0, 152, 0, 103);
-_AGARWARE["2f0"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2f0"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2f0"]["ScrollBarThickness"]=10;
-_AGARWARE["2f0"]["Position"]=UDim2.new(0.05325, 0, 0.03516, 0);
-_AGARWARE["2f1"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["2f1"].Name="V2.8";
+_AGARWARE["2ef"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2ef"]["TextSize"]=14;
+_AGARWARE["2ef"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["2ef"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2ef"]["BackgroundTransparency"]=1;
+_AGARWARE["2ef"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2ef"]["Text"]=[[-]];
+_AGARWARE["2ef"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["2f0"]=Instance.new("Frame",_AGARWARE["2ea"]);
+_AGARWARE["2f0"].Name="ScrollingRow";
+_AGARWARE["2f0"]["Size"]=UDim2.new(0, 169, 0, 91);
+_AGARWARE["2f0"]["BorderSizePixel"]=0;
+_AGARWARE["2f0"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2f0"]["LayoutOrder"]=2;
+_AGARWARE["2f0"]["BackgroundTransparency"]=1;
+_AGARWARE["2f0"]["Position"]=UDim2.new(0.00294, 0, 0.15217, 0);
+_AGARWARE["2f0"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2f1"]=Instance.new("ScrollingFrame",_AGARWARE["2f0"]);
+_AGARWARE["2f1"].Name="ScrollingFrame";
+_AGARWARE["2f1"]["CanvasSize"]=UDim2.new(0, 0, 12, 0);
+_AGARWARE["2f1"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["2f1"]["Active"]=true;
 _AGARWARE["2f1"]["Size"]=UDim2.new(0, 152, 0, 103);
-_AGARWARE["2f1"]["BorderSizePixel"]=0;
-_AGARWARE["2f1"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2f1"]["LayoutOrder"]=1000;
-_AGARWARE["2f1"]["BackgroundTransparency"]=1;
-_AGARWARE["2f1"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2f2"]=Instance.new("TextLabel",_AGARWARE["2f1"]);
-_AGARWARE["2f2"].Name="Text";
-_AGARWARE["2f2"]["TextWrapped"]=true;
+_AGARWARE["2f1"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2f1"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["2f1"]["ScrollBarThickness"]=10;
+_AGARWARE["2f1"]["Position"]=UDim2.new(0.05325, 0, 0.03516, 0);
+_AGARWARE["2f2"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["2f2"].Name="V2.8";
+_AGARWARE["2f2"]["Size"]=UDim2.new(0, 152, 0, 103);
 _AGARWARE["2f2"]["BorderSizePixel"]=0;
-_AGARWARE["2f2"]["RichText"]=true;
-_AGARWARE["2f2"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["2f2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2f2"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2f2"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2f2"]["Size"]=UDim2.new(0, 133, 0, 76);
-_AGARWARE["2f2"]["TextSize"]=12;
 _AGARWARE["2f2"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2f2"]["Text"]=[[===== v2.7 > v2.8<br />New Features - New menu page and server status. New Tools setection (TCO).<br />Bug Fixes - Stronger auto grab (TCO).<br />=====]];
-_AGARWARE["2f2"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2f2"]["LayoutOrder"]=1000;
 _AGARWARE["2f2"]["BackgroundTransparency"]=1;
-_AGARWARE["2f2"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
-_AGARWARE["2f3"]=Instance.new("UIListLayout",_AGARWARE["2f0"]);
-_AGARWARE["2f3"].Name="UIListLayout";
-_AGARWARE["2f3"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["2f4"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["2f4"].Name="V2.8.1";
-_AGARWARE["2f4"]["Size"]=UDim2.new(0, 152, 0, 54);
-_AGARWARE["2f4"]["BorderSizePixel"]=0;
-_AGARWARE["2f4"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2f4"]["LayoutOrder"]=999;
-_AGARWARE["2f4"]["BackgroundTransparency"]=1;
-_AGARWARE["2f4"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2f5"]=Instance.new("TextLabel",_AGARWARE["2f4"]);
-_AGARWARE["2f5"].Name="Text";
-_AGARWARE["2f5"]["TextWrapped"]=true;
+_AGARWARE["2f2"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2f3"]=Instance.new("TextLabel",_AGARWARE["2f2"]);
+_AGARWARE["2f3"].Name="Text";
+_AGARWARE["2f3"]["TextWrapped"]=true;
+_AGARWARE["2f3"]["BorderSizePixel"]=0;
+_AGARWARE["2f3"]["RichText"]=true;
+_AGARWARE["2f3"]["TextYAlignment"]=Enum.TextYAlignment.Top;
+_AGARWARE["2f3"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2f3"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2f3"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2f3"]["Size"]=UDim2.new(0, 133, 0, 76);
+_AGARWARE["2f3"]["TextSize"]=12;
+_AGARWARE["2f3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2f3"]["Text"]=[[===== v2.7 > v2.8<br />New Features - New menu page and server status. New Tools setection (TCO).<br />Bug Fixes - Stronger auto grab (TCO).<br />=====]];
+_AGARWARE["2f3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2f3"]["BackgroundTransparency"]=1;
+_AGARWARE["2f3"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
+_AGARWARE["2f4"]=Instance.new("UIListLayout",_AGARWARE["2f1"]);
+_AGARWARE["2f4"].Name="UIListLayout";
+_AGARWARE["2f4"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["2f5"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["2f5"].Name="V2.8.1";
+_AGARWARE["2f5"]["Size"]=UDim2.new(0, 152, 0, 54);
 _AGARWARE["2f5"]["BorderSizePixel"]=0;
-_AGARWARE["2f5"]["RichText"]=true;
-_AGARWARE["2f5"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["2f5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2f5"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2f5"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2f5"]["Size"]=UDim2.new(0, 133, 0, 76);
-_AGARWARE["2f5"]["TextSize"]=12;
 _AGARWARE["2f5"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2f5"]["Text"]=[[===== v2.8 > v2.8.1<br />New Features - New welcome/joins alerts in TCO>Misc.]];
-_AGARWARE["2f5"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2f5"]["LayoutOrder"]=999;
 _AGARWARE["2f5"]["BackgroundTransparency"]=1;
-_AGARWARE["2f5"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
-_AGARWARE["2f6"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["2f6"].Name="V2.8.2";
-_AGARWARE["2f6"]["Size"]=UDim2.new(0, 152, 0, 89);
+_AGARWARE["2f5"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2f6"]=Instance.new("TextLabel",_AGARWARE["2f5"]);
+_AGARWARE["2f6"].Name="Text";
+_AGARWARE["2f6"]["TextWrapped"]=true;
 _AGARWARE["2f6"]["BorderSizePixel"]=0;
-_AGARWARE["2f6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2f6"]["LayoutOrder"]=998;
-_AGARWARE["2f6"]["BackgroundTransparency"]=1;
-_AGARWARE["2f6"]["Position"]=UDim2.new(0, 0, -0.3663, 0);
+_AGARWARE["2f6"]["RichText"]=true;
+_AGARWARE["2f6"]["TextYAlignment"]=Enum.TextYAlignment.Top;
 _AGARWARE["2f6"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2f7"]=Instance.new("TextLabel",_AGARWARE["2f6"]);
-_AGARWARE["2f7"].Name="Text";
-_AGARWARE["2f7"]["TextWrapped"]=true;
+_AGARWARE["2f6"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2f6"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2f6"]["Size"]=UDim2.new(0, 133, 0, 76);
+_AGARWARE["2f6"]["TextSize"]=12;
+_AGARWARE["2f6"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2f6"]["Text"]=[[===== v2.8 > v2.8.1<br />New Features - New welcome/joins alerts in TCO>Misc.]];
+_AGARWARE["2f6"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2f6"]["BackgroundTransparency"]=1;
+_AGARWARE["2f6"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
+_AGARWARE["2f7"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["2f7"].Name="V2.8.2";
+_AGARWARE["2f7"]["Size"]=UDim2.new(0, 152, 0, 89);
 _AGARWARE["2f7"]["BorderSizePixel"]=0;
-_AGARWARE["2f7"]["RichText"]=true;
-_AGARWARE["2f7"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["2f7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2f7"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2f7"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2f7"]["Size"]=UDim2.new(0, 133, 0, 76);
-_AGARWARE["2f7"]["TextSize"]=12;
 _AGARWARE["2f7"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2f7"]["Text"]=[[===== v2.8.1 > v2.8.2<br />New Features - New respawn at death in the Main page, added a recenter Gui button if the gui is out of the screen.]];
-_AGARWARE["2f7"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2f7"]["LayoutOrder"]=998;
 _AGARWARE["2f7"]["BackgroundTransparency"]=1;
-_AGARWARE["2f7"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
-_AGARWARE["2f8"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["2f8"].Name="V2.8.3";
-_AGARWARE["2f8"]["Size"]=UDim2.new(0, 152, 0, 89);
+_AGARWARE["2f7"]["Position"]=UDim2.new(0, 0, -0.3663, 0);
+_AGARWARE["2f7"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2f8"]=Instance.new("TextLabel",_AGARWARE["2f7"]);
+_AGARWARE["2f8"].Name="Text";
+_AGARWARE["2f8"]["TextWrapped"]=true;
 _AGARWARE["2f8"]["BorderSizePixel"]=0;
-_AGARWARE["2f8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2f8"]["LayoutOrder"]=997;
-_AGARWARE["2f8"]["BackgroundTransparency"]=1;
-_AGARWARE["2f8"]["Position"]=UDim2.new(0, 0, -0.3663, 0);
+_AGARWARE["2f8"]["RichText"]=true;
+_AGARWARE["2f8"]["TextYAlignment"]=Enum.TextYAlignment.Top;
 _AGARWARE["2f8"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2f9"]=Instance.new("TextLabel",_AGARWARE["2f8"]);
-_AGARWARE["2f9"].Name="Text";
-_AGARWARE["2f9"]["TextWrapped"]=true;
+_AGARWARE["2f8"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2f8"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2f8"]["Size"]=UDim2.new(0, 133, 0, 76);
+_AGARWARE["2f8"]["TextSize"]=12;
+_AGARWARE["2f8"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2f8"]["Text"]=[[===== v2.8.1 > v2.8.2<br />New Features - New respawn at death in the Main page, added a recenter Gui button if the gui is out of the screen.]];
+_AGARWARE["2f8"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2f8"]["BackgroundTransparency"]=1;
+_AGARWARE["2f8"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
+_AGARWARE["2f9"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["2f9"].Name="V2.8.3";
+_AGARWARE["2f9"]["Size"]=UDim2.new(0, 152, 0, 89);
 _AGARWARE["2f9"]["BorderSizePixel"]=0;
-_AGARWARE["2f9"]["RichText"]=true;
-_AGARWARE["2f9"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["2f9"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2f9"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2f9"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2f9"]["Size"]=UDim2.new(0, 133, 0, 76);
-_AGARWARE["2f9"]["TextSize"]=12;
 _AGARWARE["2f9"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2f9"]["Text"]=[[===== v2.8.2 > v2.8.3<br />New Features - New server info shows if your in TCO and OG supported.<br/>Bug Fixes - Faster auto loading.]];
-_AGARWARE["2f9"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2f9"]["LayoutOrder"]=997;
 _AGARWARE["2f9"]["BackgroundTransparency"]=1;
-_AGARWARE["2f9"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
-_AGARWARE["2fa"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["2fa"].Name="V2.8.4";
-_AGARWARE["2fa"]["Size"]=UDim2.new(0, 152, 0, 89);
+_AGARWARE["2f9"]["Position"]=UDim2.new(0, 0, -0.3663, 0);
+_AGARWARE["2f9"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2fa"]=Instance.new("TextLabel",_AGARWARE["2f9"]);
+_AGARWARE["2fa"].Name="Text";
+_AGARWARE["2fa"]["TextWrapped"]=true;
 _AGARWARE["2fa"]["BorderSizePixel"]=0;
-_AGARWARE["2fa"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2fa"]["LayoutOrder"]=996;
-_AGARWARE["2fa"]["BackgroundTransparency"]=1;
-_AGARWARE["2fa"]["Position"]=UDim2.new(0, 0, -0.3663, 0);
+_AGARWARE["2fa"]["RichText"]=true;
+_AGARWARE["2fa"]["TextYAlignment"]=Enum.TextYAlignment.Top;
 _AGARWARE["2fa"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2fb"]=Instance.new("TextLabel",_AGARWARE["2fa"]);
-_AGARWARE["2fb"].Name="Text";
-_AGARWARE["2fb"]["TextWrapped"]=true;
+_AGARWARE["2fa"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2fa"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2fa"]["Size"]=UDim2.new(0, 133, 0, 76);
+_AGARWARE["2fa"]["TextSize"]=12;
+_AGARWARE["2fa"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2fa"]["Text"]=[[===== v2.8.2 > v2.8.3<br />New Features - New server info shows if your in TCO and OG supported.<br/>Bug Fixes - Faster auto loading.]];
+_AGARWARE["2fa"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2fa"]["BackgroundTransparency"]=1;
+_AGARWARE["2fa"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
+_AGARWARE["2fb"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["2fb"].Name="V2.8.4";
+_AGARWARE["2fb"]["Size"]=UDim2.new(0, 152, 0, 89);
 _AGARWARE["2fb"]["BorderSizePixel"]=0;
-_AGARWARE["2fb"]["RichText"]=true;
-_AGARWARE["2fb"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["2fb"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2fb"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2fb"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2fb"]["Size"]=UDim2.new(0, 133, 0, 76);
-_AGARWARE["2fb"]["TextSize"]=12;
 _AGARWARE["2fb"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2fb"]["Text"]=[[===== v2.8.3 > v2.8.4<br />New Features - Added enlighten icon display on the leaderboard iin TCO > Misc.<br/>Bug Fixes - Touch fling now works.]];
-_AGARWARE["2fb"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2fb"]["LayoutOrder"]=996;
 _AGARWARE["2fb"]["BackgroundTransparency"]=1;
-_AGARWARE["2fb"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
-_AGARWARE["2fc"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["2fc"].Name="V2.8.5";
-_AGARWARE["2fc"]["Size"]=UDim2.new(0, 152, 0, 89);
+_AGARWARE["2fb"]["Position"]=UDim2.new(0, 0, -0.3663, 0);
+_AGARWARE["2fb"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2fc"]=Instance.new("TextLabel",_AGARWARE["2fb"]);
+_AGARWARE["2fc"].Name="Text";
+_AGARWARE["2fc"]["TextWrapped"]=true;
 _AGARWARE["2fc"]["BorderSizePixel"]=0;
-_AGARWARE["2fc"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2fc"]["LayoutOrder"]=995;
-_AGARWARE["2fc"]["BackgroundTransparency"]=1;
-_AGARWARE["2fc"]["Position"]=UDim2.new(0, 0, -0.3663, 0);
+_AGARWARE["2fc"]["RichText"]=true;
+_AGARWARE["2fc"]["TextYAlignment"]=Enum.TextYAlignment.Top;
 _AGARWARE["2fc"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2fd"]=Instance.new("TextLabel",_AGARWARE["2fc"]);
-_AGARWARE["2fd"].Name="Text";
-_AGARWARE["2fd"]["TextWrapped"]=true;
+_AGARWARE["2fc"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2fc"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2fc"]["Size"]=UDim2.new(0, 133, 0, 76);
+_AGARWARE["2fc"]["TextSize"]=12;
+_AGARWARE["2fc"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2fc"]["Text"]=[[===== v2.8.3 > v2.8.4<br />New Features - Added enlighten icon display on the leaderboard iin TCO > Misc.<br/>Bug Fixes - Touch fling now works.]];
+_AGARWARE["2fc"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2fc"]["BackgroundTransparency"]=1;
+_AGARWARE["2fc"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
+_AGARWARE["2fd"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["2fd"].Name="V2.8.5";
+_AGARWARE["2fd"]["Size"]=UDim2.new(0, 152, 0, 89);
 _AGARWARE["2fd"]["BorderSizePixel"]=0;
-_AGARWARE["2fd"]["RichText"]=true;
-_AGARWARE["2fd"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["2fd"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2fd"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2fd"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2fd"]["Size"]=UDim2.new(0, 133, 0, 76);
-_AGARWARE["2fd"]["TextSize"]=12;
 _AGARWARE["2fd"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2fd"]["Text"]=[[===== v2.8.4 > v2.8.5<br />New Features - New suggestions and bug reports Tab in Menu Page. New buttons added in Tools Tab and Boombox Tab (TCO).]];
-_AGARWARE["2fd"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2fd"]["LayoutOrder"]=995;
 _AGARWARE["2fd"]["BackgroundTransparency"]=1;
-_AGARWARE["2fd"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
-_AGARWARE["2fe"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["2fe"].Name="V2.8.6";
-_AGARWARE["2fe"]["Size"]=UDim2.new(0, 152, 0, 82);
+_AGARWARE["2fd"]["Position"]=UDim2.new(0, 0, -0.3663, 0);
+_AGARWARE["2fd"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2fe"]=Instance.new("TextLabel",_AGARWARE["2fd"]);
+_AGARWARE["2fe"].Name="Text";
+_AGARWARE["2fe"]["TextWrapped"]=true;
 _AGARWARE["2fe"]["BorderSizePixel"]=0;
-_AGARWARE["2fe"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2fe"]["LayoutOrder"]=994;
-_AGARWARE["2fe"]["BackgroundTransparency"]=1;
+_AGARWARE["2fe"]["RichText"]=true;
+_AGARWARE["2fe"]["TextYAlignment"]=Enum.TextYAlignment.Top;
 _AGARWARE["2fe"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2ff"]=Instance.new("TextLabel",_AGARWARE["2fe"]);
-_AGARWARE["2ff"].Name="Text";
-_AGARWARE["2ff"]["TextWrapped"]=true;
+_AGARWARE["2fe"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["2fe"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["2fe"]["Size"]=UDim2.new(0, 133, 0, 76);
+_AGARWARE["2fe"]["TextSize"]=12;
+_AGARWARE["2fe"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["2fe"]["Text"]=[[===== v2.8.4 > v2.8.5<br />New Features - New suggestions and bug reports Tab in Menu Page. New buttons added in Tools Tab and Boombox Tab (TCO).]];
+_AGARWARE["2fe"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2fe"]["BackgroundTransparency"]=1;
+_AGARWARE["2fe"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
+_AGARWARE["2ff"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["2ff"].Name="V2.8.6";
+_AGARWARE["2ff"]["Size"]=UDim2.new(0, 152, 0, 82);
 _AGARWARE["2ff"]["BorderSizePixel"]=0;
-_AGARWARE["2ff"]["RichText"]=true;
-_AGARWARE["2ff"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["2ff"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["2ff"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["2ff"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["2ff"]["Size"]=UDim2.new(0, 133, 0, 76);
-_AGARWARE["2ff"]["TextSize"]=12;
 _AGARWARE["2ff"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2ff"]["Text"]=[[===== v2.8.5 > v2.8.6<br />New Features - New auto execute in the Settings Tab.<br/>Bug Fixes - Auto Load is now 3x faster.]];
-_AGARWARE["2ff"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["2ff"]["LayoutOrder"]=994;
 _AGARWARE["2ff"]["BackgroundTransparency"]=1;
-_AGARWARE["2ff"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
-_AGARWARE["300"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["300"].Name="V2.8.7";
-_AGARWARE["300"]["Size"]=UDim2.new(0, 152, 0, 56);
+_AGARWARE["2ff"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["300"]=Instance.new("TextLabel",_AGARWARE["2ff"]);
+_AGARWARE["300"].Name="Text";
+_AGARWARE["300"]["TextWrapped"]=true;
 _AGARWARE["300"]["BorderSizePixel"]=0;
-_AGARWARE["300"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["300"]["LayoutOrder"]=993;
-_AGARWARE["300"]["BackgroundTransparency"]=1;
+_AGARWARE["300"]["RichText"]=true;
+_AGARWARE["300"]["TextYAlignment"]=Enum.TextYAlignment.Top;
 _AGARWARE["300"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["301"]=Instance.new("TextLabel",_AGARWARE["300"]);
-_AGARWARE["301"].Name="Text";
-_AGARWARE["301"]["TextWrapped"]=true;
+_AGARWARE["300"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["300"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["300"]["Size"]=UDim2.new(0, 133, 0, 76);
+_AGARWARE["300"]["TextSize"]=12;
+_AGARWARE["300"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["300"]["Text"]=[[===== v2.8.5 > v2.8.6<br />New Features - New auto execute in the Settings Tab.<br/>Bug Fixes - Auto Load is now 3x faster.]];
+_AGARWARE["300"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["300"]["BackgroundTransparency"]=1;
+_AGARWARE["300"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
+_AGARWARE["301"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["301"].Name="V2.8.7";
+_AGARWARE["301"]["Size"]=UDim2.new(0, 152, 0, 56);
 _AGARWARE["301"]["BorderSizePixel"]=0;
-_AGARWARE["301"]["RichText"]=true;
-_AGARWARE["301"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["301"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["301"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["301"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["301"]["Size"]=UDim2.new(0, 133, 0, 76);
-_AGARWARE["301"]["TextSize"]=12;
 _AGARWARE["301"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["301"]["Text"]=[[===== v2.8.6 > v2.8.7<br />New Features - Weird buttons added in the Troll page (TCO).]];
-_AGARWARE["301"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["301"]["LayoutOrder"]=993;
 _AGARWARE["301"]["BackgroundTransparency"]=1;
-_AGARWARE["301"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
-_AGARWARE["302"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["302"].Name="V2.8.8";
-_AGARWARE["302"]["Size"]=UDim2.new(0, 152, 0, 117);
+_AGARWARE["301"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["302"]=Instance.new("TextLabel",_AGARWARE["301"]);
+_AGARWARE["302"].Name="Text";
+_AGARWARE["302"]["TextWrapped"]=true;
 _AGARWARE["302"]["BorderSizePixel"]=0;
-_AGARWARE["302"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["302"]["LayoutOrder"]=992;
-_AGARWARE["302"]["BackgroundTransparency"]=1;
+_AGARWARE["302"]["RichText"]=true;
+_AGARWARE["302"]["TextYAlignment"]=Enum.TextYAlignment.Top;
 _AGARWARE["302"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["303"]=Instance.new("TextLabel",_AGARWARE["302"]);
-_AGARWARE["303"].Name="Text";
-_AGARWARE["303"]["TextWrapped"]=true;
+_AGARWARE["302"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["302"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["302"]["Size"]=UDim2.new(0, 133, 0, 76);
+_AGARWARE["302"]["TextSize"]=12;
+_AGARWARE["302"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["302"]["Text"]=[[===== v2.8.6 > v2.8.7<br />New Features - Weird buttons added in the Troll page (TCO).]];
+_AGARWARE["302"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["302"]["BackgroundTransparency"]=1;
+_AGARWARE["302"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
+_AGARWARE["303"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["303"].Name="V2.8.8";
+_AGARWARE["303"]["Size"]=UDim2.new(0, 152, 0, 117);
 _AGARWARE["303"]["BorderSizePixel"]=0;
-_AGARWARE["303"]["RichText"]=true;
-_AGARWARE["303"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["303"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["303"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["303"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["303"]["Size"]=UDim2.new(0, 133, 0, 111);
-_AGARWARE["303"]["TextSize"]=12;
 _AGARWARE["303"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["303"]["Text"]=[[===== v2.8.7 > v2.8.8<br />New Features - Added Anti Vampire, a preview of the new troll page being added in v2.9.<br/>Changes - Updated the looks and layout in the Menu page.]];
-_AGARWARE["303"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["303"]["LayoutOrder"]=992;
 _AGARWARE["303"]["BackgroundTransparency"]=1;
-_AGARWARE["303"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
-_AGARWARE["304"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["304"].Name="V2.8.9";
-_AGARWARE["304"]["Size"]=UDim2.new(0, 152, 0, 103);
+_AGARWARE["303"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["304"]=Instance.new("TextLabel",_AGARWARE["303"]);
+_AGARWARE["304"].Name="Text";
+_AGARWARE["304"]["TextWrapped"]=true;
 _AGARWARE["304"]["BorderSizePixel"]=0;
-_AGARWARE["304"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["304"]["LayoutOrder"]=991;
-_AGARWARE["304"]["BackgroundTransparency"]=1;
+_AGARWARE["304"]["RichText"]=true;
+_AGARWARE["304"]["TextYAlignment"]=Enum.TextYAlignment.Top;
 _AGARWARE["304"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["305"]=Instance.new("TextLabel",_AGARWARE["304"]);
-_AGARWARE["305"].Name="Text";
-_AGARWARE["305"]["TextWrapped"]=true;
+_AGARWARE["304"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["304"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["304"]["Size"]=UDim2.new(0, 133, 0, 111);
+_AGARWARE["304"]["TextSize"]=12;
+_AGARWARE["304"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["304"]["Text"]=[[===== v2.8.7 > v2.8.8<br />New Features - Added Anti Vampire, a preview of the new troll page being added in v2.9.<br/>Changes - Updated the looks and layout in the Menu page.]];
+_AGARWARE["304"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["304"]["BackgroundTransparency"]=1;
+_AGARWARE["304"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
+_AGARWARE["305"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["305"].Name="V2.8.9";
+_AGARWARE["305"]["Size"]=UDim2.new(0, 152, 0, 103);
 _AGARWARE["305"]["BorderSizePixel"]=0;
-_AGARWARE["305"]["RichText"]=true;
-_AGARWARE["305"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["305"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["305"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["305"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["305"]["Size"]=UDim2.new(0, 133, 0, 76);
-_AGARWARE["305"]["TextSize"]=12;
 _AGARWARE["305"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["305"]["Text"]=[[===== v2.8.8 > v2.8.9<br />New Features - Added restore brick and anti glitch. (TCO)<br/>OPTIMISING MY GUI CURRENTLY, GRIEF AURA AND GRIEF WILL BE ADDED AFTER!]];
-_AGARWARE["305"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["305"]["LayoutOrder"]=991;
 _AGARWARE["305"]["BackgroundTransparency"]=1;
-_AGARWARE["305"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
-_AGARWARE["306"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["306"].Name="V2.8.10";
-_AGARWARE["306"]["Size"]=UDim2.new(0, 152, 0, 168);
+_AGARWARE["305"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["306"]=Instance.new("TextLabel",_AGARWARE["305"]);
+_AGARWARE["306"].Name="Text";
+_AGARWARE["306"]["TextWrapped"]=true;
 _AGARWARE["306"]["BorderSizePixel"]=0;
-_AGARWARE["306"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["306"]["LayoutOrder"]=990;
-_AGARWARE["306"]["BackgroundTransparency"]=1;
-_AGARWARE["306"]["Position"]=UDim2.new(0, 0, -0.10989, 0);
+_AGARWARE["306"]["RichText"]=true;
+_AGARWARE["306"]["TextYAlignment"]=Enum.TextYAlignment.Top;
 _AGARWARE["306"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["307"]=Instance.new("TextLabel",_AGARWARE["306"]);
-_AGARWARE["307"].Name="Text";
-_AGARWARE["307"]["TextWrapped"]=true;
+_AGARWARE["306"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["306"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["306"]["Size"]=UDim2.new(0, 133, 0, 76);
+_AGARWARE["306"]["TextSize"]=12;
+_AGARWARE["306"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["306"]["Text"]=[[===== v2.8.8 > v2.8.9<br />New Features - Added restore brick and anti glitch. (TCO)<br/>OPTIMISING MY GUI CURRENTLY, GRIEF AURA AND GRIEF WILL BE ADDED AFTER!]];
+_AGARWARE["306"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["306"]["BackgroundTransparency"]=1;
+_AGARWARE["306"]["Position"]=UDim2.new(0.04605, 0, 0, 0);
+_AGARWARE["307"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["307"].Name="V2.8.10";
+_AGARWARE["307"]["Size"]=UDim2.new(0, 152, 0, 168);
 _AGARWARE["307"]["BorderSizePixel"]=0;
-_AGARWARE["307"]["RichText"]=true;
-_AGARWARE["307"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["307"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["307"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["307"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["307"]["Size"]=UDim2.new(0, 133, 0, 118);
-_AGARWARE["307"]["TextSize"]=12;
 _AGARWARE["307"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["307"]["Text"]=[[===== v2.8.9 > v2.8.10<br />New Features - Added B-Kit UI Fix in misc.<br/>Bug Fixes - Fixed anti glitch from being an anti teleport, added both anti tp, glitch. Fixed anti maptide nan, now only teleports when spawn is bugged + teleports to coordnates 0, 0, 0 instead of a player.]];
-_AGARWARE["307"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["307"]["LayoutOrder"]=990;
 _AGARWARE["307"]["BackgroundTransparency"]=1;
-_AGARWARE["307"]["Position"]=UDim2.new(0.04605, 0, -0, 0);
-_AGARWARE["308"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["308"].Name="V2.9.0";
-_AGARWARE["308"]["Size"]=UDim2.new(0, 152, 0, 76);
+_AGARWARE["307"]["Position"]=UDim2.new(0, 0, -0.10989, 0);
+_AGARWARE["307"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["308"]=Instance.new("TextLabel",_AGARWARE["307"]);
+_AGARWARE["308"].Name="Text";
+_AGARWARE["308"]["TextWrapped"]=true;
 _AGARWARE["308"]["BorderSizePixel"]=0;
-_AGARWARE["308"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["308"]["LayoutOrder"]=989;
-_AGARWARE["308"]["BackgroundTransparency"]=1;
+_AGARWARE["308"]["RichText"]=true;
+_AGARWARE["308"]["TextYAlignment"]=Enum.TextYAlignment.Top;
 _AGARWARE["308"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["309"]=Instance.new("TextLabel",_AGARWARE["308"]);
-_AGARWARE["309"].Name="Text";
-_AGARWARE["309"]["TextWrapped"]=true;
+_AGARWARE["308"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["308"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["308"]["Size"]=UDim2.new(0, 133, 0, 118);
+_AGARWARE["308"]["TextSize"]=12;
+_AGARWARE["308"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["308"]["Text"]=[[===== v2.8.9 > v2.8.10<br />New Features - Added B-Kit UI Fix in misc.<br/>Bug Fixes - Fixed anti glitch from being an anti teleport, added both anti tp, glitch. Fixed anti maptide nan, now only teleports when spawn is bugged + teleports to coordnates 0, 0, 0 instead of a player.]];
+_AGARWARE["308"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["308"]["BackgroundTransparency"]=1;
+_AGARWARE["308"]["Position"]=UDim2.new(0.04605, 0, -0, 0);
+_AGARWARE["309"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["309"].Name="V2.9.0";
+_AGARWARE["309"]["Size"]=UDim2.new(0, 152, 0, 76);
 _AGARWARE["309"]["BorderSizePixel"]=0;
-_AGARWARE["309"]["RichText"]=true;
-_AGARWARE["309"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["309"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["309"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["309"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["309"]["Size"]=UDim2.new(0, 133, 0, 82);
-_AGARWARE["309"]["TextSize"]=12;
 _AGARWARE["309"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["309"]["Text"]=[[===== v2.8.10 > v2.9.0<br />New Features - NEW GRIEF TAB, added ping on the top bar.<br/>Grief aura coming soon.]];
-_AGARWARE["309"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["309"]["LayoutOrder"]=989;
 _AGARWARE["309"]["BackgroundTransparency"]=1;
-_AGARWARE["309"]["Position"]=UDim2.new(0.04605, 0, -0, 0);
-_AGARWARE["30a"]=Instance.new("Frame",_AGARWARE["2f0"]);
-_AGARWARE["30a"].Name="V2.9.1";
-_AGARWARE["30a"]["Size"]=UDim2.new(0, 152, 0, 113);
+_AGARWARE["309"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["30a"]=Instance.new("TextLabel",_AGARWARE["309"]);
+_AGARWARE["30a"].Name="Text";
+_AGARWARE["30a"]["TextWrapped"]=true;
 _AGARWARE["30a"]["BorderSizePixel"]=0;
-_AGARWARE["30a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["30a"]["LayoutOrder"]=988;
-_AGARWARE["30a"]["BackgroundTransparency"]=1;
-_AGARWARE["30a"]["Position"]=UDim2.new(0, 0, -0.09158, 0);
+_AGARWARE["30a"]["RichText"]=true;
+_AGARWARE["30a"]["TextYAlignment"]=Enum.TextYAlignment.Top;
 _AGARWARE["30a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["30b"]=Instance.new("TextLabel",_AGARWARE["30a"]);
-_AGARWARE["30b"].Name="Text";
-_AGARWARE["30b"]["TextWrapped"]=true;
+_AGARWARE["30a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["30a"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["30a"]["Size"]=UDim2.new(0, 133, 0, 82);
+_AGARWARE["30a"]["TextSize"]=12;
+_AGARWARE["30a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["30a"]["Text"]=[[===== v2.8.10 > v2.9.0<br />New Features - NEW GRIEF TAB, added ping on the top bar.<br/>Grief aura coming soon.]];
+_AGARWARE["30a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["30a"]["BackgroundTransparency"]=1;
+_AGARWARE["30a"]["Position"]=UDim2.new(0.04605, 0, -0, 0);
+_AGARWARE["30b"]=Instance.new("Frame",_AGARWARE["2f1"]);
+_AGARWARE["30b"].Name="V2.9.1";
+_AGARWARE["30b"]["Size"]=UDim2.new(0, 152, 0, 113);
 _AGARWARE["30b"]["BorderSizePixel"]=0;
-_AGARWARE["30b"]["RichText"]=true;
-_AGARWARE["30b"]["TextYAlignment"]=Enum.TextYAlignment.Top;
-_AGARWARE["30b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["30b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["30b"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["30b"]["Size"]=UDim2.new(0, 133, 0, 112);
-_AGARWARE["30b"]["TextSize"]=12;
 _AGARWARE["30b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["30b"]["Text"]=[[===== v2.9.0 > v2.9.1<br />Bug Fixes - Fixed anti fling not working, dropdowns not working, grief tab not deleting properly.<br/>Changes - changed delete all blocks to delete aura.]];
-_AGARWARE["30b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["30b"]["LayoutOrder"]=988;
 _AGARWARE["30b"]["BackgroundTransparency"]=1;
-_AGARWARE["30b"]["Position"]=UDim2.new(0.04605, 0, -0, 0);
-_AGARWARE["30c"]=Instance.new("Frame",_AGARWARE["2e7"]);
-_AGARWARE["30c"].Name="TCOGroup";
-_AGARWARE["30c"]["Size"]=UDim2.new(0, 170, 0, 104);
-_AGARWARE["30c"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["30c"]["LayoutOrder"]=2;
-_AGARWARE["30c"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["30c"]["Position"]=UDim2.new(0, 0, 0.24722, 0);
-_AGARWARE["30c"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["30d"]=Instance.new("LocalScript",_AGARWARE["30c"]);
-_AGARWARE["30d"].Name="TCOScript";
-_AGARWARE["30e"]=Instance.new("UIListLayout",_AGARWARE["30c"]);
-_AGARWARE["30e"].Name="UIListLayout";
-_AGARWARE["30e"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["30f"]=Instance.new("Frame",_AGARWARE["30c"]);
-_AGARWARE["30f"].Name="TCOAccentColor";
-_AGARWARE["30f"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["30f"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["30f"]["BorderColor3"]=Color3.fromRGB(117, 117, 117);
-_AGARWARE["30f"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["30f"]["BackgroundColor3"]=Color3.fromRGB(140, 140, 140);
-_AGARWARE["310"]=Instance.new("TextLabel",_AGARWARE["30c"]);
-_AGARWARE["310"].Name="TCOTitle";
-_AGARWARE["310"]["TextWrapped"]=true;
-_AGARWARE["310"]["BorderSizePixel"]=0;
-_AGARWARE["310"]["TextScaled"]=true;
-_AGARWARE["310"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["310"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["310"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["310"]["TextSize"]=14;
-_AGARWARE["310"]["LayoutOrder"]=1;
-_AGARWARE["310"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["310"]["Text"]=[[TCO]];
-_AGARWARE["310"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["310"]["BackgroundTransparency"]=0.95;
-_AGARWARE["310"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["311"]=Instance.new("LocalScript",_AGARWARE["310"]);
-_AGARWARE["311"].Name="TitleScript";
-_AGARWARE["312"]=Instance.new("TextButton",_AGARWARE["310"]);
-_AGARWARE["312"].Name="TCOMinimize";
-_AGARWARE["312"]["BorderSizePixel"]=0;
-_AGARWARE["312"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["312"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["312"]["TextSize"]=14;
-_AGARWARE["312"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["312"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["312"]["BackgroundTransparency"]=1;
-_AGARWARE["312"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["312"]["Text"]=[[-]];
-_AGARWARE["312"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["313"]=Instance.new("Frame",_AGARWARE["30c"]);
-_AGARWARE["313"].Name="BlockCountRow";
-_AGARWARE["313"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["30b"]["Position"]=UDim2.new(0, 0, -0.09158, 0);
+_AGARWARE["30b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["30c"]=Instance.new("TextLabel",_AGARWARE["30b"]);
+_AGARWARE["30c"].Name="Text";
+_AGARWARE["30c"]["TextWrapped"]=true;
+_AGARWARE["30c"]["BorderSizePixel"]=0;
+_AGARWARE["30c"]["RichText"]=true;
+_AGARWARE["30c"]["TextYAlignment"]=Enum.TextYAlignment.Top;
+_AGARWARE["30c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["30c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["30c"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["30c"]["Size"]=UDim2.new(0, 133, 0, 112);
+_AGARWARE["30c"]["TextSize"]=12;
+_AGARWARE["30c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["30c"]["Text"]=[[===== v2.9.0 > v2.9.1<br />Bug Fixes - Fixed anti fling not working, dropdowns not working, grief tab not deleting properly.<br/>Changes - changed delete all blocks to delete aura.]];
+_AGARWARE["30c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["30c"]["BackgroundTransparency"]=1;
+_AGARWARE["30c"]["Position"]=UDim2.new(0.04605, 0, -0, 0);
+_AGARWARE["30d"]=Instance.new("Frame",_AGARWARE["2e8"]);
+_AGARWARE["30d"].Name="TCOGroup";
+_AGARWARE["30d"]["Size"]=UDim2.new(0, 170, 0, 104);
+_AGARWARE["30d"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["30d"]["LayoutOrder"]=2;
+_AGARWARE["30d"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["30d"]["Position"]=UDim2.new(0, 0, 0.24722, 0);
+_AGARWARE["30d"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["30e"]=Instance.new("LocalScript",_AGARWARE["30d"]);
+_AGARWARE["30e"].Name="TCOScript";
+_AGARWARE["30f"]=Instance.new("UIListLayout",_AGARWARE["30d"]);
+_AGARWARE["30f"].Name="UIListLayout";
+_AGARWARE["30f"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["310"]=Instance.new("Frame",_AGARWARE["30d"]);
+_AGARWARE["310"].Name="TCOAccentColor";
+_AGARWARE["310"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["310"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["310"]["BorderColor3"]=Color3.fromRGB(117, 117, 117);
+_AGARWARE["310"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["310"]["BackgroundColor3"]=Color3.fromRGB(140, 140, 140);
+_AGARWARE["311"]=Instance.new("TextLabel",_AGARWARE["30d"]);
+_AGARWARE["311"].Name="TCOTitle";
+_AGARWARE["311"]["TextWrapped"]=true;
+_AGARWARE["311"]["BorderSizePixel"]=0;
+_AGARWARE["311"]["TextScaled"]=true;
+_AGARWARE["311"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["311"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["311"]["Size"]=UDim2.new(0, 169, 0, 15);
+_AGARWARE["311"]["TextSize"]=14;
+_AGARWARE["311"]["LayoutOrder"]=1;
+_AGARWARE["311"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["311"]["Text"]=[[TCO]];
+_AGARWARE["311"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["311"]["BackgroundTransparency"]=0.95;
+_AGARWARE["311"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["312"]=Instance.new("LocalScript",_AGARWARE["311"]);
+_AGARWARE["312"].Name="TitleScript";
+_AGARWARE["313"]=Instance.new("TextButton",_AGARWARE["311"]);
+_AGARWARE["313"].Name="TCOMinimize";
 _AGARWARE["313"]["BorderSizePixel"]=0;
-_AGARWARE["313"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["313"]["LayoutOrder"]=4;
-_AGARWARE["313"]["BackgroundTransparency"]=1;
-_AGARWARE["313"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["313"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["314"]=Instance.new("TextLabel",_AGARWARE["313"]);
-_AGARWARE["314"].Name="Text";
+_AGARWARE["313"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["313"]["TextSize"]=14;
+_AGARWARE["313"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["313"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["313"]["BackgroundTransparency"]=1;
+_AGARWARE["313"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["313"]["Text"]=[[-]];
+_AGARWARE["313"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["314"]=Instance.new("Frame",_AGARWARE["30d"]);
+_AGARWARE["314"].Name="BlockCountRow";
+_AGARWARE["314"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["314"]["BorderSizePixel"]=0;
-_AGARWARE["314"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["314"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["314"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["314"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["314"]["TextSize"]=14;
 _AGARWARE["314"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["314"]["Text"]=[[🧱 Total Blocks: 0]];
-_AGARWARE["314"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["314"]["LayoutOrder"]=4;
 _AGARWARE["314"]["BackgroundTransparency"]=1;
-_AGARWARE["314"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["315"]=Instance.new("Frame",_AGARWARE["30c"]);
-_AGARWARE["315"].Name="AdminRow";
-_AGARWARE["315"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["314"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["314"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["315"]=Instance.new("TextLabel",_AGARWARE["314"]);
+_AGARWARE["315"].Name="Text";
 _AGARWARE["315"]["BorderSizePixel"]=0;
-_AGARWARE["315"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["315"]["LayoutOrder"]=4;
-_AGARWARE["315"]["BackgroundTransparency"]=1;
-_AGARWARE["315"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["315"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["316"]=Instance.new("TextLabel",_AGARWARE["315"]);
-_AGARWARE["316"].Name="Text";
+_AGARWARE["315"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["315"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["315"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["315"]["TextSize"]=14;
+_AGARWARE["315"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["315"]["Text"]=[[🧱 Total Blocks: 0]];
+_AGARWARE["315"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["315"]["BackgroundTransparency"]=1;
+_AGARWARE["315"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["316"]=Instance.new("Frame",_AGARWARE["30d"]);
+_AGARWARE["316"].Name="AdminRow";
+_AGARWARE["316"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["316"]["BorderSizePixel"]=0;
-_AGARWARE["316"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["316"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["316"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["316"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["316"]["TextSize"]=14;
 _AGARWARE["316"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["316"]["Text"]=[[👤 Admin: N\A]];
-_AGARWARE["316"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["316"]["LayoutOrder"]=4;
 _AGARWARE["316"]["BackgroundTransparency"]=1;
-_AGARWARE["316"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["317"]=Instance.new("Frame",_AGARWARE["30c"]);
-_AGARWARE["317"].Name="TotalTimeRow";
-_AGARWARE["317"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["316"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["316"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["317"]=Instance.new("TextLabel",_AGARWARE["316"]);
+_AGARWARE["317"].Name="Text";
 _AGARWARE["317"]["BorderSizePixel"]=0;
-_AGARWARE["317"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["317"]["LayoutOrder"]=4;
-_AGARWARE["317"]["BackgroundTransparency"]=1;
-_AGARWARE["317"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["317"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["318"]=Instance.new("TextLabel",_AGARWARE["317"]);
-_AGARWARE["318"].Name="Text";
+_AGARWARE["317"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["317"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["317"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["317"]["TextSize"]=14;
+_AGARWARE["317"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["317"]["Text"]=[[👤 Admin: N\A]];
+_AGARWARE["317"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["317"]["BackgroundTransparency"]=1;
+_AGARWARE["317"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["318"]=Instance.new("Frame",_AGARWARE["30d"]);
+_AGARWARE["318"].Name="TotalTimeRow";
+_AGARWARE["318"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["318"]["BorderSizePixel"]=0;
-_AGARWARE["318"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["318"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["318"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["318"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["318"]["TextSize"]=14;
 _AGARWARE["318"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["318"]["Text"]=[[🕛 All Time: 000000]];
-_AGARWARE["318"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["318"]["LayoutOrder"]=4;
 _AGARWARE["318"]["BackgroundTransparency"]=1;
-_AGARWARE["318"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["319"]=Instance.new("Frame",_AGARWARE["30c"]);
-_AGARWARE["319"].Name="EnlightenRow";
-_AGARWARE["319"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["318"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["318"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["319"]=Instance.new("TextLabel",_AGARWARE["318"]);
+_AGARWARE["319"].Name="Text";
 _AGARWARE["319"]["BorderSizePixel"]=0;
-_AGARWARE["319"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["319"]["LayoutOrder"]=4;
-_AGARWARE["319"]["BackgroundTransparency"]=1;
-_AGARWARE["319"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["319"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["31a"]=Instance.new("TextLabel",_AGARWARE["319"]);
-_AGARWARE["31a"].Name="Text";
+_AGARWARE["319"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["319"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["319"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["319"]["TextSize"]=14;
+_AGARWARE["319"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["319"]["Text"]=[[🕛 All Time: 000000]];
+_AGARWARE["319"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["319"]["BackgroundTransparency"]=1;
+_AGARWARE["319"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["31a"]=Instance.new("Frame",_AGARWARE["30d"]);
+_AGARWARE["31a"].Name="EnlightenRow";
+_AGARWARE["31a"]["Size"]=UDim2.new(0, 169, 0, 20);
 _AGARWARE["31a"]["BorderSizePixel"]=0;
-_AGARWARE["31a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["31a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["31a"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["31a"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["31a"]["TextSize"]=14;
 _AGARWARE["31a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["31a"]["Text"]=[[🌟 Enlighten Users: 0]];
-_AGARWARE["31a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["31a"]["LayoutOrder"]=4;
 _AGARWARE["31a"]["BackgroundTransparency"]=1;
-_AGARWARE["31a"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
-_AGARWARE["31b"]=Instance.new("ScrollingFrame",_AGARWARE["15"]);
-_AGARWARE["31b"].Name="TrollPage";
+_AGARWARE["31a"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["31a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["31b"]=Instance.new("TextLabel",_AGARWARE["31a"]);
+_AGARWARE["31b"].Name="Text";
 _AGARWARE["31b"]["BorderSizePixel"]=0;
-_AGARWARE["31b"]["CanvasSize"]=UDim2.new(0, 0, 1.5, 0);
-_AGARWARE["31b"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["31b"]["Active"]=true;
-_AGARWARE["31b"]["Size"]=UDim2.new(0, 349, 0, 250);
-_AGARWARE["31b"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["31b"]["Visible"]=false;
+_AGARWARE["31b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["31b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["31b"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["31b"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["31b"]["TextSize"]=14;
 _AGARWARE["31b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["31b"]["ScrollBarThickness"]=0;
+_AGARWARE["31b"]["Text"]=[[🌟 Enlighten Users: 0]];
+_AGARWARE["31b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["31b"]["BackgroundTransparency"]=1;
-_AGARWARE["31b"]["Position"]=UDim2.new(0.02329, 0, 0.03008, 0);
-_AGARWARE["31c"]=Instance.new("Frame",_AGARWARE["31b"]);
-_AGARWARE["31c"].Name="TrollLeftSide";
-_AGARWARE["31c"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["31b"]["Position"]=UDim2.new(0.02367, 0, 0, 0);
+_AGARWARE["31c"]=Instance.new("ScrollingFrame",_AGARWARE["16"]);
+_AGARWARE["31c"].Name="TrollPage";
 _AGARWARE["31c"]["BorderSizePixel"]=0;
+_AGARWARE["31c"]["CanvasSize"]=UDim2.new(0, 0, 1.5, 0);
+_AGARWARE["31c"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["31c"]["Active"]=true;
+_AGARWARE["31c"]["Size"]=UDim2.new(0, 349, 0, 250);
+_AGARWARE["31c"]["ScrollBarImageColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["31c"]["Visible"]=false;
 _AGARWARE["31c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["31c"]["ScrollBarThickness"]=0;
 _AGARWARE["31c"]["BackgroundTransparency"]=1;
-_AGARWARE["31c"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
-_AGARWARE["31c"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["31d"]=Instance.new("UIListLayout",_AGARWARE["31c"]);
-_AGARWARE["31d"].Name="UIListLayout";
-_AGARWARE["31d"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["31d"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["31e"]=Instance.new("Frame",_AGARWARE["31c"]);
-_AGARWARE["31e"].Name="FlingGroup";
-_AGARWARE["31e"]["Size"]=UDim2.new(0, 170, 0, 122);
-_AGARWARE["31e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["31e"]["LayoutOrder"]=2;
-_AGARWARE["31e"]["BorderMode"]=Enum.BorderMode.Middle;
-_AGARWARE["31e"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
-_AGARWARE["31f"]=Instance.new("LocalScript",_AGARWARE["31e"]);
-_AGARWARE["31f"].Name="FlingScript";
-_AGARWARE["320"]=Instance.new("UIListLayout",_AGARWARE["31e"]);
-_AGARWARE["320"].Name="UIListLayout";
-_AGARWARE["320"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["321"]=Instance.new("Frame",_AGARWARE["31e"]);
-_AGARWARE["321"].Name="FlingAccentColor";
-_AGARWARE["321"]["Size"]=UDim2.new(0, 169, 0, 2);
-_AGARWARE["321"]["AutomaticSize"]=Enum.AutomaticSize.X;
-_AGARWARE["321"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
-_AGARWARE["321"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
-_AGARWARE["321"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["322"]=Instance.new("TextLabel",_AGARWARE["31e"]);
-_AGARWARE["322"].Name="FlingTitle";
-_AGARWARE["322"]["TextWrapped"]=true;
-_AGARWARE["322"]["BorderSizePixel"]=0;
-_AGARWARE["322"]["TextScaled"]=true;
-_AGARWARE["322"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["322"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["322"]["Size"]=UDim2.new(0, 169, 0, 15);
-_AGARWARE["322"]["TextSize"]=14;
-_AGARWARE["322"]["LayoutOrder"]=1;
-_AGARWARE["322"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["322"]["Text"]=[[Fling]];
-_AGARWARE["322"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
-_AGARWARE["322"]["BackgroundTransparency"]=0.95;
-_AGARWARE["322"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
-_AGARWARE["323"]=Instance.new("TextButton",_AGARWARE["322"]);
-_AGARWARE["323"].Name="FlingMinimize";
+_AGARWARE["31c"]["Position"]=UDim2.new(0.02329, 0, 0.03008, 0);
+_AGARWARE["31d"]=Instance.new("Frame",_AGARWARE["31c"]);
+_AGARWARE["31d"].Name="TrollLeftSide";
+_AGARWARE["31d"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["31d"]["BorderSizePixel"]=0;
+_AGARWARE["31d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["31d"]["BackgroundTransparency"]=1;
+_AGARWARE["31d"]["Position"]=UDim2.new(0, 0, 0.00439, 0);
+_AGARWARE["31d"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["31e"]=Instance.new("UIListLayout",_AGARWARE["31d"]);
+_AGARWARE["31e"].Name="UIListLayout";
+_AGARWARE["31e"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["31e"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["31f"]=Instance.new("Frame",_AGARWARE["31d"]);
+_AGARWARE["31f"].Name="FlingGroup";
+_AGARWARE["31f"]["Size"]=UDim2.new(0, 170, 0, 122);
+_AGARWARE["31f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["31f"]["LayoutOrder"]=2;
+_AGARWARE["31f"]["BorderMode"]=Enum.BorderMode.Middle;
+_AGARWARE["31f"]["BackgroundColor3"]=Color3.fromRGB(17, 17, 17);
+_AGARWARE["320"]=Instance.new("LocalScript",_AGARWARE["31f"]);
+_AGARWARE["320"].Name="FlingScript";
+_AGARWARE["321"]=Instance.new("UIListLayout",_AGARWARE["31f"]);
+_AGARWARE["321"].Name="UIListLayout";
+_AGARWARE["321"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["322"]=Instance.new("Frame",_AGARWARE["31f"]);
+_AGARWARE["322"].Name="FlingAccentColor";
+_AGARWARE["322"]["Size"]=UDim2.new(0, 169, 0, 2);
+_AGARWARE["322"]["AutomaticSize"]=Enum.AutomaticSize.X;
+_AGARWARE["322"]["BorderColor3"]=Color3.fromRGB(0, 92, 189);
+_AGARWARE["322"]["Position"]=UDim2.new(0.00294, 0, 0.00658, 0);
+_AGARWARE["322"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["323"]=Instance.new("TextLabel",_AGARWARE["31f"]);
+_AGARWARE["323"].Name="FlingTitle";
+_AGARWARE["323"]["TextWrapped"]=true;
 _AGARWARE["323"]["BorderSizePixel"]=0;
+_AGARWARE["323"]["TextScaled"]=true;
 _AGARWARE["323"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["323"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["323"]["Size"]=UDim2.new(0, 169, 0, 15);
 _AGARWARE["323"]["TextSize"]=14;
-_AGARWARE["323"]["Size"]=UDim2.new(0, 20, 0, 15);
-_AGARWARE["323"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["323"]["BackgroundTransparency"]=1;
+_AGARWARE["323"]["LayoutOrder"]=1;
 _AGARWARE["323"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["323"]["Text"]=[[-]];
-_AGARWARE["323"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
-_AGARWARE["324"]=Instance.new("Frame",_AGARWARE["31e"]);
-_AGARWARE["324"].Name="FlingAllRow";
-_AGARWARE["324"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["323"]["Text"]=[[Fling]];
+_AGARWARE["323"]["TextColor3"]=Color3.fromRGB(190, 190, 190);
+_AGARWARE["323"]["BackgroundTransparency"]=0.95;
+_AGARWARE["323"]["Position"]=UDim2.new(0.00294, 0, 0.03289, 0);
+_AGARWARE["324"]=Instance.new("TextButton",_AGARWARE["323"]);
+_AGARWARE["324"].Name="FlingMinimize";
 _AGARWARE["324"]["BorderSizePixel"]=0;
-_AGARWARE["324"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["324"]["LayoutOrder"]=10;
-_AGARWARE["324"]["BackgroundTransparency"]=1;
-_AGARWARE["324"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["324"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["325"]=Instance.new("TextButton",_AGARWARE["324"]);
-_AGARWARE["325"].Name="FlingAllButton";
-_AGARWARE["325"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["325"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["325"]["TextSize"]=14;
-_AGARWARE["325"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["325"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["325"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["325"]["Text"]=[[Fling All Players]];
-_AGARWARE["325"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["326"]=Instance.new("Frame",_AGARWARE["31e"]);
-_AGARWARE["326"].Name="TouchFlingRow";
-_AGARWARE["326"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["326"]["BorderSizePixel"]=0;
-_AGARWARE["326"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["326"]["LayoutOrder"]=2;
-_AGARWARE["326"]["BackgroundTransparency"]=1;
-_AGARWARE["326"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["326"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["327"]=Instance.new("LocalScript",_AGARWARE["326"]);
-_AGARWARE["327"].Name="TouchFlingScript";
-_AGARWARE["328"]=Instance.new("TextButton",_AGARWARE["326"]);
-_AGARWARE["328"].Name="TouchFlingTickBox";
-_AGARWARE["328"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["328"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["328"]["TextSize"]=14;
-_AGARWARE["328"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["328"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["328"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["328"]["Text"]=[[]];
-_AGARWARE["328"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["329"]=Instance.new("TextLabel",_AGARWARE["326"]);
-_AGARWARE["329"].Name="TouchFlingText";
-_AGARWARE["329"]["BorderSizePixel"]=0;
-_AGARWARE["329"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["329"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["329"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["329"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["324"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["324"]["TextSize"]=14;
+_AGARWARE["324"]["Size"]=UDim2.new(0, 20, 0, 15);
+_AGARWARE["324"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["324"]["BackgroundTransparency"]=1;
+_AGARWARE["324"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["324"]["Text"]=[[-]];
+_AGARWARE["324"]["Position"]=UDim2.new(0.88166, 0, 0, 0);
+_AGARWARE["325"]=Instance.new("Frame",_AGARWARE["31f"]);
+_AGARWARE["325"].Name="FlingAllRow";
+_AGARWARE["325"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["325"]["BorderSizePixel"]=0;
+_AGARWARE["325"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["325"]["LayoutOrder"]=10;
+_AGARWARE["325"]["BackgroundTransparency"]=1;
+_AGARWARE["325"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["325"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["326"]=Instance.new("TextButton",_AGARWARE["325"]);
+_AGARWARE["326"].Name="FlingAllButton";
+_AGARWARE["326"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["326"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["326"]["TextSize"]=14;
+_AGARWARE["326"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["326"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["326"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["326"]["Text"]=[[Fling All Players]];
+_AGARWARE["326"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["327"]=Instance.new("Frame",_AGARWARE["31f"]);
+_AGARWARE["327"].Name="TouchFlingRow";
+_AGARWARE["327"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["327"]["BorderSizePixel"]=0;
+_AGARWARE["327"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["327"]["LayoutOrder"]=2;
+_AGARWARE["327"]["BackgroundTransparency"]=1;
+_AGARWARE["327"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["327"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["328"]=Instance.new("LocalScript",_AGARWARE["327"]);
+_AGARWARE["328"].Name="TouchFlingScript";
+_AGARWARE["329"]=Instance.new("TextButton",_AGARWARE["327"]);
+_AGARWARE["329"].Name="TouchFlingTickBox";
+_AGARWARE["329"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["329"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["329"]["TextSize"]=14;
-_AGARWARE["329"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["329"]["Text"]=[[Touch Fling]];
-_AGARWARE["329"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["329"]["BackgroundTransparency"]=1;
-_AGARWARE["329"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["32a"]=Instance.new("Frame",_AGARWARE["31e"]);
-_AGARWARE["32a"].Name="FlingTypeRow";
-_AGARWARE["32a"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["329"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["329"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["329"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["329"]["Text"]=[[]];
+_AGARWARE["329"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["32a"]=Instance.new("TextLabel",_AGARWARE["327"]);
+_AGARWARE["32a"].Name="TouchFlingText";
 _AGARWARE["32a"]["BorderSizePixel"]=0;
-_AGARWARE["32a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["32a"]["LayoutOrder"]=5;
-_AGARWARE["32a"]["BackgroundTransparency"]=1;
-_AGARWARE["32a"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
 _AGARWARE["32a"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["32b"]=Instance.new("LocalScript",_AGARWARE["32a"]);
-_AGARWARE["32b"].Name="FlingTypeTooltip";
-_AGARWARE["32c"]=Instance.new("TextLabel",_AGARWARE["32a"]);
-_AGARWARE["32c"].Name="FlingType";
-_AGARWARE["32c"]["BorderSizePixel"]=0;
-_AGARWARE["32c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["32c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["32c"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["32c"]["Size"]=UDim2.new(0, 88, 0, 20);
-_AGARWARE["32c"]["TextSize"]=14;
-_AGARWARE["32c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["32c"]["Text"]=[[Fling Mode:]];
-_AGARWARE["32c"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["32c"]["BackgroundTransparency"]=1;
-_AGARWARE["32c"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
-_AGARWARE["32d"]=Instance.new("TextButton",_AGARWARE["32a"]);
-_AGARWARE["32d"].Name="FlingTypeHelp";
-_AGARWARE["32d"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["32d"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["32a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["32a"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["32a"]["Size"]=UDim2.new(0, 88, 0, 20);
+_AGARWARE["32a"]["TextSize"]=14;
+_AGARWARE["32a"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["32a"]["Text"]=[[Touch Fling]];
+_AGARWARE["32a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["32a"]["BackgroundTransparency"]=1;
+_AGARWARE["32a"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["32b"]=Instance.new("Frame",_AGARWARE["31f"]);
+_AGARWARE["32b"].Name="FlingTypeRow";
+_AGARWARE["32b"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["32b"]["BorderSizePixel"]=0;
+_AGARWARE["32b"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["32b"]["LayoutOrder"]=5;
+_AGARWARE["32b"]["BackgroundTransparency"]=1;
+_AGARWARE["32b"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["32b"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["32c"]=Instance.new("LocalScript",_AGARWARE["32b"]);
+_AGARWARE["32c"].Name="FlingTypeTooltip";
+_AGARWARE["32d"]=Instance.new("TextLabel",_AGARWARE["32b"]);
+_AGARWARE["32d"].Name="FlingType";
+_AGARWARE["32d"]["BorderSizePixel"]=0;
+_AGARWARE["32d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["32d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["32d"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["32d"]["Size"]=UDim2.new(0, 88, 0, 20);
 _AGARWARE["32d"]["TextSize"]=14;
-_AGARWARE["32d"]["Size"]=UDim2.new(0, 16, 0, 16);
-_AGARWARE["32d"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
-_AGARWARE["32d"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
-_AGARWARE["32d"]["Text"]=[[?]];
-_AGARWARE["32d"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["32e"]=Instance.new("Frame",_AGARWARE["31e"]);
-_AGARWARE["32e"].Name="FlingTypeDropdownRow";
-_AGARWARE["32e"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["32e"]["BorderSizePixel"]=0;
-_AGARWARE["32e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["32e"]["LayoutOrder"]=6;
-_AGARWARE["32e"]["BackgroundTransparency"]=1;
-_AGARWARE["32e"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["32e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["32f"]=Instance.new("TextButton",_AGARWARE["32e"]);
-_AGARWARE["32f"].Name="FlingTypeDropdown";
-_AGARWARE["32f"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["32f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["32f"]["TextSize"]=14;
-_AGARWARE["32f"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["32f"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["32f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["32f"]["Text"]=[[Default]];
-_AGARWARE["32f"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["330"]=Instance.new("Frame",_AGARWARE["31e"]);
-_AGARWARE["330"].Name="LoopFlingRow";
-_AGARWARE["330"]["Size"]=UDim2.new(0, 169, 0, 20);
-_AGARWARE["330"]["BorderSizePixel"]=0;
-_AGARWARE["330"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["330"]["LayoutOrder"]=10;
-_AGARWARE["330"]["BackgroundTransparency"]=1;
-_AGARWARE["330"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
-_AGARWARE["330"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["331"]=Instance.new("TextButton",_AGARWARE["330"]);
-_AGARWARE["331"].Name="LoopFlingButton";
-_AGARWARE["331"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
-_AGARWARE["331"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["331"]["TextSize"]=14;
-_AGARWARE["331"]["Size"]=UDim2.new(0, 161, 0, 16);
-_AGARWARE["331"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["331"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["331"]["Text"]=[[Loop Fling Players]];
-_AGARWARE["331"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
-_AGARWARE["332"]=Instance.new("Frame",_AGARWARE["31b"]);
-_AGARWARE["332"].Name="TrollRightSide";
-_AGARWARE["332"]["Size"]=UDim2.new(0, 170, 0, 360);
-_AGARWARE["332"]["BorderSizePixel"]=0;
-_AGARWARE["332"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["332"]["BackgroundTransparency"]=1;
-_AGARWARE["332"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
-_AGARWARE["332"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
-_AGARWARE["333"]=Instance.new("UIListLayout",_AGARWARE["332"]);
-_AGARWARE["333"].Name="UIListLayout";
-_AGARWARE["333"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["333"]["Padding"]=UDim.new(0, 7);
-_AGARWARE["334"]=Instance.new("Frame",_AGARWARE["7"]);
-_AGARWARE["334"].Name="TopBar";
-_AGARWARE["334"]["Size"]=UDim2.new(0, 442, 0, 25);
-_AGARWARE["334"]["BorderSizePixel"]=0;
-_AGARWARE["334"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["334"]["Position"]=UDim2.new(-0, 0, 0, 0);
-_AGARWARE["334"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
-_AGARWARE["335"]=Instance.new("LocalScript",_AGARWARE["334"]);
-_AGARWARE["335"].Name="TopBarScript";
-_AGARWARE["336"]=Instance.new("TextButton",_AGARWARE["334"]);
-_AGARWARE["336"].Name="MinimizeGUI";
-_AGARWARE["336"]["BorderSizePixel"]=0;
-_AGARWARE["336"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["336"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["336"]["TextSize"]=14;
-_AGARWARE["336"]["Size"]=UDim2.new(0, 25, 0, 25);
-_AGARWARE["336"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["336"]["BackgroundTransparency"]=1;
-_AGARWARE["336"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["336"]["Text"]=[[-]];
-_AGARWARE["336"]["Position"]=UDim2.new(0.99919, -25, 0, 0);
-_AGARWARE["337"]=Instance.new("TextLabel",_AGARWARE["334"]);
-_AGARWARE["337"].Name="TITLE";
+_AGARWARE["32d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["32d"]["Text"]=[[Fling Mode:]];
+_AGARWARE["32d"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["32d"]["BackgroundTransparency"]=1;
+_AGARWARE["32d"]["Position"]=UDim2.new(0.17751, 0, 0, 0);
+_AGARWARE["32e"]=Instance.new("TextButton",_AGARWARE["32b"]);
+_AGARWARE["32e"].Name="FlingTypeHelp";
+_AGARWARE["32e"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["32e"]["FontFace"]=Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+_AGARWARE["32e"]["TextSize"]=14;
+_AGARWARE["32e"]["Size"]=UDim2.new(0, 16, 0, 16);
+_AGARWARE["32e"]["TextColor3"]=Color3.fromRGB(96, 96, 96);
+_AGARWARE["32e"]["BorderColor3"]=Color3.fromRGB(82, 82, 82);
+_AGARWARE["32e"]["Text"]=[[?]];
+_AGARWARE["32e"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["32f"]=Instance.new("Frame",_AGARWARE["31f"]);
+_AGARWARE["32f"].Name="FlingTypeDropdownRow";
+_AGARWARE["32f"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["32f"]["BorderSizePixel"]=0;
+_AGARWARE["32f"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["32f"]["LayoutOrder"]=6;
+_AGARWARE["32f"]["BackgroundTransparency"]=1;
+_AGARWARE["32f"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["32f"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["330"]=Instance.new("TextButton",_AGARWARE["32f"]);
+_AGARWARE["330"].Name="FlingTypeDropdown";
+_AGARWARE["330"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["330"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["330"]["TextSize"]=14;
+_AGARWARE["330"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["330"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["330"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["330"]["Text"]=[[Default]];
+_AGARWARE["330"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["331"]=Instance.new("Frame",_AGARWARE["31f"]);
+_AGARWARE["331"].Name="LoopFlingRow";
+_AGARWARE["331"]["Size"]=UDim2.new(0, 169, 0, 20);
+_AGARWARE["331"]["BorderSizePixel"]=0;
+_AGARWARE["331"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["331"]["LayoutOrder"]=10;
+_AGARWARE["331"]["BackgroundTransparency"]=1;
+_AGARWARE["331"]["Position"]=UDim2.new(0.00294, 0, 0.175, 0);
+_AGARWARE["331"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["332"]=Instance.new("TextButton",_AGARWARE["331"]);
+_AGARWARE["332"].Name="LoopFlingButton";
+_AGARWARE["332"]["BackgroundColor3"]=Color3.fromRGB(25, 25, 25);
+_AGARWARE["332"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["332"]["TextSize"]=14;
+_AGARWARE["332"]["Size"]=UDim2.new(0, 161, 0, 16);
+_AGARWARE["332"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["332"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["332"]["Text"]=[[Loop Fling Players]];
+_AGARWARE["332"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
+_AGARWARE["333"]=Instance.new("Frame",_AGARWARE["31c"]);
+_AGARWARE["333"].Name="TrollRightSide";
+_AGARWARE["333"]["Size"]=UDim2.new(0, 170, 0, 360);
+_AGARWARE["333"]["BorderSizePixel"]=0;
+_AGARWARE["333"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["333"]["BackgroundTransparency"]=1;
+_AGARWARE["333"]["Position"]=UDim2.new(0.51003, 0, 0.00439, 0);
+_AGARWARE["333"]["BackgroundColor3"]=Color3.fromRGB(0, 255, 18);
+_AGARWARE["334"]=Instance.new("UIListLayout",_AGARWARE["333"]);
+_AGARWARE["334"].Name="UIListLayout";
+_AGARWARE["334"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["334"]["Padding"]=UDim.new(0, 7);
+_AGARWARE["335"]=Instance.new("Frame",_AGARWARE["8"]);
+_AGARWARE["335"].Name="TopBar";
+_AGARWARE["335"]["Size"]=UDim2.new(0, 442, 0, 25);
+_AGARWARE["335"]["BorderSizePixel"]=0;
+_AGARWARE["335"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["335"]["Position"]=UDim2.new(-0, 0, 0, 0);
+_AGARWARE["335"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
+_AGARWARE["336"]=Instance.new("LocalScript",_AGARWARE["335"]);
+_AGARWARE["336"].Name="TopBarScript";
+_AGARWARE["337"]=Instance.new("TextButton",_AGARWARE["335"]);
+_AGARWARE["337"].Name="MinimizeGUI";
 _AGARWARE["337"]["BorderSizePixel"]=0;
-_AGARWARE["337"]["RichText"]=true;
 _AGARWARE["337"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["337"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["337"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["337"]["Size"]=UDim2.new(0, 200, 0, 25);
-_AGARWARE["337"]["TextSize"]=12;
-_AGARWARE["337"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["337"]["Text"]=[[AGAR WARE | 60 fps | players: 1]];
+_AGARWARE["337"]["TextSize"]=14;
+_AGARWARE["337"]["Size"]=UDim2.new(0, 25, 0, 25);
 _AGARWARE["337"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["337"]["BackgroundTransparency"]=1;
-_AGARWARE["337"]["Position"]=UDim2.new(0.00679, 0, 0, 0);
-_AGARWARE["338"]=Instance.new("Frame",_AGARWARE["1"]);
-_AGARWARE["338"].Name="KeybindFrame";
-_AGARWARE["338"]["ZIndex"]=999999999;
-_AGARWARE["338"]["Size"]=UDim2.new(0, 80, 0, 88);
+_AGARWARE["337"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["337"]["Text"]=[[-]];
+_AGARWARE["337"]["Position"]=UDim2.new(0.99919, -25, 0, 0);
+_AGARWARE["338"]=Instance.new("TextLabel",_AGARWARE["335"]);
+_AGARWARE["338"].Name="TITLE";
 _AGARWARE["338"]["BorderSizePixel"]=0;
+_AGARWARE["338"]["RichText"]=true;
+_AGARWARE["338"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["338"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["338"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["338"]["Size"]=UDim2.new(0, 200, 0, 25);
+_AGARWARE["338"]["TextSize"]=12;
 _AGARWARE["338"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["338"]["BackgroundTransparency"]=0.9;
-_AGARWARE["338"]["Position"]=UDim2.new(0.70017, 0, 0.01856, 0);
-_AGARWARE["338"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["339"]=Instance.new("LocalScript",_AGARWARE["338"]);
-_AGARWARE["339"].Name="KeybindScript";
-_AGARWARE["33a"]=Instance.new("TextButton",_AGARWARE["338"]);
-_AGARWARE["33a"].Name="HideGUI";
-_AGARWARE["33a"]["LayoutOrder"]=1;
-_AGARWARE["33a"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
-_AGARWARE["33a"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["33a"]["TextSize"]=14;
-_AGARWARE["33a"]["Size"]=UDim2.new(0, 80, 0, 25);
-_AGARWARE["33a"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["33a"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["33a"]["Text"]=[[Hide GUI]];
-_AGARWARE["33b"]=Instance.new("UIListLayout",_AGARWARE["338"]);
-_AGARWARE["33b"].Name="UIListLayout";
-_AGARWARE["33b"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["33c"]=Instance.new("TextButton",_AGARWARE["338"]);
-_AGARWARE["33c"].Name="LockGUI";
-_AGARWARE["33c"]["LayoutOrder"]=2;
-_AGARWARE["33c"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
-_AGARWARE["33c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["33c"]["TextSize"]=14;
-_AGARWARE["33c"]["Size"]=UDim2.new(0, 80, 0, 25);
-_AGARWARE["33c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["33c"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["33c"]["Text"]=[[Lock GUI]];
-_AGARWARE["33c"]["Position"]=UDim2.new(0, 0, 0.28409, 0);
-_AGARWARE["33d"]=Instance.new("TextButton",_AGARWARE["338"]);
-_AGARWARE["33d"].Name="VersionNumber";
-_AGARWARE["33d"]["LayoutOrder"]=30;
-_AGARWARE["33d"]["TextWrapped"]=true;
-_AGARWARE["33d"]["TextScaled"]=true;
+_AGARWARE["338"]["Text"]=[[AGAR WARE | 60 fps | players: 1]];
+_AGARWARE["338"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["338"]["BackgroundTransparency"]=1;
+_AGARWARE["338"]["Position"]=UDim2.new(0.00679, 0, 0, 0);
+_AGARWARE["339"]=Instance.new("Frame",_AGARWARE["1"]);
+_AGARWARE["339"].Name="KeybindFrame";
+_AGARWARE["339"]["ZIndex"]=999999999;
+_AGARWARE["339"]["Size"]=UDim2.new(0, 80, 0, 88);
+_AGARWARE["339"]["BorderSizePixel"]=0;
+_AGARWARE["339"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["339"]["BackgroundTransparency"]=0.9;
+_AGARWARE["339"]["Position"]=UDim2.new(0.70017, 0, 0.01856, 0);
+_AGARWARE["339"]["BackgroundColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["33a"]=Instance.new("LocalScript",_AGARWARE["339"]);
+_AGARWARE["33a"].Name="KeybindScript";
+_AGARWARE["33b"]=Instance.new("TextButton",_AGARWARE["339"]);
+_AGARWARE["33b"].Name="HideGUI";
+_AGARWARE["33b"]["LayoutOrder"]=1;
+_AGARWARE["33b"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
+_AGARWARE["33b"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["33b"]["TextSize"]=14;
+_AGARWARE["33b"]["Size"]=UDim2.new(0, 80, 0, 25);
+_AGARWARE["33b"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["33b"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["33b"]["Text"]=[[Hide GUI]];
+_AGARWARE["33c"]=Instance.new("UIListLayout",_AGARWARE["339"]);
+_AGARWARE["33c"].Name="UIListLayout";
+_AGARWARE["33c"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["33d"]=Instance.new("TextButton",_AGARWARE["339"]);
+_AGARWARE["33d"].Name="LockGUI";
+_AGARWARE["33d"]["LayoutOrder"]=2;
 _AGARWARE["33d"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
 _AGARWARE["33d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["33d"]["TextSize"]=14;
-_AGARWARE["33d"]["Size"]=UDim2.new(0, 80, 0, 15);
-_AGARWARE["33d"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["33d"]["Size"]=UDim2.new(0, 80, 0, 25);
+_AGARWARE["33d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["33d"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["33d"]["Text"]=[[v2.9.1]];
-_AGARWARE["33d"]["Position"]=UDim2.new(0, 0, 1.25, 0);
-_AGARWARE["33e"]=Instance.new("TextButton",_AGARWARE["338"]);
-_AGARWARE["33e"].Name="DragGUI";
-_AGARWARE["33e"]["LayoutOrder"]=3;
-_AGARWARE["33e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["33d"]["Text"]=[[Lock GUI]];
+_AGARWARE["33d"]["Position"]=UDim2.new(0, 0, 0.28409, 0);
+_AGARWARE["33e"]=Instance.new("TextButton",_AGARWARE["339"]);
+_AGARWARE["33e"].Name="VersionNumber";
+_AGARWARE["33e"]["LayoutOrder"]=30;
+_AGARWARE["33e"]["TextWrapped"]=true;
+_AGARWARE["33e"]["TextScaled"]=true;
+_AGARWARE["33e"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
 _AGARWARE["33e"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["33e"]["TextSize"]=14;
-_AGARWARE["33e"]["Size"]=UDim2.new(0, 80, 0, 25);
-_AGARWARE["33e"]["TextColor3"]=Color3.fromRGB(154, 154, 154);
+_AGARWARE["33e"]["Size"]=UDim2.new(0, 80, 0, 15);
+_AGARWARE["33e"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
 _AGARWARE["33e"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["33e"]["Text"]=[[DRAG]];
-_AGARWARE["33f"]=Instance.new("TextButton",_AGARWARE["338"]);
-_AGARWARE["33f"].Name="BringGUI";
-_AGARWARE["33f"]["LayoutOrder"]=2;
-_AGARWARE["33f"]["TextWrapped"]=true;
-_AGARWARE["33f"]["TextScaled"]=true;
-_AGARWARE["33f"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
+_AGARWARE["33e"]["Text"]=[[v2.9.1]];
+_AGARWARE["33e"]["Position"]=UDim2.new(0, 0, 1.25, 0);
+_AGARWARE["33f"]=Instance.new("TextButton",_AGARWARE["339"]);
+_AGARWARE["33f"].Name="DragGUI";
+_AGARWARE["33f"]["LayoutOrder"]=3;
+_AGARWARE["33f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["33f"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["33f"]["TextSize"]=14;
 _AGARWARE["33f"]["Size"]=UDim2.new(0, 80, 0, 25);
-_AGARWARE["33f"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["33f"]["TextColor3"]=Color3.fromRGB(154, 154, 154);
 _AGARWARE["33f"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["33f"]["Text"]=[[Recenter GUI]];
-_AGARWARE["33f"]["Position"]=UDim2.new(0, 0, 0.28409, 0);
-_AGARWARE["340"]=Instance.new("Frame",_AGARWARE["1"]);
-_AGARWARE["340"].Name="ConfirmGriefFrame";
-_AGARWARE["340"]["Visible"]=false;
-_AGARWARE["340"]["ZIndex"]=999999999;
-_AGARWARE["340"]["Size"]=UDim2.new(0, 135, 0, 161);
-_AGARWARE["340"]["BorderSizePixel"]=0;
-_AGARWARE["340"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["340"]["Position"]=UDim2.new(0.66486, 0, 0.2513, 0);
-_AGARWARE["340"]["BackgroundColor3"]=Color3.fromRGB(0, 84, 173);
-_AGARWARE["341"]=Instance.new("UIListLayout",_AGARWARE["340"]);
-_AGARWARE["341"].Name="UIListLayout";
-_AGARWARE["341"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
-_AGARWARE["342"]=Instance.new("TextButton",_AGARWARE["340"]);
-_AGARWARE["342"].Name="FlingConfirm";
-_AGARWARE["342"]["LayoutOrder"]=3;
-_AGARWARE["342"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
-_AGARWARE["342"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["342"]["TextSize"]=16;
-_AGARWARE["342"]["Size"]=UDim2.new(0, 135, 0, 47);
-_AGARWARE["342"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["342"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["342"]["Text"]=[[FLING PLAYER]];
-_AGARWARE["343"]=Instance.new("TextButton",_AGARWARE["340"]);
-_AGARWARE["343"].Name="AlertConfirm";
+_AGARWARE["33f"]["Text"]=[[DRAG]];
+_AGARWARE["340"]=Instance.new("TextButton",_AGARWARE["339"]);
+_AGARWARE["340"].Name="BringGUI";
+_AGARWARE["340"]["LayoutOrder"]=2;
+_AGARWARE["340"]["TextWrapped"]=true;
+_AGARWARE["340"]["TextScaled"]=true;
+_AGARWARE["340"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
+_AGARWARE["340"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["340"]["TextSize"]=14;
+_AGARWARE["340"]["Size"]=UDim2.new(0, 80, 0, 25);
+_AGARWARE["340"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["340"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["340"]["Text"]=[[Recenter GUI]];
+_AGARWARE["340"]["Position"]=UDim2.new(0, 0, 0.28409, 0);
+_AGARWARE["341"]=Instance.new("Frame",_AGARWARE["1"]);
+_AGARWARE["341"].Name="ConfirmGriefFrame";
+_AGARWARE["341"]["Visible"]=false;
+_AGARWARE["341"]["ZIndex"]=999999999;
+_AGARWARE["341"]["Size"]=UDim2.new(0, 135, 0, 161);
+_AGARWARE["341"]["BorderSizePixel"]=0;
+_AGARWARE["341"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["341"]["Position"]=UDim2.new(0.66486, 0, 0.2513, 0);
+_AGARWARE["341"]["BackgroundColor3"]=Color3.fromRGB(0, 84, 173);
+_AGARWARE["342"]=Instance.new("UIListLayout",_AGARWARE["341"]);
+_AGARWARE["342"].Name="UIListLayout";
+_AGARWARE["342"]["SortOrder"]=Enum.SortOrder.LayoutOrder;
+_AGARWARE["343"]=Instance.new("TextButton",_AGARWARE["341"]);
+_AGARWARE["343"].Name="FlingConfirm";
 _AGARWARE["343"]["LayoutOrder"]=3;
-_AGARWARE["343"]["TextWrapped"]=true;
 _AGARWARE["343"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
 _AGARWARE["343"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["343"]["TextSize"]=16;
 _AGARWARE["343"]["Size"]=UDim2.new(0, 135, 0, 47);
 _AGARWARE["343"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["343"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["343"]["Text"]=[[ALERT IN CHAT]];
-_AGARWARE["343"]["Position"]=UDim2.new(0, 0, 0.58065, 0);
-_AGARWARE["344"]=Instance.new("TextLabel",_AGARWARE["340"]);
-_AGARWARE["344"].Name="ConfirmTimer";
+_AGARWARE["343"]["Text"]=[[FLING PLAYER]];
+_AGARWARE["344"]=Instance.new("TextButton",_AGARWARE["341"]);
+_AGARWARE["344"].Name="AlertConfirm";
+_AGARWARE["344"]["LayoutOrder"]=3;
 _AGARWARE["344"]["TextWrapped"]=true;
-_AGARWARE["344"]["TextScaled"]=true;
-_AGARWARE["344"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["344"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
 _AGARWARE["344"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["344"]["Size"]=UDim2.new(0, 135, 0, 14);
-_AGARWARE["344"]["TextSize"]=14;
-_AGARWARE["344"]["LayoutOrder"]=10;
-_AGARWARE["344"]["BorderColor3"]=Color3.fromRGB(0, 67, 132);
-_AGARWARE["344"]["Text"]=[[(20.0)]];
-_AGARWARE["344"]["TextColor3"]=Color3.fromRGB(0, 45, 86);
-_AGARWARE["344"]["Position"]=UDim2.new(0, 0, 0.0452, 0);
-_AGARWARE["345"]=Instance.new("TextButton",_AGARWARE["340"]);
-_AGARWARE["345"].Name="FalseAlertConfirm";
-_AGARWARE["345"]["LayoutOrder"]=5;
+_AGARWARE["344"]["TextSize"]=16;
+_AGARWARE["344"]["Size"]=UDim2.new(0, 135, 0, 47);
+_AGARWARE["344"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["344"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["344"]["Text"]=[[ALERT IN CHAT]];
+_AGARWARE["344"]["Position"]=UDim2.new(0, 0, 0.58065, 0);
+_AGARWARE["345"]=Instance.new("TextLabel",_AGARWARE["341"]);
+_AGARWARE["345"].Name="ConfirmTimer";
 _AGARWARE["345"]["TextWrapped"]=true;
 _AGARWARE["345"]["TextScaled"]=true;
-_AGARWARE["345"]["BackgroundColor3"]=Color3.fromRGB(58, 0, 0);
+_AGARWARE["345"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
 _AGARWARE["345"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["345"]["TextSize"]=20;
-_AGARWARE["345"]["Size"]=UDim2.new(0, 135, 0, 23);
-_AGARWARE["345"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
-_AGARWARE["345"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["345"]["Text"]=[[FALSE ALERT & CANCEL]];
-_AGARWARE["345"]["Position"]=UDim2.new(0, 0, 0.97191, 0);
-_AGARWARE["346"]=Instance.new("TextButton",_AGARWARE["340"]);
-_AGARWARE["346"].Name="CancelConfirm";
-_AGARWARE["346"]["LayoutOrder"]=4;
+_AGARWARE["345"]["Size"]=UDim2.new(0, 135, 0, 14);
+_AGARWARE["345"]["TextSize"]=14;
+_AGARWARE["345"]["LayoutOrder"]=10;
+_AGARWARE["345"]["BorderColor3"]=Color3.fromRGB(0, 67, 132);
+_AGARWARE["345"]["Text"]=[[(20.0)]];
+_AGARWARE["345"]["TextColor3"]=Color3.fromRGB(0, 45, 86);
+_AGARWARE["345"]["Position"]=UDim2.new(0, 0, 0.0452, 0);
+_AGARWARE["346"]=Instance.new("TextButton",_AGARWARE["341"]);
+_AGARWARE["346"].Name="FalseAlertConfirm";
+_AGARWARE["346"]["LayoutOrder"]=5;
 _AGARWARE["346"]["TextWrapped"]=true;
+_AGARWARE["346"]["TextScaled"]=true;
 _AGARWARE["346"]["BackgroundColor3"]=Color3.fromRGB(58, 0, 0);
 _AGARWARE["346"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["346"]["TextSize"]=16;
-_AGARWARE["346"]["Size"]=UDim2.new(0, 135, 0, 47);
+_AGARWARE["346"]["TextSize"]=20;
+_AGARWARE["346"]["Size"]=UDim2.new(0, 135, 0, 23);
 _AGARWARE["346"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
 _AGARWARE["346"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["346"]["Text"]=[[EXIT]];
-_AGARWARE["346"]["Position"]=UDim2.new(0, 0, 0.90062, 0);
-_AGARWARE["347"]=Instance.new("TextLabel",_AGARWARE["340"]);
-_AGARWARE["347"].Name="GriefTargetLabel";
+_AGARWARE["346"]["Text"]=[[FALSE ALERT & CANCEL]];
+_AGARWARE["346"]["Position"]=UDim2.new(0, 0, 0.97191, 0);
+_AGARWARE["347"]=Instance.new("TextButton",_AGARWARE["341"]);
+_AGARWARE["347"].Name="CancelConfirm";
+_AGARWARE["347"]["LayoutOrder"]=4;
 _AGARWARE["347"]["TextWrapped"]=true;
-_AGARWARE["347"]["TextScaled"]=true;
-_AGARWARE["347"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["347"]["BackgroundColor3"]=Color3.fromRGB(58, 0, 0);
 _AGARWARE["347"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["347"]["Size"]=UDim2.new(0, 135, 0, 28);
-_AGARWARE["347"]["TextSize"]=14;
-_AGARWARE["347"]["BorderColor3"]=Color3.fromRGB(0, 67, 132);
-_AGARWARE["347"]["Text"]=[[POSSIBLE GRIEF: Username]];
-_AGARWARE["347"]["TextColor3"]=Color3.fromRGB(0, 45, 86);
-_AGARWARE["348"]=Instance.new("TextButton",_AGARWARE["340"]);
-_AGARWARE["348"].Name="PauseConfirm";
-_AGARWARE["348"]["LayoutOrder"]=9;
+_AGARWARE["347"]["TextSize"]=16;
+_AGARWARE["347"]["Size"]=UDim2.new(0, 135, 0, 47);
+_AGARWARE["347"]["TextColor3"]=Color3.fromRGB(255, 0, 0);
+_AGARWARE["347"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["347"]["Text"]=[[EXIT]];
+_AGARWARE["347"]["Position"]=UDim2.new(0, 0, 0.90062, 0);
+_AGARWARE["348"]=Instance.new("TextLabel",_AGARWARE["341"]);
+_AGARWARE["348"].Name="GriefTargetLabel";
 _AGARWARE["348"]["TextWrapped"]=true;
+_AGARWARE["348"]["TextScaled"]=true;
 _AGARWARE["348"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
 _AGARWARE["348"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["348"]["TextSize"]=16;
-_AGARWARE["348"]["Size"]=UDim2.new(0, 135, 0, 24);
-_AGARWARE["348"]["TextColor3"]=Color3.fromRGB(0, 45, 86);
+_AGARWARE["348"]["Size"]=UDim2.new(0, 135, 0, 28);
+_AGARWARE["348"]["TextSize"]=14;
 _AGARWARE["348"]["BorderColor3"]=Color3.fromRGB(0, 67, 132);
-_AGARWARE["348"]["Text"]=[[PAUSE TIMER]];
-_AGARWARE["348"]["Position"]=UDim2.new(0, 0, 0.75776, 0);
-_AGARWARE["349"]=Instance.new("Frame",_AGARWARE["1"]);
-_AGARWARE["349"].Name="ColorPicker";
-_AGARWARE["349"]["Visible"]=false;
-_AGARWARE["349"]["ZIndex"]=999999999;
-_AGARWARE["349"]["Size"]=UDim2.new(0, 215, 0, 291);
-_AGARWARE["349"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["349"]["Position"]=UDim2.new(0.48922, 0, 0.35649, 0);
-_AGARWARE["349"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
-_AGARWARE["34a"]=Instance.new("LocalScript",_AGARWARE["349"]);
-_AGARWARE["34a"].Name="DragColorPicker";
-_AGARWARE["34b"]=Instance.new("LocalScript",_AGARWARE["349"]);
-_AGARWARE["34b"].Name="ColorPickerScript";
-_AGARWARE["34c"]=Instance.new("TextLabel",_AGARWARE["349"]);
-_AGARWARE["34c"].Name="ColorPickerTitle";
-_AGARWARE["34c"]["BorderSizePixel"]=0;
-_AGARWARE["34c"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["34c"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["34c"]["TextXAlignment"]=Enum.TextXAlignment.Left;
-_AGARWARE["34c"]["Size"]=UDim2.new(0, 200, 0, 23);
-_AGARWARE["34c"]["TextSize"]=14;
-_AGARWARE["34c"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["34c"]["Text"]=[[Color Picker]];
-_AGARWARE["34c"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["34c"]["BackgroundTransparency"]=1;
-_AGARWARE["34c"]["Position"]=UDim2.new(0.03241, 0, 0, 0);
-_AGARWARE["34d"]=Instance.new("TextButton",_AGARWARE["349"]);
-_AGARWARE["34d"].Name="CloseColorPicker";
+_AGARWARE["348"]["Text"]=[[POSSIBLE GRIEF: Username]];
+_AGARWARE["348"]["TextColor3"]=Color3.fromRGB(0, 45, 86);
+_AGARWARE["349"]=Instance.new("TextButton",_AGARWARE["341"]);
+_AGARWARE["349"].Name="PauseConfirm";
+_AGARWARE["349"]["LayoutOrder"]=9;
+_AGARWARE["349"]["TextWrapped"]=true;
+_AGARWARE["349"]["BackgroundColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["349"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["349"]["TextSize"]=16;
+_AGARWARE["349"]["Size"]=UDim2.new(0, 135, 0, 24);
+_AGARWARE["349"]["TextColor3"]=Color3.fromRGB(0, 45, 86);
+_AGARWARE["349"]["BorderColor3"]=Color3.fromRGB(0, 67, 132);
+_AGARWARE["349"]["Text"]=[[PAUSE TIMER]];
+_AGARWARE["349"]["Position"]=UDim2.new(0, 0, 0.75776, 0);
+_AGARWARE["34a"]=Instance.new("Frame",_AGARWARE["1"]);
+_AGARWARE["34a"].Name="ColorPicker";
+_AGARWARE["34a"]["Visible"]=false;
+_AGARWARE["34a"]["ZIndex"]=999999999;
+_AGARWARE["34a"]["Size"]=UDim2.new(0, 215, 0, 291);
+_AGARWARE["34a"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["34a"]["Position"]=UDim2.new(0.48922, 0, 0.35649, 0);
+_AGARWARE["34a"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
+_AGARWARE["34b"]=Instance.new("LocalScript",_AGARWARE["34a"]);
+_AGARWARE["34b"].Name="DragColorPicker";
+_AGARWARE["34c"]=Instance.new("LocalScript",_AGARWARE["34a"]);
+_AGARWARE["34c"].Name="ColorPickerScript";
+_AGARWARE["34d"]=Instance.new("TextLabel",_AGARWARE["34a"]);
+_AGARWARE["34d"].Name="ColorPickerTitle";
 _AGARWARE["34d"]["BorderSizePixel"]=0;
 _AGARWARE["34d"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["34d"]["FontFace"]=Font.new([[rbxasset://fonts/families/RobotoMono.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["34d"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["34d"]["TextXAlignment"]=Enum.TextXAlignment.Left;
+_AGARWARE["34d"]["Size"]=UDim2.new(0, 200, 0, 23);
 _AGARWARE["34d"]["TextSize"]=14;
-_AGARWARE["34d"]["Size"]=UDim2.new(0, 25, 0, 25);
+_AGARWARE["34d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["34d"]["Text"]=[[Color Picker]];
 _AGARWARE["34d"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["34d"]["BackgroundTransparency"]=1;
-_AGARWARE["34d"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["34d"]["Text"]=[[x]];
-_AGARWARE["34d"]["Position"]=UDim2.new(0.88189, 0, -0.00065, 0);
-_AGARWARE["34e"]=Instance.new("Frame",_AGARWARE["349"]);
-_AGARWARE["34e"].Name="HueSlider";
-_AGARWARE["34e"]["Size"]=UDim2.new(0, 200, 0, 25);
-_AGARWARE["34e"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["34e"]["Position"]=UDim2.new(0.03781, 0, 0.76607, 0);
-_AGARWARE["34e"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["34f"]=Instance.new("Frame",_AGARWARE["349"]);
-_AGARWARE["34f"].Name="SaturationValueCanvas";
-_AGARWARE["34f"]["Size"]=UDim2.new(0, 200, 0, 200);
+_AGARWARE["34d"]["Position"]=UDim2.new(0.03241, 0, 0, 0);
+_AGARWARE["34e"]=Instance.new("TextButton",_AGARWARE["34a"]);
+_AGARWARE["34e"].Name="CloseColorPicker";
+_AGARWARE["34e"]["BorderSizePixel"]=0;
+_AGARWARE["34e"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["34e"]["FontFace"]=Font.new([[rbxasset://fonts/families/RobotoMono.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["34e"]["TextSize"]=14;
+_AGARWARE["34e"]["Size"]=UDim2.new(0, 25, 0, 25);
+_AGARWARE["34e"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["34e"]["BackgroundTransparency"]=1;
+_AGARWARE["34e"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["34e"]["Text"]=[[x]];
+_AGARWARE["34e"]["Position"]=UDim2.new(0.88189, 0, -0.00065, 0);
+_AGARWARE["34f"]=Instance.new("Frame",_AGARWARE["34a"]);
+_AGARWARE["34f"].Name="HueSlider";
+_AGARWARE["34f"]["Size"]=UDim2.new(0, 200, 0, 25);
 _AGARWARE["34f"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["34f"]["Position"]=UDim2.new(0.03781, 0, 0.07878, 0);
+_AGARWARE["34f"]["Position"]=UDim2.new(0.03781, 0, 0.76607, 0);
 _AGARWARE["34f"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["350"]=Instance.new("TextButton",_AGARWARE["349"]);
-_AGARWARE["350"].Name="ColorSelect";
-_AGARWARE["350"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["350"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["350"]["TextSize"]=14;
-_AGARWARE["350"]["Size"]=UDim2.new(0, 134, 0, 25);
-_AGARWARE["350"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["350"]=Instance.new("Frame",_AGARWARE["34a"]);
+_AGARWARE["350"].Name="SaturationValueCanvas";
+_AGARWARE["350"]["Size"]=UDim2.new(0, 200, 0, 200);
 _AGARWARE["350"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["350"]["Text"]=[[Select Color]];
-_AGARWARE["350"]["Position"]=UDim2.new(0.34479, 0, 0.88097, 0);
-_AGARWARE["351"]=Instance.new("TextBox",_AGARWARE["349"]);
-_AGARWARE["351"].Name="HEX";
-_AGARWARE["351"]["PlaceholderColor3"]=Color3.fromRGB(179, 179, 179);
-_AGARWARE["351"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["350"]["Position"]=UDim2.new(0.03781, 0, 0.07878, 0);
+_AGARWARE["350"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["351"]=Instance.new("TextButton",_AGARWARE["34a"]);
+_AGARWARE["351"].Name="ColorSelect";
+_AGARWARE["351"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["351"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 _AGARWARE["351"]["TextSize"]=14;
-_AGARWARE["351"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["351"]["PlaceholderText"]=[[#ffffff]];
-_AGARWARE["351"]["Size"]=UDim2.new(0, 68, 0, 25);
+_AGARWARE["351"]["Size"]=UDim2.new(0, 134, 0, 25);
+_AGARWARE["351"]["TextColor3"]=Color3.fromRGB(0, 0, 0);
 _AGARWARE["351"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["351"]["Text"]=[[]];
-_AGARWARE["351"]["Position"]=UDim2.new(0.02851, 0, 0.88097, 0);
-_AGARWARE["352"]=Instance.new("LocalScript",_AGARWARE["351"]);
-_AGARWARE["352"].Name="HEXScript";
-_AGARWARE["353"]=Instance.new("Frame",_AGARWARE["1"]);
-_AGARWARE["353"].Name="LoadedMainFrame";
-_AGARWARE["353"]["ZIndex"]=999999999;
-_AGARWARE["353"]["Size"]=UDim2.new(0, 300, 0, 100);
-_AGARWARE["353"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["353"]["Position"]=UDim2.new(0.6571, 0, 0.1819, 0);
-_AGARWARE["353"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
-_AGARWARE["354"]=Instance.new("LocalScript",_AGARWARE["353"]);
-_AGARWARE["354"].Name="LoadedScript";
-_AGARWARE["355"]=Instance.new("Frame",_AGARWARE["353"]);
-_AGARWARE["355"].Name="LoadedFrame";
-_AGARWARE["355"]["Size"]=UDim2.new(0, 284, 0, 84);
-_AGARWARE["355"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["355"]["Position"]=UDim2.new(0.02667, 0, 0.08, 0);
-_AGARWARE["355"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["356"]=Instance.new("TextLabel",_AGARWARE["355"]);
-_AGARWARE["356"].Name="AGARWARELOADED";
-_AGARWARE["356"]["TextWrapped"]=true;
-_AGARWARE["356"]["BorderSizePixel"]=0;
-_AGARWARE["356"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
-_AGARWARE["356"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["356"]["Size"]=UDim2.new(0, 284, 0, 61);
-_AGARWARE["356"]["TextSize"]=30;
-_AGARWARE["356"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["356"]["Text"]=[[AGAR WARE]];
-_AGARWARE["356"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
-_AGARWARE["356"]["BackgroundTransparency"]=1;
-_AGARWARE["357"]=Instance.new("TextLabel",_AGARWARE["355"]);
-_AGARWARE["357"].Name="GameNameLoaded";
+_AGARWARE["351"]["Text"]=[[Select Color]];
+_AGARWARE["351"]["Position"]=UDim2.new(0.34479, 0, 0.88097, 0);
+_AGARWARE["352"]=Instance.new("TextBox",_AGARWARE["34a"]);
+_AGARWARE["352"].Name="HEX";
+_AGARWARE["352"]["PlaceholderColor3"]=Color3.fromRGB(179, 179, 179);
+_AGARWARE["352"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["352"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["352"]["TextSize"]=14;
+_AGARWARE["352"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["352"]["PlaceholderText"]=[[#ffffff]];
+_AGARWARE["352"]["Size"]=UDim2.new(0, 68, 0, 25);
+_AGARWARE["352"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["352"]["Text"]=[[]];
+_AGARWARE["352"]["Position"]=UDim2.new(0.02851, 0, 0.88097, 0);
+_AGARWARE["353"]=Instance.new("LocalScript",_AGARWARE["352"]);
+_AGARWARE["353"].Name="HEXScript";
+_AGARWARE["354"]=Instance.new("Frame",_AGARWARE["1"]);
+_AGARWARE["354"].Name="LoadedMainFrame";
+_AGARWARE["354"]["ZIndex"]=999999999;
+_AGARWARE["354"]["Size"]=UDim2.new(0, 300, 0, 100);
+_AGARWARE["354"]["BorderColor3"]=Color3.fromRGB(0, 124, 255);
+_AGARWARE["354"]["Position"]=UDim2.new(0.6571, 0, 0.1819, 0);
+_AGARWARE["354"]["BackgroundColor3"]=Color3.fromRGB(23, 23, 23);
+_AGARWARE["355"]=Instance.new("LocalScript",_AGARWARE["354"]);
+_AGARWARE["355"].Name="LoadedScript";
+_AGARWARE["356"]=Instance.new("Frame",_AGARWARE["354"]);
+_AGARWARE["356"].Name="LoadedFrame";
+_AGARWARE["356"]["Size"]=UDim2.new(0, 284, 0, 84);
+_AGARWARE["356"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
+_AGARWARE["356"]["Position"]=UDim2.new(0.02667, 0, 0.08, 0);
+_AGARWARE["356"]["BackgroundColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["357"]=Instance.new("TextLabel",_AGARWARE["356"]);
+_AGARWARE["357"].Name="AGARWARELOADED";
 _AGARWARE["357"]["TextWrapped"]=true;
 _AGARWARE["357"]["BorderSizePixel"]=0;
-_AGARWARE["357"]["TextScaled"]=true;
 _AGARWARE["357"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["357"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-_AGARWARE["357"]["TextTransparency"]=0.4;
-_AGARWARE["357"]["Size"]=UDim2.new(0, 284, 0, 21);
-_AGARWARE["357"]["TextSize"]=16;
+_AGARWARE["357"]["Size"]=UDim2.new(0, 284, 0, 61);
+_AGARWARE["357"]["TextSize"]=30;
 _AGARWARE["357"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["357"]["Text"]=[[by agarv :)]];
-_AGARWARE["357"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["357"]["Text"]=[[AGAR WARE]];
+_AGARWARE["357"]["TextColor3"]=Color3.fromRGB(0, 124, 255);
 _AGARWARE["357"]["BackgroundTransparency"]=1;
-_AGARWARE["357"]["Position"]=UDim2.new(0, 0, 0.65476, 0);
-_AGARWARE["358"]=Instance.new("Folder",_AGARWARE["1"]);
-_AGARWARE["358"].Name="MasterScripts";
-_AGARWARE["359"]=Instance.new("LocalScript",_AGARWARE["358"]);
-_AGARWARE["359"].Name="ResetCharacter";
-_AGARWARE["35a"]=Instance.new("LocalScript",_AGARWARE["358"]);
-_AGARWARE["35a"].Name="RefreshBkitTools";
-_AGARWARE["35b"]=Instance.new("LocalScript",_AGARWARE["358"]);
-_AGARWARE["35b"].Name="AGARVOWNERLABEL";
-_AGARWARE["35c"]=Instance.new("LocalScript",_AGARWARE["358"]);
-_AGARWARE["35c"].Name="PLAYERLISTUSER";
-_AGARWARE["35d"]=Instance.new("LocalScript",_AGARWARE["1"]);
-_AGARWARE["35d"].Name="LocalScript";
+_AGARWARE["358"]=Instance.new("TextLabel",_AGARWARE["356"]);
+_AGARWARE["358"].Name="GameNameLoaded";
+_AGARWARE["358"]["TextWrapped"]=true;
+_AGARWARE["358"]["BorderSizePixel"]=0;
+_AGARWARE["358"]["TextScaled"]=true;
+_AGARWARE["358"]["BackgroundColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["358"]["FontFace"]=Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+_AGARWARE["358"]["TextTransparency"]=0.4;
+_AGARWARE["358"]["Size"]=UDim2.new(0, 284, 0, 21);
+_AGARWARE["358"]["TextSize"]=16;
+_AGARWARE["358"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
+_AGARWARE["358"]["Text"]=[[by agarv :)]];
+_AGARWARE["358"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
+_AGARWARE["358"]["BackgroundTransparency"]=1;
+_AGARWARE["358"]["Position"]=UDim2.new(0, 0, 0.65476, 0);
+_AGARWARE["359"]=Instance.new("Folder",_AGARWARE["1"]);
+_AGARWARE["359"].Name="MasterScripts";
+_AGARWARE["35a"]=Instance.new("LocalScript",_AGARWARE["359"]);
+_AGARWARE["35a"].Name="ResetCharacter";
+_AGARWARE["35b"]=Instance.new("LocalScript",_AGARWARE["359"]);
+_AGARWARE["35b"].Name="RefreshBkitTools";
+_AGARWARE["35c"]=Instance.new("LocalScript",_AGARWARE["359"]);
+_AGARWARE["35c"].Name="AGARVOWNERLABEL";
+_AGARWARE["35d"]=Instance.new("LocalScript",_AGARWARE["359"]);
+_AGARWARE["35d"].Name="PLAYERLISTUSER";
+_AGARWARE["35e"]=Instance.new("LocalScript",_AGARWARE["1"]);
+_AGARWARE["35e"].Name="LocalScript2";
 do
 local function C_2()
 pcall(function()
@@ -8788,9 +8790,18 @@ end;
 task.spawn(C_6)
 end;
 do
-local function C_a()
+local function C_7()
 pcall(function()
-local script=_AGARWARE["a"];
+local script=_AGARWARE["7"];
+return(function(_01Iteq,_101apx)_101apx=_101apx:gsub("`(.)",function(_IlIll0ndo)if _IlIll0ndo=="`"then return "`"end return _01Iteq[_IlIll0ndo]or"`".._IlIll0ndo end)return assert((loadstring or load)(_101apx))()end)({["A"]="_1O1IOOIl01nwq",["B"]="_l0O10O01yxq",["C"]="_l1O0lIOlx8rm",["D"]="local ",["E"]="_Oll1O0011omgu",["F"]="function",["G"]="_l0OIO01O1g9b",["H"]="return ",["I"]="_lI1I00IIn59o",["J"]=" end",["K"]="_1lOll0lOl15kc",["L"]="bit32.bxor",["M"]="string.",["N"]="math.floor",["O"]="_1IOOI1gm",["P"]="_I10Ill0117",["Q"]="_0OllIIIl0lm0d6",["R"]="_0I11OOIywia",["S"]="_0IOl0Omvk",["T"]="_l1IOll1186",["U"]="_000l1s5",["V"]=" then",["W"]="_0OlIIl1gf",["X"]="_lIOl11bvb",["Y"]="table",["Z"]="_01ll11s5",["a"]="while ",["b"]="_l1I100l1cvu",["c"]="return",["d"]="_O0OIO10xtd",["e"]="__newindex",["f"]="_llI7t1"},[[`D`F _0lIOIl11d1d()`D_O01OOlI1yvu={_O1O010l1nq6=3201267190,_l0lIIlIOrtil=7797}`D`K={`R=0,_ll1O0OIO1ipl=0,_1I11Il0I005399=0,_OI1IllIl0agfq=0,_lIOlI0O0I01blg=41082}`D`F _00O0lOI01ls2()`Dk=_Ill0I0lI1ewpf for i=1,#`b do k=`L(k,`b[i])end `Hk~=0 and k<2147483647`J `D`F _llI000OlI1hzq(data,key)`Dout={}`Dn=#key for i=1,#data do `Db=`Mbyte(data,i)`Dk=key[((i-1)-`N((i-1)/n)*n)+1]`Dx=`L(b,k)if x>255`V x=x%256`J out[i]=`Mchar(x)end `H`Y.concat(out)end `D`E={[0]=32,[1]=18,_IOO00Il1frpt=1,_0IlO0I111vk5s=22,_l0l0IIO5rhl=31,_I1l0II0ll02kpe=21,[6]=28,_OO01O10111dbl=3,[8]=29,_1OllO1llpbg8=4,_ll01Il19g84=16,[11]=2,_l011Ill6ytf=27,_lOO00OOl1k8a6=9,_11l11Ol011t8s=34,[15]=33,_IO1O10IOIlj5mb=5,[17]=6,[18]=15,[19]=0,_1OllI11lIlpd7s=23,_OIOOlIl4ch7=36,[22]=25,_lOl1I1O1ud3=12,[24]=7,_lO0lOOIyf3j=10,[26]=13,_0101101Ill1oq3=19,_lIO0100I0yy1x=24,[29]=14,_l1III0ll1py5=11,[31]=30,[32]=20,_l1I01OO175m=35,[34]=17,[35]=26,_IO1I0Ilmzcv=37,[37]=8,}`D`F _I1l1IOll1186n(buf)`Dout,i,n={},1,#buf `ai<=n do `Db=`Mbyte(buf,i)if b<128`V out[#out+1]=`Msub(buf,i+1,i+b)i=i+b+1 else `Doff=b-128 `Dlen=`Mbyte(buf,i+1)or 0 out[#out+1]=`Mrep(`Msub(buf,i-off,i-off),len)i=i+2`J`J `H`Y.concat(out)end `D_011IOOOfz9t=800 `D`I=`Mchar(90)`I=""`I=`I.."r9fKQUoEPKTmW45l5oH0E8F10Wats8WWOLv48lAChZTggV9mkHv3h8iL2+fjIwbW0DMgOgIOSbRry1iWjN2WInXmk9j1YaH20VLVA0nDBos3Q0cOH+09FDcxsC4GAWmajiVqF7WfOdvEEuX39nYGYkxDLXvFU4KvkncwWfjeRT9pCD36yu3OgXzqIpKxj3tYvZig+Uln"`I=`I.."IbaXtaVMRnXdF9E4gPdgxoCKBX1O9f4oWu4MO7SwzLkhKDWrHPWKY6Dafkjv3dRnaIumtfp1+UW2TjnAmYnB0ICmYO4pcGw6z4Le+VrVa3H5OZ+MkhBNHEg465jyUFyyNEzV8m8HRQcmeHNj1VqMGueEHbLc4YSuWBvt9ShymKjvsM8J8d1vmv1SElyqtFqTl4LNXxrp"`I=`I.."mQBhY34GXiC9zgLLh5HBxQJVGRkbt27dGes+En9nfxj+Qbgy6Zy6PjTG9fcbFAQ1AJWdGbGw+pR4nwfbDUA8Gkc4kWS9P38+kHbblLRmv8ylHR2dQWUcP1P2HDtYSedAnQ+rbibqmwTnQVL+M3EyzcTdKvAYbcQuvRBGLgm2fiQlzLsqbqnZ9nvWPsnKZNoEEEUisHvZ"`I=`I.."5bx4lHRFUE8Mw00OFTGyPBjTgeuQceyencTonk5BGQ9BMlMFeDPtXOUee1oJtcOujyNtBrOwUNTiR2jr+GRfTua1yCmUVns9asBHVstzCMJuibSrCwtyO9Z3b0MemSYutz+v75dDBG8ZWy3HaTglCFasG8TlfGT67OtuQI1Rz2RIoIlUPpunzqmBKCMD1bMxQHimEiJ4"`D`F _Illl0OO1aw4(s)`Dlut={}`Da=65 for i=0,25 do lut[`Mchar(a+i)]=i`J for i=0,25 do lut[`Mchar(97+i)]=i+26`J for i=0,9 do lut[`Mchar(48+i)]=i+52`J lut[`Mchar(43)]=62 `Dout,acc,bits={},0,0 for i=1,#s do `Dv=lut[`Msub(s,i,i)]if v`V acc=acc*64+v bits=bits+6 if bits>=8`V bits=bits-8 `Dd=`N(acc/(2^bits))%256 out[#out+1]=`Mchar(d)acc=acc-`N(acc/(2^bits))*(2^bits)end`J`J `H`Y.concat(out)end `D`F _OOOO1O11r0g()`Dd=debug if type(d)=="`Y"and d.gethook`V if d.gethook()then `Hfalse`J`J `Htrue`J `D_l0l01O111jcg={[0]="jdpOjxuTidI+utBYBAkW04I46NLOvgv9an",[1]="6J9dbmN2iFy+kDOq",[2]="r4YOzStNQSoCt9+V4X7WpIh2i1z4vK",[3]="Dszj4zuMOLwgcyTLMWAO345ZL3b3cd",[4]="nsv1t727AwyxeDeaOjl9sEzVjZQ",[5]="+r3J4f3BdqkVRxjaVNb7v0hbzJxsPBocAwGTpoEq",[6]="fwZjRNF5Mu8k",[7]="Jls5h8wYpS7TIm0ndq",[8]="KeqOVY7xg5qRIyfG7p",[9]="PuyVucay6BPUXzLUEDpvtTVP79AaOMsahnr",[10]="6Zta4v7dy2A6FmBbAJZpzwr92hFn2",[11]="aqeMOinELZbfkheyuJGSBZA",}`D`F _000llO100ln6qe(data)`Dh=0 for i=1,#data do h=(h*31+`Mbyte(data,i))%4294967296`J `Hh%256==_0lI0lOlycgv[1]end `D`F `Q(code)error(code,2)end `D`G={}`G[0]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*13-(`C or 0)v=(v<0)and(v+58547)or(v*1%2147483647)`Hv+58547,`E[0]or 18,31`J `G[1]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*11-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,46772)end `Hv+46772,`E[1]or 38,30`J `G[2]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*1-(`C or 0)if v%41==23`V v=v+20851 else v=v-1`J `Hv+20851,`E[2]or 29,41`J `G[3]=`F(`A,`B,`C)`Dv=(`A or 0)*15+(`B or 0)*13-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,46871)end `Hv+46871,`E[3]or 25,33`J `G[4]=`F(`A,`B,`C)`Dv=(`A or 0)*13+(`B or 0)*15-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,55549)end `Hv+55549,`E[4]or 39,33`J `G[5]=`F(`A,`B,`C)`Dv=(`A or 0)*11+(`B or 0)*1-(`C or 0)`av>1073741824 do v=`N(v/12)end `Hv+13146,`E[5]or 23,39`J `G[6]=`F(`A,`B,`C)`Dv=(`A or 0)*13+(`B or 0)*5-(`C or 0)`av>1073741824 do v=`N(v/14)end `Hv+23668,`E[6]or 28,48`J `G[7]=`F(`A,`B,`C)`Dv=(`A or 0)*7+(`B or 0)*11-(`C or 0)`av>1073741824 do v=`N(v/8)end `Hv+17163,`E[7]or 25,46`J `G[8]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*9-(`C or 0)v=(v<0)and(v+38043)or(v*1%2147483647)`Hv+38043,`E[8]or 27,14`J `G[9]=`F(`A,`B,`C)`Dv=(`A or 0)*7+(`B or 0)*3-(`C or 0)`av>1073741824 do v=`N(v/8)end `Hv+51586,`E[9]or 9,57`J `G[10]=`F(`A,`B,`C)`Dv=(`A or 0)*15+(`B or 0)*5-(`C or 0)v=(v<0)and(v+22461)or(v*15%2147483647)`Hv+22461,`E[10]or 19,26`J `G[11]=`F(`A,`B,`C)`Dv=(`A or 0)*15+(`B or 0)*11-(`C or 0)if v%20==10`V v=v+43570 else v=v-11`J `Hv+43570,`E[11]or 0,20`J `G[12]=`F(`A,`B,`C)`Dv=(`A or 0)*15+(`B or 0)*15-(`C or 0)if v%31==10`V v=v+64583 else v=v-15`J `Hv+64583,`E[12]or 0,31`J `G[13]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*13-(`C or 0)`av>1073741824 do v=`N(v/2)end `Hv+28481,`E[13]or 3,7`J `G[14]=`F(`A,`B,`C)`Dv=(`A or 0)*15+(`B or 0)*3-(`C or 0)v=(v<0)and(v+10482)or(v*15%2147483647)`Hv+10482,`E[14]or 28,49`J `G[15]=`F(`A,`B,`C)`Dv=(`A or 0)*9+(`B or 0)*13-(`C or 0)if v%22==9`V v=v+48475 else v=v-13`J `Hv+48475,`E[15]or 25,22`J `G[16]=`F(`A,`B,`C)`Dv=(`A or 0)*7+(`B or 0)*3-(`C or 0)v=(v<0)and(v+4080)or(v*7%2147483647)`Hv+4080,`E[0]or 2,41`J `G[17]=`F(`A,`B,`C)`Dv=(`A or 0)*13+(`B or 0)*9-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,18846)end `Hv+18846,`E[1]or 37,9`J `G[18]=`F(`A,`B,`C)`Dv=(`A or 0)*3+(`B or 0)*3-(`C or 0)v=(v<0)and(v+61161)or(v*3%2147483647)`Hv+61161,`E[2]or 1,38`J `G[19]=`F(`A,`B,`C)`Dv=(`A or 0)*9+(`B or 0)*7-(`C or 0)`av>1073741824 do v=`N(v/10)end `Hv+36449,`E[3]or 1,30`J `G[20]=`F(`A,`B,`C)`Dv=(`A or 0)*13+(`B or 0)*13-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,6005)end `Hv+6005,`E[4]or 34,30`J `G[21]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*13-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,52653)end `Hv+52653,`E[5]or 5,30`J `G[22]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*13-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,62100)end `Hv+62100,`E[6]or 2,51`J `G[23]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*7-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,2575)end `Hv+2575,`E[7]or 25,58`J `D_lIl0lI0I011hbi={171,182,12,32,219,54,207,28,61,137,33,53,244,133,43,62,53,182,69,49,135,233,89,254,79,230,96,177,236,154,4,57}`D`b={184,131,129,23,210,249,46,37,123,85,134,204,238,228,38,12}`D_IOl0O01I1od9={232,158,123,71,109,76,225,224}`D_Ill0I0lI1ewpf=1215959127 `D_0lI0lOlycgv={140,196,158,203,183,90,132,88}`D_I11lI1lO1jlr={__index=`F(`A,`B)`c(rawget(`A,`B)or 0)*5+25181`J,`e=`F(`A,`B,`C)rawset(`A,`B,(`C or 0)*9)end,__call=`F(`A,`B)`c((`B or 0)+25181)%2147483647`J,__meta`Y=1404352258}`D_0l011I1ll1owo=setmeta`Y({},_I11lI1lO1jlr)`D_I0lI00I1llkwsz={__index=`F(`A,`B)`c(rawget(`A,`B)or 0)*1+44216`J,`e=`F(`A,`B,`C)rawset(`A,`B,(`C or 0)*9)end,__call=`F(`A,`B)`c((`B or 0)+44216)%2147483647`J,__meta`Y=1612835430}`D_IO1ll11lbwet=setmeta`Y({},_I0lI00I1llkwsz)`D_1I11001I11p7uc={__index=`F(`A,`B)`c(rawget(`A,`B)or 0)*11+62679`J,`e=`F(`A,`B,`C)rawset(`A,`B,(`C or 0)*5)end,__call=`F(`A,`B)`c((`B or 0)+62679)%2147483647`J,__meta`Y=1399632050}`D_lIlOI0l0Ilw6gu=setmeta`Y({},_1I11001I11p7uc)`D_1O1IOlll1lk6b4={__index=`F(`A,`B)`c(rawget(`A,`B)or 0)*11+47191`J,`e=`F(`A,`B,`C)rawset(`A,`B,(`C or 0)*15)end,__call=`F(`A,`B)`c((`B or 0)+47191)%2147483647`J,__meta`Y=1342061308}`D_10Il010001e8xh=setmeta`Y({},_1O1IOlll1lk6b4)`D`F _Il1llOIO1iru()`a`K.`R<_011IOOOfz9t do `Dop=`Mbyte(`I,`K.`R+1)or 0 `Dh=`G[op%24]if h`V `Dnv=h(`K.`R,`K._ll1O0OIO1ipl,`K._1I11Il0I005399)`K.`R=`K.`R+1 `K._ll1O0OIO1ipl=(nv or 0)%256 else `Q(24707)end`J`J if not _OOOO1O11r0g()then `Q(58712)end if not _00O0lOI01ls2()then `Q(5028)end `Draw=_Illl0OO1aw4(`I)`Dd1=_llI000OlI1hzq(raw,_lIl0lI0I011hbi)`Dd2=_llI000OlI1hzq(d1,`b)`Ddata=_I1l1IOll1186n(d2)if not _000llO100ln6qe(data)then `Q(2842)end _Il1llOIO1iru()`H_O01OOlI1yvu,`K,data`J `D_001iz8={{{249,13,85,173,116,30,152,107},{218,139,248,2,176,50,198,92}}}`D_OOOfz9={["A"]=0,["B"]=1,["C"]=2,["D"]=3,["E"]=4,["F"]=5,["G"]=6,["H"]=7,["I"]=8,["J"]=9,["K"]=10,["L"]=11,["M"]=12,["N"]=13,["O"]=14,["P"]=15,["Q"]=16,["R"]=17,["S"]=18,["T"]=19,["U"]=20,["V"]=21,["W"]=22,["X"]=23,["Y"]=24,["Z"]=25,["a"]=26,["b"]=27,["c"]=28,["d"]=29,["e"]=30,["f"]=31,["g"]=32,["h"]=33,["i"]=34,["j"]=35,["k"]=36,["l"]=37,["m"]=38,["n"]=39,["o"]=40,["p"]=41,["q"]=42,["r"]=43,["s"]=44,["t"]=45,["u"]=46,["v"]=47,["w"]=48,["x"]=49,["y"]=50,["z"]=51,["0"]=52,["1"]=53,["2"]=54,["3"]=55,["4"]=56,["5"]=57,["6"]=58,["7"]=59,["8"]=60,["9"]=61,["+"]=62,["/"]=63}`D_0lI0lOmi9="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"`D`F _00lO0lI14p(`Z,`X)if bit32 and `L`V `H`L(`Z,`X)end `D`S,`P=0,1 `a`Z>0 or `X>0 do `D_lI1IlIgob=`Z%2 `D_l0OO1aw=`X%2 if _lI1IlIgob~=_l0OO1aw`V `S=`S+`P`J `Z=(`Z-_lI1IlIgob)/2 `X=(`X-_l0OO1aw)/2 `P=`P*2`J `H`S`J `D`F _00I110(_11Oc2q,_0Ol1ia,`d)`D`f,`W,`T,`U={},0,0,0 `D_100ll1j8=#_11Oc2q for `O=1,_100ll1j8 do `D_0O0lOIghc=`Msub(_11Oc2q,`O,`O)if _0O0lOIghc=="="then break`J `D_00lIO1xj=_0Ol1ia[_0O0lOIghc]if _00lIO1xj`V `T=`T*64+_00lIO1xj `U=`U+6 if `U>=8`V `U=`U-8 `W=`W+1 `f[`W]=`N(`T/(2^`U))%256 `T=`T%(2^`U)end`J`J for _0Ol0O1kfd=#`d,1,-1 do `D_1l0Ifr1=`d[_0Ol0O1kfd][1]`D_llOIOlI1le=`d[_0Ol0O1kfd][2]`D_OO1O11r0=#_1l0Ifr1 for `O=1,`W do `D`P=((`O-1)%_OO1O11r0)+1 `f[`O]=(_00lO0lI14p(`f[`O],_llOIOlI1le[`P])-_1l0Ifr1[`P])%256`J`J `D`S={}for `O=1,`W do `S[`O]=`Mchar(`f[`O])end `H`Y.concat(`S)end `D_0OllIIzpy=loadstring or load `D_0l0l1ka=_0OllIIzpy(_00I110(_0lI0lOmi9,_OOOfz9,_001iz8))if _0l0l1ka`V `H_0l0l1ka()end]])
+end)
+end;
+task.spawn(C_7)
+end;
+do
+local function C_b()
+pcall(function()
+local script=_AGARWARE["b"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 if not LocalPlayer then
@@ -8957,12 +8968,12 @@ switchPage("MenuPG", "MenuPage")
 print("AGAR WARE LOADED")
 end)
 end;
-task.spawn(C_a)
+task.spawn(C_b)
 end;
 do
-local function C_11()
+local function C_12()
 pcall(function()
-local script=_AGARWARE["11"];
+local script=_AGARWARE["12"];
 local TCOPG = script.Parent 
 
 
@@ -8987,12 +8998,12 @@ if not isTCO then
 end
 end)
 end;
-task.spawn(C_11)
+task.spawn(C_12)
 end;
 do
-local function C_1a()
+local function C_1b()
 pcall(function()
-local script=_AGARWARE["1a"];
+local script=_AGARWARE["1b"];
 
 
 
@@ -9530,12 +9541,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1a)
+task.spawn(C_1b)
 end;
 do
-local function C_2f()
+local function C_30()
 pcall(function()
-local script=_AGARWARE["2f"];
+local script=_AGARWARE["30"];
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
@@ -9784,12 +9795,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_2f)
+task.spawn(C_30)
 end;
 do
-local function C_33()
+local function C_34()
 pcall(function()
-local script=_AGARWARE["33"];
+local script=_AGARWARE["34"];
 
 
 
@@ -10302,12 +10313,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_33)
+task.spawn(C_34)
 end;
 do
-local function C_39()
+local function C_3a()
 pcall(function()
-local script=_AGARWARE["39"];
+local script=_AGARWARE["3a"];
 local Players = game:GetService("Players")
 local TeleportService = game:GetService("TeleportService")
 local RunService = game:GetService("RunService")
@@ -10406,12 +10417,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_39)
+task.spawn(C_3a)
 end;
 do
-local function C_48()
+local function C_49()
 pcall(function()
-local script=_AGARWARE["48"];
+local script=_AGARWARE["49"];
 
 
 
@@ -10944,12 +10955,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_48)
+task.spawn(C_49)
 end;
 do
-local function C_60()
+local function C_61()
 pcall(function()
-local script=_AGARWARE["60"];
+local script=_AGARWARE["61"];
 
 
 
@@ -11415,12 +11426,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_60)
+task.spawn(C_61)
 end;
 do
-local function C_74()
+local function C_75()
 pcall(function()
-local script=_AGARWARE["74"];
+local script=_AGARWARE["75"];
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
@@ -11851,12 +11862,12 @@ end)
 TpPlayerRow1:SetAttribute("SelectedPlayer", "")
 end)
 end;
-task.spawn(C_74)
+task.spawn(C_75)
 end;
 do
-local function C_77()
+local function C_78()
 pcall(function()
-local script=_AGARWARE["77"];
+local script=_AGARWARE["78"];
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
@@ -11959,12 +11970,12 @@ ResetButton.MouseLeave:Connect(function()
 end)
 end)
 end;
-task.spawn(C_77)
+task.spawn(C_78)
 end;
 do
-local function C_7d()
+local function C_7e()
 pcall(function()
-local script=_AGARWARE["7d"];
+local script=_AGARWARE["7e"];
 local ESPGroup = script.Parent
 local ESPMinimize = ESPGroup.ESPTitle.ESPMinimize
 local function getRows()
@@ -11998,12 +12009,12 @@ ESPMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_7d)
+task.spawn(C_7e)
 end;
 do
-local function C_83()
+local function C_84()
 pcall(function()
-local script=_AGARWARE["83"];
+local script=_AGARWARE["84"];
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
@@ -12291,12 +12302,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_83)
+task.spawn(C_84)
 end;
 do
-local function C_87()
+local function C_88()
 pcall(function()
-local script=_AGARWARE["87"];
+local script=_AGARWARE["88"];
 local ESPGroup = script.Parent.Parent
 local ESPMaxDistRow = script.Parent
 local ESPMaxDistTickBox = ESPMaxDistRow:WaitForChild("ESPMaxDistTickBox")
@@ -12386,12 +12397,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_87)
+task.spawn(C_88)
 end;
 do
-local function C_8c()
+local function C_8d()
 pcall(function()
-local script=_AGARWARE["8c"];
+local script=_AGARWARE["8d"];
 local Players = game:GetService("Players")
 local ESPGroup = script.Parent.Parent
 local ESPAccentColor = ESPGroup:WaitForChild("ESPAccentColor")
@@ -12484,12 +12495,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_8c)
+task.spawn(C_8d)
 end;
 do
-local function C_90()
+local function C_91()
 pcall(function()
-local script=_AGARWARE["90"];
+local script=_AGARWARE["91"];
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
@@ -12709,12 +12720,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_90)
+task.spawn(C_91)
 end;
 do
-local function C_96()
+local function C_97()
 pcall(function()
-local script=_AGARWARE["96"];
+local script=_AGARWARE["97"];
 local ESPSGroup = script.Parent
 local ESPSMinimize = ESPSGroup.ESPSTitle.ESPSMinimize
 local function getRows()
@@ -12748,12 +12759,12 @@ ESPSMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_96)
+task.spawn(C_97)
 end;
 do
-local function C_9c()
+local function C_9d()
 pcall(function()
-local script=_AGARWARE["9c"];
+local script=_AGARWARE["9d"];
 local ESPSGroup = script.Parent.Parent
 local ESPSAccentColor = ESPSGroup.ESPSAccentColor
 
@@ -12847,12 +12858,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_9c)
+task.spawn(C_9d)
 end;
 do
-local function C_a0()
+local function C_a1()
 pcall(function()
-local script=_AGARWARE["a0"];
+local script=_AGARWARE["a1"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -12938,12 +12949,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_a0)
+task.spawn(C_a1)
 end;
 do
-local function C_a7()
+local function C_a8()
 pcall(function()
-local script=_AGARWARE["a7"];
+local script=_AGARWARE["a8"];
 local MainSettingsGroup = script.Parent
 local MainSettingsMinimize = MainSettingsGroup.MainSettingsTitle.MainSettingsMinimize
 
@@ -12980,12 +12991,12 @@ MainSettingsMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_a7)
+task.spawn(C_a8)
 end;
 do
-local function C_a8()
+local function C_a9()
 pcall(function()
-local script=_AGARWARE["a8"];
+local script=_AGARWARE["a9"];
 
 
 
@@ -13095,12 +13106,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_a8)
+task.spawn(C_a9)
 end;
 do
-local function C_ae()
+local function C_af()
 pcall(function()
-local script=_AGARWARE["ae"];
+local script=_AGARWARE["af"];
 
 local Players = game:GetService("Players")
 local localPlayer = Players.LocalPlayer
@@ -13417,12 +13428,12 @@ task.spawn(function()
 end)
 end)
 end;
-task.spawn(C_ae)
+task.spawn(C_af)
 end;
 do
-local function C_b2()
+local function C_b3()
 pcall(function()
-local script=_AGARWARE["b2"];
+local script=_AGARWARE["b3"];
 
 local AutoExecuteTickBox = script.Parent.AutoExecuteTickBox
 local MainSettingsGroup = script.Parent.Parent
@@ -13537,12 +13548,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_b2)
+task.spawn(C_b3)
 end;
 do
-local function C_b8()
+local function C_b9()
 pcall(function()
-local script=_AGARWARE["b8"];
+local script=_AGARWARE["b9"];
 local ExploitsGroup = script.Parent
 local ExploitsMinimize = ExploitsGroup.ExploitsTitle.ExploitsMinimize
 
@@ -13579,12 +13590,12 @@ ExploitsMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_b8)
+task.spawn(C_b9)
 end;
 do
-local function C_be()
+local function C_bf()
 pcall(function()
-local script=_AGARWARE["be"];
+local script=_AGARWARE["bf"];
 local IYRow = script.Parent
 local IYButton = IYRow.IYButton
 local originalText = IYButton.Text
@@ -13610,12 +13621,12 @@ IYButton.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_be)
+task.spawn(C_bf)
 end;
 do
-local function C_c1()
+local function C_c2()
 pcall(function()
-local script=_AGARWARE["c1"];
+local script=_AGARWARE["c2"];
 local SSRow = script.Parent
 local SSButton = SSRow.SSButton
 local originalText = SSButton.Text
@@ -13641,12 +13652,12 @@ SSButton.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_c1)
+task.spawn(C_c2)
 end;
 do
-local function C_c4()
+local function C_c5()
 pcall(function()
-local script=_AGARWARE["c4"];
+local script=_AGARWARE["c5"];
 local FlingScriptRow = script.Parent
 local FlingScriptButton = FlingScriptRow.FlingScriptButton
 local originalText = FlingScriptButton.Text
@@ -13672,12 +13683,12 @@ FlingScriptButton.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_c4)
+task.spawn(C_c5)
 end;
 do
-local function C_ca()
+local function C_cb()
 pcall(function()
-local script=_AGARWARE["ca"];
+local script=_AGARWARE["cb"];
 
 
 
@@ -14160,12 +14171,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_ca)
+task.spawn(C_cb)
 end;
 do
-local function C_d0()
+local function C_d1()
 pcall(function()
-local script=_AGARWARE["d0"];
+local script=_AGARWARE["d1"];
 
 
 
@@ -14976,12 +14987,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_d0)
+task.spawn(C_d1)
 end;
 do
-local function C_dd()
+local function C_de()
 pcall(function()
-local script=_AGARWARE["dd"];
+local script=_AGARWARE["de"];
 
 
 
@@ -15199,12 +15210,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_dd)
+task.spawn(C_de)
 end;
 do
-local function C_ec()
+local function C_ed()
 pcall(function()
-local script=_AGARWARE["ec"];
+local script=_AGARWARE["ed"];
 
 
 
@@ -15666,12 +15677,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_ec)
+task.spawn(C_ed)
 end;
 do
-local function C_10c()
+local function C_10d()
 pcall(function()
-local script=_AGARWARE["10c"];
+local script=_AGARWARE["10d"];
 local Misc1Group = script.Parent
 local Misc1Minimize = Misc1Group.Misc1Title.Misc1Minimize
 local function getRows()
@@ -15705,12 +15716,12 @@ Misc1Minimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_10c)
+task.spawn(C_10d)
 end;
 do
-local function C_112()
+local function C_113()
 pcall(function()
-local script=_AGARWARE["112"];
+local script=_AGARWARE["113"];
 
 
 
@@ -15944,12 +15955,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_112)
+task.spawn(C_113)
 end;
 do
-local function C_116()
+local function C_117()
 pcall(function()
-local script=_AGARWARE["116"];
+local script=_AGARWARE["117"];
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 
@@ -16081,12 +16092,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_116)
+task.spawn(C_117)
 end;
 do
-local function C_11b()
+local function C_11c()
 pcall(function()
-local script=_AGARWARE["11b"];
+local script=_AGARWARE["11c"];
 local Players = game:GetService("Players")
 
 local LocalPlayer = Players.LocalPlayer
@@ -16222,12 +16233,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_11b)
+task.spawn(C_11c)
 end;
 do
-local function C_120()
+local function C_121()
 pcall(function()
-local script=_AGARWARE["120"];
+local script=_AGARWARE["121"];
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 
@@ -16369,12 +16380,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_120)
+task.spawn(C_121)
 end;
 do
-local function C_130()
+local function C_131()
 pcall(function()
-local script=_AGARWARE["130"];
+local script=_AGARWARE["131"];
 local RepGroup = script.Parent
 local RepMinimize = RepGroup.RepTitle.RepMinimize
 local RepRepRow = RepGroup:FindFirstChild("RepRepRow")
@@ -16421,12 +16432,12 @@ RepMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_130)
+task.spawn(C_131)
 end;
 do
-local function C_131()
+local function C_132()
 pcall(function()
-local script=_AGARWARE["131"];
+local script=_AGARWARE["132"];
 
 
 
@@ -16553,12 +16564,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_131)
+task.spawn(C_132)
 end;
 do
-local function C_137()
+local function C_138()
 pcall(function()
-local script=_AGARWARE["137"];
+local script=_AGARWARE["138"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local BKitFixRow = script.Parent
@@ -16701,12 +16712,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_137)
+task.spawn(C_138)
 end;
 do
-local function C_13b()
+local function C_13c()
 pcall(function()
-local script=_AGARWARE["13b"];
+local script=_AGARWARE["13c"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -16772,12 +16783,12 @@ BKitBreakButton.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_13b)
+task.spawn(C_13c)
 end;
 do
-local function C_140()
+local function C_141()
 pcall(function()
-local script=_AGARWARE["140"];
+local script=_AGARWARE["141"];
 local SprayRepRow = script.Parent.Parent
 local SprayRepChanger = SprayRepRow:WaitForChild("SprayRepChanger")
 local RepGroup = SprayRepRow.Parent
@@ -16848,12 +16859,12 @@ SprayRepRow:SetAttribute("SprayText", "")
 print("[SprayRep] Initialized - Empty by default")
 end)
 end;
-task.spawn(C_140)
+task.spawn(C_141)
 end;
 do
-local function C_142()
+local function C_143()
 pcall(function()
-local script=_AGARWARE["142"];
+local script=_AGARWARE["143"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -17137,12 +17148,12 @@ end
 APPLYCHANGESButton.MouseButton1Click:Connect(paintRepBrick)
 end)
 end;
-task.spawn(C_142)
+task.spawn(C_143)
 end;
 do
-local function C_145()
+local function C_146()
 pcall(function()
-local script=_AGARWARE["145"];
+local script=_AGARWARE["146"];
 local UnanchorRepRow = script.Parent
 local UnanchorRepTickBox = UnanchorRepRow:WaitForChild("UnanchorRepTickBox")
 
@@ -17185,12 +17196,12 @@ UnanchorRepRow:SetAttribute("UnanchorEnabled", false)
 print("[UnanchorRep] OFF by default")
 end)
 end;
-task.spawn(C_145)
+task.spawn(C_146)
 end;
 do
-local function C_14b()
+local function C_14c()
 pcall(function()
-local script=_AGARWARE["14b"];
+local script=_AGARWARE["14c"];
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
 
@@ -17452,12 +17463,12 @@ end)
 MaterialRepRow:SetAttribute("SelectedMaterial", "Smooth")
 end)
 end;
-task.spawn(C_14b)
+task.spawn(C_14c)
 end;
 do
-local function C_150()
+local function C_151()
 pcall(function()
-local script=_AGARWARE["150"];
+local script=_AGARWARE["151"];
 local ColorRepButton = script.Parent
 local ColorRepRow = ColorRepButton.Parent
 
@@ -17546,12 +17557,12 @@ CloseColorPicker.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_150)
+task.spawn(C_151)
 end;
 do
-local function C_154()
+local function C_155()
 pcall(function()
-local script=_AGARWARE["154"];
+local script=_AGARWARE["155"];
 local SprayColorRepButton = script.Parent
 local SprayColorRepRow = SprayColorRepButton.Parent
 
@@ -17646,12 +17657,12 @@ SprayColorRepButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SprayColorRepRow:SetAttribute("SelectedColor", Color3.fromRGB(255, 255, 255))
 end)
 end;
-task.spawn(C_154)
+task.spawn(C_155)
 end;
 do
-local function C_156()
+local function C_157()
 pcall(function()
-local script=_AGARWARE["156"];
+local script=_AGARWARE["157"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -17840,12 +17851,12 @@ end
 DefaultRepButton.MouseButton1Click:Connect(applyDefault)
 end)
 end;
-task.spawn(C_156)
+task.spawn(C_157)
 end;
 do
-local function C_15c()
+local function C_15d()
 pcall(function()
-local script=_AGARWARE["15c"];
+local script=_AGARWARE["15d"];
 local RichTextRepRow = script.Parent
 local RichTextRepTickBox = RichTextRepRow:WaitForChild("RichTextRepTickBox")
 
@@ -17888,12 +17899,12 @@ RichTextRepRow:SetAttribute("RichTextEnabled", true)
 print("[RichTextRep] ON by default")
 end)
 end;
-task.spawn(C_15c)
+task.spawn(C_15d)
 end;
 do
-local function C_160()
+local function C_161()
 pcall(function()
-local script=_AGARWARE["160"];
+local script=_AGARWARE["161"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local RestoreBrickRow = script.Parent
@@ -18286,12 +18297,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_160)
+task.spawn(C_161)
 end;
 do
-local function C_164()
+local function C_165()
 pcall(function()
-local script=_AGARWARE["164"];
+local script=_AGARWARE["165"];
 local ExploitsGroup = script.Parent
 local ExploitsMinimize = ExploitsGroup.ExploitsTitle.ExploitsMinimize
 
@@ -18328,12 +18339,12 @@ ExploitsMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_164)
+task.spawn(C_165)
 end;
 do
-local function C_16a()
+local function C_16b()
 pcall(function()
-local script=_AGARWARE["16a"];
+local script=_AGARWARE["16b"];
 local function getScreenGui()
 	local p = script.Parent
 	while p do
@@ -18419,12 +18430,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_16a)
+task.spawn(C_16b)
 end;
 do
-local function C_16e()
+local function C_16f()
 pcall(function()
-local script=_AGARWARE["16e"];
+local script=_AGARWARE["16f"];
 local function getScreenGui()
 	local p = script.Parent
 	while p do
@@ -18502,12 +18513,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_16e)
+task.spawn(C_16f)
 end;
 do
-local function C_172()
+local function C_173()
 pcall(function()
-local script=_AGARWARE["172"];
+local script=_AGARWARE["173"];
 local function getScreenGui()
 	local p = script.Parent
 	while p do
@@ -18592,12 +18603,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_172)
+task.spawn(C_173)
 end;
 do
-local function C_176()
+local function C_177()
 pcall(function()
-local script=_AGARWARE["176"];
+local script=_AGARWARE["177"];
 
 local LagGroup = script.Parent
 local LagMinimize = LagGroup.LagTitle.LagMinimize
@@ -18636,12 +18647,12 @@ LagMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_176)
+task.spawn(C_177)
 end;
 do
-local function C_17c()
+local function C_17d()
 pcall(function()
-local script=_AGARWARE["17c"];
+local script=_AGARWARE["17d"];
 local Players = game:GetService("Players")
 local TextChatService = game:GetService("TextChatService")
 local LocalPlayer = Players.LocalPlayer
@@ -18737,12 +18748,12 @@ SpamAdvertButton.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_17c)
+task.spawn(C_17d)
 end;
 do
-local function C_17f()
+local function C_180()
 pcall(function()
-local script=_AGARWARE["17f"];
+local script=_AGARWARE["180"];
 script.Parent.PPBoomboxButton.MouseButton1Click:Connect(function()
 	local Player = game.Players.LocalPlayer
 	local Character = Player.Character or Player.CharacterAdded:Wait()
@@ -18799,12 +18810,12 @@ script.Parent.PPBoomboxButton.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_17f)
+task.spawn(C_180)
 end;
 do
-local function C_182()
+local function C_183()
 pcall(function()
-local script=_AGARWARE["182"];
+local script=_AGARWARE["183"];
 script.Parent.PPBkitButton.MouseButton1Click:Connect(function()
 	local Player = game.Players.LocalPlayer
 	local Character = Player.Character or Player.CharacterAdded:Wait()
@@ -18863,12 +18874,12 @@ script.Parent.PPBkitButton.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_182)
+task.spawn(C_183)
 end;
 do
-local function C_187()
+local function C_188()
 pcall(function()
-local script=_AGARWARE["187"];
+local script=_AGARWARE["188"];
 
 local BypassGroup = script.Parent
 local BypassMinimize = BypassGroup.BypassTitle.BypassMinimize
@@ -18906,12 +18917,12 @@ BypassMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_187)
+task.spawn(C_188)
 end;
 do
-local function C_188()
+local function C_189()
 pcall(function()
-local script=_AGARWARE["188"];
+local script=_AGARWARE["189"];
 
 
 
@@ -19043,12 +19054,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_188)
+task.spawn(C_189)
 end;
 do
-local function C_18e()
+local function C_18f()
 pcall(function()
-local script=_AGARWARE["18e"];
+local script=_AGARWARE["18f"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -19312,12 +19323,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_18e)
+task.spawn(C_18f)
 end;
 do
-local function C_192()
+local function C_193()
 pcall(function()
-local script=_AGARWARE["192"];
+local script=_AGARWARE["193"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -19549,12 +19560,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_192)
+task.spawn(C_193)
 end;
 do
-local function C_196()
+local function C_197()
 pcall(function()
-local script=_AGARWARE["196"];
+local script=_AGARWARE["197"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -19816,12 +19827,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_196)
+task.spawn(C_197)
 end;
 do
-local function C_19a()
+local function C_19b()
 pcall(function()
-local script=_AGARWARE["19a"];
+local script=_AGARWARE["19b"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -20082,12 +20093,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_19a)
+task.spawn(C_19b)
 end;
 do
-local function C_19e()
+local function C_19f()
 pcall(function()
-local script=_AGARWARE["19e"];
+local script=_AGARWARE["19f"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -20323,12 +20334,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_19e)
+task.spawn(C_19f)
 end;
 do
-local function C_1a2()
+local function C_1a3()
 pcall(function()
-local script=_AGARWARE["1a2"];
+local script=_AGARWARE["1a3"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -20589,12 +20600,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1a2)
+task.spawn(C_1a3)
 end;
 do
-local function C_1a6()
+local function C_1a7()
 pcall(function()
-local script=_AGARWARE["1a6"];
+local script=_AGARWARE["1a7"];
 
 local LagGroup = script.Parent
 local LagMinimize = LagGroup.LagTitle.LagMinimize
@@ -20633,12 +20644,12 @@ LagMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1a6)
+task.spawn(C_1a7)
 end;
 do
-local function C_1a7()
+local function C_1a8()
 pcall(function()
-local script=_AGARWARE["1a7"];
+local script=_AGARWARE["1a8"];
 
 
 
@@ -20775,12 +20786,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1a7)
+task.spawn(C_1a8)
 end;
 do
-local function C_1ae()
+local function C_1af()
 pcall(function()
-local script=_AGARWARE["1ae"];
+local script=_AGARWARE["1af"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local RunService = game:GetService("RunService")
@@ -20989,12 +21000,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1ae)
+task.spawn(C_1af)
 end;
 do
-local function C_1b2()
+local function C_1b3()
 pcall(function()
-local script=_AGARWARE["1b2"];
+local script=_AGARWARE["1b3"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local RunService = game:GetService("RunService")
@@ -21925,12 +21936,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1b2)
+task.spawn(C_1b3)
 end;
 do
-local function C_1b7()
+local function C_1b8()
 pcall(function()
-local script=_AGARWARE["1b7"];
+local script=_AGARWARE["1b8"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -22018,12 +22029,12 @@ updateTargetSize()
 print("[BlockSize] Size changer loaded - Default: 1")
 end)
 end;
-task.spawn(C_1b7)
+task.spawn(C_1b8)
 end;
 do
-local function C_1bb()
+local function C_1bc()
 pcall(function()
-local script=_AGARWARE["1bb"];
+local script=_AGARWARE["1bc"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -22125,12 +22136,12 @@ updateDisplay()
 print("[BlockAmount] Block counter initialized - waiting for spam to start")
 end)
 end;
-task.spawn(C_1bb)
+task.spawn(C_1bc)
 end;
 do
-local function C_1bd()
+local function C_1be()
 pcall(function()
-local script=_AGARWARE["1bd"];
+local script=_AGARWARE["1be"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -22381,12 +22392,12 @@ startWatching()
 print("[ReduceLag] Script loaded - OFF by default")
 end)
 end;
-task.spawn(C_1bd)
+task.spawn(C_1be)
 end;
 do
-local function C_1c1()
+local function C_1c2()
 pcall(function()
-local script=_AGARWARE["1c1"];
+local script=_AGARWARE["1c2"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local RunService = game:GetService("RunService")
@@ -22894,12 +22905,12 @@ end)
 print("[BlackholeLag] Script loaded - OFF by default")
 end)
 end;
-task.spawn(C_1c1)
+task.spawn(C_1c2)
 end;
 do
-local function C_1cd()
+local function C_1ce()
 pcall(function()
-local script=_AGARWARE["1cd"];
+local script=_AGARWARE["1ce"];
 
 local GriefGroup = script.Parent
 local GriefMinimize = GriefGroup.GriefTitle.GriefMinimize
@@ -22938,12 +22949,12 @@ GriefMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1cd)
+task.spawn(C_1ce)
 end;
 do
-local function C_1d3()
+local function C_1d4()
 pcall(function()
-local script=_AGARWARE["1d3"];
+local script=_AGARWARE["1d4"];
 local Players = game:GetService("Players")
 
 local SelectDRow = script.Parent
@@ -23019,12 +23030,12 @@ shared.DropdownMaster.create({
 SelectDRow:SetAttribute("SelectedPlayers", "")
 end)
 end;
-task.spawn(C_1d3)
+task.spawn(C_1d4)
 end;
 do
-local function C_1d8()
+local function C_1d9()
 pcall(function()
-local script=_AGARWARE["1d8"];
+local script=_AGARWARE["1d9"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -23241,12 +23252,12 @@ end)
 enable()
 end)
 end;
-task.spawn(C_1d8)
+task.spawn(C_1d9)
 end;
 do
-local function C_1dc()
+local function C_1dd()
 pcall(function()
-local script=_AGARWARE["1dc"];
+local script=_AGARWARE["1dd"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -23485,12 +23496,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1dc)
+task.spawn(C_1dd)
 end;
 do
-local function C_1df()
+local function C_1e0()
 pcall(function()
-local script=_AGARWARE["1df"];
+local script=_AGARWARE["1e0"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local RunService = game:GetService("RunService")
@@ -23764,12 +23775,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1df)
+task.spawn(C_1e0)
 end;
 do
-local function C_1e5()
+local function C_1e6()
 pcall(function()
-local script=_AGARWARE["1e5"];
+local script=_AGARWARE["1e6"];
 local EnableGroup = script.Parent
 local EnableMinimize = EnableGroup.EnableTitle.EnableMinimize
 
@@ -23806,12 +23817,12 @@ EnableMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1e5)
+task.spawn(C_1e6)
 end;
 do
-local function C_1e6()
+local function C_1e7()
 pcall(function()
-local script=_AGARWARE["1e6"];
+local script=_AGARWARE["1e7"];
 
 
 
@@ -23960,12 +23971,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1e6)
+task.spawn(C_1e7)
 end;
 do
-local function C_1ed()
+local function C_1ee()
 pcall(function()
-local script=_AGARWARE["1ed"];
+local script=_AGARWARE["1ee"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -23996,12 +24007,12 @@ end)
 updateVisual()
 end)
 end;
-task.spawn(C_1ed)
+task.spawn(C_1ee)
 end;
 do
-local function C_1f1()
+local function C_1f2()
 pcall(function()
-local script=_AGARWARE["1f1"];
+local script=_AGARWARE["1f2"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -24032,12 +24043,12 @@ end)
 updateVisual()
 end)
 end;
-task.spawn(C_1f1)
+task.spawn(C_1f2)
 end;
 do
-local function C_1f5()
+local function C_1f6()
 pcall(function()
-local script=_AGARWARE["1f5"];
+local script=_AGARWARE["1f6"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -24068,12 +24079,12 @@ end)
 updateVisual()
 end)
 end;
-task.spawn(C_1f5)
+task.spawn(C_1f6)
 end;
 do
-local function C_1f9()
+local function C_1fa()
 pcall(function()
-local script=_AGARWARE["1f9"];
+local script=_AGARWARE["1fa"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -24104,12 +24115,12 @@ end)
 updateVisual()
 end)
 end;
-task.spawn(C_1f9)
+task.spawn(C_1fa)
 end;
 do
-local function C_1fd()
+local function C_1fe()
 pcall(function()
-local script=_AGARWARE["1fd"];
+local script=_AGARWARE["1fe"];
 local MiscGroup = script.Parent
 local MiscMinimize = MiscGroup.MiscTitle.MiscMinimize
 
@@ -24146,12 +24157,12 @@ MiscMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1fd)
+task.spawn(C_1fe)
 end;
 do
-local function C_1fe()
+local function C_1ff()
 pcall(function()
-local script=_AGARWARE["1fe"];
+local script=_AGARWARE["1ff"];
 
 
 
@@ -24279,12 +24290,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_1fe)
+task.spawn(C_1ff)
 end;
 do
-local function C_204()
+local function C_205()
 pcall(function()
-local script=_AGARWARE["204"];
+local script=_AGARWARE["205"];
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
@@ -24460,12 +24471,12 @@ task.spawn(function()
 end)
 end)
 end;
-task.spawn(C_204)
+task.spawn(C_205)
 end;
 do
-local function C_208()
+local function C_209()
 pcall(function()
-local script=_AGARWARE["208"];
+local script=_AGARWARE["209"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -24897,12 +24908,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_208)
+task.spawn(C_209)
 end;
 do
-local function C_20e()
+local function C_20f()
 pcall(function()
-local script=_AGARWARE["20e"];
+local script=_AGARWARE["20f"];
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 
@@ -24945,12 +24956,12 @@ GSettingsMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_20e)
+task.spawn(C_20f)
 end;
 do
-local function C_20f()
+local function C_210()
 pcall(function()
-local script=_AGARWARE["20f"];
+local script=_AGARWARE["210"];
 
 
 
@@ -25139,12 +25150,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_20f)
+task.spawn(C_210)
 end;
 do
-local function C_217()
+local function C_218()
 pcall(function()
-local script=_AGARWARE["217"];
+local script=_AGARWARE["218"];
 local textBox = script.Parent 
 
 
@@ -25173,12 +25184,12 @@ textBox.FocusLost:Connect(function()
 end)
 end)
 end;
-task.spawn(C_217)
+task.spawn(C_218)
 end;
 do
-local function C_21a()
+local function C_21b()
 pcall(function()
-local script=_AGARWARE["21a"];
+local script=_AGARWARE["21b"];
 local WListLabelRow = script.Parent
 local WListLabelHelp = WListLabelRow.WListLabelHelp
 
@@ -25244,12 +25255,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_21a)
+task.spawn(C_21b)
 end;
 do
-local function C_21e()
+local function C_21f()
 pcall(function()
-local script=_AGARWARE["21e"];
+local script=_AGARWARE["21f"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -25349,12 +25360,12 @@ local initialWhitelist = {[LocalPlayer.Name] = true}
 updateWhitelist(initialWhitelist)
 end)
 end;
-task.spawn(C_21e)
+task.spawn(C_21f)
 end;
 do
-local function C_221()
+local function C_222()
 pcall(function()
-local script=_AGARWARE["221"];
+local script=_AGARWARE["222"];
 local Players = game:GetService("Players")
 
 
@@ -25404,12 +25415,12 @@ end)
 setState(true)
 end)
 end;
-task.spawn(C_221)
+task.spawn(C_222)
 end;
 do
-local function C_225()
+local function C_226()
 pcall(function()
-local script=_AGARWARE["225"];
+local script=_AGARWARE["226"];
 local Players = game:GetService("Players")
 
 
@@ -25459,12 +25470,12 @@ end)
 setState(true)
 end)
 end;
-task.spawn(C_225)
+task.spawn(C_226)
 end;
 do
-local function C_22b()
+local function C_22c()
 pcall(function()
-local script=_AGARWARE["22b"];
+local script=_AGARWARE["22c"];
 local textBox = script.Parent 
 
 
@@ -25489,12 +25500,12 @@ textBox.FocusLost:Connect(function(enterPressed)
 end)
 end)
 end;
-task.spawn(C_22b)
+task.spawn(C_22c)
 end;
 do
-local function C_22e()
+local function C_22f()
 pcall(function()
-local script=_AGARWARE["22e"];
+local script=_AGARWARE["22f"];
 local PunishGroup = script.Parent
 local PunishMinimize = PunishGroup.PunishTitle.PunishMinimize
 
@@ -25531,12 +25542,12 @@ PunishMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_22e)
+task.spawn(C_22f)
 end;
 do
-local function C_22f()
+local function C_230()
 pcall(function()
-local script=_AGARWARE["22f"];
+local script=_AGARWARE["230"];
 
 
 
@@ -25684,12 +25695,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_22f)
+task.spawn(C_230)
 end;
 do
-local function C_235()
+local function C_236()
 pcall(function()
-local script=_AGARWARE["235"];
+local script=_AGARWARE["236"];
 local Players = game:GetService("Players")
 local TextChatService = game:GetService("TextChatService")
 local AlertGriefRow = script.Parent
@@ -25765,12 +25776,12 @@ shared.GriefEvent.Event:Connect(function(player, griefType)
 end)
 end)
 end;
-task.spawn(C_235)
+task.spawn(C_236)
 end;
 do
-local function C_239()
+local function C_23a()
 pcall(function()
-local script=_AGARWARE["239"];
+local script=_AGARWARE["23a"];
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
@@ -26304,12 +26315,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_239)
+task.spawn(C_23a)
 end;
 do
-local function C_23d()
+local function C_23e()
 pcall(function()
-local script=_AGARWARE["23d"];
+local script=_AGARWARE["23e"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local SFXGriefRow = script.Parent
@@ -26394,12 +26405,12 @@ shared.BoomboxLoudEvent.Event:Connect(function(player)
 end)
 end)
 end;
-task.spawn(C_23d)
+task.spawn(C_23e)
 end;
 do
-local function C_241()
+local function C_242()
 pcall(function()
-local script=_AGARWARE["241"];
+local script=_AGARWARE["242"];
 local Players = game:GetService("Players")
 
 local FlingExploitRow = script.Parent
@@ -26431,12 +26442,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_241)
+task.spawn(C_242)
 end;
 do
-local function C_248()
+local function C_249()
 pcall(function()
-local script=_AGARWARE["248"];
+local script=_AGARWARE["249"];
 local MiscGroup = script.Parent
 local MiscMinimize = MiscGroup.MiscTitle.MiscMinimize
 
@@ -26473,12 +26484,12 @@ MiscMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_248)
+task.spawn(C_249)
 end;
 do
-local function C_24e()
+local function C_24f()
 pcall(function()
-local script=_AGARWARE["24e"];
+local script=_AGARWARE["24f"];
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local TeleportService = game:GetService("TeleportService")
@@ -26692,12 +26703,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_24e)
+task.spawn(C_24f)
 end;
 do
-local function C_251()
+local function C_252()
 pcall(function()
-local script=_AGARWARE["251"];
+local script=_AGARWARE["252"];
 
 
 
@@ -26892,12 +26903,12 @@ NNoclipTickBox.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_251)
+task.spawn(C_252)
 end;
 do
-local function C_255()
+local function C_256()
 pcall(function()
-local script=_AGARWARE["255"];
+local script=_AGARWARE["256"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -27063,12 +27074,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_255)
+task.spawn(C_256)
 end;
 do
-local function C_259()
+local function C_25a()
 pcall(function()
-local script=_AGARWARE["259"];
+local script=_AGARWARE["25a"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -27375,12 +27386,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_259)
+task.spawn(C_25a)
 end;
 do
-local function C_25d()
+local function C_25e()
 pcall(function()
-local script=_AGARWARE["25d"];
+local script=_AGARWARE["25e"];
 local EnliChatBlueRow = script.Parent
 local MiscGroup = EnliChatBlueRow.Parent
 local MiscAccentColor = MiscGroup:WaitForChild("MiscAccentColor")
@@ -27462,12 +27473,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_25d)
+task.spawn(C_25e)
 end;
 do
-local function C_261()
+local function C_262()
 pcall(function()
-local script=_AGARWARE["261"];
+local script=_AGARWARE["262"];
 local AutoEnliRow = script.Parent
 local AutoEnliTickBox = AutoEnliRow:WaitForChild("AutoEnliTickBox")
 local Players = game:GetService("Players")
@@ -27656,12 +27667,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_261)
+task.spawn(C_262)
 end;
 do
-local function C_265()
+local function C_266()
 pcall(function()
-local script=_AGARWARE["265"];
+local script=_AGARWARE["266"];
 local ChatFixRow = script.Parent
 local MiscGroup = ChatFixRow.Parent
 local MiscAccentColor = MiscGroup:WaitForChild("MiscAccentColor")
@@ -27770,12 +27781,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_265)
+task.spawn(C_266)
 end;
 do
-local function C_269()
+local function C_26a()
 pcall(function()
-local script=_AGARWARE["269"];
+local script=_AGARWARE["26a"];
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -27988,12 +27999,12 @@ end)
 updatePlayerNames()
 end)
 end;
-task.spawn(C_269)
+task.spawn(C_26a)
 end;
 do
-local function C_26d()
+local function C_26e()
 pcall(function()
-local script=_AGARWARE["26d"];
+local script=_AGARWARE["26e"];
 local BkitUIFixRow = script.Parent
 local MiscGroup = BkitUIFixRow.Parent
 local MiscAccentColor = MiscGroup:WaitForChild("MiscAccentColor")
@@ -28115,12 +28126,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_26d)
+task.spawn(C_26e)
 end;
 do
-local function C_271()
+local function C_272()
 pcall(function()
-local script=_AGARWARE["271"];
+local script=_AGARWARE["272"];
 local BoomboxGroup = script.Parent
 local BoomboxMinimize = BoomboxGroup.BoomboxTitle.BoomboxMinimize
 
@@ -28158,12 +28169,12 @@ BoomboxMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_271)
+task.spawn(C_272)
 end;
 do
-local function C_272()
+local function C_273()
 pcall(function()
-local script=_AGARWARE["272"];
+local script=_AGARWARE["273"];
 
 
 
@@ -28285,12 +28296,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_272)
+task.spawn(C_273)
 end;
 do
-local function C_278()
+local function C_279()
 pcall(function()
-local script=_AGARWARE["278"];
+local script=_AGARWARE["279"];
 local BoomVolRow = script.Parent
 local BoomVolTickBox = BoomVolRow:WaitForChild("BoomVolTickBox")
 local BoomVolChanger = BoomVolRow:WaitForChild("BoomVolChanger")
@@ -28460,12 +28471,12 @@ BoomVolChanger.Text = "100"
 print("[BoomVol] OFF by default - Default volume: 100")
 end)
 end;
-task.spawn(C_278)
+task.spawn(C_279)
 end;
 do
-local function C_27d()
+local function C_27e()
 pcall(function()
-local script=_AGARWARE["27d"];
+local script=_AGARWARE["27e"];
 local MuteTacoRow = script.Parent
 local MuteTacoTickBox = MuteTacoRow:WaitForChild("MuteTacoTickBox")
 
@@ -28669,12 +28680,12 @@ MuteTacoRow:SetAttribute("MuteTacoEnabled", false)
 print("[MuteTaco] OFF by default - Target ID:", TARGET_AUDIO_ID)
 end)
 end;
-task.spawn(C_27d)
+task.spawn(C_27e)
 end;
 do
-local function C_281()
+local function C_282()
 pcall(function()
-local script=_AGARWARE["281"];
+local script=_AGARWARE["282"];
 local ClickBoomRow = script.Parent
 local ClickBoomTickBox = ClickBoomRow:WaitForChild("ClickBoomTickBox")
 
@@ -28871,12 +28882,12 @@ ClickBoomTickBox.BackgroundColor3 = Color3.new(0, 0, 0)
 print("[ClickBoom] OFF by default")
 end)
 end;
-task.spawn(C_281)
+task.spawn(C_282)
 end;
 do
-local function C_285()
+local function C_286()
 pcall(function()
-local script=_AGARWARE["285"];
+local script=_AGARWARE["286"];
 local AutoPlayRow = script.Parent
 local AutoPlayTickBox = AutoPlayRow:WaitForChild("AutoPlayTickBox")
 local AutoPlayChanger = AutoPlayRow:WaitForChild("AutoPlayChanger")
@@ -29041,12 +29052,12 @@ AutoPlayTickBox.BackgroundColor3 = Color3.new(0, 0, 0)
 AutoPlayChanger.Text = "142376088"
 end)
 end;
-task.spawn(C_285)
+task.spawn(C_286)
 end;
 do
-local function C_289()
+local function C_28a()
 pcall(function()
-local script=_AGARWARE["289"];
+local script=_AGARWARE["28a"];
 local DisableBoomboxRow = script.Parent
 local DisableBoomboxTickBox = DisableBoomboxRow:WaitForChild("DisableBoomboxTickBox")
 
@@ -29132,12 +29143,12 @@ DisableBoomboxTickBox.BackgroundColor3 = Color3.new(0, 0, 0)
 task.spawn(monitorForGuis)
 end)
 end;
-task.spawn(C_289)
+task.spawn(C_28a)
 end;
 do
-local function C_28d()
+local function C_28e()
 pcall(function()
-local script=_AGARWARE["28d"];
+local script=_AGARWARE["28e"];
 
 
 
@@ -29160,12 +29171,12 @@ EquipBoomboxButton.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_28d)
+task.spawn(C_28e)
 end;
 do
-local function C_290()
+local function C_291()
 pcall(function()
-local script=_AGARWARE["290"];
+local script=_AGARWARE["291"];
 
 
 
@@ -29187,12 +29198,12 @@ EquipBoomboxesButton.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_290)
+task.spawn(C_291)
 end;
 do
-local function C_295()
+local function C_296()
 pcall(function()
-local script=_AGARWARE["295"];
+local script=_AGARWARE["296"];
 local AlertGroup = script.Parent
 local AlertMinimize = AlertGroup.AlertTitle.AlertMinimize
 
@@ -29229,12 +29240,12 @@ AlertMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_295)
+task.spawn(C_296)
 end;
 do
-local function C_2a1()
+local function C_2a2()
 pcall(function()
-local script=_AGARWARE["2a1"];
+local script=_AGARWARE["2a2"];
 local Players = game:GetService("Players")
 local TextChatService = game:GetService("TextChatService")
 
@@ -29517,12 +29528,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_2a1)
+task.spawn(C_2a2)
 end;
 do
-local function C_2a8()
+local function C_2a9()
 pcall(function()
-local script=_AGARWARE["2a8"];
+local script=_AGARWARE["2a9"];
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -29715,12 +29726,12 @@ brickTemplate.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_2a8)
+task.spawn(C_2a9)
 end;
 do
-local function C_2ac()
+local function C_2ad()
 pcall(function()
-local script=_AGARWARE["2ac"];
+local script=_AGARWARE["2ad"];
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local repBrick = ReplicatedStorage:WaitForChild("Brick")
 
@@ -29925,12 +29936,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_2ac)
+task.spawn(C_2ad)
 end;
 do
-local function C_2b0()
+local function C_2b1()
 pcall(function()
-local script=_AGARWARE["2b0"];
+local script=_AGARWARE["2b1"];
 
 
 
@@ -30048,12 +30059,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_2b0)
+task.spawn(C_2b1)
 end;
 do
-local function C_2b1()
+local function C_2b2()
 pcall(function()
-local script=_AGARWARE["2b1"];
+local script=_AGARWARE["2b2"];
 local PlayerAlertGroup = script.Parent
 local PlayerAlertMinimize = PlayerAlertGroup.PlayerAlertTitle.PlayerAlertMinimize
 
@@ -30091,12 +30102,12 @@ PlayerAlertMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_2b1)
+task.spawn(C_2b2)
 end;
 do
-local function C_2b7()
+local function C_2b8()
 pcall(function()
-local script=_AGARWARE["2b7"];
+local script=_AGARWARE["2b8"];
 
 local Players = game:GetService("Players")
 local TextChatService = game:GetService("TextChatService")
@@ -30133,12 +30144,12 @@ Players.PlayerAdded:Connect(function(player)
 end)
 end)
 end;
-task.spawn(C_2b7)
+task.spawn(C_2b8)
 end;
 do
-local function C_2bb()
+local function C_2bc()
 pcall(function()
-local script=_AGARWARE["2bb"];
+local script=_AGARWARE["2bc"];
 
 local WelcomeMSGChanger = script.Parent.WelcomeMSGChanger
 
@@ -30154,12 +30165,12 @@ end)
 shared.WelcomeMessage = WelcomeMSGChanger.Text
 end)
 end;
-task.spawn(C_2bb)
+task.spawn(C_2bc)
 end;
 do
-local function C_2bf()
+local function C_2c0()
 pcall(function()
-local script=_AGARWARE["2bf"];
+local script=_AGARWARE["2c0"];
 local StarterGui = game:GetService("StarterGui")
 
 
@@ -30176,12 +30187,12 @@ if button:IsA("TextButton") and button.Name == "OPENCONSOLE" then
 end
 end)
 end;
-task.spawn(C_2bf)
+task.spawn(C_2c0)
 end;
 do
-local function C_2c4()
+local function C_2c5()
 pcall(function()
-local script=_AGARWARE["2c4"];
+local script=_AGARWARE["2c5"];
 
 
 
@@ -30387,12 +30398,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_2c4)
+task.spawn(C_2c5)
 end;
 do
-local function C_2d2()
+local function C_2d3()
 pcall(function()
-local script=_AGARWARE["2d2"];
+local script=_AGARWARE["2d3"];
 
 
 
@@ -30680,12 +30691,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_2d2)
+task.spawn(C_2d3)
 end;
 do
-local function C_2df()
+local function C_2e0()
 pcall(function()
-local script=_AGARWARE["2df"];
+local script=_AGARWARE["2e0"];
 
 
 
@@ -30891,12 +30902,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_2df)
+task.spawn(C_2e0)
 end;
 do
-local function C_2e3()
+local function C_2e4()
 pcall(function()
-local script=_AGARWARE["2e3"];
+local script=_AGARWARE["2e4"];
 local textLabel = script.Parent
 
 local TweenService = game:GetService("TweenService")
@@ -30922,12 +30933,12 @@ while true do
 end
 end)
 end;
-task.spawn(C_2e3)
+task.spawn(C_2e4)
 end;
 do
-local function C_2e5()
+local function C_2e6()
 pcall(function()
-local script=_AGARWARE["2e5"];
+local script=_AGARWARE["2e6"];
 local executeBtn = script.Parent:FindFirstChild("executebutton")
 if not executeBtn then return end
 
@@ -30954,12 +30965,12 @@ executeBtn.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_2e5)
+task.spawn(C_2e6)
 end;
 do
-local function C_2ea()
+local function C_2eb()
 pcall(function()
-local script=_AGARWARE["2ea"];
+local script=_AGARWARE["2eb"];
 local UpLogsGroup = script.Parent
 local UpLogsMinimize = UpLogsGroup.UpLogsTitle.UpLogsMinimize
 local ScrollingFrame = UpLogsGroup:FindFirstChild("ScrollingRow")
@@ -31010,12 +31021,12 @@ UpLogsMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_2ea)
+task.spawn(C_2eb)
 end;
 do
-local function C_30d()
+local function C_30e()
 pcall(function()
-local script=_AGARWARE["30d"];
+local script=_AGARWARE["30e"];
 
 
 
@@ -31299,12 +31310,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_30d)
+task.spawn(C_30e)
 end;
 do
-local function C_311()
+local function C_312()
 pcall(function()
-local script=_AGARWARE["311"];
+local script=_AGARWARE["312"];
 
 local TextLabel = script.Parent
 
@@ -31320,12 +31331,12 @@ local placeText = PLACES[game.PlaceId] or "TCO"
 TextLabel.Text = placeText
 end)
 end;
-task.spawn(C_311)
+task.spawn(C_312)
 end;
 do
-local function C_31f()
+local function C_320()
 pcall(function()
-local script=_AGARWARE["31f"];
+local script=_AGARWARE["320"];
 local FlingGroup = script.Parent
 local FlingMinimize = FlingGroup.FlingTitle.FlingMinimize
 
@@ -31363,12 +31374,12 @@ FlingMinimize.MouseButton1Click:Connect(function()
 end)
 end)
 end;
-task.spawn(C_31f)
+task.spawn(C_320)
 end;
 do
-local function C_327()
+local function C_328()
 pcall(function()
-local script=_AGARWARE["327"];
+local script=_AGARWARE["328"];
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
@@ -31496,12 +31507,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_327)
+task.spawn(C_328)
 end;
 do
-local function C_32b()
+local function C_32c()
 pcall(function()
-local script=_AGARWARE["32b"];
+local script=_AGARWARE["32c"];
 local FlingTypeRow = script.Parent
 local FlingTypeHelp = FlingTypeRow.FlingTypeHelp
 
@@ -31567,12 +31578,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_32b)
+task.spawn(C_32c)
 end;
 do
-local function C_335()
+local function C_336()
 pcall(function()
-local script=_AGARWARE["335"];
+local script=_AGARWARE["336"];
 
 
 
@@ -31729,12 +31740,12 @@ RunService.RenderStepped:Connect(function()
 end)
 end)
 end;
-task.spawn(C_335)
+task.spawn(C_336)
 end;
 do
-local function C_339()
+local function C_33a()
 pcall(function()
-local script=_AGARWARE["339"];
+local script=_AGARWARE["33a"];
 
 
 
@@ -31923,12 +31934,12 @@ script.AncestryChanged:Connect(function()
 end)
 end)
 end;
-task.spawn(C_339)
+task.spawn(C_33a)
 end;
 do
-local function C_34a()
+local function C_34b()
 pcall(function()
-local script=_AGARWARE["34a"];
+local script=_AGARWARE["34b"];
 
 local ColorPicker = script.Parent
 local HueSlider = ColorPicker:WaitForChild("HueSlider")
@@ -31988,12 +31999,12 @@ UserInputService.InputChanged:Connect(function(input, gameProcessed)
 end)
 end)
 end;
-task.spawn(C_34a)
+task.spawn(C_34b)
 end;
 do
-local function C_34b()
+local function C_34c()
 pcall(function()
-local script=_AGARWARE["34b"];
+local script=_AGARWARE["34c"];
 local ColorPicker = script.Parent
 local HueSlider = ColorPicker.HueSlider
 local SaturationValueCanvas = ColorPicker.SaturationValueCanvas
@@ -32267,12 +32278,12 @@ _G.ColorPickerFunctions = {
 print("[ColorPicker] Initialized - Default: #ffffff")
 end)
 end;
-task.spawn(C_34b)
+task.spawn(C_34c)
 end;
 do
-local function C_352()
+local function C_353()
 pcall(function()
-local script=_AGARWARE["352"];
+local script=_AGARWARE["353"];
 local HEX = script.Parent
 
 
@@ -32354,12 +32365,12 @@ if HEX.Text == "" or HEX.Text == "#" then
 end
 end)
 end;
-task.spawn(C_352)
+task.spawn(C_353)
 end;
 do
-local function C_354()
+local function C_355()
 pcall(function()
-local script=_AGARWARE["354"];
+local script=_AGARWARE["355"];
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local MarketplaceService = game:GetService("MarketplaceService")
@@ -32470,12 +32481,12 @@ tween.Completed:Wait()
 LoadedMainFrame.Visible = false
 end)
 end;
-task.spawn(C_354)
+task.spawn(C_355)
 end;
 do
-local function C_359()
+local function C_35a()
 pcall(function()
-local script=_AGARWARE["359"];
+local script=_AGARWARE["35a"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -32486,12 +32497,12 @@ shared.ResetCharacter = function()
 end
 end)
 end;
-task.spawn(C_359)
+task.spawn(C_35a)
 end;
 do
-local function C_35a()
+local function C_35b()
 pcall(function()
-local script=_AGARWARE["35a"];
+local script=_AGARWARE["35b"];
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -32666,12 +32677,12 @@ end
 
 end)
 end;
-task.spawn(C_35a)
+task.spawn(C_35b)
 end;
 do
-local function C_35b()
+local function C_35c()
 pcall(function()
-local script=_AGARWARE["35b"];
+local script=_AGARWARE["35c"];
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -32949,12 +32960,12 @@ end
 game:GetService("Players").PlayerAdded:Connect(addBlacklistedTag)
 end)
 end;
-task.spawn(C_35b)
+task.spawn(C_35c)
 end;
 do
-local function C_35c()
+local function C_35d()
 pcall(function()
-local script=_AGARWARE["35c"];
+local script=_AGARWARE["35d"];
 
 
 _G.UserLists = {
@@ -33019,16 +33030,16 @@ function _G.IsOwner(userId)
 end
 end)
 end;
-task.spawn(C_35c)
+task.spawn(C_35d)
 end;
 do
-local function C_35d()
+local function C_35e()
 pcall(function()
-local script=_AGARWARE["35d"];
-return(function(_01Iteq,_101apx)_101apx=_101apx:gsub("`(.)",function(_IlIll0ndo)if _IlIll0ndo=="`"then return "`"end return _01Iteq[_IlIll0ndo]or"`".._IlIll0ndo end)return assert((loadstring or load)(_101apx))()end)({["A"]="_1O1IOOIl01nwq",["B"]="_l0O10O01yxq",["C"]="_l1O0lIOlx8rm",["D"]="local ",["E"]="_Oll1O0011omgu",["F"]="function",["G"]="_l0OIO01O1g9b",["H"]="return ",["I"]="_lI1I00IIn59o",["J"]=" end",["K"]="_1lOll0lOl15kc",["L"]="bit32.bxor",["M"]="string.",["N"]="math.floor",["O"]="_1IOOI1gm",["P"]="_I10Ill0117",["Q"]="_0OllIIIl0lm0d6",["R"]="_0I11OOIywia",["S"]="_0IOl0Omvk",["T"]="_l1IOll1186",["U"]="_000l1s5",["V"]=" then",["W"]="_0OlIIl1gf",["X"]="_lIOl11bvb",["Y"]="table",["Z"]="_01ll11s5",["a"]="while ",["b"]="_l1I100l1cvu",["c"]="return",["d"]="_O0OIO10xtd",["e"]="__newindex",["f"]="_llI7t1"},[[`D`F _0lIOIl11d1d()`D_O01OOlI1yvu={_O1O010l1nq6=3201267190,_l0lIIlIOrtil=7797}`D`K={`R=0,_ll1O0OIO1ipl=0,_1I11Il0I005399=0,_OI1IllIl0agfq=0,_lIOlI0O0I01blg=41082}`D`F _00O0lOI01ls2()`Dk=_Ill0I0lI1ewpf for i=1,#`b do k=`L(k,`b[i])end `Hk~=0 and k<2147483647`J `D`F _llI000OlI1hzq(data,key)`Dout={}`Dn=#key for i=1,#data do `Db=`Mbyte(data,i)`Dk=key[((i-1)-`N((i-1)/n)*n)+1]`Dx=`L(b,k)if x>255`V x=x%256`J out[i]=`Mchar(x)end `H`Y.concat(out)end `D`E={[0]=32,[1]=18,_IOO00Il1frpt=1,_0IlO0I111vk5s=22,_l0l0IIO5rhl=31,_I1l0II0ll02kpe=21,[6]=28,_OO01O10111dbl=3,[8]=29,_1OllO1llpbg8=4,_ll01Il19g84=16,[11]=2,_l011Ill6ytf=27,_lOO00OOl1k8a6=9,_11l11Ol011t8s=34,[15]=33,_IO1O10IOIlj5mb=5,[17]=6,[18]=15,[19]=0,_1OllI11lIlpd7s=23,_OIOOlIl4ch7=36,[22]=25,_lOl1I1O1ud3=12,[24]=7,_lO0lOOIyf3j=10,[26]=13,_0101101Ill1oq3=19,_lIO0100I0yy1x=24,[29]=14,_l1III0ll1py5=11,[31]=30,[32]=20,_l1I01OO175m=35,[34]=17,[35]=26,_IO1I0Ilmzcv=37,[37]=8,}`D`F _I1l1IOll1186n(buf)`Dout,i,n={},1,#buf `ai<=n do `Db=`Mbyte(buf,i)if b<128`V out[#out+1]=`Msub(buf,i+1,i+b)i=i+b+1 else `Doff=b-128 `Dlen=`Mbyte(buf,i+1)or 0 out[#out+1]=`Mrep(`Msub(buf,i-off,i-off),len)i=i+2`J`J `H`Y.concat(out)end `D_011IOOOfz9t=800 `D`I=`Mchar(90)`I=""`I=`I.."r9fKQUoEPKTmW45l5oH0E8F10Wats8WWOLv48lAChZTggV9mkHv3h8iL2+fjIwbW0DMgOgIOSbRry1iWjN2WInXmk9j1YaH20VLVA0nDBos3Q0cOH+09FDcxsC4GAWmajiVqF7WfOdvEEuX39nYGYkxDLXvFU4KvkncwWfjeRT9pCD36yu3OgXzqIpKxj3tYvZig+Uln"`I=`I.."IbaXtaVMRnXdF9E4gPdgxoCKBX1O9f4oWu4MO7SwzLkhKDWrHPWKY6Dafkjv3dRnaIumtfp1+UW2TjnAmYnB0ICmYO4pcGw6z4Le+VrVa3H5OZ+MkhBNHEg465jyUFyyNEzV8m8HRQcmeHNj1VqMGueEHbLc4YSuWBvt9ShymKjvsM8J8d1vmv1SElyqtFqTl4LNXxrp"`I=`I.."mQBhY34GXiC9zgLLh5HBxQJVGRkbt27dGes+En9nfxj+Qbgy6Zy6PjTG9fcbFAQ1AJWdGbGw+pR4nwfbDUA8Gkc4kWS9P38+kHbblLRmv8ylHR2dQWUcP1P2HDtYSedAnQ+rbibqmwTnQVL+M3EyzcTdKvAYbcQuvRBGLgm2fiQlzLsqbqnZ9nvWPsnKZNoEEEUisHvZ"`I=`I.."5bx4lHRFUE8Mw00OFTGyPBjTgeuQceyencTonk5BGQ9BMlMFeDPtXOUee1oJtcOujyNtBrOwUNTiR2jr+GRfTua1yCmUVns9asBHVstzCMJuibSrCwtyO9Z3b0MemSYutz+v75dDBG8ZWy3HaTglCFasG8TlfGT67OtuQI1Rz2RIoIlUPpunzqmBKCMD1bMxQHimEiJ4"`D`F _Illl0OO1aw4(s)`Dlut={}`Da=65 for i=0,25 do lut[`Mchar(a+i)]=i`J for i=0,25 do lut[`Mchar(97+i)]=i+26`J for i=0,9 do lut[`Mchar(48+i)]=i+52`J lut[`Mchar(43)]=62 `Dout,acc,bits={},0,0 for i=1,#s do `Dv=lut[`Msub(s,i,i)]if v`V acc=acc*64+v bits=bits+6 if bits>=8`V bits=bits-8 `Dd=`N(acc/(2^bits))%256 out[#out+1]=`Mchar(d)acc=acc-`N(acc/(2^bits))*(2^bits)end`J`J `H`Y.concat(out)end `D`F _OOOO1O11r0g()`Dd=debug if type(d)=="`Y"and d.gethook`V if d.gethook()then `Hfalse`J`J `Htrue`J `D_l0l01O111jcg={[0]="jdpOjxuTidI+utBYBAkW04I46NLOvgv9an",[1]="6J9dbmN2iFy+kDOq",[2]="r4YOzStNQSoCt9+V4X7WpIh2i1z4vK",[3]="Dszj4zuMOLwgcyTLMWAO345ZL3b3cd",[4]="nsv1t727AwyxeDeaOjl9sEzVjZQ",[5]="+r3J4f3BdqkVRxjaVNb7v0hbzJxsPBocAwGTpoEq",[6]="fwZjRNF5Mu8k",[7]="Jls5h8wYpS7TIm0ndq",[8]="KeqOVY7xg5qRIyfG7p",[9]="PuyVucay6BPUXzLUEDpvtTVP79AaOMsahnr",[10]="6Zta4v7dy2A6FmBbAJZpzwr92hFn2",[11]="aqeMOinELZbfkheyuJGSBZA",}`D`F _000llO100ln6qe(data)`Dh=0 for i=1,#data do h=(h*31+`Mbyte(data,i))%4294967296`J `Hh%256==_0lI0lOlycgv[1]end `D`F `Q(code)error(code,2)end `D`G={}`G[0]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*13-(`C or 0)v=(v<0)and(v+58547)or(v*1%2147483647)`Hv+58547,`E[0]or 18,31`J `G[1]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*11-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,46772)end `Hv+46772,`E[1]or 38,30`J `G[2]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*1-(`C or 0)if v%41==23`V v=v+20851 else v=v-1`J `Hv+20851,`E[2]or 29,41`J `G[3]=`F(`A,`B,`C)`Dv=(`A or 0)*15+(`B or 0)*13-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,46871)end `Hv+46871,`E[3]or 25,33`J `G[4]=`F(`A,`B,`C)`Dv=(`A or 0)*13+(`B or 0)*15-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,55549)end `Hv+55549,`E[4]or 39,33`J `G[5]=`F(`A,`B,`C)`Dv=(`A or 0)*11+(`B or 0)*1-(`C or 0)`av>1073741824 do v=`N(v/12)end `Hv+13146,`E[5]or 23,39`J `G[6]=`F(`A,`B,`C)`Dv=(`A or 0)*13+(`B or 0)*5-(`C or 0)`av>1073741824 do v=`N(v/14)end `Hv+23668,`E[6]or 28,48`J `G[7]=`F(`A,`B,`C)`Dv=(`A or 0)*7+(`B or 0)*11-(`C or 0)`av>1073741824 do v=`N(v/8)end `Hv+17163,`E[7]or 25,46`J `G[8]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*9-(`C or 0)v=(v<0)and(v+38043)or(v*1%2147483647)`Hv+38043,`E[8]or 27,14`J `G[9]=`F(`A,`B,`C)`Dv=(`A or 0)*7+(`B or 0)*3-(`C or 0)`av>1073741824 do v=`N(v/8)end `Hv+51586,`E[9]or 9,57`J `G[10]=`F(`A,`B,`C)`Dv=(`A or 0)*15+(`B or 0)*5-(`C or 0)v=(v<0)and(v+22461)or(v*15%2147483647)`Hv+22461,`E[10]or 19,26`J `G[11]=`F(`A,`B,`C)`Dv=(`A or 0)*15+(`B or 0)*11-(`C or 0)if v%20==10`V v=v+43570 else v=v-11`J `Hv+43570,`E[11]or 0,20`J `G[12]=`F(`A,`B,`C)`Dv=(`A or 0)*15+(`B or 0)*15-(`C or 0)if v%31==10`V v=v+64583 else v=v-15`J `Hv+64583,`E[12]or 0,31`J `G[13]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*13-(`C or 0)`av>1073741824 do v=`N(v/2)end `Hv+28481,`E[13]or 3,7`J `G[14]=`F(`A,`B,`C)`Dv=(`A or 0)*15+(`B or 0)*3-(`C or 0)v=(v<0)and(v+10482)or(v*15%2147483647)`Hv+10482,`E[14]or 28,49`J `G[15]=`F(`A,`B,`C)`Dv=(`A or 0)*9+(`B or 0)*13-(`C or 0)if v%22==9`V v=v+48475 else v=v-13`J `Hv+48475,`E[15]or 25,22`J `G[16]=`F(`A,`B,`C)`Dv=(`A or 0)*7+(`B or 0)*3-(`C or 0)v=(v<0)and(v+4080)or(v*7%2147483647)`Hv+4080,`E[0]or 2,41`J `G[17]=`F(`A,`B,`C)`Dv=(`A or 0)*13+(`B or 0)*9-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,18846)end `Hv+18846,`E[1]or 37,9`J `G[18]=`F(`A,`B,`C)`Dv=(`A or 0)*3+(`B or 0)*3-(`C or 0)v=(v<0)and(v+61161)or(v*3%2147483647)`Hv+61161,`E[2]or 1,38`J `G[19]=`F(`A,`B,`C)`Dv=(`A or 0)*9+(`B or 0)*7-(`C or 0)`av>1073741824 do v=`N(v/10)end `Hv+36449,`E[3]or 1,30`J `G[20]=`F(`A,`B,`C)`Dv=(`A or 0)*13+(`B or 0)*13-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,6005)end `Hv+6005,`E[4]or 34,30`J `G[21]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*13-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,52653)end `Hv+52653,`E[5]or 5,30`J `G[22]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*13-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,62100)end `Hv+62100,`E[6]or 2,51`J `G[23]=`F(`A,`B,`C)`Dv=(`A or 0)*1+(`B or 0)*7-(`C or 0)for _q=1,(v%3)do v=`L(v%65536,2575)end `Hv+2575,`E[7]or 25,58`J `D_lIl0lI0I011hbi={171,182,12,32,219,54,207,28,61,137,33,53,244,133,43,62,53,182,69,49,135,233,89,254,79,230,96,177,236,154,4,57}`D`b={184,131,129,23,210,249,46,37,123,85,134,204,238,228,38,12}`D_IOl0O01I1od9={232,158,123,71,109,76,225,224}`D_Ill0I0lI1ewpf=1215959127 `D_0lI0lOlycgv={140,196,158,203,183,90,132,88}`D_I11lI1lO1jlr={__index=`F(`A,`B)`c(rawget(`A,`B)or 0)*5+25181`J,`e=`F(`A,`B,`C)rawset(`A,`B,(`C or 0)*9)end,__call=`F(`A,`B)`c((`B or 0)+25181)%2147483647`J,__meta`Y=1404352258}`D_0l011I1ll1owo=setmeta`Y({},_I11lI1lO1jlr)`D_I0lI00I1llkwsz={__index=`F(`A,`B)`c(rawget(`A,`B)or 0)*1+44216`J,`e=`F(`A,`B,`C)rawset(`A,`B,(`C or 0)*9)end,__call=`F(`A,`B)`c((`B or 0)+44216)%2147483647`J,__meta`Y=1612835430}`D_IO1ll11lbwet=setmeta`Y({},_I0lI00I1llkwsz)`D_1I11001I11p7uc={__index=`F(`A,`B)`c(rawget(`A,`B)or 0)*11+62679`J,`e=`F(`A,`B,`C)rawset(`A,`B,(`C or 0)*5)end,__call=`F(`A,`B)`c((`B or 0)+62679)%2147483647`J,__meta`Y=1399632050}`D_lIlOI0l0Ilw6gu=setmeta`Y({},_1I11001I11p7uc)`D_1O1IOlll1lk6b4={__index=`F(`A,`B)`c(rawget(`A,`B)or 0)*11+47191`J,`e=`F(`A,`B,`C)rawset(`A,`B,(`C or 0)*15)end,__call=`F(`A,`B)`c((`B or 0)+47191)%2147483647`J,__meta`Y=1342061308}`D_10Il010001e8xh=setmeta`Y({},_1O1IOlll1lk6b4)`D`F _Il1llOIO1iru()`a`K.`R<_011IOOOfz9t do `Dop=`Mbyte(`I,`K.`R+1)or 0 `Dh=`G[op%24]if h`V `Dnv=h(`K.`R,`K._ll1O0OIO1ipl,`K._1I11Il0I005399)`K.`R=`K.`R+1 `K._ll1O0OIO1ipl=(nv or 0)%256 else `Q(24707)end`J`J if not _OOOO1O11r0g()then `Q(58712)end if not _00O0lOI01ls2()then `Q(5028)end `Draw=_Illl0OO1aw4(`I)`Dd1=_llI000OlI1hzq(raw,_lIl0lI0I011hbi)`Dd2=_llI000OlI1hzq(d1,`b)`Ddata=_I1l1IOll1186n(d2)if not _000llO100ln6qe(data)then `Q(2842)end _Il1llOIO1iru()`H_O01OOlI1yvu,`K,data`J `D_001iz8={{{249,13,85,173,116,30,152,107},{218,139,248,2,176,50,198,92}}}`D_OOOfz9={["A"]=0,["B"]=1,["C"]=2,["D"]=3,["E"]=4,["F"]=5,["G"]=6,["H"]=7,["I"]=8,["J"]=9,["K"]=10,["L"]=11,["M"]=12,["N"]=13,["O"]=14,["P"]=15,["Q"]=16,["R"]=17,["S"]=18,["T"]=19,["U"]=20,["V"]=21,["W"]=22,["X"]=23,["Y"]=24,["Z"]=25,["a"]=26,["b"]=27,["c"]=28,["d"]=29,["e"]=30,["f"]=31,["g"]=32,["h"]=33,["i"]=34,["j"]=35,["k"]=36,["l"]=37,["m"]=38,["n"]=39,["o"]=40,["p"]=41,["q"]=42,["r"]=43,["s"]=44,["t"]=45,["u"]=46,["v"]=47,["w"]=48,["x"]=49,["y"]=50,["z"]=51,["0"]=52,["1"]=53,["2"]=54,["3"]=55,["4"]=56,["5"]=57,["6"]=58,["7"]=59,["8"]=60,["9"]=61,["+"]=62,["/"]=63}`D_0lI0lOmi9="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"`D`F _00lO0lI14p(`Z,`X)if bit32 and `L`V `H`L(`Z,`X)end `D`S,`P=0,1 `a`Z>0 or `X>0 do `D_lI1IlIgob=`Z%2 `D_l0OO1aw=`X%2 if _lI1IlIgob~=_l0OO1aw`V `S=`S+`P`J `Z=(`Z-_lI1IlIgob)/2 `X=(`X-_l0OO1aw)/2 `P=`P*2`J `H`S`J `D`F _00I110(_11Oc2q,_0Ol1ia,`d)`D`f,`W,`T,`U={},0,0,0 `D_100ll1j8=#_11Oc2q for `O=1,_100ll1j8 do `D_0O0lOIghc=`Msub(_11Oc2q,`O,`O)if _0O0lOIghc=="="then break`J `D_00lIO1xj=_0Ol1ia[_0O0lOIghc]if _00lIO1xj`V `T=`T*64+_00lIO1xj `U=`U+6 if `U>=8`V `U=`U-8 `W=`W+1 `f[`W]=`N(`T/(2^`U))%256 `T=`T%(2^`U)end`J`J for _0Ol0O1kfd=#`d,1,-1 do `D_1l0Ifr1=`d[_0Ol0O1kfd][1]`D_llOIOlI1le=`d[_0Ol0O1kfd][2]`D_OO1O11r0=#_1l0Ifr1 for `O=1,`W do `D`P=((`O-1)%_OO1O11r0)+1 `f[`O]=(_00lO0lI14p(`f[`O],_llOIOlI1le[`P])-_1l0Ifr1[`P])%256`J`J `D`S={}for `O=1,`W do `S[`O]=`Mchar(`f[`O])end `H`Y.concat(`S)end `D_0OllIIzpy=loadstring or load `D_0l0l1ka=_0OllIIzpy(_00I110(_0lI0lOmi9,_OOOfz9,_001iz8))if _0l0l1ka`V `H_0l0l1ka()end]])
+local script=_AGARWARE["35e"];
+return(function(_IO0l1Oyk2,_1OO1e4)_1OO1e4=_1OO1e4:gsub("~(.)",function(_OO1013g)if _OO1013g=="~"then return "~"end return _IO0l1Oyk2[_OO1013g]or"~".._OO1013g end);local _lIOI0I1r9=loadstring or load;local function _0OOlOf58()error(72901,0)end;local function _llIc2k(L)local s=0;if type(L)~="function"then return false end;local p=pcall;local ok,f=p(L,"return 619731");if not ok or type(f)~="function"then return false end;local ok2,v=p(f);if not ok2 or v~=619731 then return false end;local d=string and string.dump;if type(d)=="function"then local a=p(d,L);if a then s=s+1 end end;local r=rawget;local dbg=debug;local gi=nil;if type(dbg)=="table"then if type(r)=="function"then gi=r(dbg,"getinfo")else gi=dbg.getinfo end end;if type(gi)=="function"then local a,i=p(gi,L,"S");if a and type(i)=="table"then local w=i.what;local src=i.source;if w=="Lua"or(type(src)=="string"and src~="[C]"and src~="=[C]")then s=s+1 end end end;local g=_G;local ic=nil;if type(g)=="table"then if type(r)=="function"then ic=r(g,"iscclosure")else ic=g.iscclosure end end;if type(ic)=="function"then local a,c=p(ic,L);if a and c==false then s=s+1 end end;return s<2 end;if not _llIc2k(_lIOI0I1r9)then _0OOlOf58()end;return assert(_lIOI0I1r9(_1OO1e4))()end)({["A"]="_0Ol0I0OO1I1anb",["B"]="_OO00lO01O7gdj",["C"]="_00OlllI13vc",["D"]="local ",["E"]="_O1IIll00lO1gnx",["F"]="_10l0OlI11l17cv",["G"]="function",["H"]="return ",["I"]=" end",["J"]="_1O110O0I1lyq2r",["K"]="_01IIllIan1f._O1O0I1l1bk6",["L"]="string.",["M"]="_1l00Igw9",["N"]="_lIlOjk5",["O"]="then",["P"]="_0l00l1qn",["Q"]="_lI0l1lt",["R"]="bit32.bxor",["S"]="math.floor",["T"]="_0I0Ol8g",["U"]="_1OlIO1O124",["V"]="_00I01iw",["W"]="_01IIllIan1f",["X"]="_lO0O0O0scv5",["Y"]="_10OII1O0I4h8i",["Z"]="_1Ol01120",["a"]="table",["b"]="_IIlI1I1nj",["c"]="_IllllO1n9",["d"]="while ",["e"]="_10I1kw",["f"]="_IO01fr",["g"]="erzDhsh9Tf",["h"]="_OI1I1dh",["i"]="else",["j"]="type",["k"]="_0O1I09t0",["l"]="_l0I0I15q",["m"]="_0101x3",["n"]="_OlOybu"},[[~D~G _l00I000O1O1wsx()~D_OI0100Ill01tj9={_011lO1l1xcx=4142603716,_0lOIIl111fc=62660}~D~W={_O1O0I1l1bk6=0,_lOO0I0I3hq8=0,_lI0llO0Ok7za=0,_0l0IIlI11ird=0,_llIlOl1l1brq2=34645}~D~G _Ol010IIOofeg()~Dk=_00O01OOOO0p72v for i=1,#~Y do k=~R(k,~Y[i])end ~Hk~~=0 and k<2147483647~I ~D_O01ll1I11O1m5m={__index=~G(~C,~A)return(rawget(~C,~A)or 0)*11+52848~I,__newindex=~G(~C,~A,~B)rawset(~C,~A,(~B or 0)*15)end,__call=~G(~C,~A)return((~A or 0)+52848)%2147483647~I,__meta~a=1639836036}~D_II10I0lIuklv=setmeta~a({},_O01ll1I11O1m5m)~D_l11I010001j91={__index=~G(~C,~A)return(rawget(~C,~A)or 0)*9+8931~I,__newindex=~G(~C,~A,~B)rawset(~C,~A,(~B or 0)*15)end,__call=~G(~C,~A)return((~A or 0)+8931)%2147483647~I,__meta~a=111343933}~D_110OIO10O11dbi=setmeta~a({},_l11I010001j91)~D~G ~X(code)error(code,2)end ~D~G _O1l00I1Ifhc9(data,key)~Dout={}~Dn=#key for i=1,#data do ~Db=~Lbyte(data,i)~Dk=key[((i-1)-~S((i-1)/n)*n)+1]~Dx=~R(b,k)if x>255 ~O x=x%256~I out[i]=~Lchar(x)end ~H~a.concat(out)end ~D~G _I1IlI1OOfr7g()~Dd=debug if ~j(d)=="~a"and d.gethook ~O if d.gethook()~O ~Hfalse~I~I ~Htrue~I ~D~G _0l0IllllOlxhf5(data)~Dh=0 for i=1,#data do h=(h*31+~Lbyte(data,i))%4294967296~I ~Hh%256==_OlIOl11lwipb[1]end ~D_IIIO1lII01meh={150,11,165,7,232,60,84,217,104,202,133,224,48,94,6,70,142,72,114,242,185,112,229,173,12,236,26,179,158,67,160,113}~D~Y={160,62,76,250,48,106,236,238,16,147,186,211,27,69,142,243}~D_Ol1O11I12gi={45,194,130,195,57,222,169,229}~D_00O01OOOO0p72v=711036559 ~D_OlIOl11lwipb={214,47,12,50,166,27,129,101}~D~G _0O1I1OIzzdv(buf)~Dout,i,n={},1,#buf ~di<=n do ~Db=~Lbyte(buf,i)if b<128 ~O out[#out+1]=~Lsub(buf,i+1,i+b)i=i+b+1 ~i ~Doff=b-128 ~Dlen=~Lbyte(buf,i+1)or 0 out[#out+1]=~Lrep(~Lsub(buf,i-off,i-off),len)i=i+2~I~I ~H~a.concat(out)end ~D_lOl1011l1qd5={[0]="RgbZYpm6UKE49KNCBwmiSxHW1tXyFb3sQMww3BCX42QjbH4ehIxft7",[1]="2eL6OJ8+84JJkE6te9084mle+",[2]="eSzTRHfhrJX1FagtsGkNSDPVQpFZWfdG7BBzcXH3N8gh0Zs6CrGKAGQt",[3]="YEobNJeoVFjT9Kp8SUBm9faqEkeSVb6UsrJ75v9R4wyS3l",[4]="LxTDHwxdpdSZ08BU2CaJakzG4aNTh0RdI5Qob2cfK",[5]="XtNLZkeJJiDxaTaxTDjSkbTrkxdkeVkW",[6]="av66UtzNsMecvyO+CSwfGjCCHLRBu72O4tkVi47ERz3XMr",[7]="UZF83pxg1IQ5ZL",[8]="b012ExJtUsMNmx5T1vyHULZORder33kRpMDOPrBi8j+vzkksjrvx+",[9]="LUKSWwjehmRrutR65P3hMM2oYjEch9qHDRKru1ot2M5en",[10]="AWQPTEVqWj6rehgcPBgfvtDnlfiev6UMk1k3",[11]="D5FLKQD21LrwyCioAtU0LwmaQ6Iq8cPwbZPsO",}~D_1I0ll1l0l10g3=800 ~D~J=~Lchar(68)~J=""~J=~J.."wz3UMcLv75w8qJhZj2JlhyVhFJ7MvCeiZTsbB5h5RKDhGei4xufnae7wKk6sboTpz9H3IerWAT+HRl3qqFEeVJjwjCDyGhOJ3Yuc20gm+Qi6a5r+aFA7zXEhyzulvKfCj41iG0urH+zGvCLkdLzVXkusAAnehtfCFPBE+ASm9U8xg62luJWLBjF7SFgNqTpXGQWwXMF9"~J=~J.."SxjVblYmi3NxDgc9Qs+AXzQ0zxaFuIPlk0T+i2bUrVTxEhoxakhpp6F5HrADdX8RR5lcASgviS3tbAJJmQJ1zaa8JmCVipseafJQeq76+YQ7YTizR+XHeKXkp+gzz9gxv3E2KblTcu2Cpf428UAqkvisvGukZxlPe2hwy7oXaVPosqqbMDIdNGVfSQIB8PAu9r681uve"~J=~J.."qkDFg7wFTyXESfbpVcNik0Y7sSUJoKvmRkJSOJYaOoiVDQApuKPgtO5SYJN40SU3m403lG85zqH8uIddT9oeTvN4b2NbtgReyWkTSPLlF4f6Bgwwwg4K3E8QIU9MOMI2WnVnxLQIfK3MevQPf0shvFlg3jmrx4lGcaEQyI7keXfYjnmFtGfNId5GFR4l7UMMKaEx1R17"~J=~J.."TSkob7ijxKokph2worUqCBkeaXGVpFJjY98pirtjdx58zl2G1hzc86vBkfeAOCbxL6zwFDLrvp33Bb8bP8XcunFeYTkxn7GnKQxftJVz2MRZBCmX+THpkmW4VZwvJP02mViQ+5Zq58Utj0YsjsQxugt2R1N1SM3vjAGUzZIt3EmNNGGlSUYJSnnij6lkM8vBMn2Cv18e"~D~G _O01O1O0l00f0x5(s)~Dlut={}~Da=65 for i=0,25 do lut[~Lchar(a+i)]=i~I for i=0,25 do lut[~Lchar(97+i)]=i+26~I for i=0,9 do lut[~Lchar(48+i)]=i+52~I lut[~Lchar(43)]=62 ~Dout,acc,bits={},0,0 for i=1,#s do ~Dv=lut[~Lsub(s,i,i)]if v ~O acc=acc*64+v bits=bits+6 if bits>=8 ~O bits=bits-8 ~Dd=~S(acc/(2^bits))%256 out[#out+1]=~Lchar(d)acc=acc-~S(acc/(2^bits))*(2^bits)end~I~I ~H~a.concat(out)end ~D~F={[0]=6,[1]=18,_IIllO1lI1b9ch=43,_OOOIIlOI017y4t=11,_lO0OOOOkzfg=36,[5]=12,_l0O0IIOIbj86=29,_0OllOIlt5cl=19,_ll10Ol0l108v36=38,_l0OO00I6foq=34,[10]=27,[11]=10,_l0IOllOII11v8o=39,[13]=33,[14]=5,[15]=8,_Il00O1Oafnp=2,[17]=35,[18]=17,_OIOI010I1Ojo1j=41,[20]=14,[21]=28,[22]=9,[23]=37,[24]=32,[25]=31,_0OllIIl195b=15,[27]=0,[28]=1,_ll1001O11borr=23,[30]=3,_0O010l01v7o=22,_0lOlIOO1rdk=4,[33]=7,_0I00OO0OOggsf=40,_O0O10OlO1vpk=21,_0lII1I0I0Iaa8l=30,[37]=13,_11Il11O0isqx=24,_I10l1I01I1qgd=20,_1l01OO11I17f5=26,_01lI0Il111nfd8=42,[42]=16,_lO0I10II11llf=25,}~D~E={}~E[0]=~G(~C,~A,~B)~Dv=(~C or 0)*5+(~A or 0)*1-(~B or 0)if v%36==15 ~O v=v+57147 ~i v=v-1~I ~Hv+57147,~F[0]or 26,36~I ~E[1]=~G(~C,~A,~B)~Dv=(~C or 0)*11+(~A or 0)*15-(~B or 0)~dv>1073741824 do v=~S(v/12)end ~Hv+25413,~F[1]or 6,8~I ~E[2]=~G(~C,~A,~B)~Dv=(~C or 0)*7+(~A or 0)*1-(~B or 0)v=(v<0)and(v+9816)or(v*7%2147483647)~Hv+9816,~F[2]or 20,43~I ~E[3]=~G(~C,~A,~B)~Dv=(~C or 0)*1+(~A or 0)*15-(~B or 0)if v%28==2 ~O v=v+22906 ~i v=v-15~I ~Hv+22906,~F[3]or 11,28~I ~E[4]=~G(~C,~A,~B)~Dv=(~C or 0)*5+(~A or 0)*5-(~B or 0)~dv>1073741824 do v=~S(v/6)end ~Hv+3,~F[4]or 39,32~I ~E[5]=~G(~C,~A,~B)~Dv=(~C or 0)*13+(~A or 0)*9-(~B or 0)if v%16==4 ~O v=v+19124 ~i v=v-9~I ~Hv+19124,~F[5]or 20,16~I ~E[6]=~G(~C,~A,~B)~Dv=(~C or 0)*7+(~A or 0)*1-(~B or 0)if v%36==30 ~O v=v+23394 ~i v=v-1~I ~Hv+23394,~F[6]or 24,36~I ~E[7]=~G(~C,~A,~B)~Dv=(~C or 0)*5+(~A or 0)*15-(~B or 0)if v%48==41 ~O v=v+46649 ~i v=v-15~I ~Hv+46649,~F[7]or 1,48~I ~E[8]=~G(~C,~A,~B)~Dv=(~C or 0)*1+(~A or 0)*13-(~B or 0)for _q=1,(v%3)do v=~R(v%65536,45841)end ~Hv+45841,~F[8]or 26,17~I ~E[9]=~G(~C,~A,~B)~Dv=(~C or 0)*3+(~A or 0)*15-(~B or 0)for _q=1,(v%3)do v=~R(v%65536,7008)end ~Hv+7008,~F[9]or 3,3~I ~E[10]=~G(~C,~A,~B)~Dv=(~C or 0)*3+(~A or 0)*1-(~B or 0)for _q=1,(v%3)do v=~R(v%65536,14649)end ~Hv+14649,~F[10]or 13,44~I ~E[11]=~G(~C,~A,~B)~Dv=(~C or 0)*9+(~A or 0)*5-(~B or 0)v=(v<0)and(v+42985)or(v*9%2147483647)~Hv+42985,~F[11]or 16,1~I ~E[12]=~G(~C,~A,~B)~Dv=(~C or 0)*5+(~A or 0)*13-(~B or 0)v=(v<0)and(v+63999)or(v*5%2147483647)~Hv+63999,~F[12]or 19,47~I ~E[13]=~G(~C,~A,~B)~Dv=(~C or 0)*11+(~A or 0)*11-(~B or 0)if v%13==11 ~O v=v+7720 ~i v=v-11~I ~Hv+7720,~F[13]or 5,13~I ~E[14]=~G(~C,~A,~B)~Dv=(~C or 0)*3+(~A or 0)*9-(~B or 0)v=(v<0)and(v+24390)or(v*3%2147483647)~Hv+24390,~F[14]or 22,20~I ~E[15]=~G(~C,~A,~B)~Dv=(~C or 0)*9+(~A or 0)*15-(~B or 0)~dv>1073741824 do v=~S(v/10)end ~Hv+291,~F[15]or 6,54~I ~E[16]=~G(~C,~A,~B)~Dv=(~C or 0)*13+(~A or 0)*3-(~B or 0)if v%33==22 ~O v=v+36982 ~i v=v-3~I ~Hv+36982,~F[0]or 26,33~I ~E[17]=~G(~C,~A,~B)~Dv=(~C or 0)*5+(~A or 0)*13-(~B or 0)v=(v<0)and(v+7701)or(v*5%2147483647)~Hv+7701,~F[1]or 29,59~I ~E[18]=~G(~C,~A,~B)~Dv=(~C or 0)*15+(~A or 0)*15-(~B or 0)if v%63==32 ~O v=v+55976 ~i v=v-15~I ~Hv+55976,~F[2]or 0,63~I ~E[19]=~G(~C,~A,~B)~Dv=(~C or 0)*7+(~A or 0)*7-(~B or 0)for _q=1,(v%3)do v=~R(v%65536,5478)end ~Hv+5478,~F[3]or 35,10~I ~E[20]=~G(~C,~A,~B)~Dv=(~C or 0)*15+(~A or 0)*13-(~B or 0)~dv>1073741824 do v=~S(v/16)end ~Hv+47828,~F[4]or 39,13~I ~E[21]=~G(~C,~A,~B)~Dv=(~C or 0)*11+(~A or 0)*11-(~B or 0)for _q=1,(v%3)do v=~R(v%65536,44442)end ~Hv+44442,~F[5]or 9,24~I ~E[22]=~G(~C,~A,~B)~Dv=(~C or 0)*9+(~A or 0)*11-(~B or 0)~dv>1073741824 do v=~S(v/10)end ~Hv+47636,~F[6]or 37,25~I ~E[23]=~G(~C,~A,~B)~Dv=(~C or 0)*11+(~A or 0)*5-(~B or 0)if v%61==22 ~O v=v+50042 ~i v=v-5~I ~Hv+50042,~F[7]or 1,61~I ~D~G _IlIOlOObjtf()~d~K<_1I0ll1l0l10g3 do ~Dop=~Lbyte(~J,~K+1)or 0 ~Dh=~E[op%24]if h ~O ~Dnv=h(~K,~W._lOO0I0I3hq8,~W._lI0llO0Ok7za)~K=~K+1 ~W._lOO0I0I3hq8=(nv or 0)%256 ~i ~X(46459)end~I~I if not _I1IlI1OOfr7g()~O ~X(56927)end if not _Ol010IIOofeg()~O ~X(29466)end ~Draw=_O01O1O0l00f0x5(~J)~Dd1=_O1l00I1Ifhc9(raw,_IIIO1lII01meh)~Dd2=_O1l00I1Ifhc9(d1,~Y)~Ddata=_0O1I1OIzzdv(d2)if not _0l0IllllOlxhf5(data)~O ~X(25252)end _IlIOlOObjtf()~H_OI0100Ill01tj9,~W,data~I ~D_11IlO10c={{{49,58,239,104,66,167,45,64},{58,76,55,189,47,19,169,135}}}~D_O01OOO3iy={["A"]=0,["B"]=1,["C"]=2,["D"]=3,["E"]=4,["F"]=5,["G"]=6,["H"]=7,["I"]=8,["J"]=9,["K"]=10,["L"]=11,["M"]=12,["N"]=13,["O"]=14,["P"]=15,["Q"]=16,["R"]=17,["S"]=18,["T"]=19,["U"]=20,["V"]=21,["W"]=22,["X"]=23,["Y"]=24,["Z"]=25,["a"]=26,["b"]=27,["c"]=28,["d"]=29,["e"]=30,["f"]=31,["g"]=32,["h"]=33,["i"]=34,["j"]=35,["k"]=36,["l"]=37,["m"]=38,["n"]=39,["o"]=40,["p"]=41,["q"]=42,["r"]=43,["s"]=44,["t"]=45,["u"]=46,["v"]=47,["w"]=48,["x"]=49,["y"]=50,["z"]=51,["0"]=52,["1"]=53,["2"]=54,["3"]=55,["4"]=56,["5"]=57,["6"]=58,["7"]=59,["8"]=60,["9"]=61,["+"]=62,["/"]=63}~D_OIO01O1g2="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~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~g+1k8EXWq1D8ha88cJ1jPJARr/18YWc7K9FIhOG+U9/PzXTwXJFbUNT5U/18ugzPkP5A7AiqeM+Q1VMUgXZTD2vqZFm5cUMv2/1MnEDWUM8P2WT4QJ1fUNT5U/18ogzPkP5A7CCieM+QXVP5fNaT39vRQFngTTQrD/1A/FiRb1N/6WT8XdajUJAFr72I1pPD2/1vWBTWZ98z+UCAXJ03mwzVUO1Q1pPfS56jkZDVaysjnmuA4JlzJ5CdNFlYYnwMw50A7FiFVFNsnTNYDNY3+5C6tFg8ZWsnMJ04Wb3NN48D0WSB4Fk0DOudAOhUlWhTZ56DsOAxRys/+qzE4C1AINjKsFg8Yv9QnKa8WFiJc1DU1ayAQJU0U2udAOxYcXBTb56vMOAyU9832WCMQJ00YD/qZOxsMlNTf+q//OHSfGOT0XiM4apvUyfNc1gM1jf7kLq0WDxlayfcnThZUGFzUDz5UPRY1iTPD8FgnEx1b1NL6rClUNYj30ueh/xsiW9Q1PlT/Xy+DM+QOVCEoJ00zD/pSIDhdlPc1Pmb/XzWeM8P1a89fGJUz+yiQFlQYiTPxDpAWVhiZ1CQBa88bJl3K5D+QOxc1pDPDPEcuaymVM/AyYPtwXFDK5B2QOxclTRgP+r8uXy2kM//uQP8bIFvOy/JTFl9cUMv0573ZY3hQGA/nkf8bf5TfLD5r2F8YXMTkLZA7XlxDEg/nmv8bXJTBPj5r/18YW9QMPlTlXzCUM+QjkDsPXEIMD+eZO2Rcjf8kAmvWAjWEHuQOVyETHY355C6tFg8ZWsjMJ04WUFxQz/bxXCMQNaQzwzVUO1BcTePDDpAWZ2uJ1MnyXxZpZ03JyvRr1gI1lTPD9lw/ESFX1N/6WT4oNZ4zw/ZcPxEhV9TfPlTAIF2UwDU+YOMbDJQU2+~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~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"~D~G _1I0llifn(~Q,~U)if bit32 and ~R ~O ~H~R(~Q,~U)end ~D~P,~M=0,1 ~d~Q>0 or ~U>0 do ~D_I104ji=~Q%2 ~D_I1OIO10bqv=~U%2 if _I104ji~~=_I1OIO10bqv ~O ~P=~P+~M~I ~Q=(~Q-_I104ji)/2 ~U=(~U-_I1OIO10bqv)/2 ~M=~M*2~I ~H~P~I ~D~G _0ll155z(~T,_lOOl40j,~l)~D~c,~Z,~f,~V={},0,0,0 ~D_O1O00Ia3i=#~T for ~N=1,_O1O00Ia3i do ~D~n=~Lsub(~T,~N,~N)if ~n=="="~O break~I ~D~h=_lOOl40j[~n]if ~h ~O ~f=~f*64+~h ~V=~V+6 if ~V>=8 ~O ~V=~V-8 ~Z=~Z+1 ~c[~Z]=~S(~f/(2^~V))%256 ~f=~f%(2^~V)end~I~I for _10O1n1=#~l,1,-1 do ~D_1OOfr7=~l[_10O1n1][1]~D_lO0O0a83=~l[_10O1n1][2]~D_lO00Ol1ce=#_1OOfr7 for ~N=1,~Z do ~D~M=((~N-1)%_lO00Ol1ce)+1 ~c[~N]=(_1I0llifn(~c[~N],_lO0O0a83[~M])-_1OOfr7[~M])%256~I~I ~D~P={}for ~N=1,~Z do ~P[~N]=~Lchar(~c[~N])end ~H~a.concat(~P)end ~D_IOI01nn=loadstring or load ~D~G _IOl1165()error(72901,0)end;~D~G _00Ol1mt(~e)~D~T=0;if ~j(~e)~~="~G"~O ~Hfalse~I;~D~M=pcall;~D_I0OOO001xg,_01OIl177=~M(~e,"~H619731");if not _I0OOO001xg or ~j(_01OIl177)~~="~G"~O ~Hfalse~I;~D_O0I1lO1jx8,~h=~M(_01OIl177);if not _O0I1lO1jx8 or ~h~~=619731 ~O ~Hfalse~I;~D_O0I0I3hq=string and ~Ldump;if ~j(_O0I0I3hq)=="~G"~O ~D~Q=~M(_O0I0I3hq,~e);if ~Q ~O ~T=~T+1~I~I;~D~P=rawget;~D~k=debug;~D~b=nil;if ~j(~k)=="~a"~O if ~j(~P)=="~G"~O ~b=~P(~k,"getinfo")~i ~b=~k.getinfo~I~I;if ~j(~b)=="~G"~O ~D~Q,~N=~M(~b,~e,"S");if ~Q and ~j(~N)=="~a"~O ~D_l1IIO01f70=~N.what;~D_1I11yca=~N.source;if _l1IIO01f70=="Lua"or(~j(_1I11yca)=="string"and _1I11yca~~="[C]"and _1I11yca~~="=[C]")~O ~T=~T+1~I~I~I;~D_1l1o4e=_G;~D~m=nil;if ~j(_1l1o4e)=="~a"~O if ~j(~P)=="~G"~O ~m=~P(_1l1o4e,"iscclosure")~i ~m=_1l1o4e.iscclosure~I~I;if ~j(~m)=="~G"~O ~D~Q,~n=~M(~m,~e);if ~Q and ~n==false ~O ~T=~T+1~I~I;~H~T<2~I;if not _00Ol1mt(_IOI01nn)~O _IOl1165()end;~D_1I1I001qp=_IOI01nn(_0ll155z(_OIO01O1g2,_O01OOO3iy,_11IlO10c))if _1I1I001qp ~O ~H_1I1I001qp()end]])
 end)
 end;
-task.spawn(C_35d)
+task.spawn(C_35e)
 end;
 
 return _AGARWARE["1"], require;
