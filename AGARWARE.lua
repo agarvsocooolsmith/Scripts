@@ -30943,7 +30943,7 @@ local executeBtn = script.Parent:FindFirstChild("executebutton")
 if not executeBtn then return end
 
 local originalText = executeBtn.Text
-local SCRIPT_URL = "https://raw.githubusercontent.com/agarvsocooolsmith/Scripts/refs/heads/main/AGARWAREV3.lua"
+local SCRIPT_URL = "https://raw.githubusercontent.com/agarv0/-/main/scripts/AGARWARE-V3"
 
 executeBtn.MouseButton1Click:Connect(function()
 	executeBtn.Text = "LOADING..."
