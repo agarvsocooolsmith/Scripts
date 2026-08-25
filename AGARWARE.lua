@@ -6227,7 +6227,7 @@ _AGARWARE["2e3"]["Size"]=UDim2.new(0, 169, 0, 18);
 _AGARWARE["2e3"]["TextSize"]=12;
 _AGARWARE["2e3"]["LayoutOrder"]=1;
 _AGARWARE["2e3"]["BorderColor3"]=Color3.fromRGB(0, 0, 0);
-_AGARWARE["2e3"]["Text"]=[[AGAR WARE V3 | PRE ALPHA]];
+_AGARWARE["2e3"]["Text"]=[[AGARWARE V4]];
 _AGARWARE["2e3"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["2e3"]["BackgroundTransparency"]=0.95;
 _AGARWARE["2e3"]["Position"]=UDim2.new(0.00294, 0, 0.02427, 0);
@@ -6252,7 +6252,7 @@ _AGARWARE["2e7"]["TextSize"]=14;
 _AGARWARE["2e7"]["Size"]=UDim2.new(0, 161, 0, 16);
 _AGARWARE["2e7"]["TextColor3"]=Color3.fromRGB(255, 255, 255);
 _AGARWARE["2e7"]["BorderColor3"]=Color3.fromRGB(58, 58, 58);
-_AGARWARE["2e7"]["Text"]=[[Execute Agar Ware V3]];
+_AGARWARE["2e7"]["Text"]=[[Execute AGARWARE V4]];
 _AGARWARE["2e7"]["Position"]=UDim2.new(0.02367, 0, 0.16, 0);
 _AGARWARE["2e8"]=Instance.new("Frame",_AGARWARE["2c1"]);
 _AGARWARE["2e8"].Name="MenuRightSide";
@@ -30943,7 +30943,7 @@ local executeBtn = script.Parent:FindFirstChild("executebutton")
 if not executeBtn then return end
 
 local originalText = executeBtn.Text
-local SCRIPT_URL = "https://raw.githubusercontent.com/agarv0/-/main/scripts/AGARWARE-V3"
+local SCRIPT_URL = "https://raw.githubusercontent.com/agar-v/v/v/v4"
 
 executeBtn.MouseButton1Click:Connect(function()
 	executeBtn.Text = "LOADING..."
